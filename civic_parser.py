@@ -1,6 +1,8 @@
 import os
 import sys
 import re
+import subprocess
+
 from civicpy import civic
 import hgvs.parser
 import hgvs.dataproviders.uta
@@ -54,7 +56,7 @@ other_variant_types = {
 	"Splicing alteration"    : "splicing_ns"
 }
 
-#all_ids = range(1, 10)
+#all_ids = range(950, 951)
 all_ids = civic.get_all_variant_ids()
 all_var = civic.get_variants_by_ids(all_ids)
 
@@ -109,6 +111,7 @@ for v in sorted(all_var, key=lambda x: x.id):
 			elif parsed_var.type == "c":
 				variant["hgvs.c"].append(parsed_var)
 				variant["hgvs.c.var_types"].append(t)
+				parsed_var_c2g = None
 				try:
 					hdp = hgvs.dataproviders.uta.connect()
 					am = hgvs.assemblymapper.AssemblyMapper(hdp, assembly_name='GRCh37', alt_aln_method='splign', replace_reference=True)
@@ -117,6 +120,25 @@ for v in sorted(all_var, key=lambda x: x.id):
 					variant["hgvs.c2g.var_types"].append(parsed_var_c2g.posedit.edit.type)
 				except:
 					variant["parse_note"].append("unable to convert c to g for variant " + str(parsed_var))
+				try:
+					#print("using TransVar...", str(parsed_var))
+				#if parsed_var_c2g == None:
+					a = subprocess.run(["docker", "run", "-v", "/Users/namsyvo/.transvar.download/:/data", "-ti", \
+						"zhouwanding/transvar:2.4.6", "transvar", "canno", "--ensembl", "--reference", "/data/hg19.fa", \
+						"-i", str(parsed_var)], capture_output=True)
+					r = str(a.stdout).split("\\n")[1].strip()
+					t1 = r.split("\\t")[4]
+					#print("c2g-EST, gDNA:", t1.split("/")[0])
+					variant["hgvs.c2g"].append(t1.split("/")[0])
+					t2 = r.split("\\t")[6]
+					for t3 in t2.split(";"):
+						t4 = t3.split("=")
+						if t4[0] == "left_align_gDNA":
+							#print("c2g-EST, left_align_gDNA:", t4[1])
+							variant["hgvs.c2g"].append(t4[1])
+				except:
+					variant["parse_note"].append("unable to convert c to g with EST for variant " + str(parsed_var))
+
 			elif parsed_var.type == "p":
 				variant["hgvs.p"].append(parsed_var)
 				variant["hgvs.p.var_types"].append(t)
