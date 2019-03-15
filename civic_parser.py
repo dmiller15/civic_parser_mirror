@@ -56,8 +56,8 @@ other_variant_types = {
 	"Splicing alteration"    : "splicing_ns"
 }
 
-#all_ids = range(950, 951)
 all_ids = civic.get_all_variant_ids()
+#all_ids = range(950, 951)
 all_var = civic.get_variants_by_ids(all_ids)
 
 f = open(sys.argv[1], "w")
@@ -120,30 +120,32 @@ for v in sorted(all_var, key=lambda x: x.id):
 					variant["hgvs.c2g.var_types"].append(parsed_var_c2g.posedit.edit.type)
 				except:
 					variant["parse_note"].append("unable to convert c to g for variant " + str(parsed_var))
+					print("error", sys.exc_info()[0])
 				try:
-					#print("using TransVar...", str(parsed_var))
-				#if parsed_var_c2g == None:
-					a = subprocess.run(["docker", "run", "-v", "/Users/namsyvo/.transvar.download/:/data", "-ti", \
+					print("using TransVar", str(parsed_var))
+					a = subprocess.run(["docker", "run", "-v", "/Users/namsyvo/Dropbox/Workspace/gdc/civic_parser/p3/lib/python2.7/site-packages/transvar/transvar.download/:/data", "-ti", \
 						"zhouwanding/transvar:2.4.6", "transvar", "canno", "--ensembl", "--reference", "/data/hg19.fa", \
 						"-i", str(parsed_var)], capture_output=True)
 					r = str(a.stdout).split("\\n")[1].strip()
 					t1 = r.split("\\t")[4]
-					#print("c2g-EST, gDNA:", t1.split("/")[0])
 					variant["hgvs.c2g"].append(t1.split("/")[0])
 					t2 = r.split("\\t")[6]
 					for t3 in t2.split(";"):
 						t4 = t3.split("=")
 						if t4[0] == "left_align_gDNA":
-							#print("c2g-EST, left_align_gDNA:", t4[1])
 							variant["hgvs.c2g"].append(t4[1])
 				except:
 					variant["parse_note"].append("unable to convert c to g with EST for variant " + str(parsed_var))
+					print("error", sys.exc_info()[0])
 
 			elif parsed_var.type == "p":
 				variant["hgvs.p"].append(parsed_var)
 				variant["hgvs.p.var_types"].append(t)
+			else:
+				print("Unprocessed parsed_var.type: ", parsed_var.type)
 		except:
 			variant["parse_note"].append("unable to parse hgvs variant" + str(hgvs_var))
+			print("error", sys.exc_info()[0])
 
 	var_name = str(v.name)
 	vname_arr = re.split('\s|\(|\)|\+', var_name.strip())
@@ -174,7 +176,7 @@ for v in sorted(all_var, key=lambda x: x.id):
 				else:
 					variant["vname.hgvs.p.var_types"].append(t)
 			except:
-				pass
+				print("error", sys.exc_info()[0])
 			try:
 				cv = hp.parse_c_posedit(parsed_vname)
 				variant["vname.hgvs.c"].append(str(parsed_vname))
@@ -185,7 +187,7 @@ for v in sorted(all_var, key=lambda x: x.id):
 				else:
 					variant["vname.hgvs.c.var_types"].append(t)
 			except:
-				pass
+				print("error", sys.exc_info()[0])
 
 	if len(variant["vname.hgvs.p"]) == 0 and len(variant["vname.hgvs.c"]) == 0:
 		variant["parse_note"].append("unable to parse civic variant name")
