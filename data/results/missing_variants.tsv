@@ -1,0 +1,175 @@
+46	6_152419920_152419921_TC_AG	ENST00000440973.1	6_None_None	None	75	GRCh37	ESR1	L536Q	missense_variant	['NC_000006.11:g.152419920_152419921delinsAG']	NC_000006.11:g.152419920_152419921delinsAG	delins							L536Q	Leu536Gln	point_mutation			point_mutation
+87	5_170837547_170837548__TCTG	ENST00000517671.1	5_None_None	None	75	GRCh37	NPM1	W288FS	frameshift_elongation	['ENST00000517671.1c.860_863dupTCTG', 'NP_002511.1:p.Trp288Cysfs', 'NC_000005.9:g.170837544_170837547dupTCTG', 'NM_002520.6:c.860_863dupTCTG']	NC_000005.9:g.170837544_170837547dup	dup	NM_002520.6:c.860_863dup	dup	NC_000005.9:g.170837544_170837547dup	dup	NP_002511.1:p.Trp288CysfsTer	fs	W288fs	Trp288fsTer	frameshift			frameshift		unable to parse hgvs variantENST00000517671.1c.860_863dupTCTG
+196	4_1806099_1806099_A_G	ENST00000340107.4	4_None_None	None	75	GRCh37	FGFR3	Y375C	missense_variant	['NC_000004.11:g.1806099A>G']	NC_000004.11:g.1806099A>G	sub							Y375C	Tyr375Cys	point_mutation			point_mutation
+198	3_138665163_138665163_G_C	ENST00000330315.3	3_None_None	None	75	GRCh37	FOXL2	C134W	missense_variant	['NC_000003.11:g.138665163G>C']	NC_000003.11:g.138665163G>C	sub							C134W	Cys134Trp	point_mutation			point_mutation
+202	4_55593612_55593614_GTT_None	ENST00000288135.5	4_None_None	None	75	GRCh37	KIT	V560DEL	inframe_deletion;amino_acid_deletion	['NC_000004.11:g.55593612_55593614del']	NC_000004.11:g.55593612_55593614del	del							V560del	Val560del	small_deletion			small_deletion
+207	9_139390649_139390650_None_	ENST00000277541.6	9_None_None	None	75	GRCh37	NOTCH1	P2514FS	frameshift_truncation	['NC_000009.11:g.139390649_139390650del']	NC_000009.11:g.139390649_139390650del	del							P2514fs	Pro2514fsTer	frameshift			frameshift
+238	10_104852955_104852955_C_T	ENST00000343289.5	10_None_None	None	75	GRCh37	NT5C2	R367Q	missense_variant	['NC_000010.10:g.104852955C>T']	NC_000010.10:g.104852955C>T	sub							R367Q	Arg367Gln	point_mutation			point_mutation
+248	5_1295228_1295228_G_A	ENST00000310581.5	5_None_None	None	75	GRCh37	TERT	C228T	regulatory_region_variant	['NC_000005.9:g.1295228G>A']	NC_000005.9:g.1295228G>A	sub							C228T	Cys228Thr	point_mutation			point_mutation
+249	19_44057574_44057574_G_A	ENST00000262887.5	19_None_None	None	75	GRCh37	XRCC1	R194W	missense_variant	['NC_000019.9:g.44057574G>A']	NC_000019.9:g.44057574G>A	sub							R194W	Arg194Trp	point_mutation			point_mutation
+260	4_89052323_89052323_G_T	ENST00000237612.3	4_None_None	None	75	GRCh37	ABCG2	Q141K	missense_variant	['NC_000004.11:g.89052323G>T']	NC_000004.11:g.89052323G>T	sub							Q141K	Gln141Lys	point_mutation			point_mutation
+264	19_45854919_45854919_T_G	ENST00000391945.4	19_None_None	None	75	GRCh37	ERCC2	K751Q	missense_variant	['NC_000019.9:g.45854919T>G']	NC_000019.9:g.45854919T>G	sub							K751Q	Lys751Gln	point_mutation			point_mutation
+271	3_142274740_142274740_None_	ENST00000350721.4	3_None_None	None	75	GRCh37	ATR	I774FS	frameshift_truncation	['NC_000003.11:g.142274740del']	NC_000003.11:g.142274740del	del							I774fs	Ile774fsTer	frameshift			frameshift
+414	17_37880996_37880997_None_TACGTGATGGCT	ENST00000269571.5	17_None_None	None	75	GRCh37	ERBB2	Y772_A775DUP	inframe_insertion	['NC_000017.10:g.37880993_37880994insGCTTACGTGATG', 'NC_000017.10:g.37880985_37880996dupTACGTGATGGCT', 'ENST00000269571.5:c.2314_2325dupTACGTGATGGCT', 'NM_001005862.2:c.2224_2235dupTACGTGATGGCT']	NC_000017.10:g.37880993_37880994insGCTTACGTGATG;NC_000017.10:g.37880985_37880996dup	ins;dup	ENST00000269571.5:c.2314_2325dup;NM_001005862.2:c.2224_2235dup	dup;dup	NC_000017.10:g.37880985_37880996dup	dup			Y772_A775dup	Tyr772_Ala775dup	duplication			duplication		unable to convert c to g for variant ENST00000269571.5:c.2314_2325dup
+424	3_38182641_38182641_T_C	ENST00000396334.3	3_None_None	None	75	GRCh37	MYD88	L265P	gain_of_function_variant;missense_variant	['NC_000003.11:g.38182641T>C']	NC_000003.11:g.38182641T>C	sub							L265P	Leu265Pro	point_mutation			point_mutation
+457	1_161514542_161514542_A_C	ENST00000367969.3	1_None_None	None	75	GRCh37	FCGR3A	F212V	missense_variant	['NC_000001.10:g.161514542A>C']	NC_000001.10:g.161514542A>C	sub							F212V	Phe212Val	point_mutation			point_mutation
+471	17_33433425_33433425_G_A	ENST00000345365.6	17_None_None	None	75	GRCh37	RAD51D	R186*	stop_gained	['NC_000017.10:g.33433425G>A']	NC_000017.10:g.33433425G>A	sub							R186*	Arg186Ter	point_mutation			point_mutation
+480	2_25457176_25457176_G_A	ENST00000264709.3	2_None_None	None	75	GRCh37	DNMT3A	P904L	missense_variant	['NC_000002.11:g.25457176G>A']	NC_000002.11:g.25457176G>A	sub							P904L	Pro904Leu	point_mutation			point_mutation
+549	2_29436859_29436859_A_C	ENST00000389048.3	2_None_None	None	75	GRCh37	ALK	F1245C	missense_variant	['ENST00000389048.3:c.3734T>G', 'NC_000002.11:g.29436859A>C', 'NP_004295.2:p.Phe1245Cys', 'NM_004304.4:c.3734T>G']	NC_000002.11:g.29436859A>C	sub	ENST00000389048.3:c.3734T>G;NM_004304.4:c.3734T>G	sub;sub	NC_000002.11:g.29436859A>C	sub	NP_004295.2:p.Phe1245Cys	sub	F1245C	Phe1245Cys	point_mutation			point_mutation		unable to convert c to g for variant ENST00000389048.3:c.3734T>G
+566	19_7975157_7975157_G_A	ENST00000397979.3	19_None_None	None	75	GRCh37	MAP2K7	E116K	missense_variant	['NC_000019.9:g.7975157G>A']	NC_000019.9:g.7975157G>A	sub							E116K	Glu116Lys	point_mutation			point_mutation
+628	4_1803568_1803568_C_G	ENST00000340107.4	4_None_None	None	75	GRCh37	FGFR3	S249C	missense_variant	['NC_000004.11:g.1803568C>G']	NC_000004.11:g.1803568C>G	sub							S249C	Ser249Cys	point_mutation			point_mutation
+691	1_8073509_8073509_C_A	ENST00000377482.5	1_None_None	None	75	GRCh37	ERRFI1	E384*	loss_of_function_variant;stop_gained	['NC_000001.10:g.8073509C>A']	NC_000001.10:g.8073509C>A	sub							E384*	Glu384Ter	point_mutation			point_mutation
+701	12_56478854_56478854_G_A	ENST00000267101.3	12_None_None	None	75	GRCh37	ERBB3	V104M	missense_variant	['NC_000012.11:g.56478854G>A']	NC_000012.11:g.56478854G>A	sub							V104M	Val104Met	point_mutation			point_mutation
+702	12_56478851_56478851_C_G	ENST00000267101.3	12_None_None	None	75	GRCh37	ERBB3	R103G	missense_variant	['NC_000012.11:g.56478851C>G']	NC_000012.11:g.56478851C>G	sub							R103G	Arg103Gly	point_mutation			point_mutation
+703	12_56481922_56481922_G_A	ENST00000267101.3	12_None_None	None	75	GRCh37	ERBB3	G284R	missense_variant	['NC_000012.11:g.56481922G>A']	NC_000012.11:g.56481922G>A	sub							G284R	Gly284Arg	point_mutation			point_mutation
+763	2_47630413_47630414_None_G	ENST00000233146.2	2_None_None	None	75	GRCh37	MSH2	E28FS	frameshift_elongation	['NC_000002.11:g.47630414dupG']	NC_000002.11:g.47630414dup	dup							E28fs	Glu28fsTer	frameshift			frameshift
+771	3_10183695_10183696_None_G	ENST00000256474.2	3_None_None	None	75	GRCh37	VHL	A56FS (c.164_165insG)	frameshift_truncation	['NC_000003.11:g.10183697dupG', 'NC_000003.11:g.10183695_10183696insG', 'NM_000551.2:c.164_165insG', 'NP_000542.1:p.Ala56GlyfsTer74', 'NP_000542.1:p.Ala56fs']	NC_000003.11:g.10183697dup;NC_000003.11:g.10183695_10183696insG	dup;ins	NM_000551.2:c.164_165insG	ins			NP_000542.1:p.Ala56GlyfsTer74;NP_000542.1:p.Ala56fsTer	fs;fs	A56fs	Ala56fsTer	frameshift			frameshift		unable to convert c to g for variant NM_000551.2:c.164_165insG
+778	12_21329738_21329738_A_G	ENST00000256958.2	12_None_None	None	75	GRCh37	SLCO1B1	N130D	missense_variant	['NC_000012.11:g.21329738A>G']	NC_000012.11:g.21329738A>G	sub							N130D	Asn130Asp	point_mutation			point_mutation
+781	12_56491672_56491672_T_C	ENST000000267101.3	12_None_None	None	75	GRCh37	ERBB3	V855A	missense_variant	['NC_000012.11:g.56491672T>C']	NC_000012.11:g.56491672T>C	sub							V855A	Val855Ala	point_mutation			point_mutation
+793	3_10183695_10183696_None_A	ENST00000256474.2	3_None_None	None	75	GRCh37	VHL	A56FS (c.164_165insA)	frameshift_truncation	['NC_000003.11:g.10183695dupA', 'NC_000003.11:g.10183695_10183696insA', 'NM_000551.2:c.164_165insA', 'NP_000542.1:p.Ala56GlyfsTer74', 'NP_000542.1:p.Ala56fs']	NC_000003.11:g.10183695dup;NC_000003.11:g.10183695_10183696insA	dup;ins	NM_000551.2:c.164_165insA	ins			NP_000542.1:p.Ala56GlyfsTer74;NP_000542.1:p.Ala56fsTer	fs;fs	A56fs	Ala56fsTer	frameshift			frameshift		unable to convert c to g for variant NM_000551.2:c.164_165insA
+806	21_36231792_36231792_C_A	ENST00000300305.3	21_None_None	None	75	GRCh37	RUNX1	D198Y	loss_of_function_variant;missense_variant	['NC_000021.8:g.36231792C>A']	NC_000021.8:g.36231792C>A	sub							D198Y	Asp198Tyr	point_mutation			point_mutation
+851	3_10183704_10183705_None_C	ENST00000256474.2	3_None_None	None	75	GRCh37	VHL	P59fs (c.173_174insC)	frameshift_truncation	['NC_000003.11:g.10183704_10183705insC', 'NM_000551.3:c.173_174insC', 'NP_000542.1:p.Pro59AlafsTer73', 'ENST00000256474.2:c.173_174insC']	NC_000003.11:g.10183704_10183705insC	ins	NM_000551.3:c.173_174insC;ENST00000256474.2:c.173_174insC	ins;ins	NC_000003.11:g.10183704_10183705insC	ins	NP_000542.1:p.Pro59AlafsTer73	fs	P59fs	Pro59fsTer	frameshift			frameshift		unable to convert c to g for variant ENST00000256474.2:c.173_174insC
+877	20_57428713_57428713_T_C	ENST00000371100	20_None_None	None	75	GRCh37	GNAS	T393C	missense_variant	[]									T393C	Thr393Cys	point_mutation			point_mutation
+901	11_108204681_108204681_A_G	ENST00000278616.4	11_None_None	None	75	GRCh37	ATM	T2666A	missense_variant	['NC_000011.9:g.108204681A>G']	NC_000011.9:g.108204681A>G	sub							T2666A	Thr2666Ala	point_mutation			point_mutation
+903	11_108236086_108236086_C_T	ENST00000278616.4	11_None_None	None	75	GRCh37	ATM	R3008C	missense_variant	['NC_000011.9:g.108236086C>T']	NC_000011.9:g.108236086C>T	sub							R3008C	Arg3008Cys	point_mutation			point_mutation
+904	11_108236087_108236087_G_A	ENST00000278616.4	11_None_None	None	75	GRCh37	ATM	R3008H	missense_variant	['NC_000011.9:g.108236087G>A']	NC_000011.9:g.108236087G>A	sub							R3008H	Arg3008His	point_mutation			point_mutation
+946	4_55592185_55592186_None_GCCTAT	ENST00000288135.5	4_None_None	None	75	GRCh37	KIT	Y503_F504insAY		['NC_000004.11:g.55592185_55592186insGCCTAT']	NC_000004.11:g.55592185_55592186insGCCTAT	ins							Y503_F504insAY	Tyr503_Phe504insAlaTyr	insertion			insertion
+1105	None_None_None_None_None	None	None_None_None	None	None	GRCh37	KRAS	Q61FS		[]									Q61fs	Gln61fsTer	frameshift			frameshift
+1154	None_None_None_None_None	None	None_None_None	None	None	GRCh37	ATM	M1FS	frameshift_variant	[]									M1fs	Met1fsTer	frameshift			frameshift
+1156	11_108201008_108201008_C_T	None	11_None_None	None	None	GRCh37	ATM	R2459C	missense_variant	['NC_000011.9:g.108201008C>T']	NC_000011.9:g.108201008C>T	sub							R2459C	Arg2459Cys	point_mutation			point_mutation
+1161	11_108186743_108186743_G_C	ENST00000278616.4	11_None_None	None	75	GRCh37	ATM	R2034P		['NC_000011.9:g.108186743G>C']	NC_000011.9:g.108186743G>C	sub							R2034P	Arg2034Pro	point_mutation			point_mutation
+1165	11_108128286_108128289_AGAA_None	None	11_None_None	None	None	GRCh37	ATM	R777FS	frameshift_variant	[]									R777fs	Arg777fsTer	frameshift			frameshift
+1166	11_108121594_108121595_AA_None	ENST00000278616.4	11_None_None	None	75	GRCh37	ATM	K468FS	frameshift_variant	['NC_000011.9:g.108121594_108121595del', 'ENST00000278616.4:c.1402_1403delAA', 'NC_000011.9:g.108121594_108121595delAA', 'NP_000042.3:p.Lys468Glufs', 'NM_000051.3:c.1402_1403delAA']	NC_000011.9:g.108121594_108121595del;NC_000011.9:g.108121594_108121595del	del;del	ENST00000278616.4:c.1402_1403del;NM_000051.3:c.1402_1403del	del;del	NC_000011.9:g.108121594_108121595del	del	NP_000042.3:p.Lys468GlufsTer	fs	K468fs	Lys468fsTer	frameshift			frameshift		unable to convert c to g for variant ENST00000278616.4:c.1402_1403del
+1167	None_None_None_None_None	None	None_None_None	None	None	GRCh37	ATM	V1268FS	frameshift_variant	[]									V1268fs	Val1268fsTer	frameshift			frameshift
+1170	11_108164152_108164152_G_A	ENST00000278616.4	11_None_None	None	75	GRCh37	ATM	R1575H	missense_variant	['NC_000011.9:g.108164152G>A']	NC_000011.9:g.108164152G>A	sub							R1575H	Arg1575His	point_mutation			point_mutation
+1206	4_55592179_55592180_None_GCCTAT	None	4_None_None	None	None	GRCh37	KIT	S501_A502INSAY	inframe_insertion	['NC_000004.11:g.55592179_55592180insGCCTAT']	NC_000004.11:g.55592179_55592180insGCCTAT	ins							S501_A502insAY	Ser501_Ala502insAlaTyr	insertion			insertion
+1250	13_32900751_32900751_G_C	None	13_None_None	None	None	GRCh37	BRCA2	V211L	missense_variant	['NC_000013.10:g.32900751G>C']	NC_000013.10:g.32900751G>C	sub							V211L	Val211Leu	point_mutation			point_mutation
+1251	13_32900751_32900751_G_A	None	13_None_None	None	None	GRCh37	BRCA2	V211I	missense_variant	['NC_000013.10:g.32900751G>A']	NC_000013.10:g.32900751G>A	sub							V211I	Val211Ile	point_mutation			point_mutation
+1309	None_None_None_None_None	None	None_None_None	None	None	None	ERBB2	L638S		[]									L638S	Leu638Ser	point_mutation			point_mutation
+1511	None_None_None_None_None	None	None_None_None	None	None	GRCh37	EGFR	S768_D770dup		[]									S768_D770dup	Ser768_Asp770dup	duplication			duplication
+1639	9_133753954_133753955_TG_GT	None	9_None_None	None	None	GRCh37	ABL1	C475V	splice_donor_variant	[]									C475V	Cys475Val	point_mutation			point_mutation
+1737	None_None_None_None_None	None	None_None_None	None	None	None	VHL	G39AfsTer26 (c.327delC)		[]									G39Afs*26	Gly39AlafsTer26	frameshift			frameshift
+1762	None_None_None_None_None	None	None_None_None	None	None	None	VHL	S111FS (c.331delA)		[]									S111fs	Ser111fsTer	frameshift			frameshift
+1779	None_None_None_None_None	None	None_None_None	None	None	None	VHL	R167fs (c.502insTTGTTCGT)		[]									R167fs	Arg167fsTer	frameshift			frameshift
+1783	None_None_None_None_None	None	None_None_None	None	None	None	VHL	T157fs (c.472insT)		[]									T157fs	Thr157fsTer	frameshift			frameshift
+1785	None_None_None_None_None	None	None_None_None	None	None	None	VHL	A56fs (c.167insA)		[]									A56fs	Ala56fsTer	frameshift			frameshift
+1843	None_None_None_None_None	None	None_None_None	None	None	None	VHL	L132fs (c.395delA)		[]									L132fs	Leu132fsTer	frameshift			frameshift
+1844	None_None_None_None_None	None	None_None_None	None	None	None	VHL	D143fs (c.430delG)		[]									D143fs	Asp143fsTer	frameshift			frameshift
+1853	None_None_None_None_None	None	None_None_None	None	None	None	VHL	S111C (c.330CA>TT)		[]									S111C	Ser111Cys	point_mutation			point_mutation
+1868	None_None_None_None_None	None	None_None_None	None	None	None	VHL	N131fs (c.393CC>A)		[]									N131fs	Asn131fsTer	frameshift			frameshift
+1872	None_None_None_None_None	None	None_None_None	None	None	None	VHL	L158fs (c.473insT)		[]									L158fs	Leu158fsTer	frameshift			frameshift
+1912	3_10183754_10183755_None_T	ENST00000256474.2	3_None_None	None	75	GRCh37	VHL	F76fs (c.223_224insT)	frameshift_truncation	['NP_000542.1:p.F76Lfs*56', 'NM_000551.3:c.224dupT', 'NC_000003.11:g.10183755dupT']	NC_000003.11:g.10183755dup	dup	NM_000551.3:c.224dup	dup	NC_000003.11:g.10183755dup	dup	NP_000542.1:p.Phe76LeufsTer56	fs	F76fs	Phe76fsTer	frameshift			frameshift
+1922	3_10183857_10183857_T_None	ENST00000256474.2	3_None_None	None	75	GRCh37	VHL	I109FS (c.326delT)	frameshift_truncation	['ENST00000256474.2:c.326delT']			ENST00000256474.2:c.326del	del					I109fs	Ile109fsTer	frameshift			frameshift		unable to convert c to g for variant ENST00000256474.2:c.326del
+1925	None_None_None_None_None	None	None_None_None	None	None	None	VHL	L85fs (c.253_254ins38)		[]									L85fs	Leu85fsTer	frameshift			frameshift
+1942	None_None_None_None_None	None	None_None_None	None	None	None	VHL	P86S (c.257C>T)		[]									P86S	Pro86Ser	point_mutation			point_mutation
+1944	3_10183719_10183719_T_C	ENST	3_None_None	None	75	GRCh37	VHL	L63P (c.188T>C)	missense_variant	['ENST00000256474.2:c.188T>C', 'NC_000003.11:g.10183719T>C', 'NP_000542.1:p.Leu63Pro', 'NM_000551.3:c.188T>C']	NC_000003.11:g.10183719T>C	sub	ENST00000256474.2:c.188T>C;NM_000551.3:c.188T>C	sub;sub	NC_000003.11:g.10183719T>C	sub	NP_000542.1:p.Leu63Pro	sub	L63P	Leu63Pro	point_mutation			point_mutation		unable to convert c to g for variant ENST00000256474.2:c.188T>C
+1948	None_None_None_None_None	None	None_None_None	None	None	None	VHL	R69fs (c.204insG)		[]									R69fs	Arg69fsTer	frameshift			frameshift
+1949	None_None_None_None_None	None	None_None_None	None	None	None	VHL	G144fs (c.432insG)		[]									G144fs	Gly144fsTer	frameshift			frameshift
+1954	None_None_None_None_None	None	None_None_None	None	None	None	VHL	T105fs (c.315insAC)		[]									T105fs	Thr105fsTer	frameshift			frameshift
+1955	None_None_None_None_None	None	None_None_None	None	None	None	VHL	P71fs (c.211insT)		[]									P71fs	Pro71fsTer	frameshift			frameshift
+1960	None_None_None_None_None	None	None_None_None	None	None	None	VHL	L140fs (c.417_to_418delTC)		[]									L140fs	Leu140fsTer	frameshift			frameshift
+1961	None_None_None_None_None	None	None_None_None	None	None	None	VHL	M54fs (c.161insT)		[]									M54fs	Met54fsTer	frameshift			frameshift
+1997	3_10191540_10191540_T_A	ENST000002564742	3_None_None	None	75	GRCh37	VHL	L178Q (c.533T>A)	missense_variant	['ENST000002564742:c.533T>A']			ENST000002564742:c.533T>A	sub					L178Q	Leu178Gln	point_mutation			point_mutation		unable to convert c to g for variant ENST000002564742:c.533T>A
+2014	None_None_None_None_None	None	None_None_None	None	None	None	VHL	P61fs (c.183insC)		[]									P61fs	Pro61fsTer	frameshift			frameshift
+2023	None_None_None_None_None	None	None_None_None	None	None	None	VHL	A149fs (c.449del14-nt)		[]									A149fs	Ala149fsTer	frameshift			frameshift
+2027	3_10188206_10188207__T	ENST00000256474.2	3_None_None	None	75	GRCh37	VHL	W117fs (c.349dupT)	inframe_insertion	['NP_000542.1:p.cTrp117LeufsTer15', 'NM_000551.3:c.349dup', 'ENST00000256474.2:c.349dupT', 'NC_000003.11:g.10188206dup']	NC_000003.11:g.10188206dup	dup	NM_000551.3:c.349dup;ENST00000256474.2:c.349dup	dup;dup	NC_000003.11:g.10188206dup	dup			W117fs	Trp117fsTer	frameshift			frameshift		unable to parse hgvs variantNP_000542.1:p.cTrp117LeufsTer15;unable to convert c to g for variant ENST00000256474.2:c.349dup
+2028	3_10188221_10188222_GC_AT	ENST00000256474.2	3_None_None	None	75	GRCh37	VHL	A122I (c.364_365GC>AT)	missense_variant	['NC_000003.12:g.10146537_10146538delinsAT', 'NC_000003.11:g.10188221_10188222delinsAT', 'ENST00000256474.2:c.364_365delinsAT', 'NM_000551.3:c.364_365delinsAT']	NC_000003.12:g.10146537_10146538delinsAT;NC_000003.11:g.10188221_10188222delinsAT	delins;delins	ENST00000256474.2:c.364_365delinsAT;NM_000551.3:c.364_365delinsAT	delins;delins	NC_000003.11:g.10188221_10188222delinsAT	delins			A122I	Ala122Ile	point_mutation			point_mutation		unable to convert c to g for variant ENST00000256474.2:c.364_365delinsAT
+2073	None_None_None_None_None	None	None_None_None	None	None	None	VHL	G106fs (c.316insA)		[]									G106fs	Gly106fsTer	frameshift			frameshift
+2081	None_None_None_None_None	None	None_None_None	None	None	None	VHL	V194fs (c.581_582delGT)		[]									V194fs	Val194fsTer	frameshift			frameshift
+2087	None_None_None_None_None	None	None_None_None	None	None	None	VHL	L63fs (c.189_192delGCGC)		[]									L63fs	Leu63fsTer	frameshift			frameshift
+2090	None_None_None_None_None	None	None_None_None	None	None	None	VHL	P40fs (c.118ins)		[]									P40fs	Pro40fsTer	frameshift			frameshift
+2091	None_None_None_None_None	None	None_None_None	None	None	None	VHL	T152fs (c.455insA)		[]									T152fs	Thr152fsTer	frameshift			frameshift
+2092	None_None_None_None_None	None	None_None_None	None	None	None	VHL	T157fs (c.472ins)		[]									T157fs	Thr157fsTer	frameshift			frameshift
+2094	None_None_None_None_None	None	None_None_None	None	None	None	VHL	T157fs (c.472ins1-nt)		[]									T157fs	Thr157fsTer	frameshift			frameshift
+2095	None_None_None_None_None	None	None_None_None	None	None	None	VHL	I151fs (c.452insA)		[]									I151fs	Ile151fsTer	frameshift			frameshift
+2097	None_None_None_None_None	None	None_None_None	None	None	None	VHL	D92fs (c.275del18-nt)		[]									D92fs	Asp92fsTer	frameshift			frameshift
+2121	None_None_None_None_None	None	None_None_None	None	None	None	VHL	P61fs (c.181delCCGT)		[]									P61fs	Pro61fsTer	frameshift			frameshift
+2129	None_None_None_None_None	None	None_None_None	None	None	None	VHL	G114dup (c.342dupGGT)		[]									G114dup	Gly114dup	duplication			duplication
+2131	None_None_None_None_None	None	None_None_None	None	None	None	VHL	Q73fs (c.214insGCCC)		[]									Q73fs	Gln73fsTer	frameshift			frameshift
+2132	None_None_None_None_None	None	None_None_None	None	None	None	VHL	F76fs (c.227insC)		[]									F76fs	Phe76fsTer	frameshift			frameshift
+2134	None_None_None_None_None	None	None_None_None	None	None	None	VHL	G114fs (c.341delCGTTTCCAACAATTTCTCGGTGT)		[]									G114fs	Gly114fsTer	frameshift			frameshift
+2136	None_None_None_None_None	None	None_None_None	None	None	None	VHL	H125fs (c.374insA)		[]									H125fs	His125fsTer	frameshift			frameshift
+2142	None_None_None_None_None	None	None_None_None	None	None	None	VHL	T202fs (c.606insA)		[]									T202fs	Thr202fsTer	frameshift			frameshift
+2144	None_None_None_None_None	None	None_None_None	None	None	None	VHL	E55fs (c.165_166dupG)		[]									E55fs	Glu55fsTer	frameshift			frameshift
+2153	None_None_None_None_None	None	None_None_None	None	None	None	VHL	G114fs (c.326_339dupTCCACAGCTACCGA)		[]									G114fs	Gly114fsTer	frameshift			frameshift
+2158	None_None_None_None_None	None	None_None_None	None	None	None	VHL	F76fs (c.222_225dupCATC)		[]									F76fs	Phe76fsTer	frameshift			frameshift
+2221	None_None_None_None_None	None	None_None_None	None	None	None	BRAF	G496A		[]									G496A	Gly496Ala	point_mutation			point_mutation
+2224	7_140434507_140434507_G_T	ENST00000288602.6	7_None_None	None	75	GRCh37	BRAF	P731T	missense_variant	['ENST00000288602.6:c.2193G>T']			ENST00000288602.6:c.2193G>T	sub					P731T	Pro731Thr	point_mutation			point_mutation		unable to convert c to g for variant ENST00000288602.6:c.2193G>T
+2251	None_None_None_None_None	None	None_None_None	None	None	None	VHL	Q96fs (c.286insT)		[]									Q96fs	Gln96fsTer	frameshift			frameshift
+2252	None_None_None_None_None	None	None_None_None	None	None	None	VHL	G104fs (c.309delT)		[]									G104fs	Gly104fsTer	frameshift			frameshift
+2253	None_None_None_None_None	None	None_None_None	None	None	None	VHL	N174fs (c.520delA)		[]									N174fs	Asn174fsTer	frameshift			frameshift
+2261	None_None_None_None_None	None	None_None_None	None	None	None	VHL	Q132fs (c.395delA)		[]									Q132fs	Gln132fsTer	frameshift			frameshift
+2262	None_None_None_None_None	None	None_None_None	None	None	None	VHL	L63fs (c.187delC)		[]									L63fs	Leu63fsTer	frameshift			frameshift
+2263	None_None_None_None_None	None	None_None_None	None	None	None	VHL	P61fs (c.181delC)		[]									P61fs	Pro61fsTer	frameshift			frameshift
+2266	None_None_None_None_None	None	None_None_None	None	None	None	VHL	G104fs (c.310delG)		[]									G104fs	Gly104fsTer	frameshift			frameshift
+2267	None_None_None_None_None	None	None_None_None	None	None	None	VHL	Q132fs (c.395_396delAA)		[]									Q132fs	Gln132fsTer	frameshift			frameshift
+2268	None_None_None_None_None	None	None_None_None	None	None	None	VHL	V194fs (c.579_580delTG)		[]									V194fs	Val194fsTer	frameshift			frameshift
+2272	None_None_None_None_None	None	None_None_None	None	None	None	VHL	N141fs (c.421_422delAA)		[]									N141fs	Asn141fsTer	frameshift			frameshift
+2273	None_None_None_None_None	None	None_None_None	None	None	None	VHL	R161fs (c.481insC)		[]									R161fs	Arg161fsTer	frameshift			frameshift
+2274	None_None_None_None_None	None	None_None_None	None	None	None	VHL	P172fs (c.514delC)		[]									P172fs	Pro172fsTer	frameshift			frameshift
+2285	None_None_None_None_None	None	None_None_None	None	None	None	CRLF2	F232C		[]									F232C	Phe232Cys	point_mutation			point_mutation
+2298	None_None_None_None_None	None	None_None_None	None	None	None	VHL	L128fs (c.382delC)		[]									L128fs	Leu128fsTer	frameshift			frameshift
+2299	None_None_None_None_None	None	None_None_None	None	None	None	VHL	W88fs (c.261dupA)		[]									W88fs	Trp88fsTer	frameshift			frameshift
+2301	None_None_None_None_None	None	None_None_None	None	None	None	VHL	E55fs (c.162delG)		[]									E55fs	Glu55fsTer	frameshift			frameshift
+2302	None_None_None_None_None	None	None_None_None	None	None	None	VHL	R60fs (c.176_177delCG)		[]									R60fs	Arg60fsTer	frameshift			frameshift
+2304	None_None_None_None_None	None	None_None_None	None	None	None	VHL	E70fs (c.209_210delAG)		[]									E70fs	Glu70fsTer	frameshift			frameshift
+2305	None_None_None_None_None	None	None_None_None	None	None	None	VHL	L85fs (c.253delC)		[]									L85fs	Leu85fsTer	frameshift			frameshift
+2306	None_None_None_None_None	None	None_None_None	None	None	None	VHL	P86fs (c.255_256delGC)		[]									P86fs	Pro86fsTer	frameshift			frameshift
+2309	None_None_None_None_None	None	None_None_None	None	None	None	VHL	N90fs (c.269delA)		[]									N90fs	Asn90fsTer	frameshift			frameshift
+2311	None_None_None_None_None	None	None_None_None	None	None	None	VHL	K114fs (c.339_340delAG)		[]									K114fs	Lys114fsTer	frameshift			frameshift
+2312	None_None_None_None_None	None	None_None_None	None	None	None	VHL	L116fs (c.347delT)		[]									L116fs	Leu116fsTer	frameshift			frameshift
+2313	None_None_None_None_None	None	None_None_None	None	None	None	VHL	L118fs (c.349_350insG)		[]									L118fs	Leu118fsTer	frameshift			frameshift
+2314	None_None_None_None_None	None	None_None_None	None	None	None	VHL	T124fs (c.370_371insTGCAGGA)		[]									T124fs	Thr124fsTer	frameshift			frameshift
+2315	None_None_None_None_None	None	None_None_None	None	None	None	VHL	N131fs (c.389delT)		[]									N131fs	Asn131fsTer	frameshift			frameshift
+2316	None_None_None_None_None	None	None_None_None	None	None	None	VHL	S139fs (c.415insC)		[]									S139fs	Ser139fsTer	frameshift			frameshift
+2317	None_None_None_None_None	None	None_None_None	None	None	None	VHL	L140fs (c.420delC)		[]									L140fs	Leu140fsTer	frameshift			frameshift
+2319	None_None_None_None_None	None	None_None_None	None	None	None	VHL	G144fs (c.429_430insGGAC)		[]									G144fs	Gly144fsTer	frameshift			frameshift
+2320	None_None_None_None_None	None	None_None_None	None	None	None	VHL	G144fs (c.430_433delGGAC)		[]									G144fs	Gly144fsTer	frameshift			frameshift
+2322	None_None_None_None_None	None	None_None_None	None	None	None	VHL	I147fs (c.439insT)		[]									I147fs	Ile147fsTer	frameshift			frameshift
+2323	None_None_None_None_None	None	None_None_None	None	None	None	VHL	T157fs (c.469delA)		[]									T157fs	Thr157fsTer	frameshift			frameshift
+2325	None_None_None_None_None	None	None_None_None	None	None	None	VHL	V166fs (c.498delC)		[]									V166fs	Val166fsTer	frameshift			frameshift
+2327	None_None_None_None_None	None	None_None_None	None	None	None	VHL	K171fs (c.512_516delAGCCT)		[]									K171fs	Lys171fsTer	frameshift			frameshift
+2328	None_None_None_None_None	None	None_None_None	None	None	None	VHL	H191fs (c.570_574delCCACC)		[]									H191fs	His191fsTer	frameshift			frameshift
+2329	None_None_None_None_None	None	None_None_None	None	None	None	VHL	R205fs (c.615delC)		[]									R205fs	Arg205fsTer	frameshift			frameshift
+2416	None_None_None_None_None	None	None_None_None	None	None	None	H3F3A	K27M		[]									K27M	Lys27Met	point_mutation			point_mutation
+2420	None_None_None_None_None	None	None_None_None	None	None	None	H3F3B	K36M		[]									K36M	Lys36Met	point_mutation			point_mutation
+2423	None_None_None_None_None	None	None_None_None	None	None	None	VHL	F136fs (c.407delC)		[]									F136fs	Phe136fsTer	frameshift			frameshift
+2427	None_None_None_None_None	None	None_None_None	None	None	None	VHL	P54S (c.460C>T)		[]									P54S	Pro54Ser	point_mutation			point_mutation
+2432	None_None_None_None_None	None	None_None_None	None	None	None	VHL	V87fs (c.259_260insA)		[]									V87fs	Val87fsTer	frameshift			frameshift
+2443	None_None_None_None_None	None	None_None_None	None	None	None	VHL	Q132Hfs*45 (c.343_395dup)		[]									Q132Hfs*45	Gln132HisfsTer45	frameshift			frameshift
+2447	None_None_None_None_None	None	None_None_None	None	None	None	VHL	V66Gfs*89 (c.197_209del)		[]									V66Gfs*89	Val66GlyfsTer89	frameshift			frameshift
+2451	None_None_None_None_None	None	None_None_None	None	None	None	VHL	V141fs (c.422_440del19)		[]									V141fs	Val141fsTer	frameshift			frameshift
+2462	None_None_None_None_None	None	None_None_None	None	None	None	VHL	S72fs (c.216delC)		[]									S72fs	Ser72fsTer	frameshift			frameshift
+2469	None_None_None_None_None	None	None_None_None	None	None	None	VHL	R176fs (c.526_528delA)		[]									R176fs	Arg176fsTer	frameshift			frameshift
+2471	None_None_None_None_None	None	None_None_None	None	None	None	VHL	T104fs (c.313_315delC)		[]									T104fs	Thr104fsTer	frameshift			frameshift
+2473	None_None_None_None_None	None	None_None_None	None	None	None	VHL	M54fs (c.160delA)		[]									M54fs	Met54fsTer	frameshift			frameshift
+2474	None_None_None_None_None	None	None_None_None	None	None	None	VHL	P59fs (c.176insAGCAdelTCCTGCGCT)		[]									P59fs	Pro59fsTer	frameshift			frameshift
+2477	None_None_None_None_None	None	None_None_None	None	None	None	VHL	V155fs (c.464_468delTGTAT)		[]									V155fs	Val155fsTer	frameshift			frameshift
+2480	None_None_None_None_None	None	None_None_None	None	None	None	VHL	Y98S (c.293A>C)		[]									Y98S	Tyr98Ser	point_mutation			point_mutation
+2482	None_None_None_None_None	None	None_None_None	None	None	None	VHL	A149fs (c.446delG)		[]									A149fs	Ala149fsTer	frameshift			frameshift
+2486	None_None_None_None_None	None	None_None_None	None	None	None	VHL	R167fs (c.501insTTGTCCGT)		[]									R167fs	Arg167fsTer	frameshift			frameshift
+2495	None_None_None_None_None	None	None_None_None	None	None	None	VHL	H208fs (c.623insTTTTGTTG)		[]									H208fs	His208fsTer	frameshift			frameshift
+2499	None_None_None_None_None	None	None_None_None	None	None	None	VHL	K196fs (c.588insA)		[]									K196fs	Lys196fsTer	frameshift			frameshift
+2512	None_None_None_None_None	None	None_None_None	None	None	None	VHL	S80fs (c.239_245delGTCCGCG)		[]									S80fs	Ser80fsTer	frameshift			frameshift
+2514	None_None_None_None_None	None	None_None_None	None	None	None	VHL	D92fs (c.275delAinsCC)		[]									D92fs	Asp92fsTer	frameshift			frameshift
+2520	None_None_None_None_None	None	None_None_None	None	None	None	VHL	H115fs (c.343delC)		[]									H115fs	His115fsTer	frameshift			frameshift
+2524	None_None_None_None_None	None	None_None_None	None	None	None	VHL	E134Dfs*72 (c.402_428delATTATTTGTGCCATCTCTCAATGTTGA)		[]									E134Dfs*72	Glu134AspfsTer72	frameshift			frameshift
+2525	None_None_None_None_None	None	None_None_None	None	None	None	VHL	Q145fs (c.433_437delCAGCC)		[]									Q145fs	Gln145fsTer	frameshift			frameshift
+2527	None_None_None_None_None	None	None_None_None	None	None	None	VHL	E160fs (c.480delG)		[]									E160fs	Glu160fsTer	frameshift			frameshift
+2537	None_None_None_None_None	None	None_None_None	None	None	None	VHL	R108fs (c.323delGC)		[]									R108fs	Arg108fsTer	frameshift			frameshift
+2539	None_None_None_None_None	None	None_None_None	None	None	None	VHL	V114R (c.341T>C)		[]									V114R	Val114Arg	point_mutation			point_mutation
+2543	None_None_None_None_None	None	None_None_None	None	None	None	VHL	L198fs (c.592delC)		[]									L198fs	Leu198fsTer	frameshift			frameshift
+2545	None_None_None_None_None	None	None_None_None	None	None	None	VHL	M54fs (c.160_175del)		[]									M54fs	Met54fsTer	frameshift			frameshift
+2547	None_None_None_None_None	None	None_None_None	None	None	None	VHL	Asn67fs (c.197_213del)		[]									N67fs	Asn67fsTer	frameshift			frameshift		fix civic var name for vname.hgvs.p
+2548	None_None_None_None_None	None	None_None_None	None	None	None	VHL	V84fs (c.249_255del)		[]									V84fs	Val84fsTer	frameshift			frameshift
+2551	None_None_None_None_None	None	None_None_None	None	None	None	VHL	G104fs*158 (c.311delC)		[]									G104fs*158	Gly104fsTer158	frameshift			frameshift
+2552	None_None_None_None_None	None	None_None_None	None	None	None	VHL	R120fs*158 (c.359delG)		[]									R120fs*158	Arg120fsTer158	frameshift			frameshift
+2555	None_None_None_None_None	None	None_None_None	None	None	None	VHL	G127fs (c.381delG)		[]									G127fs	Gly127fsTer	frameshift			frameshift
+2556	None_None_None_None_None	None	None_None_None	None	None	None	VHL	T133fs*157 (c.397_400delACTG)		[]									T133fs*157	Thr133fsTer157	frameshift			frameshift
+2557	None_None_None_None_None	None	None_None_None	None	None	None	VHL	L135fs (c.405delA)		[]									L135fs	Leu135fsTer	frameshift			frameshift
+2558	None_None_None_None_None	None	None_None_None	None	None	None	VHL	F137fs (c.408insT)		[]									F137fs	Phe137fsTer	frameshift			frameshift
+2559	None_None_None_None_None	None	None_None_None	None	None	None	VHL	L140fs*158 (c.419delT)		[]									L140fs*158	Leu140fsTer158	frameshift			frameshift
+2560	None_None_None_None_None	None	None_None_None	None	None	None	VHL	G144fs*158 (c.431delG)		[]									G144fs*158	Gly144fsTer158	frameshift			frameshift
+2561	None_None_None_None_None	None	None_None_None	None	None	None	VHL	A149fs*158 (c.446delC)		[]									A149fs*158	Ala149fsTer158	frameshift			frameshift
+2562	None_None_None_None_None	None	None_None_None	None	None	None	VHL	T157fs*158 (c.469delA)		[]									T157fs*158	Thr157fsTer158	frameshift			frameshift
+2563	None_None_None_None_None	None	None_None_None	None	None	None	VHL	L163fs*169 (c.488delT)		[]									L163fs*169	Leu163fsTer169	frameshift			frameshift

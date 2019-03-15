@@ -121,6 +121,7 @@ for v in sorted(all_var, key=lambda x: x.id):
 				except:
 					variant["parse_note"].append("unable to convert c to g for variant " + str(parsed_var))
 					print("error", sys.exc_info()[0])
+				'''
 				try:
 					print("using TransVar", str(parsed_var))
 					a = subprocess.run(["docker", "run", "-v", "/Users/namsyvo/Dropbox/Workspace/gdc/civic_parser/p3/lib/python2.7/site-packages/transvar/transvar.download/:/data", "-ti", \
@@ -137,7 +138,7 @@ for v in sorted(all_var, key=lambda x: x.id):
 				except:
 					variant["parse_note"].append("unable to convert c to g with EST for variant " + str(parsed_var))
 					print("error", sys.exc_info()[0])
-
+				'''
 			elif parsed_var.type == "p":
 				variant["hgvs.p"].append(parsed_var)
 				variant["hgvs.p.var_types"].append(t)
@@ -209,3 +210,5 @@ for v in sorted(all_var, key=lambda x: x.id):
 			";".join(str(tmp) for tmp in variant["vname.hgvs.c.parsed"]), ";".join(str(tmp) for tmp in variant["vname.hgvs.p.var_types"]), \
 			str(variant["vname.other_var_types"]), ";".join(str(tmp) for tmp in variant["parse_note"])]))
 	f.write("\n")
+
+f.close()

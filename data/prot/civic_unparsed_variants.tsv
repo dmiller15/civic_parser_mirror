@@ -1,0 +1,731 @@
+civic_var_id	chr_start_stop_ref_alt	transcript	chr_start_stop_ref_alt_2	transcript_2	ensembl_version	ref_build	entrez_gene_name	civic_var_name	civic_var_types	civic_hgvs_exp	hgvs.g.parsed	hgvs.g.var_types	hgvs.c.parsed	hgvs.c.var_types	hgvs.c2g.parsed	hgvs.c2g.var_types	hgvs.p.parsed	hgvs.p.var_types	vname.hgvs.p	vname.hgvs.p.parsed	vname.hgvs.p.var_types	vname.other_var_types	parse_note
+1	22_23522397_23632600_None_None	ENST00000305877.8	22_133729451_133763063	ENST00000318560.5	75	GRCh37	ABL1	BCR-ABL	transcript_fusion	[]												undetermined_var_types	fix civic var name for vname.hgvs.p;unable to parse civic variant name
+5	2_42396490_42522656_None_None	ENST00000318522.5	2_29415640_29446394	ENST00000389048.3	75	GRCh37	ALK	EML4-ALK	transcript_fusion	[]												undetermined_var_types	unable to parse civic variant name
+17	7_140453136_140453137_None_None	ENST00000288602.6	7_None_None	None	75	GRCh37	BRAF	V600	protein_altering_variant	[]												undetermined_var_types	unable to parse civic variant name
+18	11_69455855_69469242_None_None	ENST00000227507.2	11_None_None	None	75	GRCh37	CCND1	AMPLIFICATION	transcript_amplification	['N/A']												amplification	unable to parse hgvs variantN/A;unable to parse civic variant name
+19	11_69455855_69469242_None_None	ENST00000227507.2	11_None_None	None	75	GRCh37	CCND1	EXPRESSION	N/A	[]												expression	unable to parse civic variant name
+20	11_69455855_69469242_None_None	ENST00000227507.2	11_None_None	None	75	GRCh37	CCND1	OVEREXPRESSION	N/A	[]												overexpression	unable to parse civic variant name
+21	12_4382938_4414516_None_None	ENST00000261254.3	12_None_None	None	75	GRCh37	CCND2	OVEREXPRESSION	N/A	[]												overexpression	unable to parse civic variant name
+22	12_4381437_4382937_None_None	ENST00000261254.3	12_None_None	None	75	GRCh37	CCND2	PROMOTER DEMETHYLATION	N/A	[]												undetermined_var_types	unable to parse civic variant name
+23	6_41902671_41909586_None_None	ENST00000372991.4	6_None_None	None	75	GRCh37	CCND3	LOSS	loss_of_function_variant	[]												loss	unable to parse civic variant name
+24	19_30302805_30315215_None_None	ENST00000262643.3	19_None_None	None	75	GRCh37	CCNE1	OVEREXPRESSION	N/A	[]												overexpression	unable to parse civic variant name
+25	12_58141510_58146304_None_None	ENST00000257904.6	12_None_None	None	75	GRCh37	CDK4	EXPRESSION	N/A	[]												expression	unable to parse civic variant name
+27	9_21974827_21994591_None_None	ENST00000498124.1	9_None_None	None	75	GRCh37	CDKN2A	PROMOTER HYPERMETHYLATION	N/A	[]												undetermined_var_types	unable to parse civic variant name
+28	19_33792961_33793470_None_None	ENST00000498907.2	19_None_None	None	75	GRCh37	CEBPA	N-TERMINAL FRAME SHIFT	dominant_negative_variant;frameshift_truncation	[]												undetermined_var_types	unable to parse civic variant name
+29	19_33790840_33793470_None_None	ENST00000498907.2	19_None_None	None	75	GRCh37	CEBPA	MUTATION	transcript_variant;loss_of_function_variant	[]												mutation_ns	unable to parse civic variant name
+30	1_156446804_156470620_None_None	ENST00000348159.4	1_149433787_149441412	ENST00000286301.3	75	GRCh37	CSF1R	MEF2D-CSF1R	transcript_fusion	[]												undetermined_var_types	unable to parse civic variant name
+31	19_14628951_14629232_None_	ENST00000254322.2	19_14202500_14218221	ENST00000308677.4	75	GRCh37	PRKACA	DNAJB1-PRKACA	transcript_fusion	[]												undetermined_var_types	unable to parse civic variant name
+32	2_25457241_25457243_None_None	ENST00000264709.3	2_None_None	None	75	GRCh37	DNMT3A	R882	missense_variant	[]												undetermined_var_types	unable to parse civic variant name
+52	10_123243212_123357917_None_None	ENST00000457416.2	10_103544209_103552700	ENST00000361464.3	75	GRCh37	FGFR2	FGFR2-MGEA5	transcript_fusion	[]												undetermined_var_types	unable to parse civic variant name
+53	4_1795039_1810599_None_None	ENST00000340107.4	4_97991744_97920963	ENST00000005260.8	75	GRCh37	FGFR3	FGFR3-BAIAP2L1	transcript_fusion	[]												undetermined_var_types	unable to parse civic variant name
+54	4_123243212_123357598_None_	ENST00000358487.5	4_1723266_1741505	ENST00000313288.4	75	GRCh37	FGFR2	FGFR2-TACC3	transcript_fusion	[]												undetermined_var_types	unable to parse civic variant name
+55	13_28608219_28608351_None_None	ENST00000241453.7	13_None_None	None	75	GRCh37	FLT3	ITD	inframe_insertion	[]												undetermined_var_types	unable to parse civic variant name
+57	3_128198270_128212028_None_None	ENST00000341105.2	3_None_None	None	75	GRCh37	GATA2	EXPRESSION	N/A	[]												expression	unable to parse civic variant name
+58	2_209113111_209113113_None_None	ENST00000415913.1	2_None_None	None	75	GRCh37	IDH1	R132	protein_altering_variant	[]												undetermined_var_types	unable to parse civic variant name
+62	15_90631934_90631934_None_	ENST00000330062.3	15_None_None	None	75	GRCh37	IDH2	R140	protein_altering_variant	[]												undetermined_var_types	unable to parse civic variant name
+66	4_55593582_55593708_None_None	ENST00000288135.5	4_None_None	None	75	GRCh37	KIT	EXON 11 MUTATION	coding_sequence_variant	[]												undetermined_var_types	unable to parse civic variant name
+67	4_55593582_55593708_None_None	ENST00000288135.5	4_None_None	None	75	GRCh37	KIT	INTERNAL DUPLICATION	inframe_insertion	[]												undetermined_var_types	unable to parse civic variant name
+69	4_55595501_55595651_None_None	ENST00000288135.5	4_None_None	None	75	GRCh37	KIT	EXON 14 MUTATION	exon_variant	[]												undetermined_var_types	unable to parse civic variant name
+75	12_25398208_25398329_None_None	ENST00000256078.4	12_None_None	None	75	GRCh37	KRAS	EXON 2 MUTATION	missense_variant	[]												undetermined_var_types	unable to parse civic variant name
+76	12_25398284_25398285_None_None	ENST00000256078.4	12_None_None	None	75	GRCh37	KRAS	G12	protein_altering_variant	[]												undetermined_var_types	unable to parse civic variant name
+77	12_25398280_25398285_None_None	ENST00000256078.4	12_None_None	None	75	GRCh37	KRAS	G12/G13	protein_altering_variant	[]												undetermined_var_types	unable to parse civic variant name
+80	12_25398281_25398282_None_None	ENST00000256078.4	12_None_None	None	75	GRCh37	KRAS	G13	inframe_insertion;missense_variant	[]												undetermined_var_types	unable to parse civic variant name
+85	10_131264495_131265656_None_None	ENST00000306010.7	10_None_None	None	75	GRCh37	MGMT	PROMOTER METHYLATION	N/A	[]												undetermined_var_types	unable to parse civic variant name
+86	5_170837531_170837569_None_None	ENST00000517671.1	5_None_None	None	75	GRCh37	NPM1	EXON 12 MUTATION	exon_variant	[]												undetermined_var_types	unable to parse civic variant name
+92	1_115258747_115258748_None_None	ENST00000369535.4	1_None_None	None	75	GRCh37	NRAS	G12	missense_variant	[]												undetermined_var_types	unable to parse civic variant name
+94	1_115256528_115256530_None_None	ENST00000369535.4	1_None_None	None	75	GRCh37	NRAS	Q61	missense_variant	[]												undetermined_var_types	unable to parse civic variant name
+105	3_178951882_178952495_None_None	ENST00000263967.3	3_None_None	None	75	GRCh37	PIK3CA	EXON 21 MUTATION	exon_variant	[]												undetermined_var_types	unable to parse civic variant name
+106	3_178935998_178936122_None_None	ENST00000263967.3	3_None_None	None	75	GRCh37	PIK3CA	EXON 10 MUTATION	exon_variant	[]												undetermined_var_types	unable to parse civic variant name
+108	15_74287058_74325755_None_None	ENST00000268058.3	15_38504568_38513048	ENST00000254066.5	75	GRCh37	PML	PML-RARA	transcript_fusion	[]												undetermined_var_types	unable to parse civic variant name
+124	9_135766735_135820008_None_None	ENST00000298552.3	9_None_None	None	75	GRCh37	TSC1	FRAMESHIFT TRUNCATION	frameshift_truncation	[]												frameshift_truncation	unable to parse civic variant name
+125	9_135766735_135820008_None_None	ENST00000298552.3	9_None_None	None	75	GRCh37	TSC1	LOSS-OF-FUNCTION	loss_of_function_variant	[]												loss-of-function	unable to parse civic variant name
+129	11_32417803_32417953_None_None	ENST00000332351.3	11_None_None	None	75	GRCh37	WT1	EXON 7 MUTATION	exon_variant	[]												undetermined_var_types	unable to parse civic variant name
+130	11_32413518_32413610_None_None	ENST00000332351.3	11_None_None	None	75	GRCh37	WT1	EXON 9 MUTATION	exon_variant	[]												undetermined_var_types	unable to parse civic variant name
+131	17_41196312_41277387_None_None	ENST00000357654.3	17_None_None	None	75	GRCh37	BRCA1	LOSS-OF-FUNCTION	loss_of_heterozygosity;loss_of_function_variant	[]												loss-of-function	unable to parse civic variant name
+132	13_32889611_32973347_None_None	ENST00000380152.3	13_None_None	None	75	GRCh37	BRCA2	LOSS-OF-FUNCTION	loss_of_function_variant	[]												loss-of-function	unable to parse civic variant name
+151	14_106032614_107288051_None_None	None	14_60794268_60987019	ENST00000333681.4	75	GRCh37	BCL2	IGH-BCL2	transcript_regulatory_region_fusion	[]												undetermined_var_types	unable to parse civic variant name
+152	18_60790579_60987361_None_None	ENST00000398117.1	18_None_None	None	75	GRCh37	BCL2	EXPRESSION	N/A	[]												expression	unable to parse civic variant name
+153	3_71003844_71633140_None_None	ENST00000318789.4	3_None_None	None	75	GRCh37	FOXP1	AMPLIFICATION	transcript_amplification	[]												amplification	unable to parse civic variant name
+154	2_61108709_61149800_None_None	ENST00000295025.8	2_None_None	None	75	GRCh37	REL	AMPLIFICATION	transcript_amplification	[]												amplification	unable to parse civic variant name
+155	21_36160098_36421641_None_None	ENST00000300305.3	21_None_None	None	75	GRCh37	RUNX1	MUTATION	transcript_variant;loss_of_function_variant	[]												mutation_ns	unable to parse civic variant name
+156	11_2150348_2170833_None_None	ENST00000300632.5	11_None_None	None	75	GRCh37	IGF2	OVEREXPRESSION	N/A	[]												overexpression	unable to parse civic variant name
+157	4_106067450_106200973_None_None	ENST00000513237.1	4_None_None	None	75	GRCh37	TET2	MUTATION	loss_of_function_variant;gene_variant	[]												mutation_ns	unable to parse civic variant name
+158	20_54944446_54967393_None_None	ENST00000395913.3	20_None_None	None	75	GRCh37	AURKA	EXPRESSION	N/A	[]												expression	unable to parse civic variant name
+159	3_10182692_10193904_None_None	ENST00000256474.2	3_None_None	None	75	GRCh37	VHL	LOSS-OF-FUNCTION	loss_of_function_variant	[]												loss-of-function	unable to parse civic variant name
+160	3_10182692_10193904_None_None	ENST00000256474.2	3_None_None	None	75	GRCh37	VHL	MUTATION	loss_of_function_variant;gene_variant	[]												mutation_ns	unable to parse civic variant name
+161	3_52581857_52719852_None_None	ENST00000394830.3	3_None_None	None	75	GRCh37	PBRM1	MUTATION	loss_of_function_variant;transcription_variant	[]												mutation_ns	unable to parse civic variant name
+163	7_148504477_148581370_None_None	ENST00000320356.2	7_None_None	None	75	GRCh37	EZH2	MUTATION	protein_altering_variant	[]												mutation_ns	unable to parse civic variant name
+164	22_29664007_29683123_None_None	ENST00000397938.2	22_128675261_128683162	ENST00000527786.2	75	GRCh37	FLI1	EWSR1-FLI1 Type 1	transcript_fusion	[]												undetermined_var_types	unable to parse civic variant name
+165	7_148508726_148508728_None_None	ENST00000320356.2	7_None_None	None	75	GRCh37	EZH2	Y646	protein_altering_variant	[]												undetermined_var_types	unable to parse civic variant name
+167	12_49412758_49449107_None_None	ENST00000301067.7	12_None_None	None	75	GRCh37	KMT2D	LOSS-OF-FUNCTION	loss_of_function_variant	[]												loss-of-function	unable to parse civic variant name
+170	2_42396490_42528380_None_None	ENST00000318522.5	2_29415640_29446394	ENST00000389048.3	75	GRCh37	ALK	EML4-ALK AMPLIFICATION	transcript_fusion;transcript_amplification	[]												undetermined_var_types	unable to parse civic variant name
+174	5_112043218_112181936_None_None	ENST00000457016.1	5_None_None	None	75	GRCh37	APC	MUTATION		[]												mutation_ns	unable to parse civic variant name
+176	X_66937370_66937372_None_None	ENST00000374690.3	X_None_None	None	75	GRCh37	AR	W742	missense_variant	[]												undetermined_var_types	unable to parse civic variant name
+177	20_30946155_31027122_None_None	ENST00000375687.4	20_None_None	None	75	GRCh37	ASXL1	MUTATION	protein_altering_variant	[]												mutation_ns	unable to parse civic variant name
+178	11_108093559_108239826_None_None	ENST00000278616.4	11_None_None	None	75	GRCh37	ATM	MUTATION	loss_of_function_variant;transcription_variant	[]												mutation_ns	unable to parse civic variant name
+179	11_108093559_108239826_None_None	ENST00000278616.4	11_None_None	None	75	GRCh37	ATM	UNDEREXPRESSION	N/A	[]												underexpression	unable to parse civic variant name
+180	20_54944446_54967393_None_None	ENST00000395913.3	20_None_None	None	75	GRCh37	AURKA	AMPLIFICATION	transcript_amplification	[]												amplification	unable to parse civic variant name
+181	20_54944446_54967393_None_None	ENST00000395913.3	20_None_None	None	75	GRCh37	AURKA	OVEREXPRESSION	N/A	[]												overexpression	unable to parse civic variant name
+182	3_52435029_52444366_None_None	ENST00000460680.1	3_None_None	None	75	GRCh37	BAP1	EXPRESSION	N/A	[]												expression	unable to parse civic variant name
+183	3_52435029_52444366_None_None	ENST00000460680.1	3_None_None	None	75	GRCh37	BAP1	MUTATION	loss_of_function_variant;protein_altering_variant	[]												mutation_ns	unable to parse civic variant name
+184	7_91570181_91625114_None_None	ENST00000356239.3	7_140434279_140487384	ENST00000288602.6	75	GRCh37	BRAF	AKAP9-BRAF	transcript_fusion	[]												undetermined_var_types	unable to parse civic variant name
+185	17_41196312_41277387_None_None	ENST00000357654.3	17_None_None	None	75	GRCh37	BRCA1	MUTATION	loss_of_function_variant;gene_variant	[]												mutation_ns	unable to parse civic variant name
+186	13_32889611_32973347_None_None	ENST00000380152.3	13_None_None	None	75	GRCh37	BRCA2	MUTATION	loss_of_function_variant;gene_variant	[]												mutation_ns	unable to parse civic variant name
+187	19_30302805_30315215_None_None	ENST00000262643.3	19_None_None	None	75	GRCh37	CCNE1	AMPLIFICATION	transcript_amplification	['N/A']												amplification	unable to parse hgvs variantN/A;unable to parse civic variant name
+189	2_25455845_25565459_None_None	ENST00000264709.3	2_None_None	None	75	GRCh37	DNMT3A	MUTATION	transcript_variant	[]												mutation_ns	unable to parse civic variant name
+190	7_55086794_55279321_None_None	ENST00000275493.2	7_None_None	None	75	GRCh37	EGFR	AMPLIFICATION	transcript_amplification	[]												amplification	unable to parse civic variant name
+191	7_55086794_55279321_None_None	ENST00000275493.2	7_None_None	None	75	GRCh37	EGFR	COPY NUMBER VARIATION	copy_number_change	[]												copy_number_change	unable to parse civic variant name
+193	7_55086794_55279321_None_None	ENST00000275493.2	7_None_None	None	75	GRCh37	EGFR	OVEREXPRESSION	N/A	[]												overexpression	unable to parse civic variant name
+194	22_29664007_29683123_None_None	ENST00000397938.2	22_39751949_39755845	ENST00000398907.1	75	GRCh37	ERG	EWSR1-ERG	transcript_fusion	[]												undetermined_var_types	unable to parse civic variant name
+195	21_42879877_42879992_None_None	ENST00000398585.3	21_39751949_39817544	ENST00000398910.1	75	GRCh37	ERG	TMPRSS2-ERG	transcript_fusion	[]												undetermined_var_types	unable to parse civic variant name
+197	22_29664007_29683123_None_None	ENST00000397938.2	22_128651853_128683162	ENST00000527786.2	75	GRCh37	FLI1	EWSR1-FLI1	transcript_fusion	[]												undetermined_var_types	unable to parse civic variant name
+199	15_90631837_90631839_None_None	ENST00000330062.3	15_None_None	None	75	GRCh37	IDH2	R172	protein_altering_variant	[]												undetermined_var_types	unable to parse civic variant name
+200	7_50344378_50472799_None_None	ENST00000331340.3	7_None_None	None	75	GRCh37	IKZF1	DELETION	transcript_ablation	[]												large_deletion	unable to parse civic variant name
+203	12_25380275_25380277_None_None	ENST00000256078.4	12_None_None	None	75	GRCh37	KRAS	Q61	protein_altering_variant	[]												undetermined_var_types	unable to parse civic variant name
+204	20_46130646_46285621_None_None	ENST00000372004.3	20_None_None	None	75	GRCh37	NCOA3	AMPLIFICATION	transcript_amplification	[]												amplification	unable to parse civic variant name
+205	20_46130646_46285621_None_None	ENST00000372004.3	20_None_None	None	75	GRCh37	NCOA3	OVEREXPRESSION	N/A	[]												overexpression	unable to parse civic variant name
+206	9_139388896_139440314_None_None	ENST00000277541.6	9_None_None	None	75	GRCh37	NOTCH1	MUTATION	protein_altering_variant	[]												mutation_ns	unable to parse civic variant name
+208	1_115247090_115259515_None_None	ENST00000369535.4	1_None_None	None	75	GRCh37	NRAS	MUTATION	transcript_variant;gain_of_function_variant	[]												mutation_ns	unable to parse civic variant name
+209	2_114036521_113992971_None_None	ENST00000429538.3	2_12329400_12475810	ENST00000397015.2	75	GRCh37	PAX8	PAX8-PPARG	transcript_fusion	[]												undetermined_var_types	unable to parse civic variant name
+210	11_100900355_101001255_None_None	ENST00000325455.5	11_None_None	None	75	GRCh37	PGR	EXPRESSION	N/A	[]												expression	unable to parse civic variant name
+212	3_178866311_178957881_None_None	ENST00000263967.3	3_None_None	None	75	GRCh37	PIK3CA	AMPLIFICATION	transcript_amplification	[]												amplification	unable to parse civic variant name
+213	10_89622870_89731687_None_None	ENST00000371953.3	10_None_None	None	75	GRCh37	PTEN	DELETION	transcript_ablation	[]												large_deletion	unable to parse civic variant name
+214	10_89622870_89731687_None_None	ENST00000371953.3	10_None_None	None	75	GRCh37	PTEN	LOSS	loss_of_function_variant	[]												loss	unable to parse civic variant name
+215	2_198254508_198299815_None_None	ENST00000335508.6	2_None_None	None	75	GRCh37	SF3B1	MUTATION	protein_altering_variant	[]												mutation_ns	unable to parse civic variant name
+216	18_48556583_48611409_None_None	ENST00000342988.3	18_None_None	None	75	GRCh37	SMAD4	MUTATION	transcript_variant;loss_of_function_variant	[]												mutation_ns	unable to parse civic variant name
+217	19_11071598_11172958_None_None	ENST00000358026.2	19_None_None	None	75	GRCh37	SMARCA4	MUTATION	loss_of_function_variant;gene_variant	[]												mutation_ns	unable to parse civic variant name
+218	19_11071598_11172958_None_None	ENST00000358026.2	19_None_None	None	75	GRCh37	SMARCA4	INACTIVATING MUTATION	loss_of_function_variant	[]												undetermined_var_types	unable to parse civic variant name
+219	5_1253282_1295162_None_None	ENST00000310581.5	5_None_None	None	75	GRCh37	TERT	AMPLIFICATION	transcript_amplification	[]												amplification	unable to parse civic variant name
+220	5_1295161_1295373_None_None	ENST00000310581.5	5_None_None	None	75	GRCh37	TERT	PROMOTER MUTATION	regulatory_region_variant	[]												undetermined_var_types	unable to parse civic variant name
+221	17_7571720_7590856_None_None	ENST00000269305.4	17_None_None	None	75	GRCh37	TP53	DELETERIOUS MUTATION		[]												undetermined_var_types	unable to parse civic variant name
+222	17_7571720_7590856_None_None	ENST00000269305.4	17_None_None	None	75	GRCh37	TP53	MUTATION	protein_altering_variant	[]												mutation_ns	unable to parse civic variant name
+223	17_7573998_7579714_None_None	ENST00000269305.4	17_None_None	None	75	GRCh37	TP53	TRUNCATING MUTATION	frameshift_truncation	[]												truncation	unable to parse civic variant name
+224	9_135251008_135282209_None_None	ENST00000334270.2	9_None_None	None	75	GRCh37	TTF1	AMPLIFICATION	transcript_amplification	[]												amplification	unable to parse civic variant name
+230	22_29083732_29137832_None_None	ENST00000328354.6	22_None_None	None	75	GRCh37	CHEK2	LOSS-OF-FUNCTION	loss_of_function_variant	[]												loss-of-function	unable to parse civic variant name
+236	17_37618292_37691399_None_None	ENST00000447079.4	17_None_None	None	75	GRCh37	CDK12	LOSS-OF-FUNCTION	loss_of_function_variant	[]												loss-of-function	unable to parse civic variant name
+242	17_7577149_7578443_None_None	ENST00000269305.4	17_None_None	None	75	GRCh37	TP53	DNA BINDING DOMAIN MUTATION	DNA_binding_site	[]												undetermined_var_types	unable to parse civic variant name
+250	11_67351066_67354131_None_None	ENST00000398606.3	11_None_None	None	75	GRCh37	GSTP1	DELETION	transcript_ablation	[]												large_deletion	unable to parse civic variant name
+251	20_61867235_61871859_None_None	ENST00000217169.3	20_None_None	None	75	GRCh37	BIRC7	AMPLIFICATION	transcript_amplification	[]												amplification	unable to parse civic variant name
+253	None_None_None_None_None	None	None_None_None	None	None	None	EGFR	3' UTR MUTATION	3_prime_UTR_variant	[]												undetermined_var_types	unable to parse civic variant name
+256	4_55604724_55606881_None_None	ENST00000288135.5	4_None_None	None	75	GRCh37	KIT	3' UTR MUTATION	3_prime_UTR_variant	[]												undetermined_var_types	unable to parse civic variant name
+257	7_148524359_148525831_None_None	ENST00000320356.2	7_None_None	None	75	GRCh37	EZH2	INTRON 6 MUTATION	intron_variant	[]												undetermined_var_types	unable to parse civic variant name
+265	18_657604_657742_None_None	ENST00000323274.10	18_None_None	None	75	GRCh37	TYMS	5' TANDEM REPEAT	short_tandem_repeat_variation;5_prime_UTR_variant	[]												undetermined_var_types	unable to parse civic variant name
+267	8_38268656_38325363_None_None	ENST00000425967.3	8_None_None	None	75	GRCh37	FGFR1	AMPLIFICATION	transcript_amplification	[]												amplification	unable to parse civic variant name
+268	8_38268656_38325363_None_None	ENST00000425967.3	8_None_None	None	75	GRCh37	FGFR1	EXPRESSION	N/A	[]												expression	unable to parse civic variant name
+269	6_117609463_117747018_None_None	ENST00000368508.3	6_None_None	None	75	GRCh37	ROS1	REARRANGEMENT	transcript_fusion	[]												rearrangement	unable to parse civic variant name
+270	7_116312459_116436396_None_None	ENST00000318493.6	7_None_None	None	75	GRCh37	MET	AMPLIFICATION	transcript_amplification	[]												amplification	unable to parse civic variant name
+272	9_21968055_21974865_None_None	ENST00000498124.1	9_None_None	None	75	GRCh37	CDKN2A	p16 EXPRESSION	N/A	[]												undetermined_var_types	unable to parse civic variant name
+273	10_32306071_32345359_None_None	ENST00000302418.4	10_43609928_43625799	ENST00000355710.3	75	GRCh37	RET	KIF5B-RET	transcript_fusion	[]												undetermined_var_types	unable to parse civic variant name
+275	11_533873_534289_None_None	ENST00000451590.1	11_None_None	None	75	GRCh37	HRAS	MUTATION	coding_transcript_variant	[]												mutation_ns	unable to parse civic variant name
+276	9_5450525_5470547_None_None	ENST00000381577.3	9_None_None	None	75	GRCh37	CD274	EXPRESSION	N/A	[]												expression	unable to parse civic variant name
+277	1_11166592_11322564_None_None	ENST00000361445.4	1_None_None	None	75	GRCh37	MTOR	MUTATION	protein_altering_variant	[]												mutation_ns	unable to parse civic variant name
+278	19_40736224_40791302_None_None	ENST00000392038.2	19_None_None	None	75	GRCh37	AKT2	EXPRESSION	N/A	[]												expression	unable to parse civic variant name
+281	4_153245446_153332714_None_None	ENST00000281708.4	4_None_None	None	75	GRCh37	FBXW7	MUTATION	protein_altering_variant;loss_of_function_variant	[]												mutation_ns	unable to parse civic variant name
+282	18_48556583_48611409_None_None	ENST00000342988.3	18_None_None	None	75	GRCh37	SMAD4	UNDEREXPRESSION	N/A	[]												underexpression	unable to parse civic variant name
+285	7_141250989_141255367_None_None	ENST00000355413.4	7_140434279_140494267	ENST00000288602.6	75	GRCh37	BRAF	AGK-BRAF	transcript_fusion	[]												undetermined_var_types	unable to parse civic variant name
+286	4_108603171_108641608_None_None	ENST00000265174.4	4_140434279_140487384	ENST00000288602.6	75	GRCh37	BRAF	PAPSS1-BRAF	gene_fusion;transcript_fusion	[]												undetermined_var_types	unable to parse civic variant name
+287	7_138145079_138239711_None_None	ENST00000343526.4	7_140434279_140487384	ENST00000288602.6	75	GRCh37	BRAF	TRIM24-BRAF	transcript_fusion	[]												undetermined_var_types	unable to parse civic variant name
+289	12_56473645_56497289_None_None	ENST00000267101.3	12_None_None	None	75	GRCh37	ERBB3	OVEREXPRESSION	N/A	[]												overexpression	unable to parse civic variant name
+290	6_86159809_86205496_None_None	ENST00000257770.3	6_None_None	None	75	GRCh37	NT5E	OVEREXPRESSION	N/A	[]												overexpression	unable to parse civic variant name
+291	7_148504477_148581370_None_None	ENST00000320356.2	7_None_None	None	75	GRCh37	EZH2	OVEREXPRESSION	N/A	[]												overexpression	unable to parse civic variant name
+292	3_38179969_38184510_None_None	ENST00000417037.2	3_None_None	None	75	GRCh37	MYD88	OVEREXPRESSION	N/A	[]												overexpression	unable to parse civic variant name
+295	10_43572475_43625799_None_None	ENST00000355710.3	10_None_None	None	75	GRCh37	RET	EXPRESSION	N/A	[]												expression	unable to parse civic variant name
+296	1_155870065_155880706_None_None	ENST00000368322.3	1_None_None	None	75	GRCh37	RIT1	OVEREXPRESSION	N/A	[]												overexpression	unable to parse civic variant name
+297	1_155870065_155880706_None_None	ENST00000368322.3	1_None_None	None	75	GRCh37	RIT1	MUTATION	transcript_variant	[]												mutation_ns	unable to parse civic variant name
+298	2_16080686_16087129_None_None	ENST00000281043.3	2_None_None	None	75	GRCh37	MYCN	AMPLIFICATION	transcript_amplification	[]												amplification	unable to parse civic variant name
+300	7_128828713_128853386_None_None	ENST00000249373.3	7_None_None	None	75	GRCh37	SMO	MUTATION	coding_transcript_variant	[]												mutation_ns	unable to parse civic variant name
+301	9_98205262_98270943_None_None	ENST00000331920.6	9_None_None	None	75	GRCh37	PTCH1	MUTATION	gene_variant;loss_of_function_variant	[]												mutation_ns	unable to parse civic variant name
+302	9_98205262_98270943_None_None	ENST00000331920.6	9_None_None	None	75	GRCh37	PTCH1	LOH	loss_of_heterozygosity	[]												undetermined_var_types	unable to parse civic variant name
+303	19_1205740_1218499_None_None	ENST00000326873.7	19_None_None	None	75	GRCh37	STK11	EXON 1-2 MUTATION	exon_variant	[]												undetermined_var_types	unable to parse civic variant name
+304	19_1205740_1228428_None_None	ENST00000326873.7	19_None_None	None	75	GRCh37	STK11	UNDEREXPRESSION	N/A	[]												underexpression	unable to parse civic variant name
+305	9_93564069_93660831_None_None	ENST00000375754.4	9_None_None	None	75	GRCh37	SYK	OVEREXPRESSION	N/A	[]												overexpression	unable to parse civic variant name
+306	17_37856333_37884915_None_None	ENST00000269571.5	17_None_None	None	75	GRCh37	ERBB2	AMPLIFICATION	transcript_amplification	[]												amplification	unable to parse civic variant name
+309	7_55086794_55279321_None_None	ENST00000275493.2	7_None_None	None	75	GRCh37	EGFR	AUTOCRINE ACTIVATION		[]												undetermined_var_types	unable to parse civic variant name
+310	2_212295697_212578308_None_None	ENST00000342788.4	2_None_None	None	75	GRCh37	ERBB4	MUTATION	transcript_variant;gain_of_function_variant	[]												mutation_ns	unable to parse civic variant name
+311	3_178866311_178957881__	ENST00000263967.3	3_None_None		75	GRCh37	PIK3CA	MUTATION	transcript_variant;gain_of_function_variant	[]												mutation_ns	unable to parse civic variant name
+312	7_55087058_55223523_None_None	ENST00000275493.2	7_None_None	None	75	GRCh37	EGFR	VIII	disruptive_inframe_deletion	[]												undetermined_var_types	unable to parse civic variant name
+313	10_89622870_89731687_None_None	ENST00000371953.3	10_None_None	None	75	GRCh37	PTEN	EXPRESSION	N/A	[]												expression	unable to parse civic variant name
+314	8_31497942_32622294_None_None	ENST00000523534.1	8_None_None	None	75	GRCh37	NRG1	EXPRESSION	N/A	[]												expression	unable to parse civic variant name
+315	4_75310851_75320726_None_None	ENST00000395748.3	4_None_None	None	75	GRCh37	AREG	EXPRESSION	N/A	[]												expression	unable to parse civic variant name
+316	2_70674412_70781147_None_None	ENST00000295400.6	2_None_None	None	75	GRCh37	TGFA	EXPRESSION	N/A	[]												expression	unable to parse civic variant name
+318	4_75230860_75254468_None_None	ENST00000244869.2	4_None_None	None	75	GRCh37	EREG	EXPRESSION	N/A	[]												expression	unable to parse civic variant name
+319	19_1286153_1301430_None_None	ENST00000215368.2	19_None_None	None	75	GRCh37	EFNA2	EXPRESSION	N/A	[]												expression	unable to parse civic variant name
+321	22_22108789_22221919_None_None	ENST00000215832.6	22_None_None	None	75	GRCh37	MAPK1	AMPLIFICATION	transcript_amplification	[]												amplification	unable to parse civic variant name
+323	7_116312459_116436396_None_None	ENST00000318493.6	7_None_None	None	75	GRCh37	MET	MUTATION	gain_of_function_variant;transcription_variant	[]												mutation_ns	unable to parse civic variant name
+324	7_116411903_116412043_None_None	ENST00000318493.6	7_None_None	None	75	GRCh37	MET	EXON 14 SKIPPING MUTATION	exon_loss_variant	[]												undetermined_var_types	unable to parse civic variant name
+325	4_1795039_1810599_None_None	ENST00000440486.2	4_None_None	None	75	GRCh37	FGFR3	EXPRESSION	N/A	[]												expression	unable to parse civic variant name
+326	19_45281126_45303891_None_None	ENST00000270279.3	19_None_None	None	75	GRCh37	CBLC	EXPRESSION	N/A	[]												expression	unable to parse civic variant name
+327	9_8314246_10033790_None_None	ENST00000381196.4	9_None_None	None	75	GRCh37	PTPRD	MUTATION	transcript_variant;loss_of_function_variant	[]												mutation_ns	unable to parse civic variant name
+328	8_6835172_6837602_None_None	ENST00000382692.2	8_None_None	None	75	GRCh37	DEFA1	EXPRESSION	N/A	[]												expression	unable to parse civic variant name
+329	19_45916692_45926824_None_None	ENST00000013807.5	19_None_None		75	GRCh37	ERCC1	EXPRESSION	N/A	[]												expression	unable to parse civic variant name
+330	9_139388896_139440314_None_None	ENST00000277541.6	9_None_None	None	75	GRCh37	NOTCH1	AMPLIFICATION	transcript_amplification	[]												amplification	unable to parse civic variant name
+333	None_None_None_None_None	None	None_None_None	None	None	None	PTPRT	PROMOTER HYPERMETHYLATION	N/A	[]												undetermined_var_types	unable to parse civic variant name
+334	6_43738444_43752346_None_None	ENST00000372055.4	6_None_None	None	75	GRCh37	VEGFA	UNDEREXPRESSION	N/A	[]												underexpression	unable to parse civic variant name
+335	19_10244022_10305811_None_None	ENST00000340748.4	19_None_None	None	75	GRCh37	DNMT1	EXPRESSION	N/A	[]												expression	unable to parse civic variant name
+336	12_25362365_25403737_None_None	ENST00000256078.4	12_None_None	None	75	GRCh37	KRAS	MUTATION	protein_altering_variant	[]												mutation_ns	unable to parse civic variant name
+337	10_112631596_112659763_None_None	ENST00000393104.2	10_None_None	None	75	GRCh37	PDCD4	EXPRESSION	N/A	[]												expression	unable to parse civic variant name
+339	21_43731777_43735761_None_None	ENST00000518498.1	21_None_None	None	75	GRCh37	TFF3	EXPRESSION	N/A	[]												expression	unable to parse civic variant name
+340	10_54074056_54077417_None_None	ENST00000373970.3	10_None_None	None	75	GRCh37	DKK1	NUCLEAR EXPRESSION	N/A	[]												nuclear-expresssion	unable to parse civic variant name
+341	11_35160728_35251574_None_None	ENST00000428726.2	11_None_None	None	75	GRCh37	CD44	ISOFORM EXPRESSION	N/A	[]												undetermined_var_types	unable to parse civic variant name
+342	4_110834047_110933422_None_None	ENST00000265171.5	4_None_None	None	75	GRCh37	EGF	EXPRESSION	N/A	[]												expression	unable to parse civic variant name
+343	12_69201956_69239214_None_None	ENST00000462284.1	12_None_None	None	75	GRCh37	MDM2	EXPRESSION	N/A	[]												expression	unable to parse civic variant name
+344	22_35776828_35790207_None_None	ENST00000216117.8	22_None_None	None	75	GRCh37	HMOX1	EXPRESSION	N/A	[]												expression	unable to parse civic variant name
+345	17_74380731_74383936_None_None	ENST00000323374.4	17_None_None	None	75	GRCh37	SPHK1	OVEREXPRESSION	N/A	[]												overexpression	unable to parse civic variant name
+346	2_202122759_202152434_None_None	ENST00000358485.4	2_None_None	None	75	GRCh37	CASP8	EXPRESSION	N/A	[]												expression	unable to parse civic variant name
+347	18_657604_673578_None_None	ENST00000323274.10	18_None_None	None	75	GRCh37	TYMS	EXPRESSION	N/A	[]												expression	unable to parse civic variant name
+348	8_27667137_27695612_None_None	ENST00000301905.4	8_None_None	None	75	GRCh37	PBK	OVEREXPRESSION	N/A	[]												overexpression	unable to parse civic variant name
+349	19_11071598_11172958_None_None	ENST00000358026.2	19_None_None	None	75	GRCh37	SMARCA4	UNDEREXPRESSION	N/A	[]												underexpression	unable to parse civic variant name
+350	18_42531877_42531918_None_None	ENST00000282030.5	18_None_None	None	75	GRCh37	SETBP1	EXON 4 MUTATION	exon_variant	[]												undetermined_var_types	unable to parse civic variant name
+352	2_29443625_29445258_None_None	ENST00000389048.3	2_None_None	None	75	GRCh37	ALK	EML4-ALK C1156Y‚ÄìL1198F	transcript_fusion;missense_variant	[]												undetermined_var_types	unable to parse civic variant name
+354	7_55086794_55279321_None_None	ENST00000275493.2	7_None_None	None	75	GRCh37	EGFR	EXPRESSION	N/A	[]												expression	unable to parse civic variant name
+355	6_36646487_36655108_None_None	ENST00000405375.1	6_None_None	None	75	GRCh37	CDKN1A	EXPRESSION	N/A	[]												expression	unable to parse civic variant name
+356	3_105085753_105295744_None_None	ENST00000306107.5	3_None_None	None	75	GRCh37	ALCAM	EXPRESSION	N/A	[]												expression	unable to parse civic variant name
+357	1_26211931_26232957_None_None	ENST00000426559.2	1_None_None	None	75	GRCh37	STMN1	EXPRESSION	N/A	[]												expression	unable to parse civic variant name
+358	11_77371041_77532063_None_None	ENST00000308488.6	11_None_None	None	75	GRCh37	RSF1	AMPLIFICATION	transcript_amplification	[]												amplification	unable to parse civic variant name
+359	X_66764465_66950461_None_None	ENST00000374690.3	X_None_None	None	75	GRCh37	AR	OVEREXPRESSION	N/A	[]												overexpression	unable to parse civic variant name
+360	12_12870058_12875305_None_None	ENST00000228872.4	12_None_None	None	75	GRCh37	CDKN1B	CYTOPLASMIC MISLOCALIZATION	N/A	[]												undetermined_var_types	unable to parse civic variant name
+361	12_56473645_56497289_None_None	ENST00000267101.3	12_None_None	None	75	GRCh37	ERBB3	EXPRESSION	N/A	[]												expression	unable to parse civic variant name
+362	X_66764662_66915917_None_	ENST00000504326.1	X_None_None		75	GRCh37	AR	SPLICE VARIANT 7		[]												undetermined_var_types	unable to parse civic variant name
+363	2_234526291_234681956_None_None	ENST00000373450.4	2_None_None	None	75	GRCh37	UGT1A	EXPRESSION	N/A	[]												expression	unable to parse civic variant name
+364	2_212240446_213403565_None_None	ENST00000342788.4	2_None_None	None	75	GRCh37	ERBB4	NUCLEAR TRANSLOCATION	N/A	[]												undetermined_var_types	unable to parse civic variant name
+365	2_212240446_213403565_None_None	ENST00000342788.4	2_None_None	None	75	GRCh37	ERBB4	EXPRESSION	N/A	[]												expression	unable to parse civic variant name
+366	17_33677324_33700639_None_None	ENST00000394566.1	17_None_None	None	75	GRCh37	SLFN11	EXPRESSION	N/A	[]												expression	unable to parse civic variant name
+368	17_76210267_76221717_None_None	ENST00000301633.4	17_None_None	None	75	GRCh37	BIRC5	NUCLEAR EXPRESSION	N/A	[]												nuclear-expresssion	unable to parse civic variant name
+369	17_7571720_7590856_None_None	ENST00000269305.4	17_None_None	None	75	GRCh37	TP53	WILD TYPE	wild_type	[]												undetermined_var_types	unable to parse civic variant name
+370	11_94152895_94227074_None_None	ENST00000323929.3	11_None_None	None	75	GRCh37	MRE11	LOSS	loss_of_function_variant	[]												loss	unable to parse civic variant name
+371	20_39657458_39753127_None_None	ENST00000361337.2	20_None_None	None	75	GRCh37	TOP1	AMPLIFICATION	transcript_amplification	[]												amplification	unable to parse civic variant name
+372	12_12870058_12875305_None_None	ENST00000228872.4	12_None_None	None	75	GRCh37	CDKN1B	EXPRESSION	N/A	[]												expression	unable to parse civic variant name
+373	7_16831435_16844704_None_None	ENST00000419304.2	7_None_None	None	75	GRCh37	AGR2	EXPRESSION	N/A	[]												expression	unable to parse civic variant name
+374	None_None_None_None_None	None	None_None_None	None	None	None	NAPRT	PROMOTER HYPERMETHYLATION	N/A	[]												undetermined_var_types	unable to parse civic variant name
+375	7_55237999_55238735_None_None	ENST00000344576.2	7_None_None	None	75	GRCh37	EGFR	EXON 18 OVEREXPRESSION	exon_variant	[]												undetermined_var_types	unable to parse civic variant name
+376	10_31608101_31818741_None_None	ENST00000361642.5	10_None_None	None	75	GRCh37	ZEB1	EXPRESSION	N/A	[]												expression	unable to parse civic variant name
+377	X_47441712_47446188_None_None	ENST00000218388.4	X_None_None	None	75	GRCh37	TIMP1	OVEREXPRESSION	N/A	[]												overexpression	unable to parse civic variant name
+378	8_142402093_142441394_None_None	ENST00000521578.1	8_None_None	None	75	GRCh37	PTP4A3	OVEREXPRESSION	N/A	[]												overexpression	unable to parse civic variant name
+379	18_657604_673578_None_None	ENST00000323274.10	18_None_None	None	75	GRCh37	TYMS	AMPLIFICATION	transcript_amplification	[]												amplification	unable to parse civic variant name
+380	15_99192200_99507759_None_None	ENST00000268035.6	15_None_None	None	75	GRCh37	IGF1R	EXPRESSION	N/A	[]												expression	unable to parse civic variant name
+381	7_100400187_100425121_None_None	ENST00000358173.3	7_None_None	None	75	GRCh37	EPHB4	EXPRESSION	N/A	[]												expression	unable to parse civic variant name
+382	18_657604_673578_None_None	ENST00000323274.10	18_None_None	None	75	GRCh37	TYMS	UNDEREXPRESSION	N/A	[]												underexpression	unable to parse civic variant name
+383	17_38544768_38574202_None_None	ENST00000423485.1	17_None_None	None	75	GRCh37	TOP2A	EXPRESSION	N/A	[]												expression	unable to parse civic variant name
+384	20_39657458_39753127_None_None	ENST00000361337.2	20_None_None	None	75	GRCh37	TOP1	EXPRESSION	N/A	[]												expression	unable to parse civic variant name
+385	1_57159476_57159478_None_None	ENST00000371244.4	1_None_None	None	75	GRCh37	PRKAA2	T172 PHOSPHORYLATION	N/A	[]												undetermined_var_types	unable to parse civic variant name
+386	9_127997132_128003609_None_None	ENST00000324460.6	9_None_None	None	75	GRCh37	HSPA5	EXPRESSION	N/A	[]												expression	unable to parse civic variant name
+387	8_37888200_37914663_None_None	ENST00000338825.4	8_None_None	None	75	GRCh37	EIF4EBP1	PHOSPHORYLATION	N/A	[]												phosphorylation	unable to parse civic variant name
+388	4_55524085_55606881_None_None	ENST00000288135.5	4_None_None	None	75	GRCh37	KIT	MUTATION	transcript_variant;gain_of_function_variant	[]												mutation_ns	unable to parse civic variant name
+389	16_89989687_90002505_None_None	ENST00000315491.7	16_None_None	None	75	GRCh37	TUBB3	EXPRESSION	N/A	[]												expression	unable to parse civic variant name
+390	7_55272951_55272953_None_None	ENST00000275493.2	7_None_None	None	75	GRCh37	EGFR	Y1092 PHOSPHORYLATION	N/A	[]												undetermined_var_types	unable to parse civic variant name
+391	15_99192200_99507759_None_None	ENST00000268035.6	15_None_None	None	75	GRCh37	IGF1R	NUCLEAR EXPRESSION	N/A	[]												nuclear-expresssion	unable to parse civic variant name
+392	2_201980827_202041410_None_None	ENST00000309955.3	2_None_None	None	75	GRCh37	CFLAR	EXPRESSION	N/A	[]												expression	unable to parse civic variant name
+393	4_15969857_16085324_None_None	ENST00000510224.1	4_None_None	None	75	GRCh37	PROM1	EXPRESSION	N/A	[]												expression	unable to parse civic variant name
+394	X_49106897_49121288_None_None	ENST00000376207.4	X_None_None	None	75	GRCh37	FOXP3	EXPRESSION	N/A	[]												expression	unable to parse civic variant name
+395	9_19376309_19376323_None_None	ENST00000380394.4	9_None_None	None	75	GRCh37	RPS6	PHOSPHORYLATION	N/A	[]												phosphorylation	unable to parse civic variant name
+396	1_65298912_65432187_None_None	ENST00000342505.4	1_None_None	None	75	GRCh37	JAK1	OVEREXPRESSION	N/A	[]												overexpression	unable to parse civic variant name
+397	17_41196312_41277387_None_None	ENST00000357654.3	17_None_None	None	75	GRCh37	BRCA1	EXPRESSION	N/A	[]												expression	unable to parse civic variant name
+398	12_89741009_89747048_None_None	ENST00000279488.7	12_None_None	None	75	GRCh37	DUSP6	EXPRESSION	N/A	[]												expression	unable to parse civic variant name
+399	7_140453136_140481403_None_None	ENST00000288602.6	7_None_None	None	75	GRCh37	BRAF	MUTATION	gain_of_function_variant;gene_variant	[]												mutation_ns	unable to parse civic variant name
+400	7_75931861_75933612_None_None	ENST00000248553.6	7_None_None	None	75	GRCh37	HSPB1	EXPRESSION	N/A	[]												expression	unable to parse civic variant name
+401	16_69743304_69760854_None_None	ENST00000320623.5	16_None_None	None	75	GRCh37	NQO1	EXPRESSION	N/A	[]												expression	unable to parse civic variant name
+403	17_41196312_41277387_None_None	ENST00000357654.3	17_None_None	None	75	GRCh37	BRCA1	UNDEREXPRESSION	N/A	[]												underexpression	unable to parse civic variant name
+404	7_87133175_87342564_None_None	ENST00000265724.3	7_None_None	None	75	GRCh37	ABCB1	EXPRESSION	N/A	[]												expression	unable to parse civic variant name
+405	2_136871919_136873813_None_None	ENST00000409817.1	2_None_None	None	75	GRCh37	CXCR4	EXPRESSION	N/A	[]												expression	unable to parse civic variant name
+406	X_55478538_55479998_None_None	ENST00000342972.1	X_None_None	None	75	GRCh37	MAGEH1	EXPRESSION	N/A	[]												expression	unable to parse civic variant name
+407	17_48712218_48769613_None_None	ENST00000285238.8	17_None_None	None	75	GRCh37	ABCC3	AMPLIFICATION	transcript_amplification	[]												amplification	unable to parse civic variant name
+408	6_43395292_43418168_None_None	ENST00000372530.4	6_None_None	None	75	GRCh37	ABCC10	EXPRESSION	N/A	[]												expression	unable to parse civic variant name
+409	7_97481430_97501854_None_None	ENST00000175506.4	7_None_None	None	75	GRCh37	ASNS	AMPLIFICATION	transcript_amplification	[]												amplification	unable to parse civic variant name
+410	13_28536274_28545276_None_None	ENST00000381020.7	13_None_None	None	75	GRCh37	CDX2	EXPRESSION	N/A	[]												expression	unable to parse civic variant name
+411	17_40465342_40475372_None_None	ENST00000264657.5	17_None_None	None	75	GRCh37	STAT3	SH2 DOMAIN MUTATION	protein_altering_variant	[]												undetermined_var_types	unable to parse civic variant name
+412	6_31132120_31138470_None_None	ENST00000259915.8	6_None_None	None	75	GRCh37	POU5F1	EXPRESSION	N/A	[]												expression	unable to parse civic variant name
+413	17_37879863_37882870_None_None	ENST00000269571.5	17_None_None	None	75	GRCh37	ERBB2	KINASE DOMAIN MUTATION	protein_altering_variant	[]												undetermined_var_types	unable to parse civic variant name
+416	17_37856333_37884915_None_None	ENST00000269571.5	17_None_None	None	75	GRCh37	ERBB2	SERUM LEVELS	N/A	[]												undetermined_var_types	unable to parse civic variant name
+417	6_169615875_169654139_None_None	ENST00000366787.3	6_None_None	None	75	GRCh37	THBS2	UNDEREXPRESSION	N/A	[]												underexpression	unable to parse civic variant name
+419	1_156844175_156851434_None_None	ENST00000524377.1	1_None_None	None	75	GRCh37	NTRK1	NTRK1 FUSIONS	transcript_fusion	[]												undetermined_var_types	unable to parse civic variant name
+422	X_123095568_123236506_None_None	ENST00000371157.3	X_None_None	None	75	GRCh37	STAG2	UNDEREXPRESSION	N/A	[]												underexpression	unable to parse civic variant name
+423	6_32407619_32412823_None_None	ENST00000395388.2	6_None_None	None	75	GRCh37	HLA-DRA	EXPRESSION	N/A	[]												expression	unable to parse civic variant name
+426	7_140434279_140624564_None_None	ENST00000288602.6	7_None_None	None	75	GRCh37	BRAF	WILD TYPE	wild_type	[]												undetermined_var_types	unable to parse civic variant name
+428	11_94152895_94227074_None_None	ENST00000323929.3	11_None_None	None	75	GRCh37	MRE11	FRAMESHIFT MUTATION	frameshift_variant	[]												frameshift_ns	unable to parse civic variant name
+429	4_55524085_55606881_None_None	ENST00000288135.5	4_None_None	None	75	GRCh37	KIT	EXPRESSION	N/A	[]												expression	unable to parse civic variant name
+431	16_67063148_67116211_None_None	ENST00000412916.2	16_15797029_15820911	ENST00000396324.3	75	GRCh37	CBFB	CBFB-MYH11	transcript_fusion	[]												undetermined_var_types	unable to parse civic variant name
+432	None_None_None_None_None	None	None_None_None	None	None	None	KMT2A	MLL-MLLT3	transcript_fusion	[]												undetermined_var_types	fix civic var name for vname.hgvs.p;unable to parse civic variant name
+434	14_62162258_62214976_None_None	ENST00000394997.1	14_None_None	None	75	GRCh37	HIF1A	OVEREXPRESSION	N/A	[]												overexpression	unable to parse civic variant name
+435	2_46524541_46613836_None_None	ENST00000263734.3	2_None_None	None	75	GRCh37	EPAS1	OVEREXPRESSION	N/A	[]												overexpression	unable to parse civic variant name
+436	3_10182692_10193904_None_None	ENST00000256474.2	3_None_None	None	75	GRCh37	VHL	LOSS	loss_of_function_variant	[]												loss	unable to parse civic variant name
+438	6_32808494_32812480_None_None	ENST00000374881.2	6_None_None	None	75	GRCh37	PSMB8	NUCLEAR EXPRESSION	N/A	[]												nuclear-expresssion	unable to parse civic variant name
+439	8_27667137_27695612_None_None	ENST00000301905.4	8_None_None	None	75	GRCh37	PBK	NUCLEAR EXPRESSION	N/A	[]												nuclear-expresssion	unable to parse civic variant name
+440	5_159848829_159855748_None_None	ENST00000352433.5	5_None_None	None	75	GRCh37	PTTG1	OVEREXPRESSION	N/A	[]												overexpression	unable to parse civic variant name
+441	1_65886335_66107242_None_None	ENST00000349533.6	1_None_None	None	75	GRCh37	LEPR	UNDEREXPRESSION	N/A	[]												underexpression	unable to parse civic variant name
+442	7_55086794_55279321_None_None	ENST00000275493.2	7_None_None	None	75	GRCh37	EGFR	MUTATION	inframe_variant	[]												mutation_ns	unable to parse civic variant name
+444	6_11185051_11382581_None_None	ENST00000504387.1	6_None_None	None	75	GRCh37	NEDD9	EXPRESSION	N/A	[]												expression	unable to parse civic variant name
+446	12_53342655_53346684_None_None	ENST00000388837.2	12_None_None	None	75	GRCh37	KRT18	UNDEREXPRESSION	N/A	[]												underexpression	unable to parse civic variant name
+447	X_137715011_138286269_None_None	ENST00000370603.3	X_None_None	None	75	GRCh37	FGF13	CYTOPLASMIC EXPRESSION	N/A	[]												cytoplasmic-expression	unable to parse civic variant name
+448	None_None_None_None_None	None	None_None_None	None	None	None	SSX1	SS18-SSX1	transcript_fusion	[]												undetermined_var_types	unable to parse civic variant name
+449	None_None_None_None_None	None	None_None_None	None	None	None	SSX2	SS18-SSX2	transcript_fusion	[]												undetermined_var_types	unable to parse civic variant name
+450	18_23612363_23670589_None_None	ENST00000415083.2	18_48261524_48265521	ENST00000376884.2	75	GRCh37	SSX4	SS18-SSX4	transcript_fusion	[]												undetermined_var_types	unable to parse civic variant name
+461	15_74315213_74315219_None_None	ENST00000268058.3	15_None_None	None	75	GRCh37	PML	B2 DOMAIN MUTATION	missense_variant	[]												undetermined_var_types	unable to parse civic variant name
+464	7_116312459_116436396_None_None	ENST00000318493.6	7_None_None	None	75	GRCh37	MET	EXON 14 MUTATION + AMPLIFICATION	exon_loss_variant;transcript_amplification	[]												undetermined_var_types	unable to parse civic variant name
+466	None_None_None_None_None	None	None_None_None	None	None	None	FGFR1	ZNF198-FGFR1	transcript_fusion	[]												undetermined_var_types	unable to parse civic variant name
+472	15_58245622_58358616_None_None	ENST00000249750.4	15_None_None	None	75	GRCh37	ALDH1A2	EXPRESSION	N/A	[]												expression	unable to parse civic variant name
+473	15_58245622_58358616_None_None	ENST00000249750.4	15_None_None	None	75	GRCh37	ALDH1A2	UNDEREXPRESSION	N/A	[]												underexpression	unable to parse civic variant name
+474	3_108268716_108308299_None_None	ENST00000295746.8	3_None_None	None	75	GRCh37	KIAA1524	EXPRESSION	N/A	[]												expression	unable to parse civic variant name
+475	3_108268716_108308299_None_None	ENST00000295746.8	3_None_None	None	75	GRCh37	KIAA1524	UNDEREXPRESSION	N/A	[]												underexpression	unable to parse civic variant name
+476	4_20529898_20530007_None_None	ENST00000384999.1	4_None_None	None	75	GRCh37	MIR218-1	EXPRESSION	N/A	[]												expression	unable to parse civic variant name
+481	6_74104471_74127292_None_None	ENST00000370336.4	6_None_None	None	75	GRCh37	DDX43	OVEREXPRESSION	N/A	[]												overexpression	unable to parse civic variant name
+483	12_64845660_64895888_None_None	ENST00000331710.5	12_None_None	None	75	GRCh37	TBK1	OVEREXPRESSION	N/A	[]												overexpression	unable to parse civic variant name
+484	12_25362365_25403737_None_None	ENST00000256078.4	12_None_None	None	75	GRCh37	KRAS	WILD TYPE		[]												undetermined_var_types	unable to parse civic variant name
+485	19_1205740_1228428_None_None	ENST00000326873.7	19_None_None	None	75	GRCh37	STK11	LOSS	loss_of_function_variant	[]												loss	unable to parse civic variant name
+486	5_156512843_156536725_None_None	ENST00000307851.4	5_None_None	None	75	GRCh37	HAVCR2	OVEREXPRESSION	N/A	[]												overexpression	unable to parse civic variant name
+487	16_55512883_55540603_None_None	ENST00000219070.4	16_None_None	None	75	GRCh37	MMP2	SERUM LEVELS	N/A	[]												undetermined_var_types	unable to parse civic variant name
+488	20_44637547_44645200_None_None	ENST00000372330.3	20_None_None	None	75	GRCh37	MMP9	SERUM LEVELS	N/A	[]												undetermined_var_types	unable to parse civic variant name
+490	13_31710765_31736064_None_None	ENST00000320027.5	13_None_None	None	75	GRCh37	HSPH1	NUCLEAR EXPRESSION	N/A	[]												nuclear-expresssion	unable to parse civic variant name
+491	13_31722621_31722637_None_None	ENST00000320027.5	13_None_None	None	75	GRCh37	HSPH1	T17 DELETION	short_tandem_repeat_variation	[]												undetermined_var_types	unable to parse civic variant name
+492	None_None_None_None_None	None	None_None_None	None	None	None	ECSCR	EXPRESSION	N/A	[]												expression	unable to parse civic variant name
+493	11_124753587_124768177_None_None	ENST00000306534.3	11_None_None	None	75	GRCh37	ROBO4	EXPRESSION	N/A	[]												expression	unable to parse civic variant name
+494	6_37137979_37143202_None_None	ENST00000373509.5	6_None_None	None	75	GRCh37	PIM1	NUCLEAR EXPRESSION	N/A	[]												nuclear-expresssion	unable to parse civic variant name
+498	4_20529898_20530007_None_None	ENST00000384999.1	4_None_None	None	75	GRCh37	MIR218-1	UNDEREXPRESSION	N/A	[]												underexpression	unable to parse civic variant name
+499	2_29415640_29446394_None_None	ENST00000389048.3	2_None_None	None	75	GRCh37	ALK	ALK FUSIONS	transcript_fusion	[]												undetermined_var_types	unable to parse civic variant name
+500	2_42396490_42552694_None_None	ENST00000318522.5	2_29415640_29446394	ENST00000389048.3	75	GRCh37	ALK	EML4-ALK E20;A20	transcript_fusion	[]												undetermined_var_types	unable to parse civic variant name
+501	2_42396490_42472827_None_None	ENST00000318522.5	2_29415640_29446394	ENST00000389048.3	75	GRCh37	ALK	EML4-ALK E2;A20	transcript_fusion	[]												undetermined_var_types	unable to parse civic variant name
+503	2_42396490_42491871_None_None	ENST00000318522.5	2_29415640_29446394	ENST00000389048.3	75	GRCh37	ALK	EML4-ALK E6;A20	transcript_fusion	[]												undetermined_var_types	unable to parse civic variant name
+505	9_80331003_80646374_None_None	ENST00000286548.4	9_None_None	None	75	GRCh37	GNAQ	MUTATION		[]												mutation_ns	unable to parse civic variant name
+506	19_3094408_3124002_None_None	ENST00000078429.4	19_None_None	None	75	GRCh37	GNA11	MUTATION		[]												mutation_ns	unable to parse civic variant name
+507	9_80409487_80409489_None_None	ENST00000286548.4	9_None_None	None	75	GRCh37	GNAQ	Q209	protein_altering_variant	[]												undetermined_var_types	unable to parse civic variant name
+509	4_55592023_55592216_None_None	ENST00000288135.5	4_None_None	None	75	GRCh37	KIT	EXON 9 MUTATION	exon_variant	[]												undetermined_var_types	unable to parse civic variant name
+510	10_89622870_89731687_None_None	ENST00000371953.3	10_None_None	None	75	GRCh37	PTEN	MUTATION	protein_altering_variant	[]												mutation_ns	unable to parse civic variant name
+511	10_123239371_123357917_None_None	ENST00000457416.2	10_None_None	None	75	GRCh37	FGFR2	MUTATION	transcript_variant;gain_of_function_variant	[]												mutation_ns	unable to parse civic variant name
+512	2_29415640_30144432_None_None	ENST00000389048.3	2_None_None	None	75	GRCh37	ALK	MUTATION	gain_of_function_variant;gene_variant	[]												mutation_ns	unable to parse civic variant name
+513	5_170814120_170818803_None_None	ENST00000517671.1	5_29415640_29446394	ENST00000389048.3	75	GRCh37	ALK	NPM-ALK	transcript_fusion	[]												undetermined_var_types	unable to parse civic variant name
+514	2_109335937_109375004_None_None	ENST00000283195.6	2_29415640_29446394	ENST00000389048.3	75	GRCh37	ALK	RANBP2-ALK	transcript_fusion	[]												undetermined_var_types	unable to parse civic variant name
+519	13_28577411_28674729_None_	ENST00000241453.7	13_None_None		75	GRCh37	FLT3	MUTATION	transcript_variant;gain_of_function_variant	[]												mutation_ns	unable to parse civic variant name
+520	17_57697219_57768072_None_None	ENST00000269122.3	17_29415640_29446394	ENST00000389048.3	75	GRCh37	ALK	CLTC-ALK	transcript_fusion	[]												undetermined_var_types	unable to parse civic variant name
+521	21_44513066_44527697_None_None	ENST00000291552.4	21_None_None	None	75	GRCh37	U2AF1	MUTATION	protein_altering_variant	[]												mutation_ns	unable to parse civic variant name
+524	None_None_None_None_None	None	None_None_None	None	None	None	DUX4	DUX4 FUSIONS	transcript_fusion	[]												undetermined_var_types	unable to parse civic variant name
+525	9_33110635_33167354_None_None	ENST00000379731.4	9_None_None	None	75	GRCh37	B4GALT1	EXPRESSION	N/A	[]												expression	unable to parse civic variant name
+526	2_111883195_111886097_None_None	ENST00000393256.3	2_None_None	None	75	GRCh37	BCL2L11	DELETION POLYMORPHISM	polymorphic_sequence_variant	[]												undetermined_var_types	unable to parse civic variant name
+529	10_69644427_69678147_None_None	ENST00000212015.6	10_None_None	None	75	GRCh37	SIRT1	OVEREXPRESSION	N/A	[]												overexpression	unable to parse civic variant name
+532	16_23614491_23652631_None_None	ENST00000261584.4	16_None_None	None	75	GRCh37	PALB2	BIALLELIC INACTIVATION	loss_of_function_variant	[]												undetermined_var_types	unable to parse civic variant name
+533	18_48556583_48611409_None_None	ENST00000342988.3	18_None_None	None	75	GRCh37	SMAD4	EXPRESSION	N/A	[]												expression	unable to parse civic variant name
+534	9_97861336_98079984_None_None	ENST00000289081.3	9_None_None	None	75	GRCh37	FANCC	LOSS-OF-FUNCTION	loss_of_function_variant	[]												loss-of-function	unable to parse civic variant name
+535	None_None_None_None_None	None	None_None_None	None	None	None	PDGFRB	EBF1-PDGFRB	transcript_fusion	[]												undetermined_var_types	unable to parse civic variant name
+536	None_None_None_None_None	None	None_None_None	None	None	None	SULT1E1	SNP		[]												undetermined_var_types	unable to parse civic variant name
+537	13_48877911_49056122_None_None	ENST00000267163.4	13_None_None	None	75	GRCh37	RB1	EXPRESSION	N/A	[]												expression	unable to parse civic variant name
+538	None_None_None_None_None	None	None_None_None	None	None	None	MLH1	METHYLATION	N/A	[]												methylation	unable to parse civic variant name
+539	12_112856718_112947717_None_None	ENST00000351677.2	12_None_None	None	75	GRCh37	PTPN11	EXPRESSION	N/A	[]												expression	unable to parse civic variant name
+546	1_229566992_229569841_None_	ENST00000366684.3	1_None_None		75	GRCh37	ACTA1	EXPRESSION	N/A	[]												expression	unable to parse civic variant name
+547	13_48877911_49056122_None_None	ENST00000267163.4	13_None_None	None	75	GRCh37	RB1	OVEREXPRESSION	N/A	[]												overexpression	unable to parse civic variant name
+550	2_29497965_29754982_None_None	ENST00000389048.3	2_None_None	None	75	GRCh37	ALK	DEL4-11	inframe_deletion	[]												undetermined_var_types	unable to parse civic variant name
+553	12_58141510_58146304_None_None	ENST00000257904.6	12_None_None	None	75	GRCh37	CDK4	AMPLIFICATION	transcript_amplification	[]												amplification	unable to parse civic variant name
+554	9_21967752_21994623_None_None	ENST00000579755.1	9_None_None	None	75	GRCh37	CDKN2A	LOSS	loss_of_function_variant	[]												loss	unable to parse civic variant name
+555	9_22002902_22009362_None_None	ENST00000276925.6	9_None_None	None	75	GRCh37	CDKN2B	LOSS	transcript_ablation	[]												loss	unable to parse civic variant name
+557	20_31021087_31021720_None_None	ENST00000375687.4	20_None_None	None	75	GRCh37	ASXL1	EXON 12 MUTATION	exon_variant	[]												undetermined_var_types	unable to parse civic variant name
+558	19_3118942_3118942_None_	ENST00000078429.4	19_None_None		75	GRCh37	GNA11	Q209	missense_variant	[]												undetermined_var_types	unable to parse civic variant name
+559	19_13054527_13054727_None_None	ENST00000316448.5	19_None_None	None	75	GRCh37	CALR	EXON 9 FRAMESHIFT	exon_variant	[]												undetermined_var_types	unable to parse civic variant name
+560	1_36932096_36933444_None_None	ENST00000373106.1	1_None_None	None	75	GRCh37	CSF3R	MUTATION	protein_altering_variant	[]												mutation_ns	unable to parse civic variant name
+564	18_48556583_48611409_None_None	ENST00000342988.3	18_None_None	None	75	GRCh37	SMAD4	LOSS	loss_of_function_variant	[]												loss	unable to parse civic variant name
+567	None_None_None_None_None	None	None_None_None	None	None	None	PDGFRA	PDGFRA FUSIONS	transcript_fusion	[]												undetermined_var_types	unable to parse civic variant name
+568	None_None_None_None_None	None	None_None_None	None	None	None	PDGFRB	PDGFRB FUSIONS	transcript_fusion	[]												undetermined_var_types	unable to parse civic variant name
+569	8_38268656_38325363_None_None	ENST00000425967.3	8_None_None	None	75	GRCh37	FGFR1	FGFR1 FUSIONS	transcript_fusion	[]												undetermined_var_types	unable to parse civic variant name
+570	15_90626277_90645736_None_	ENST00000330062.3	15_None_None		75	GRCh37	IDH2	MUTATION	protein_altering_variant	[]												mutation_ns	unable to parse civic variant name
+571	None_None_None_None_None	None	None_None_None	None	None	GRCh37	JAK2	PCM1-JAK2	transcript_fusion	[]												undetermined_var_types	unable to parse civic variant name
+573	5_38938021_39074510_None_None	ENST00000357387.3	5_None_None	None	75	GRCh37	RICTOR	AMPLIFICATION	transcript_amplification	[]												amplification	unable to parse civic variant name
+574	4_54243812_54294350_None_None	ENST00000337488.6	4_55141008_55164414	ENST00000257290.5	75	GRCh37	PDGFRA	FIP1L1-PDGFRA	transcript_fusion	[]												undetermined_var_types	unable to parse civic variant name
+576	3_100428269_100447702_None_None	ENST00000240851.4	3_117609463_117642557	ENST00000368508.3	75	GRCh37	ROS1	TFG-ROS1	transcript_fusion	[]												undetermined_var_types	unable to parse civic variant name
+578	17_76210267_76221717_None_None	ENST00000301633.4	17_None_None	None	75	GRCh37	BIRC5	OVEREXPRESSION	N/A	[]												overexpression	unable to parse civic variant name
+586	4_55524085_55606881_None_None	ENST00000288135.5	4_None_None	None	75	GRCh37	KIT	AMPLIFICATION	transcript_amplification	[]												amplification	unable to parse civic variant name
+587	17_29421945_29704695_None_None	ENST00000358273.4	17_None_None	None	75	GRCh37	NF1	MUTATION	protein_altering_variant;loss_of_function_variant	[]												mutation_ns	unable to parse civic variant name
+590	11_102201730_102207833_None_None	ENST00000263464.3	11_None_None	None	75	GRCh37	BIRC3	TRUNCATING MUTATION	frameshift_variant	[]												truncation	unable to parse civic variant name
+591	3_12625100_12705725_None_None	ENST00000251849.4	3_None_None	None	75	GRCh37	RAF1	AMPLIFICATION	transcript_amplification	[]												amplification	unable to parse civic variant name
+592	12_25362365_25403737_None_None	ENST00000256078.4	12_None_None	None	75	GRCh37	KRAS	AMPLIFICATION	transcript_amplification	[]												amplification	unable to parse civic variant name
+594	19_33790840_33793470_None_None	ENST00000498907.2	19_None_None	None	75	GRCh37	CEBPA	BIALLELIC INACTIVATION	loss_of_function_variant	[]												undetermined_var_types	unable to parse civic variant name
+595	17_74732402_74733113_None_None	ENST00000392485.2	17_None_None	None	75	GRCh37	SRSF2	MUTATION	gene_variant	[]												mutation_ns	unable to parse civic variant name
+596	1_115258744_115258748_None_None	ENST00000369535.4	1_None_None	None	75	GRCh37	NRAS	G12/G13	protein_altering_variant	[]												undetermined_var_types	unable to parse civic variant name
+597	10_43572475_43625799_None_None	ENST00000355710.3	10_None_None	None	75	GRCh37	RET	OVEREXPRESSION	N/A	[]												overexpression	unable to parse civic variant name
+599	2_204732509_204736210_None_None	ENST00000302823.3	2_204599507_204603635	ENST00000324106.8	75	GRCh37	CTLA4	CTLA4-CD28	transcript_fusion	[]												undetermined_var_types	unable to parse civic variant name
+600	X_66764465_66950461_None_None	ENST00000374690.3	X_None_None	None	75	GRCh37	AR	MUTATION	transcript_variant	[]												mutation_ns	unable to parse civic variant name
+601	9_139388896_139440314_None_None	ENST00000277541.6	9_None_None	None	75	GRCh37	NOTCH1	LOSS-OF-FUNCTION	loss_of_function_variant	[]												loss-of-function	unable to parse civic variant name
+602	7_92234235_92463231_None_None	ENST00000265734.4	7_None_None	None	75	GRCh37	CDK6	OVEREXPRESSION	N/A	[]												overexpression	unable to parse civic variant name
+603	13_28577411_28674729_None_None	ENST00000241453.7	13_None_None	None	75	GRCh37	FLT3	OVEREXPRESSION	N/A	[]												overexpression	unable to parse civic variant name
+606	13_48877911_49056122_None_None	ENST00000267163.4	13_None_None	None	75	GRCh37	RB1	LOSS-OF-FUNCTION	loss_of_function_variant	[]												loss-of-function	unable to parse civic variant name
+607	6_152128686_152424406_None_None	ENST00000206249.3	6_None_None	None	75	GRCh37	ESR1	OVEREXPRESSION	N/A	[]												overexpression	unable to parse civic variant name
+608	2_29443631_29445258_None_	ENST00000389048.3	2_None_None		75	GRCh37	ALK	EML4-ALK C1156Y‚ÄìL1196M	transcript_fusion;missense_variant	[]												undetermined_var_types	unable to parse civic variant name
+617	11_7535001_7586998_None_None	ENST00000299492.4	11_140434279_140481493	ENST00000288602.6	75	GRCh37	BRAF	PPFIBP2-BRAF	transcript_fusion	[]												undetermined_var_types	unable to parse civic variant name
+618	7_138545885_138666064_None_None	ENST00000440172.1	7_140434279_140487384	ENST00000288602.6	75	GRCh37	BRAF	KIAA1549-BRAF	transcript_fusion	[]												undetermined_var_types	unable to parse civic variant name
+619	1_186640923_186649559_None_	ENST00000367468.5	1_None_None		75	GRCh37	PTGS2	OVEREXPRESSION	N/A	[]												overexpression	unable to parse civic variant name
+621	7_116312459_116436396_None_None	ENST00000318493.6	7_None_None	None	75	GRCh37	MET	OVEREXPRESSION	N/A	[]												overexpression	unable to parse civic variant name
+623	7_124462440_124570035_None_None	ENST00000357628.3	7_None_None	None	75	GRCh37	POT1	MUTATION	loss_of_function_variant;protein_altering_variant	[]												mutation_ns	unable to parse civic variant name
+624	10_129894923_129924649_None_None	ENST00000368654.3	10_None_None	None	75	GRCh37	MKI67	EXPRESSION	N/A	[]												expression	unable to parse civic variant name
+625	9_110045560_110094475_None_None	ENST00000358015.3	9_None_None	None	75	GRCh37	RAD23B	EXPRESSION	N/A	[]												expression	unable to parse civic variant name
+626	None_None_None_None_None	None	None_None_None	None	None	None	RET	CCDC6-RET	transcript_fusion	[]												undetermined_var_types	unable to parse civic variant name
+629	10_123239371_123357917_None_None	ENST00000457416.2	10_None_None	None	75	GRCh37	FGFR2	AMPLIFICATION	transcript_amplification	[]												amplification	unable to parse civic variant name
+630	11_69624992_69633792_None_None	ENST00000334134.2	11_None_None	None	75	GRCh37	FGF3	AMPLIFICATION	transcript_amplification	[]												amplification	unable to parse civic variant name
+632	13_48877911_49056122_None_None	ENST00000267163.4	13_None_None	None	75	GRCh37	RB1	PHOSPHORYLATION	N/A	[]												phosphorylation	unable to parse civic variant name
+633	5_67511548_67597649_None_None	ENST00000521381.1	5_None_None	None	75	GRCh37	PIK3R1	MUTATION	missense_variant;gain_of_function_variant	[]												mutation_ns	unable to parse civic variant name
+635	19_40736224_40791302_None_None	ENST00000392038.2	19_None_None	None	75	GRCh37	AKT2	AMPLIFICATION	transcript_amplification	[]												amplification	unable to parse civic variant name
+637	4_153242410_153457253_None_None	ENST00000281708.4	4_None_None	None	75	GRCh37	FBXW7	LOSS-OF-FUNCTION	loss_of_function_variant	[]												loss-of-function	unable to parse civic variant name
+639	1_59246465_59249785_None_None	ENST00000371222.2	1_None_None	None	75	GRCh37	JUN	OVEREXPRESSION	N/A	[]												overexpression	unable to parse civic variant name
+640	14_75745477_75748933_None_None	ENST00000303562.4	14_None_None	None	75	GRCh37	FOS	OVEREXPRESSION	N/A	[]												overexpression	unable to parse civic variant name
+642	12_69234988_69234988_None_	ENST00000462284.1	12_None_None	None	75	GRCh37	MDM2	RS34886328	3_prime_UTR_truncation	[]												undetermined_var_types	unable to parse civic variant name
+644	6_106534195_106557813_None_None	ENST00000369096.4	6_None_None	None	75	GRCh37	PRDM1	MUTATION	transcript_variant;loss_of_function_variant	[]												mutation_ns	unable to parse civic variant name
+645	2_209101803_209116275_None_None	ENST00000415913.1	2_None_None	None	75	GRCh37	IDH1	MUTATION	transcript_variant	[]												mutation_ns	unable to parse civic variant name
+646	18_48556583_48611409_None_None	ENST00000342988.3	18_None_None	None	75	GRCh37	SMAD4	DELETION	transcript_ablation	[]												large_deletion	unable to parse civic variant name
+647	2_140988992_142889270_None_None	ENST00000389484.3	2_None_None	None	75	GRCh37	LRP1B	DELETION	transcript_ablation	[]												large_deletion	unable to parse civic variant name
+648	X_76760356_77041702_None_None	ENST00000373344.5	X_None_None	None	75	GRCh37	ATRX	UNDEREXPRESSION	N/A	[]												underexpression	unable to parse civic variant name
+651	19_41725108_41767671_None_None	ENST00000301178.4	19_None_None	None	75	GRCh37	AXL	EXPRESSION	N/A	[]												expression	unable to parse civic variant name
+652	13_114523524_114567046_None_None	ENST00000357389.3	13_None_None	None	75	GRCh37	GAS6	EXPRESSION	N/A	[]												expression	unable to parse civic variant name
+653	17_41605212_41623800_None_None	ENST00000319349.5	17_None_None	None	75	GRCh37	ETV4	OVEREXPRESSION	N/A	[]												overexpression	unable to parse civic variant name
+654	7_99775186_99812003_None_None	ENST00000426455.1	7_None_None	None	75	GRCh37	STAG3	UNDEREXPRESSION	N/A	[]												underexpression	unable to parse civic variant name
+656	7_140434279_140487384_None_None	ENST00000288602.6	7_148395737_148457588	ENST00000602748.1	75	GRCh37	BRAF	BRAF-CUL1	transcript_fusion	[]												undetermined_var_types	unable to parse civic variant name
+657	7_99613222_99627575_None_None	ENST00000426572.1	7_140434279_140482957	ENST00000288602.6	75	GRCh37	BRAF	ZKSCAN1-BRAF	transcript_fusion	[]												undetermined_var_types	unable to parse civic variant name
+659	22_29999547_30094587_None_None	ENST00000338641.4	22_None_None	None	75	GRCh37	NF2	MUTATION	transcript_variant	[]												mutation_ns	unable to parse civic variant name
+660	14_62164340_62214489_None_None	ENST00000539097.1	14_None_None	None	75	GRCh37	HIF1A	EXPRESSION	N/A	[]												expression	unable to parse civic variant name
+662	3_37034823_37092409_None_None	ENST00000231790.2	3_None_None	None	75	GRCh37	MLH1	EXPRESSION	N/A	[]												expression	unable to parse civic variant name
+663	X_39910501_40036582_None_None	ENST00000342274.4	X_None_None	None	75	GRCh37	BCOR	MUTATION	transcript_variant	[]												mutation_ns	unable to parse civic variant name
+664	16_68771128_68869451_None_None	ENST00000261769.5	16_None_None	None	75	GRCh37	CDH1	MUTATION	transcription_variant	[]												mutation_ns	unable to parse civic variant name
+665	3_49412898_49405977_None_None	ENST00000418115.1	3_None_None	None	75	GRCh37	RHOA	MUTATION	gain_of_function_variant;transcription_variant	[]												mutation_ns	unable to parse civic variant name
+666	17_37868196_37881332_None_None	ENST00000269571.5	17_None_None	None	75	GRCh37	ERBB2	MUTATION	missense_variant	[]												mutation_ns	unable to parse civic variant name
+668	7_151832010_152133090_None_None	ENST00000262189.6	7_None_None	None	75	GRCh37	KMT2C	MUTATION	loss_of_function_variant;transcription_variant	[]												mutation_ns	unable to parse civic variant name
+669	X_123176418_123217308_None_None	ENST00000218089.9	X_None_None	None	75	GRCh37	STAG2	MUTATION	protein_altering_variant	[]												mutation_ns	unable to parse civic variant name
+670	1_40361098_40367685_None_None	ENST00000397332.2	1_None_None	None	75	GRCh37	MYCL	EXPRESSION	N/A	[]												expression	unable to parse civic variant name
+671	7_81328322_81399514_None_None	ENST00000222390.5	7_None_None	None	75	GRCh37	HGF	EXPRESSION	N/A	[]												expression	unable to parse civic variant name
+672	22_38368307_38380544_None_None	ENST00000396884.2	22_None_None	None	75	GRCh37	SOX10	LOSS	loss_of_function_variant	[]												loss	unable to parse civic variant name
+673	4_123747863_123819391_None_	ENST00000264498.3	4_None_None		75	GRCh37	FGF2	EXPRESSION	N/A	[]												expression	unable to parse civic variant name
+674	X_20156713_20159754_None_None	ENST00000379607.5	X_None_None	None	75	GRCh37	EIF1AX	MUTATION	transcript_variant	[]												mutation_ns	unable to parse civic variant name
+683	2_113973574_114036527_None_None	ENST00000429538.3	2_None_None	None	75	GRCh37	PAX8	EXPRESSION	N/A	[]												expression	unable to parse civic variant name
+693	6_134490384_134639196_None_None	ENST00000367858.5	6_None_None	None	75	GRCh37	SGK1	OVEREXPRESSION	N/A	[]												overexpression	unable to parse civic variant name
+695	22_24129150_24176703_None_None	ENST00000344921.6	22_None_None	None	75	GRCh37	SMARCB1	UNDEREXPRESSION	N/A	[]												underexpression	unable to parse civic variant name
+696	22_24129150_24176703_None_None	ENST00000344921.6	22_None_None	None	75	GRCh37	SMARCB1	DELETION	transcript_ablation	[]												large_deletion	unable to parse civic variant name
+697	22_29999547_30094587_None_None	ENST00000338641.4	22_None_None	None	75	GRCh37	NF2	LOSS	loss_of_function_variant	[]												loss	unable to parse civic variant name
+698	17_29421945_29704695_None_None	ENST00000358273.4	17_None_None	None	75	GRCh37	NF1	LOSS	loss_of_function_variant	[]												loss	unable to parse civic variant name
+700	15_69706688_69740756_None_None	ENST00000260363.4	15_None_None	None	75	GRCh37	KIF23	EXPRESSION	N/A	[]												expression	unable to parse civic variant name
+705	1_68152388_68152388_T_C	ENST00000370986.4	1_None_None	None	75	GRCh37	GADD45A	rs681673	coding_transcript_intron_variant	[]												undetermined_var_types	unable to parse civic variant name
+706	22_29664307_29688158_None_None	ENST00000414183.2	22_128638013_128683162	ENST00000527786.2	75	GRCh37	EWSR1	EWSR1-FLI1	transcript_fusion	[]												undetermined_var_types	unable to parse civic variant name
+707	21_42879877_42879992_None_None	ENST00000398585.3	21_39751949_39817544	ENST00000398910.1	75	GRCh37	TMPRSS2	TMPRSS2-ERG	transcript_fusion	[]												undetermined_var_types	unable to parse civic variant name
+708	None_None_None_None_None	None	None_None_None	None	None	None	BRCA2	TRUNCATING MUTATION	feature_truncation	[]												truncation	unable to parse civic variant name
+709	None_None_None_None_None	None	None_None_None	None	None	None	BRCA1	Alu insertion		[]												undetermined_var_types	unable to parse civic variant name
+711	None_None_None_None_None	None	None_None_None	None	None	None	KLLN	PROMOTER METHYLATION	gene_silenced_by_DNA_methylation	[]												undetermined_var_types	unable to parse civic variant name
+713	3_3191695_3221394_None_None	ENST00000231948.4	3_None_None	None	75	GRCh37	CRBN	MUTATION		[]												mutation_ns	unable to parse civic variant name
+715	19_1205740_1223074_None_None	ENST00000326873.7	19_None_None	None	75	GRCh37	STK11	MUTATION	gene_variant	[]												mutation_ns	unable to parse civic variant name
+716	4_55095264_55164414_None_None	ENST00000257290.5	4_None_None	None	75	GRCh37	PDGFRA	AMPLIFICATION	transcript_amplification	[]												amplification	unable to parse civic variant name
+717	22_29664307_29687588_None_None	ENST00000414183.2	22_57910376_57911536	ENST00000346473.3	75	GRCh37	DDIT3	EWSR1-DDIT3	transcript_fusion	[]												undetermined_var_types	unable to parse civic variant name
+718	7_55241707_55241708_None_None	ENST00000275493.2	7_None_None	None	75	GRCh37	EGFR	G719	protein_altering_variant	[]												undetermined_var_types	unable to parse civic variant name
+719	None_None_None_None_None	None	None_None_None	None	None	None	BRD4	BRD4-NUTM1		[]												undetermined_var_types	unable to parse civic variant name
+720	7_55241710_55241711_None_None	ENST00000275493.2	7_None_None	None	75	GRCh37	EGFR	S720	protein_altering_variant	[]												undetermined_var_types	unable to parse civic variant name
+721	22_42522501_42526908_None_None	ENST00000360608.5	22_None_None	None	75	GRCh37	CYP2D6	LOSS-OF-FUNCTION	loss_of_function_variant	[]												loss-of-function	unable to parse civic variant name
+722	None_None_None_None_None	None	None_None_None	None	None	None	DDIT3	FUS-DDIT3	transcript_fusion	[]												undetermined_var_types	unable to parse civic variant name
+726	7_55248991_55249022_None_None	ENST00000275493.2	7_None_None	None	75	GRCh37	EGFR	EXON 20 INSERTION	inframe_insertion	[]												undetermined_var_types	unable to parse civic variant name
+729	2_234668881_234668882_None_TATATATATATATA	ENST00000305208.5	2_None_None	None	75	GRCh37	UGT1A1	UGT1A1*28	microsatellite	['NC_000002.11:g.234668881_234668882TA[7]']												undetermined_var_types	unable to parse hgvs variantNC_000002.11:g.234668881_234668882TA[7];unable to parse civic variant name
+732	None_None_None_None_None	None	None_None_None	None	None	None	UGT1A1	UGT1A1*60	microsatellite	[]												undetermined_var_types	unable to parse civic variant name
+739	14_75745477_75748127_None_None	ENST00000303562.4	14_None_None	None	75	GRCh37	FOS	TRUNCATING FUSION	stop_gained;transcript_fusion	[]												undetermined_var_types	unable to parse civic variant name
+740	None_None_None_None_None	None	None_None_None	None	None	None	DPYD	RS67376798 HOMOZYGOSITY	polymorphic_sequence_variant	[]												undetermined_var_types	unable to parse civic variant name
+742	3_149235022_149290787_None_None	ENST00000465804.1	3_7721786_7829766	ENST00000303635.7	75	GRCh37	WWTR1	WWTR1-CAMTA1	transcript_fusion	[]												undetermined_var_types	unable to parse civic variant name
+774	10_93558069_93619405_None_None	ENST00000371627.4	10_55141008_55164414	ENST00000257290.5	75	GRCh37	PDGFRA	TNKS2-PDGFRA	transcript_fusion	[]												undetermined_var_types	unable to parse civic variant name
+779	18_657646_657646_C_T	ENST00000323274.10	18_None_None	None	75	None	TYMS	RS34743033		[]												undetermined_var_types	unable to parse civic variant name
+780	None_None_None_None_None	None	None_None_None	None	None	None	GLI1	ACTB-GLI1	gene_fusion	[]												undetermined_var_types	unable to parse civic variant name
+782	10_123239371_123357917_None_None	ENST00000457416.2	10_60461834_60591195	ENST00000373886.3	75	GRCh37	FGFR2	FGFR2-BICC1	transcript_fusion	[]												undetermined_var_types	unable to parse civic variant name
+783	10_123239371_123357917_None_None	ENST00000457416.2	10_110554984_110566357	ENST00000369799.5	75	GRCh37	FGFR2	FGFR2-AHCYL1	transcript_fusion	[]												undetermined_var_types	unable to parse civic variant name
+784	9_22009121_22009172_None_None	ENST00000276925.6	9_None_None	None	75	GRCh37	CDKN2B	METHYLATION	N/A	[]												methylation	unable to parse civic variant name
+788	None_None_None_None_None	None	None_None_None	None	None	None	CHEK2	IVS2+1G>A		[]												undetermined_var_types	unable to parse civic variant name
+795	11_4116039_4160106_None_None	ENST00000300738.5	11_None_None	None	75	GRCh37	RRM1	OVEREXPRESSION	N/A	[]												overexpression	unable to parse civic variant name
+796	2_10262455_10271545_None_None	ENST00000360566.2	2_None_None	None	75	GRCh37	RRM2	OVEREXPRESSION	N/A	[]												overexpression	unable to parse civic variant name
+797	12_133202900_133256623_None_None	ENST00000320574.5	12_None_None	None	75	GRCh37	POLE	MUTATION	gene_variant	[]												mutation_ns	unable to parse civic variant name
+799	13_48877911_49056122_None_None	ENST00000267163.4	13_None_None	None	75	GRCh37	RB1	MUTATION	gene_variant	[]												mutation_ns	unable to parse civic variant name
+800	None_None_None_None_None	None	None_None_None	None	None	None	NTRK1	SQSTM1-NTRK1	transcript_fusion	[]												undetermined_var_types	unable to parse civic variant name
+801	12_11802788_12022903_None_None	ENST00000396373.4	12_88483984_88418230	ENST00000394480.2	75	GRCh37	NTRK3	ETV6-NTRK3	transcript_fusion	[]												undetermined_var_types	unable to parse civic variant name
+808	2_47630108_47710367_None_None	ENST00000233146.2	2_None_None	None	75	GRCh37	MSH2	LOSS	loss_of_function_variant	[]												loss	unable to parse civic variant name
+809	2_48010221_48037240_None_None	ENST00000234420.5	2_None_None	None	75	GRCh37	MSH6	LOSS	loss_of_function_variant	[]												loss	unable to parse civic variant name
+819	12_70910630_71031220_None_None	ENST00000334414.6	12_None_None	None	75	GRCh37	PTPRB	LOSS-OF-FUNCTION	loss_of_function_variant	[]												loss-of-function	unable to parse civic variant name
+821	None_None_None_None_None	None	None_None_None	None	None	None	HLA-C	COPY-NEUTRAL LOSS OF HETEROZYGOSITY		[]												undetermined_var_types	unable to parse civic variant name
+823	2_47612305_47614173_None_None	ENST00000263735	2_None_None	None	75	GRCh37	EPCAM	3' EXON DELETION	disruptive_inframe_deletion	[]												undetermined_var_types	unable to parse civic variant name
+827	None_None_None_None_None	None	None_None_None	None	None	None	FGFR3	MUTATION		[]												mutation_ns	unable to parse civic variant name
+828	None_None_None_None_None	None	None_None_None	None	None	None	FGFR2	FUSION		[]												undetermined_var_types	unable to parse civic variant name
+830	None_None_None_None_None	None	None_None_None	None	None	None	FGFR3	FGFR3-TACC3		[]												undetermined_var_types	unable to parse civic variant name
+839	None_None_None_None_None	None	None_None_None	None	None	None	ALK	ALTERNATIVE TRANSCRIPT (ATI)		[]												undetermined_var_types	unable to parse civic variant name
+842	None_None_None_None_None	None	None_None_None	None	None	None	BRAF	APC		[]												undetermined_var_types	unable to parse civic variant name
+843	3_10183532_10191649_None_None	ENST00000256474.2	3_None_None	None	75	GRCh37	VHL	EXON 1-3 DELETION	exon_loss_variant	['ENST00000256474.2:c.1-?_642+?del']												undetermined_var_types	unable to parse hgvs variantENST00000256474.2:c.1-?_642+?del;unable to parse civic variant name
+844	3_10183532_10183871_None_None	ENST00000256474.2	3_None_None	None	75	GRCh37	VHL	EXON 1 DELETION	exon_loss_variant	['ENST00000256474.2:c.1-?_340+?del']												undetermined_var_types	unable to parse hgvs variantENST00000256474.2:c.1-?_340+?del;unable to parse civic variant name
+845	3_10183532_10188320_None_None	ENST00000256474.2	3_None_None	None	75	GRCh37	VHL	EXON 1-2 DELETION	exon_loss_variant	['ENST00000256474.2:c.1-?_463+?del']												undetermined_var_types	unable to parse hgvs variantENST00000256474.2:c.1-?_463+?del;unable to parse civic variant name
+853	8_90945564_90996944_None_None	ENST00000265433.3	8_None_None	None	75	GRCh37	NBN	LOSS	loss_of_function_variant	[]												loss	unable to parse civic variant name
+855	None_None_None_None_None	None	None_None_None	None	None	None	KIT	EXON 8 MUTATION		[]												undetermined_var_types	unable to parse civic variant name
+856	None_None_None_None_None	None	None_None_None	None	None	None	CREBBP	DELETION		[]												large_deletion	unable to parse civic variant name
+857	15_88418230_88799978_None_None	ENST00000394480.2	15_None_None	None	75	GRCh37	NTRK3	EXPRESSION	N/A	[]												expression	unable to parse civic variant name
+858	1_110453255_110473614_None_None	ENST00000329608.6	1_None_None	None	75	GRCh37	CSF1	OVEREXPRESSION	N/A	[]												overexpression	unable to parse civic variant name
+859	6_117609463_117747018_None_None	ENST00000368508.3	6_None_None	None	75	GRCh37	ROS1	OVEREXPRESSION	N/A	[]												overexpression	unable to parse civic variant name
+860	1_156830686_156851434_None_None	ENST00000524377.1	1_None_None	None	75	GRCh37	NTRK1	EXPRESSION	N/A	[]												expression	unable to parse civic variant name
+866	3_69788586_70017487_None_None	ENST00000352241.4	3_None_None	None	75	GRCh37	MITF	OVEREXPRESSION	N/A	[]												overexpression	unable to parse civic variant name
+867	None_None_None_None_None	None	None_None_None	None	None	None	MTAP	DELETION		[]												large_deletion	unable to parse civic variant name
+868	8_17104080_17155533_None_None	ENST00000324849.4	8_None_None	None	75	GRCh37	VPS37A	UNDEREXPRESSION	N/A	[]												underexpression	unable to parse civic variant name
+869	11_101981192_102104154_None_None	ENST00000282441.5	11_None_None	None	75	GRCh37	YAP1	OVEREXPRESSION	N/A	[]												overexpression	unable to parse civic variant name
+875	None_None_None_None_None	None	None_None_None	None	None	None	ERBB2	OVEREXPRESSION	N/A	[]												overexpression	unable to parse civic variant name
+876	None_None_None_None_None	None	None_None_None	None	None	None	GNAS	MUTATION		[]												mutation_ns	unable to parse civic variant name
+891	None_None_None_None_None	None	None_None_None	None	None	GRCh37	EGFR	S752_I759delSPKANKEI	inframe_deletion	[]												undetermined_var_types	unable to parse civic variant name
+925	None_None_None_None_None	None	None_None_None	None	None	GRCh37	STK11	LKB1		[]												undetermined_var_types	unable to parse civic variant name
+957	4_55593597_55593653_None_None	None	4_None_None	None	None	GRCh37	KIT	V555-P573DELVQWKVVEEINGNNYVYIDP	inframe_deletion	[]												undetermined_var_types	unable to parse civic variant name
+961	4_55593603_55593608_TGGAAG_None	None	4_None_None	None	None	GRCh37	KIT	W557_K558DELWK		[]												undetermined_var_types	unable to parse civic variant name
+1002	7_55242465_55242479_None_None	None	7_None_None	None	None	GRCh37	EGFR	E746_A750delELREA	inframe_deletion	[]												undetermined_var_types	unable to parse civic variant name
+1003	None_None_None_None_None	None	None_None_None	None	None	GRCh37	EGFR	E746_T751>I		[]												undetermined_var_types	unable to parse civic variant name
+1006	7_55242468_55242478_None_GC	None	7_None_None	None	None	GRCh37	EGFR	L747_A750>P		[]												undetermined_var_types	unable to parse civic variant name
+1007	7_55242468_55242482_None_None	None	7_None_None	None	None	GRCh37	EGFR	L747_T751delLREAT		[]												undetermined_var_types	unable to parse civic variant name
+1008	7_55242468_55242482_None_GCA	None	7_None_None	None	None	GRCh37	EGFR	L747_T751>Q		[]												undetermined_var_types	unable to parse civic variant name
+1009	7_55242468_55242485_None_None	None	7_None_None	None	None	GRCh37	EGFR	E746_S752>D	inframe_deletion	[]												undetermined_var_types	unable to parse civic variant name
+1010	7_55242469_55242481_None_C	None	7_None_None	None	None	GRCh37	EGFR	L747_T751>P		[]												undetermined_var_types	unable to parse civic variant name
+1011	7_55242469_55242488_None_CA	None	7_None_None	None	None	GRCh37	EGFR	L747_P753>Q		[]												undetermined_var_types	unable to parse civic variant name
+1255	10_131265448_131566271_None_None	ENST00000306010.7	10_None_None	None	75	GRCh37	MGMT	UNDEREXPRESSION	N/A	[]												underexpression	unable to parse civic variant name
+1256	5_1253282_1295162_None_None	ENST00000310581.5	5_None_None	None	75	GRCh37	TERT	OVEREXPRESSION	N/A	[]												overexpression	unable to parse civic variant name
+1257	11_4116039_4160106_None_None	ENST00000300738.5	11_None_None	None	75	GRCh37	RRM1	UNDEREXPRESSION	N/A	[]												underexpression	unable to parse civic variant name
+1258	1_43996547_44089337_None_None	ENST00000359947.4	1_None_None	None	75	GRCh37	PTPRF	EXPRESSION	N/A	[]												expression	unable to parse civic variant name
+1259	None_None_None_None_None	None	None_None_None	None	None	None	AEBP1	OVEREXPRESSION		[]												overexpression	unable to parse civic variant name
+1261	None_None_None_None_None	None	None_None_None	None	None	None	MDM2	AMPLIFICATION		[]												amplification	unable to parse civic variant name
+1262	None_None_None_None_None	None	None_None_None	None	None	None	MDM4	EXPRESSION		[]												expression	unable to parse civic variant name
+1268	None_None_None_None_None	None	None_None_None	None	None	None	MDM4	AMPLIFICATION		[]												amplification	unable to parse civic variant name
+1269	7_140434279_140624564_None_None	ENST00000288602.6	7_None_None	None	75	GRCh37	BRAF	AMPLIFICATION	transcript_amplification	[]												amplification	unable to parse civic variant name
+1273	None_None_None_None_None	None	None_None_None	None	None	None	CTAG1B	OVEREXPRESSION		[]												overexpression	unable to parse civic variant name
+1274	None_None_None_None_None	None	None_None_None	None	None	None	CTAG2	OVEREXPRESSION		[]												overexpression	unable to parse civic variant name
+1276	None_None_None_None_None	None	None_None_None	None	None	None	SMO	AMPLIFICATION		[]												amplification	unable to parse civic variant name
+1277	None_None_None_None_None	None	None_None_None	None	None	None	NTRK3	NTRK3 FUSIONS	transcript_fusion	[]												undetermined_var_types	unable to parse civic variant name
+1278	1_156084498_156108548_None_None	ENST00000368300.4	1_156844363_156851434	ENST00000524377.1	75	GRCh37	NTRK1	LMNA-NTRK1	transcript_fusion	[]												undetermined_var_types	unable to parse civic variant name
+1279	19_15347647_15391262_None_None	ENST00000263377.2	19_None_None	None	75	GRCh37	BRD4	OVEREXPRESSION	N/A	[]												overexpression	unable to parse civic variant name
+1280	1_156830686_156851434_None_None	ENST00000524377.1	1_None_None	None	75	GRCh37	NTRK1	AMPLIFICATION	transcript_amplification	[]												amplification	unable to parse civic variant name
+1281	15_88418230_88799978_None_None	ENST00000394480.2	15_None_None	None	75	GRCh37	NTRK3	AMPLIFICATION	transcript_amplification	[]												amplification	unable to parse civic variant name
+1283	12_56360553_56366568_None_None	ENST00000266970.4	12_None_None	None	75	GRCh37	CDK2	CYTOPLASMIC EXPRESSION	N/A	[]												cytoplasmic-expression	unable to parse civic variant name
+1284	None_None_None_None_None	None	None_None_None	None	None	None	DCC	EXPRESSION		[]												expression	unable to parse civic variant name
+1293	None_None_None_None_None	None	None_None_None	None	None	None	ARID1A	LOSS-OF-FUNCTION		[]												loss-of-function	unable to parse civic variant name
+1296	3_41240930_41281936_None_None	ENST00000349496.5	3_None_None	None	75	GRCh37	CTNNB1	ACTIVATING MUTATION	transcript_variant;gain_of_function_variant	[]												undetermined_var_types	unable to parse civic variant name
+1298	7_140453140_140453141_None_TGT	ENST00000288602.6	7_None_None	None	75	None	BRAF	599INST		[]												undetermined_var_types	unable to parse civic variant name
+1299	2_112656056_112787138_None_None	ENST00000295408.4	2_None_None	None	75	GRCh37	MERTK	OVEREXPRESSION	N/A	[]												overexpression	unable to parse civic variant name
+1300	17_7577062_7579398_None_None	ENST00000269305.4	17_None_None	None	75	None	TP53	CONSERVED DOMAIN MUT		[]												undetermined_var_types	unable to parse civic variant name
+1301	None_None_None_None_None	None	None_None_None	None	None	None	AKT3	OVEREXPRESSION		[]												overexpression	unable to parse civic variant name
+1303	None_None_None_None_None	None	None_None_None	None	None	None	MYC	OVEREXPRESSION		[]												overexpression	unable to parse civic variant name
+1306	17_7571720_7590856_None_None	ENST00000269305.4	17_None_None	None	75	GRCh37	TP53	OVEREXPRESSION		[]												overexpression	unable to parse civic variant name
+1307	None_None_None_None_None	None	None_None_None	None	None	None	TP53	ALTERATION		[]												undetermined_var_types	unable to parse civic variant name
+1310	None_None_None_None_None	None	None_None_None	None	None	None	ERBB2	V773		[]												undetermined_var_types	unable to parse civic variant name
+1316	None_None_None_None_None	None	None_None_None	None	None	None	KIT	V559		[]												undetermined_var_types	unable to parse civic variant name
+1318	None_None_None_None_None	None	None_None_None	None	None	None	TP53	L3 Domain Mutation		[]												undetermined_var_types	unable to parse civic variant name
+1320	None_None_None_None_None	None	None_None_None	None	None	None	ERBB2	NON-AMPLIFICATION		[]												undetermined_var_types	unable to parse civic variant name
+1433	None_None_None_None_None	None	None_None_None	None	None	GRCh37	EGFR	E746_S752>A		[]												undetermined_var_types	unable to parse civic variant name
+1497	None_None_None_None_None	None	None_None_None	None	None	GRCh37	KIT	P551_E554DELPMYE		[]												undetermined_var_types	unable to parse civic variant name
+1518	None_None_None_None_None	None	None_None_None	None	None	GRCh37	PDGFRA	DIM842_844DEL	inframe_deletion	[]												undetermined_var_types	unable to parse civic variant name
+1539	4_55141029_55141034_TGGAGG_None	None	4_None_None	None	None	GRCh37	PDGFRA	W559_R560DELWR	inframe_deletion	[]												undetermined_var_types	unable to parse civic variant name
+1542	None_None_None_None_None	None	None_None_None	None	None	GRCh37	KIT	Y553_W557DELYEVQW		[]												undetermined_var_types	unable to parse civic variant name
+1544	None_None_None_None_None	None	None_None_None	None	None	GRCh37	FLT3	E611_F612INS25		[]												undetermined_var_types	unable to parse civic variant name
+1545	None_None_None_None_None	None	None_None_None	None	None	GRCh37	KIT	K550_W557DELKPMYEVQW		[]												undetermined_var_types	unable to parse civic variant name
+1546	None_None_None_None_None	None	None_None_None	None	None	GRCh37	KIT	T417_D419DELTYDINSI		[]												undetermined_var_types	unable to parse civic variant name
+1549	None_None_None_None_None	None	None_None_None	None	None	GRCh37	KIT	K558NP		[]												undetermined_var_types	unable to parse civic variant name
+1557	17_37880999_37881000_None_TGT	None	17_None_None	None	None	GRCh37	ERBB2	ERBB2 G776INSV_G/C	inframe_insertion	[]												undetermined_var_types	unable to parse civic variant name
+1577	None_None_None_None_None	None	None_None_None	None	None	GRCh37	EGFR	E709_T710>D		[]												undetermined_var_types	unable to parse civic variant name
+1579	7_55249000_55249001_None_GCCAGCGTG	ENST00000275493.2	7_None_None	None	None	GRCh37	EGFR	A767_V769dupASV	inframe_insertion	[]												undetermined_var_types	unable to parse civic variant name
+1581	None_None_None_None_None	None	None_None_None	None	None	GRCh37	EGFR	N771>GY		[]												undetermined_var_types	unable to parse civic variant name
+1635	None_None_None_None_None	None	None_None_None	None	None	GRCh37	EGFR	E746_A750>IP		[]												undetermined_var_types	unable to parse civic variant name
+1638	None_None_None_None_None	None	None_None_None	None	None	GRCh37	EGFR	K745_E749delKELRE		[]												undetermined_var_types	unable to parse civic variant name
+1663	7_140477838_140477852_None_None	None	7_None_None	None	None	GRCh37	BRAF	DELNVTAP	inframe_deletion	[]												undetermined_var_types	unable to parse civic variant name
+1681	9_5070054_5070054_T_G	None	9_None_None	None	None	GRCh37	JAK2	F547 SPLICE SITE MUTATION	splice_donor_variant	[]												undetermined_var_types	unable to parse civic variant name
+1684	None_None_None_None_None	None	None_None_None	None	None	None	PSMD4	AMPLIFICATION		[]												amplification	unable to parse civic variant name
+1685	None_None_None_None_None	None	None_None_None	None	None	None	CDK6	AMPLIFICATION		[]												amplification	unable to parse civic variant name
+1687	None_None_None_None_None	None	None_None_None	None	None	None	RET	FUSION		[]												undetermined_var_types	unable to parse civic variant name
+1690	None_None_None_None_None	None	None_None_None	None	None	None	RET	MUTATION		[]												mutation_ns	unable to parse civic variant name
+1691	None_None_None_None_None	None	None_None_None	None	None	None	FGFR3	FGFR3 Fusion		[]												undetermined_var_types	unable to parse civic variant name
+1693	None_None_None_None_None	None	None_None_None	None	None	None	CHEK1	OVEREXPRESSION		[]												overexpression	unable to parse civic variant name
+1765	None_None_None_None_None	None	None_None_None	None	None	None	EGFR	Gain-of-function		[]												undetermined_var_types	unable to parse civic variant name
+1863	_None_None__		_None_None		None	None	EGFR	RARE EX 18-21 MUT	exon_variant	[]												undetermined_var_types	unable to parse civic variant name
+1866	_None_None__		_None_None		None	None	EGFR	L861		[]												undetermined_var_types	unable to parse civic variant name
+1876	None_None_None_None_None	None	None_None_None	None	None	None	CIC	LOSS		[]												loss	unable to parse civic variant name
+1877	None_None_None_None_None	None	None_None_None	None	None	None	ETV1	OVEREXPRESSION		[]												overexpression	unable to parse civic variant name
+1878	None_None_None_None_None	None	None_None_None	None	None	None	ETV5	OVEREXPRESSION		[]												overexpression	unable to parse civic variant name
+1879	None_None_None_None_None	None	None_None_None	None	None	None	ATXN1L	LOSS		[]												loss	unable to parse civic variant name
+1880	None_None_None_None_None	None	None_None_None	None	None	None	ATM	LOSS		[]												loss	unable to parse civic variant name
+1938	None_None_None_None_None	None	None_None_None	None	None	None	VHL	EXON 2 DELETION		[]												undetermined_var_types	unable to parse civic variant name
+1939	None_None_None_None_None	None	None_None_None	None	None	None	VHL	EXON 3 DELETION		[]												undetermined_var_types	unable to parse civic variant name
+1940	None_None_None_None_None	None	None_None_None	None	None	None	VHL	EXON 2-3 DELETION		[]												undetermined_var_types	unable to parse civic variant name
+1947	None_None_None_None_None	None	None_None_None	None	None	None	VHL	Null (Partial deletion of 4.6 Kb)		[]												undetermined_var_types	unable to parse civic variant name
+1951	None_None_None_None_None	None	None_None_None	None	None	None	VHL	Null (Partial deletion of Exon 2)		[]												undetermined_var_types	unable to parse civic variant name
+1952	None_None_None_None_None	None	None_None_None	None	None	None	VHL	Null (Partial deletion of Exon 3)		[]												undetermined_var_types	unable to parse civic variant name
+1959	None_None_None_None_None	None	None_None_None	None	None	None	VHL	Null (c.1-?_463+?del)		[]												undetermined_var_types	unable to parse civic variant name
+1971	None_None_None_None_None	None	None_None_None	None	None	None	VHL	Null (c.341-?_642+?del)		[]												undetermined_var_types	unable to parse civic variant name
+1973	None_None_None_None_None	None	None_None_None	None	None	None	VHL	Null (c.464-?_642+?del)		[]												undetermined_var_types	unable to parse civic variant name
+1978	None_None_None_None_None	None	None_None_None	None	None	None	VHL	Null (c.-678-?_340+?del)		[]												undetermined_var_types	unable to parse civic variant name
+1979	None_None_None_None_None	None	None_None_None	None	None	None	VHL	Null (c.-678-?_642+?del)		[]												undetermined_var_types	unable to parse civic variant name
+1982	None_None_None_None_None	None	None_None_None	None	None	None	SUFU	DELETION		[]												large_deletion	unable to parse civic variant name
+1983	None_None_None_None_None	None	None_None_None	None	None	None	PTCH1	DELETION		[]												large_deletion	unable to parse civic variant name
+1991	None_None_None_None_None	None	None_None_None	None	None	None	PIK3CA	EXON 9 + EXON 20 MUTATIONS		[]												undetermined_var_types	unable to parse civic variant name
+1993	3_10188322_10188322_C_T	None	3_None_None	None	None	GRCh37	VHL	Splicing alteration (c.463+2C>T)		[]												undetermined_var_types	unable to parse civic variant name
+1995	None_None_None_None_None	None	None_None_None	None	None	None	VHL	C77ins (c.230_insTCT)	inframe_insertion	[]												undetermined_var_types	unable to parse civic variant name
+2016	None_None_None_None_None	None	None_None_None	None	None	None	VHL	Null (Complete deletion)		[]												undetermined_var_types	unable to parse civic variant name
+2017	None_None_None_None_None	None	None_None_None	None	None	None	VHL	Splicing alteration (IVS1-1G>A)		[]												undetermined_var_types	unable to parse civic variant name
+2019	None_None_None_None_None	None	None_None_None	None	None	None	VHL	Splicing alteration (IVS2-1G>C)		[]												undetermined_var_types	unable to parse civic variant name
+2021	None_None_None_None_None	None	None_None_None	None	None	None	VHL	R108ins (c.324InsCGC)		[]												undetermined_var_types	unable to parse civic variant name
+2036	None_None_None_None_None	None	None_None_None	None	None	None	VHL	Null (Partial deletion of Exons 2 & 3)		[]												undetermined_var_types	unable to parse civic variant name
+2047	None_None_None_None_None	None	None_None_None	None	None	None	CTNNB1	EXON 3 DELETION		[]												undetermined_var_types	unable to parse civic variant name
+2049	None_None_None_None_None	None	None_None_None	None	None	None	VHL	Null (Deletion of Exon 2)		[]												undetermined_var_types	unable to parse civic variant name
+2061	_None_None__		_None_None		None	None	ACVR1	Gain-of-Function		[]												undetermined_var_types	unable to parse civic variant name
+2065	None_None_None_None_None	None	None_None_None	None	None	None	VHL	Splicing alteration (IVS2+3A>G)		[]												undetermined_var_types	unable to parse civic variant name
+2082	None_None_None_None_None	None	None_None_None	None	None	None	VHL	Null (Partial deletion of Exon 1)		[]												undetermined_var_types	unable to parse civic variant name
+2083	None_None_None_None_None	None	None_None_None	None	None	None	VHL	Null (Partial deletion of Exons 1 & 2)		[]												undetermined_var_types	unable to parse civic variant name
+2089	None_None_None_None_None	None	None_None_None	None	None	None	VHL	P81delRVV (c.243_251delGCGCGTCGT)		[]												undetermined_var_types	unable to parse civic variant name
+2096	None_None_None_None_None	None	None_None_None	None	None	None	VHL	F158ins (c.472insTTT)		[]												undetermined_var_types	unable to parse civic variant name
+2103	None_None_None_None_None	None	None_None_None	None	None	None	VHL	Null (Partial deletion)		[]												undetermined_var_types	unable to parse civic variant name
+2108	1_27022524_27108595_None_None	ENST00000324856.7	1_None_None	None	75	GRCh37	ARID1A	UNDEREXPRESSION	N/A	[]												underexpression	unable to parse civic variant name
+2109	None_None_None_None_None	None	None_None_None	None	None	None	EZH2	Y646 or Y641		[]												undetermined_var_types	unable to parse civic variant name
+2152	3_10191719_10191719_C_A	None	3_None_None	None	None	GRCh37	VHL	3'UTR alteration (c.642+70C>A)		[]												undetermined_var_types	unable to parse civic variant name
+2159	None_None_None_None_None	None	None_None_None	None	None	None	AR	V9, truncated variant, contiguous splicing of exons 1, 2, 3, and CE5		[]												undetermined_var_types	unable to parse civic variant name
+2163	2_204732509_204738683_None_None	ENST00000302823.3	2_None_None	None	75	GRCh37	CTLA4	EXPRESSION	N/A	[]												expression	unable to parse civic variant name
+2164	None_None_None_None_None	None	None_None_None	None	None	None	CX3CL1	UNDEREXPRESSION		[]												underexpression	unable to parse civic variant name
+2166	None_None_None_None_None	None	None_None_None	None	None	None	NRG1	SLC3A2-NRG1		[]												undetermined_var_types	unable to parse civic variant name
+2167	None_None_None_None_None	None	None_None_None	None	None	None	FGFR4	OVEREXPRESSION		[]												overexpression	unable to parse civic variant name
+2169	None_None_None_None_None	None	None_None_None	None	None	None	BTK	MUTATION		[]												mutation_ns	unable to parse civic variant name
+2170	None_None_None_None_None	None	None_None_None	None	None	None	PLCG2	MUTATION		[]												mutation_ns	unable to parse civic variant name
+2171	None_None_None_None_None	None	None_None_None	None	None	None	TSC2	LOSS-OF-FUNCTION		[]												loss-of-function	unable to parse civic variant name
+2172	None_None_None_None_None	None	None_None_None	None	None	None	MTOR	Gain-of-Function		[]												undetermined_var_types	unable to parse civic variant name
+2174	_None_None__		_None_None		None	None	EGFR	WILDTYPE		[]												undetermined_var_types	unable to parse civic variant name
+2178	None_None_None_None_None	None	None_None_None	None	None	None	NRG1	ATP1B1-NRG1 fusion		[]												undetermined_var_types	unable to parse civic variant name
+2179	None_None_None_None_None	None	None_None_None	None	None	None	NRG1	SDC4-NRG1		[]												undetermined_var_types	unable to parse civic variant name
+2180	None_None_None_None_None	None	None_None_None	None	None	None	TSPYL1	rs3828743		[]												undetermined_var_types	unable to parse civic variant name
+2181	None_None_None_None_None	None	None_None_None	None	None	None	VHL	R177ins (c.531insCTGAGAGTAAAGCCTGAA)		[]												undetermined_var_types	unable to parse civic variant name
+2182	None_None_None_None_None	None	None_None_None	None	None	None	VHL	Null (Large deletion)		[]												undetermined_var_types	unable to parse civic variant name
+2184	None_None_None_None_None	None	None_None_None	None	None	None	VHL	Partial deletion of 0.7 Kb		[]												undetermined_var_types	unable to parse civic variant name
+2185	None_None_None_None_None	None	None_None_None	None	None	None	VHL	Partial deletion of 1 Kb		[]												undetermined_var_types	unable to parse civic variant name
+2186	None_None_None_None_None	None	None_None_None	None	None	None	VHL	Partial deletion of 1.2 Kb		[]												undetermined_var_types	unable to parse civic variant name
+2187	None_None_None_None_None	None	None_None_None	None	None	None	VHL	Partial deletion of 1.5 Kb		[]												undetermined_var_types	unable to parse civic variant name
+2188	None_None_None_None_None	None	None_None_None	None	None	None	VHL	Partial deletion of 11 Kb		[]												undetermined_var_types	unable to parse civic variant name
+2189	None_None_None_None_None	None	None_None_None	None	None	None	VHL	Partial deletion of 12 Kb		[]												undetermined_var_types	unable to parse civic variant name
+2190	None_None_None_None_None	None	None_None_None	None	None	None	VHL	Partial deletion of 3.5 Kb		[]												undetermined_var_types	unable to parse civic variant name
+2191	None_None_None_None_None	None	None_None_None	None	None	None	VHL	Partial deletion of 3 Kb		[]												undetermined_var_types	unable to parse civic variant name
+2192	None_None_None_None_None	None	None_None_None	None	None	None	VHL	Partial deletion of 7.5 Kb		[]												undetermined_var_types	unable to parse civic variant name
+2193	None_None_None_None_None	None	None_None_None	None	None	None	VHL	Partial deletion of 7 Kb		[]												undetermined_var_types	unable to parse civic variant name
+2194	None_None_None_None_None	None	None_None_None	None	None	None	VHL	Partial deletion of 8.2 Kb		[]												undetermined_var_types	unable to parse civic variant name
+2202	None_None_None_None_None	None	None_None_None	None	None	None	FGFR2	FGFR2 fusions		[]												undetermined_var_types	unable to parse civic variant name
+2203	None_None_None_None_None	None	None_None_None	None	None	None	EGFR	EGFR-RAD51 fusion		[]												undetermined_var_types	unable to parse civic variant name
+2204	None_None_None_None_None	None	None_None_None	None	None	None	KDR	OVEREXPRESSION		[]												overexpression	unable to parse civic variant name
+2205	None_None_None_None_None	None	None_None_None	None	None	None	FLT4	AMPLIFICATION		[]												amplification	unable to parse civic variant name
+2206	None_None_None_None_None	None	None_None_None	None	None	None	FGFR2	FGFR2 mutations		[]												undetermined_var_types	unable to parse civic variant name
+2207	None_None_None_None_None	None	None_None_None	None	None	None	PDCD1LG2	EXPRESSION		[]												expression	unable to parse civic variant name
+2208	None_None_None_None_None	None	None_None_None	None	None	None	LAG3	EXPRESSION		[]												expression	unable to parse civic variant name
+2209	None_None_None_None_None	None	None_None_None	None	None	None	DLL3	EXPRESSION		[]												expression	unable to parse civic variant name
+2210	None_None_None_None_None	None	None_None_None	None	None	None	ASNS	KMT2E-ASNS fusion (promoter swap)		[]												undetermined_var_types	unable to parse civic variant name
+2211	None_None_None_None_None	None	None_None_None	None	None	None	BAP1	ALTERNATIVE TRANSCRIPT (ATI)		[]												undetermined_var_types	unable to parse civic variant name
+2212	None_None_None_None_None	None	None_None_None	None	None	None	BAP1	LOSS		[]												loss	unable to parse civic variant name
+2214	None_None_None_None_None	None	None_None_None	None	None	None	EGFR	delD770insGY		[]												undetermined_var_types	unable to parse civic variant name
+2215	None_None_None_None_None	None	None_None_None	None	None	None	EGFR	delL747_P753insS		[]												undetermined_var_types	unable to parse civic variant name
+2216	None_None_None_None_None	None	None_None_None	None	None	None	EGFR	delE746_A750		[]												undetermined_var_types	unable to parse civic variant name
+2218	None_None_None_None_None	None	None_None_None	None	None	None	ALK	STRN-ALK		[]												undetermined_var_types	unable to parse civic variant name
+2219	None_None_None_None_None	None	None_None_None	None	None	None	BARD1	LOSS-OF-FUNCTION		[]												loss-of-function	unable to parse civic variant name
+2220	None_None_None_None_None	None	None_None_None	None	None	None	ALK	ALK FUSION		[]												undetermined_var_types	unable to parse civic variant name
+2225	None_None_None_None_None	None	None_None_None	None	None	None	BRAF	intron 9 rearrangement		[]												undetermined_var_types	unable to parse civic variant name
+2226	None_None_None_None_None	None	None_None_None	None	None	None	BRAF	intron 10 rearrangement		[]												undetermined_var_types	unable to parse civic variant name
+2227	None_None_None_None_None	None	None_None_None	None	None	None	BRAF	MACF1-BRAF Fusion		[]												undetermined_var_types	unable to parse civic variant name
+2228	None_None_None_None_None	None	None_None_None	None	None	None	BRAF	WASFL-BRAF Fusion		[]												undetermined_var_types	unable to parse civic variant name
+2229	None_None_None_None_None	None	None_None_None	None	None	None	BRAF	CUX1-BRAF	transcript_fusion	[]												undetermined_var_types	unable to parse civic variant name
+2230	None_None_None_None_None	None	None_None_None	None	None	None	ASS1	LOSS		[]												loss	unable to parse civic variant name
+2231	None_None_None_None_None	None	None_None_None	None	None	None	FLCN	MUTATION		[]												mutation_ns	unable to parse civic variant name
+2232	None_None_None_None_None	None	None_None_None	None	None	None	FLCN	LOSS		[]												loss	unable to parse civic variant name
+2233	None_None_None_None_None	None	None_None_None	None	None	None	BCL2	MUTATION		[]												mutation_ns	unable to parse civic variant name
+2234	None_None_None_None_None	None	None_None_None	None	None	None	KMT2D	LOSS		[]												loss	unable to parse civic variant name
+2235	None_None_None_None_None	None	None_None_None	None	None	None	RASA1	LOSS-OF-FUNCTION		[]												loss-of-function	unable to parse civic variant name
+2236	None_None_None_None_None	None	None_None_None	None	None	None	ATM	LOSS-OF-FUNCTION		[]												loss-of-function	unable to parse civic variant name
+2237	None_None_None_None_None	None	None_None_None	None	None	None	KDM5C	MUTATION		[]												mutation_ns	unable to parse civic variant name
+2238	None_None_None_None_None	None	None_None_None	None	None	None	BARD1	ISOFORM EXPRESSION		[]												undetermined_var_types	unable to parse civic variant name
+2239	None_None_None_None_None	None	None_None_None	None	None	None	TPT1	OVEREXPRESSION		[]												overexpression	unable to parse civic variant name
+2240	None_None_None_None_None	None	None_None_None	None	None	None	TLK2	AMPLIFICATION		[]												amplification	unable to parse civic variant name
+2254	None_None_None_None_None	None	None_None_None	None	None	None	DBI	PROMOTER DEMETHYLATION		[]												undetermined_var_types	unable to parse civic variant name
+2257	None_None_None_None_None	None	None_None_None	None	None	None	EGFR	Exon 18 deletion		[]												undetermined_var_types	unable to parse civic variant name
+2270	None_None_None_None_None	None	None_None_None	None	None	None	VHL	P71_78del (c.213_232del)		[]												undetermined_var_types	unable to parse civic variant name
+2286	None_None_None_None_None	None	None_None_None	None	None	None	NRG1	NRG1 fusion		[]												undetermined_var_types	unable to parse civic variant name
+2287	None_None_None_None_None	None	None_None_None	None	None	None	NTRK2	NTRK2-STRN fusion		[]												undetermined_var_types	unable to parse civic variant name
+2288	None_None_None_None_None	None	None_None_None	None	None	None	NTRK1	TMP3-NTRK1		[]												undetermined_var_types	unable to parse civic variant name
+2289	None_None_None_None_None	None	None_None_None	None	None	None	NTRK1	PDE4DIP-NTRK1		[]												undetermined_var_types	unable to parse civic variant name
+2334	None_None_None_None_None	None	None_None_None	None	None	None	EGFR	RARE EGRF MUT		[]												undetermined_var_types	unable to parse civic variant name
+2336	None_None_None_None_None	None	None_None_None	None	None	None	PIK3CA	EXON 20 MUTATION		[]												undetermined_var_types	unable to parse civic variant name
+2337	None_None_None_None_None	None	None_None_None	None	None	None	PIK3CA	EXON 9 MUTATION		[]												undetermined_var_types	unable to parse civic variant name
+2349	None_None_None_None_None	None	None_None_None	None	None	None	IL7R	exon 6 mutations		[]												undetermined_var_types	unable to parse civic variant name
+2350	None_None_None_None_None	None	None_None_None	None	None	None	CRLF2	P2RY8-CRLF2 fusion		[]												undetermined_var_types	unable to parse civic variant name
+2360	None_None_None_None_None	None	None_None_None	None	None	None	AKT1	OVEREXPRESSION		[]												overexpression	unable to parse civic variant name
+2361	None_None_None_None_None	None	None_None_None	None	None	None	BRAF	V600E/K AMPLIFICATION		[]												undetermined_var_types	unable to parse civic variant name
+2362	None_None_None_None_None	None	None_None_None	None	None	None	PIK3CA	OVEREXPRESSION		[]												overexpression	unable to parse civic variant name
+2363	None_None_None_None_None	None	None_None_None	None	None	None	PIK3R2	OVEREXPRESSION		[]												overexpression	unable to parse civic variant name
+2366	None_None_None_None_None	None	None_None_None	None	None	None	PTEN	WILD TYPE		[]												undetermined_var_types	unable to parse civic variant name
+2367	None_None_None_None_None	None	None_None_None	None	None	None	VHL	3p26.3-25.3 11Mb del		[]												undetermined_var_types	unable to parse civic variant name
+2371	None_None_None_None_None	None	None_None_None	None	None	None	ABL1	TKD MUTATION		[]												undetermined_var_types	unable to parse civic variant name
+2373	None_None_None_None_None	None	None_None_None	None	None	None	VHL	c.128‚àí?_250+?		[]									?	None			
+2374	None_None_None_None_None	None	None_None_None	None	None	None	VHL	c.251‚àí?_429 +?		[]									?	None			
+2375	None_None_None_None_None	None	None_None_None	None	None	None	ABL1	P-Loop Mutation		[]												undetermined_var_types	unable to parse civic variant name
+2376	None_None_None_None_None	None	None_None_None	None	None	None	ABL1	Non-P-Loop Mutation		[]												undetermined_var_types	unable to parse civic variant name
+2378	None_None_None_None_None	None	None_None_None	None	None	None	BRCA1	COPY-NEUTRAL LOSS OF HETEROZYGOSITY		[]												undetermined_var_types	unable to parse civic variant name
+2379	None_None_None_None_None	None	None_None_None	None	None	None	BRCA2	COPY-NEUTRAL LOSS OF HETEROZYGOSITY		[]												undetermined_var_types	unable to parse civic variant name
+2382	None_None_None_None_None	None	None_None_None	None	None	None	VHL	Null (c.1-?_340+?del)		[]												undetermined_var_types	unable to parse civic variant name
+2384	None_None_None_None_None	None	None_None_None	None	None	None	PBLD	UNDEREXPRESSION		[]												underexpression	unable to parse civic variant name
+2385	None_None_None_None_None	None	None_None_None	None	None	None	EWSR1	EWSR1-NR4A3		[]												undetermined_var_types	unable to parse civic variant name
+2386	None_None_None_None_None	None	None_None_None	None	None	None	ERRFI1	UNDEREXPRESSION		[]												underexpression	unable to parse civic variant name
+2388	None_None_None_None_None	None	None_None_None	None	None	None	CALR	MUTATION		[]												mutation_ns	unable to parse civic variant name
+2389	None_None_None_None_None	None	None_None_None	None	None	None	MPL	MUTATION		[]												mutation_ns	unable to parse civic variant name
+2390	None_None_None_None_None	None	None_None_None	None	None	None	MAP2K1	56_61QKQKVG>R		[]												undetermined_var_types	unable to parse civic variant name
+2392	None_None_None_None_None	None	None_None_None	None	None	None	PTPN6	EXPRESSION		[]												expression	unable to parse civic variant name
+2393	None_None_None_None_None	None	None_None_None	None	None	None	NTRK1	NTRK1-TRIM63		[]												undetermined_var_types	unable to parse civic variant name
+2394	None_None_None_None_None	None	None_None_None	None	None	None	NTRK1	NTRK1-DDR2		[]												undetermined_var_types	unable to parse civic variant name
+2395	None_None_None_None_None	None	None_None_None	None	None	None	NTRK1	NTRK1-GON4L		[]												undetermined_var_types	unable to parse civic variant name
+2396	None_None_None_None_None	None	None_None_None	None	None	None	NTRK2	ETV6-NTRK2		[]												undetermined_var_types	unable to parse civic variant name
+2397	None_None_None_None_None	None	None_None_None	None	None	None	CRKL	AMPLIFICATION		[]												amplification	unable to parse civic variant name
+2408	_None_None__		_None_None		None	None	BRAF	Non-V600		[]												undetermined_var_types	unable to parse civic variant name
+2409	None_None_None_None_None	None	None_None_None	None	None	None	ERCC1	UNDEREXPRESSION		[]												underexpression	unable to parse civic variant name
+2410	None_None_None_None_None	None	None_None_None	None	None	None	ERCC1	OVEREXPRESSION		[]												overexpression	unable to parse civic variant name
+2411	None_None_None_None_None	None	None_None_None	None	None	None	SDHB	c. 589_600dup, p. Cys196 Cys200dup, exon 6, frame shift, loss-of-funtion		[]												undetermined_var_types	unable to parse civic variant name
+2412	None_None_None_None_None	None	None_None_None	None	None	None	FGFR2	UNDEREXPRESSION		[]												underexpression	unable to parse civic variant name
+2413	None_None_None_None_None	None	None_None_None	None	None	None	SMAD4	FRAMESHIFT MUTATION		[]												frameshift_ns	unable to parse civic variant name
+2414	None_None_None_None_None	None	None_None_None	None	None	None	MAP2K1	E102_I103delEI		[]												undetermined_var_types	unable to parse civic variant name
+2415	None_None_None_None_None	None	None_None_None	None	None	None	SMAD4	LOSS-OF-FUNCTION		[]												loss-of-function	unable to parse civic variant name
+2417	None_None_None_None_None	None	None_None_None	None	None	None	FGFR2	OVEREXPRESSION		[]												overexpression	unable to parse civic variant name
+2418	None_None_None_None_None	None	None_None_None	None	None	None	SPRY2	UNDEREXPRESSION		[]												underexpression	unable to parse civic variant name
+2419	None_None_None_None_None	None	None_None_None	None	None	None	NR2F2	OVEREXPRESSION		[]												overexpression	unable to parse civic variant name
+2422	None_None_None_None_None	None	None_None_None	None	None	None	NTRK3	ETV6-NTRK3 FUSION		[]												undetermined_var_types	unable to parse civic variant name
+2424	None_None_None_None_None	None	None_None_None	None	None	None	KMT2C	LOSS-OF-FUNCTION		[]												loss-of-function	unable to parse civic variant name
+2426	None_None_None_None_None	None	None_None_None	None	None	None	VHL	Splicing alteration (IVS1 1G>T)		[]												undetermined_var_types	unable to parse civic variant name
+2429	None_None_None_None_None	None	None_None_None	None	None	None	VHL	t(1;3)(q32;q13.3)		[]												undetermined_var_types	unable to parse civic variant name
+2431	None_None_None_None_None	None	None_None_None	None	None	None	VHL	c.‚àí213‚àí ?_463 ?del		[]												undetermined_var_types	unable to parse civic variant name
+2433	None_None_None_None_None	None	None_None_None	None	None	None	VHL	c.89c297 		[]												undetermined_var_types	unable to parse civic variant name
+2434	None_None_None_None_None	None	None_None_None	None	None	None	VHL	Splicing alteration (c.340 1G>A)		[]												undetermined_var_types	unable to parse civic variant name
+2435	None_None_None_None_None	None	None_None_None	None	None	None	VHL	c.341-59_341-14del		[]												undetermined_var_types	unable to parse civic variant name
+2436	None_None_None_None_None	None	None_None_None	None	None	None	VHL	Splicing alteration (c.463+2T>C)		[]												undetermined_var_types	unable to parse civic variant name
+2438	None_None_None_None_None	None	None_None_None	None	None	None	VHL	235 (CAG-TAG)		[]												undetermined_var_types	unable to parse civic variant name
+2439	None_None_None_None_None	None	None_None_None	None	None	None	VHL	REARRANGEMENT		[]												rearrangement	unable to parse civic variant name
+2441	None_None_None_None_None	None	None_None_None	None	None	None	VHL	Splicing alteration (c.340-1G>A)		[]												undetermined_var_types	unable to parse civic variant name
+2452	None_None_None_None_None	None	None_None_None	None	None	None	VHL	Splicing alteration (c.463 1G>T)		[]												undetermined_var_types	unable to parse civic variant name
+2454	None_None_None_None_None	None	None_None_None	None	None	None	VHL	Splicing alteration (c.554-1G>T)		[]												undetermined_var_types	unable to parse civic variant name
+2457	None_None_None_None_None	None	None_None_None	None	None	None	VHL	Splicing alteration (c.464-2G>A)		[]												undetermined_var_types	unable to parse civic variant name
+2461	None_None_None_None_None	None	None_None_None	None	None	None	VHL	Splicing alteration (c.463 3A>C)		[]												undetermined_var_types	unable to parse civic variant name
+2464	None_None_None_None_None	None	None_None_None	None	None	None	VHL	Splicing alteration (IVS2-1G>T)		[]												undetermined_var_types	unable to parse civic variant name
+2465	None_None_None_None_None	None	None_None_None	None	None	None	VHL	exon1 151nt del; Null (Partial deletion of Exon 1)		[]												undetermined_var_types	unable to parse civic variant name
+2472	None_None_None_None_None	None	None_None_None	None	None	None	VHL	EXON 1-2 DELETION; BRK1 DELETION		[]												undetermined_var_types	unable to parse civic variant name
+2485	None_None_None_None_None	None	None_None_None	None	None	None	VHL	Splicing alteration (c.IVS2-1G>T)		[]												undetermined_var_types	unable to parse civic variant name
+2492	None_None_None_None_None	None	None_None_None	None	None	None	VHL	Partial deletion of 4 Kb		[]												undetermined_var_types	unable to parse civic variant name
+2504	None_None_None_None_None	None	None_None_None	None	None	None	VHL	Splicing alteration (c.341-2A>G)		[]												undetermined_var_types	unable to parse civic variant name
+2507	None_None_None_None_None	None	None_None_None	None	None	None	VHL	c.516_517dupGTCAAGCCT; c.532_542delCTGGACATCGTinsATTA		[]												undetermined_var_types	unable to parse civic variant name
+2518	None_None_None_None_None	None	None_None_None	None	None	None	VHL	Splicing alteration (c.340 3_340 10delACGGGCCCinsCG)		[]												undetermined_var_types	unable to parse civic variant name
+2519	None_None_None_None_None	None	None_None_None	None	None	None	VHL	Splicing alteration (c.340 5G>C)		[]												undetermined_var_types	unable to parse civic variant name
+2530	None_None_None_None_None	None	None_None_None	None	None	None	VHL	Splicing alteration (c.642 70C>A)		[]												undetermined_var_types	unable to parse civic variant name
+2531	None_None_None_None_None	None	None_None_None	None	None	None	VHL	c.(?_Ôºç213)_(*3705_?)del (Exon1, 2, 3 deletion)		[]												undetermined_var_types	unable to parse civic variant name
+2534	None_None_None_None_None	None	None_None_None	None	None	None	VHL	Splicing alteration (IVSI 3insCGdelACGGGCCC)		[]												undetermined_var_types	unable to parse civic variant name
+2535	None_None_None_None_None	None	None_None_None	None	None	None	VHL	MS/TS		[]												undetermined_var_types	unable to parse civic variant name
+2536	None_None_None_None_None	None	None_None_None	None	None	None	VHL	L1016 (c.302T>G)		[]												undetermined_var_types	unable to parse civic variant name
+2544	None_None_None_None_None	None	None_None_None	None	None	None	VHL	Del/FS		[]												undetermined_var_types	unable to parse civic variant name
+2550	None_None_None_None_None	None	None_None_None	None	None	None	NRAS	AMPLIFICATION		[]												amplification	unable to parse civic variant name
+2564	None_None_None_None_None	None	None_None_None	None	None	None	MYC	AMPLIFICATION		[]												amplification	unable to parse civic variant name
+2565	None_None_None_None_None	None	None_None_None	None	None	None	PTPN12	LOSS-OF-FUNCTION		[]												loss-of-function	unable to parse civic variant name
+2566	None_None_None_None_None	None	None_None_None	None	None	None	ABL1	ABL1 fusions		[]												undetermined_var_types	unable to parse civic variant name
+2567	None_None_None_None_None	None	None_None_None	None	None	None	ETV6	MUTATION		[]												mutation_ns	unable to parse civic variant name
+2570	None_None_None_None_None	None	None_None_None	None	None	None	HRAS	Q61		[]												undetermined_var_types	unable to parse civic variant name
+2571	None_None_None_None_None	None	None_None_None	None	None	None	ABL2	ABL2 fusions		[]												undetermined_var_types	unable to parse civic variant name
+2572	None_None_None_None_None	None	None_None_None	None	None	None	JAK2	JAK2 fusions		[]												undetermined_var_types	unable to parse civic variant name
+2575	None_None_None_None_None	None	None_None_None	None	None	None	ABL1	ETV6-ABL1		[]												undetermined_var_types	unable to parse civic variant name
+2578	None_None_None_None_None	None	None_None_None	None	None	None	NOTCH3	OVEREXPRESSION		[]												overexpression	unable to parse civic variant name
+2579	None_None_None_None_None	None	None_None_None	None	None	None	IKZF1	IKZF1		[]												undetermined_var_types	unable to parse civic variant name
+2582	None_None_None_None_None	None	None_None_None	None	None	None	FOXO1	PAX3-FOXO1		[]												undetermined_var_types	unable to parse civic variant name
+2583	None_None_None_None_None	None	None_None_None	None	None	None	FOXO1	PAX7-FOXO1 fusion		[]												undetermined_var_types	unable to parse civic variant name
+2584	None_None_None_None_None	None	None_None_None	None	None	None	CDK9	OVEREXPRESSION		[]												overexpression	unable to parse civic variant name
+2585	None_None_None_None_None	None	None_None_None	None	None	None	VEGFA	OVEREXPRESSION		[]												overexpression	unable to parse civic variant name
+2586	None_None_None_None_None	None	None_None_None	None	None	None	PARP1	OVEREXPRESSION		[]												overexpression	unable to parse civic variant name
+2588	None_None_None_None_None	None	None_None_None	None	None	None	EPOR	OVEREXPRESSION		[]												overexpression	unable to parse civic variant name
+2589	None_None_None_None_None	None	None_None_None	None	None	None	DUX4	DUX4-IGH		[]												undetermined_var_types	unable to parse civic variant name
+2590	None_None_None_None_None	None	None_None_None	None	None	None	PIK3CA	WILD TYPE		[]												undetermined_var_types	unable to parse civic variant name
+2591	None_None_None_None_None	None	None_None_None	None	None	None	DICER1	E1813 mutations		[]												undetermined_var_types	unable to parse civic variant name
+2593	None_None_None_None_None	None	None_None_None	None	None	None	NUP98	NUP98-NSD1 fusion		[]												undetermined_var_types	unable to parse civic variant name
+2594	None_None_None_None_None	None	None_None_None	None	None	None	ASCL1	EXPRESSION		[]												expression	unable to parse civic variant name
+2595	None_None_None_None_None	None	None_None_None	None	None	None	HDAC2	EXPRESSION		[]												expression	unable to parse civic variant name
+2596	None_None_None_None_None	None	None_None_None	None	None	None	LZTR1	LOSS-OF-FUNCTION		[]												loss-of-function	unable to parse civic variant name
+2598	None_None_None_None_None	None	None_None_None	None	None	None	IRS2	AMPLIFICATION		[]												amplification	unable to parse civic variant name
+2619	None_None_None_None_None	None	None_None_None	None	None	None	FLT3	AMPLIFICATION		[]												amplification	unable to parse civic variant name
+2623	_None_None__		_None_None		None	None	PDGFRA	EXON 18 MUTATION		[]												undetermined_var_types	unable to parse civic variant name
+2629	None_None_None_None_None	None	None_None_None	None	None	None	NCOA2	HEY1-NCOA2 fusion		[]												undetermined_var_types	unable to parse civic variant name

@@ -1,0 +1,975 @@
+{
+    "allele_registry_id": "CA279586",
+    "assertions": [],
+    "civic_actionability_score": 33.5,
+    "clinvar_entries": [
+        "217851"
+    ],
+    "coordinates": {
+        "chromosome": "2",
+        "chromosome2": null,
+        "ensembl_version": 75,
+        "reference_bases": "G",
+        "reference_build": "GRCh37",
+        "representative_transcript": "ENST00000389048.3",
+        "representative_transcript2": null,
+        "start": 29443695,
+        "start2": null,
+        "stop": 29443695,
+        "stop2": null,
+        "variant_bases": "T"
+    },
+    "description": "ALK F1174L has been observed as recurrent in neuroblastoma, non-small cell lung cancer (NSCLC), and other cancer types. Neuroblastoma cells containing this mutation have shown resistance to low doses of criztonib. However, increased dosage can overcome this resistance in cell lines studies. TAE684 has also proven effective in both NSCLC and neuroblastoma F1174L containing cells.",
+    "entrez_id": 238,
+    "entrez_name": "ALK",
+    "errors": {},
+    "evidence_items": [
+        {
+            "clinical_significance": "Resistance",
+            "description": "Cells lines expressing ALK harboring the F1174L mutation are less sensitive to growth inhibition by crizotinib than cells expressing the R1275Q mutation. The authors conclude that this effect should be surmountable with higher doses of crizotinib and/or with higher-affinity inhibitors.",
+            "disease": {
+                "display_name": "Neuroblastoma",
+                "doid": "769",
+                "id": 13,
+                "name": "Neuroblastoma",
+                "url": "http://www.disease-ontology.org/?id=DOID:769"
+            },
+            "drug_interaction_type": null,
+            "drugs": [
+                {
+                    "id": 12,
+                    "name": "Crizotinib",
+                    "pubchem_id": null
+                }
+            ],
+            "evidence_direction": "Supports",
+            "evidence_level": "D",
+            "evidence_type": "Predictive",
+            "id": 125,
+            "name": "EID125",
+            "open_change_count": 0,
+            "phenotypes": [],
+            "rating": 3,
+            "source": {
+                "asco_abstract_id": null,
+                "citation": "Bresler et al., 2011, Sci Transl Med",
+                "citation_id": "22072639",
+                "clinical_trials": [],
+                "full_journal_title": "Science translational medicine",
+                "id": 119,
+                "is_review": false,
+                "journal": "Sci Transl Med",
+                "name": "Differential inhibitor sensitivity of anaplastic lymphoma kinase variants found in neuroblastoma.",
+                "open_access": true,
+                "pmc_id": "PMC3319004",
+                "publication_date": {
+                    "day": 9,
+                    "month": 11,
+                    "year": 2011
+                },
+                "source_type": "PubMed",
+                "source_url": "http://www.ncbi.nlm.nih.gov/pubmed/22072639",
+                "status": "fully curated"
+            },
+            "status": "accepted",
+            "type": "evidence",
+            "variant_id": 8,
+            "variant_origin": "Somatic Mutation"
+        },
+        {
+            "clinical_significance": "Sensitivity/Response",
+            "description": "In a Phase I trial (NCT00939770) of the drug crizotinib in pediatric patients, a subset of 11 neuroblastoma patients were characterized for mutations in ALK. Of these 11 patients, 4 had the F1174L mutation. Among these 4 patients, stable disease (SD) was observed in one, and progressive disease (PD) was observed in 3 others after administration of crizotinib. In contrast, in the remaining 7 patients with mutations different than F1174L, 4 had PD, 2 had SD and one had complete response as best response after initiation of crizotinib.",
+            "disease": {
+                "display_name": "Neuroblastoma",
+                "doid": "769",
+                "id": 13,
+                "name": "Neuroblastoma",
+                "url": "http://www.disease-ontology.org/?id=DOID:769"
+            },
+            "drug_interaction_type": null,
+            "drugs": [
+                {
+                    "id": 12,
+                    "name": "Crizotinib",
+                    "pubchem_id": null
+                }
+            ],
+            "evidence_direction": "Does Not Support",
+            "evidence_level": "C",
+            "evidence_type": "Predictive",
+            "id": 1271,
+            "name": "EID1271",
+            "open_change_count": 0,
+            "phenotypes": [],
+            "rating": 3,
+            "source": {
+                "asco_abstract_id": null,
+                "citation": "Moss\u00e9 et al., 2013, Lancet Oncol.",
+                "citation_id": "23598171",
+                "clinical_trials": [],
+                "full_journal_title": "The Lancet. Oncology",
+                "id": 859,
+                "is_review": false,
+                "journal": "Lancet Oncol.",
+                "name": "Safety and activity of crizotinib for paediatric patients with refractory solid tumours or anaplastic large-cell lymphoma: a Children's Oncology Group phase 1 consortium study.",
+                "open_access": true,
+                "pmc_id": "PMC3730818",
+                "publication_date": {
+                    "month": 5,
+                    "year": 2013
+                },
+                "source_type": "PubMed",
+                "source_url": "http://www.ncbi.nlm.nih.gov/pubmed/23598171",
+                "status": "fully curated"
+            },
+            "status": "accepted",
+            "type": "evidence",
+            "variant_id": 8,
+            "variant_origin": "Somatic Mutation"
+        },
+        {
+            "clinical_significance": "Resistance",
+            "description": "In an in vitro study, a FL5.12 cell line expressing NPM1-ALK (a known sensitizing alteration to crizotinib) and an ALK F1174L co-mutation, demonstrated resistance to crizotinib treatment (IC50: 347.63 nmol/L), as compared to FL5.12 cells expressing NPM1-ALK fusion (IC50: 171.85 nmol/L). Resistance was determined by assessing cell viability.",
+            "disease": {
+                "display_name": "Lung Large Cell Carcinoma",
+                "doid": "4556",
+                "id": 164,
+                "name": "Lung Large Cell Carcinoma",
+                "url": "http://www.disease-ontology.org/?id=DOID:4556"
+            },
+            "drug_interaction_type": null,
+            "drugs": [
+                {
+                    "id": 12,
+                    "name": "Crizotinib",
+                    "pubchem_id": null
+                }
+            ],
+            "evidence_direction": "Supports",
+            "evidence_level": "D",
+            "evidence_type": "Predictive",
+            "id": 4041,
+            "name": "EID4041",
+            "open_change_count": 0,
+            "phenotypes": [],
+            "rating": null,
+            "source": {
+                "asco_abstract_id": null,
+                "citation": "Amin et al., 2016, Oncotarget",
+                "citation_id": "27009859",
+                "clinical_trials": [],
+                "full_journal_title": "Oncotarget",
+                "id": 2040,
+                "is_review": false,
+                "journal": "Oncotarget",
+                "name": "TKI sensitivity patterns of novel kinase-domain mutations suggest therapeutic opportunities for patients with resistant ALK+ tumors.",
+                "open_access": true,
+                "pmc_id": "PMC5029658",
+                "publication_date": {
+                    "day": 26,
+                    "month": 4,
+                    "year": 2016
+                },
+                "source_type": "PubMed",
+                "source_url": "http://www.ncbi.nlm.nih.gov/pubmed/27009859",
+                "status": "fully curated"
+            },
+            "status": "submitted",
+            "type": "evidence",
+            "variant_id": 8,
+            "variant_origin": "Somatic Mutation"
+        },
+        {
+            "clinical_significance": "Resistance",
+            "description": "Activating mutations in the (ALK) gene are targeted by the dual-specific tyrosine kinase inhibitor crizotinib. The amino acid substitution F1174L resulted in a reduced response to crizotinib compared with other ALK-activating mutations. The amino acid substitution R1275Q resulted in an improved response to crizotinib.",
+            "disease": {
+                "display_name": "Neuroblastoma",
+                "doid": "769",
+                "id": 13,
+                "name": "Neuroblastoma",
+                "url": "http://www.disease-ontology.org/?id=DOID:769"
+            },
+            "drug_interaction_type": null,
+            "drugs": [
+                {
+                    "id": 475,
+                    "name": "PF-2341066",
+                    "pubchem_id": null
+                }
+            ],
+            "evidence_direction": "Supports",
+            "evidence_level": "B",
+            "evidence_type": "Predictive",
+            "id": 2345,
+            "name": "EID2345",
+            "open_change_count": 0,
+            "phenotypes": [],
+            "rating": null,
+            "source": {
+                "asco_abstract_id": null,
+                "citation": "Sch\u00f6nherr et al., 2011, Biochem. J.",
+                "citation_id": "21838707",
+                "clinical_trials": [],
+                "full_journal_title": "The Biochemical journal",
+                "id": 1574,
+                "is_review": false,
+                "journal": "Biochem. J.",
+                "name": "Activating ALK mutations found in neuroblastoma are inhibited by Crizotinib and NVP-TAE684.",
+                "open_access": null,
+                "pmc_id": null,
+                "publication_date": {
+                    "day": 15,
+                    "month": 12,
+                    "year": 2011
+                },
+                "source_type": "PubMed",
+                "source_url": "http://www.ncbi.nlm.nih.gov/pubmed/21838707",
+                "status": "fully curated"
+            },
+            "status": "submitted",
+            "type": "evidence",
+            "variant_id": 8,
+            "variant_origin": "Somatic Mutation"
+        },
+        {
+            "clinical_significance": "Resistance",
+            "description": "Activating mutations in the (ALK) gene are targeted by the dual-specific tyrosine kinase inhibitor crizotinib. The amino acid substitution F1174L resulted in a reduced response to crizotinib compared with other ALK-activating mutations. The amino acid substitution R1275Q resulted in an improved response to crizotinib.",
+            "disease": {
+                "display_name": "Neuroblastoma",
+                "doid": "769",
+                "id": 13,
+                "name": "Neuroblastoma",
+                "url": "http://www.disease-ontology.org/?id=DOID:769"
+            },
+            "drug_interaction_type": null,
+            "drugs": [
+                {
+                    "id": 475,
+                    "name": "PF-2341066",
+                    "pubchem_id": null
+                }
+            ],
+            "evidence_direction": "Supports",
+            "evidence_level": "B",
+            "evidence_type": "Predictive",
+            "id": 2344,
+            "name": "EID2344",
+            "open_change_count": 0,
+            "phenotypes": [],
+            "rating": null,
+            "source": {
+                "asco_abstract_id": null,
+                "citation": "Bresler et al., 2011, Sci Transl Med",
+                "citation_id": "22072639",
+                "clinical_trials": [],
+                "full_journal_title": "Science translational medicine",
+                "id": 119,
+                "is_review": false,
+                "journal": "Sci Transl Med",
+                "name": "Differential inhibitor sensitivity of anaplastic lymphoma kinase variants found in neuroblastoma.",
+                "open_access": true,
+                "pmc_id": "PMC3319004",
+                "publication_date": {
+                    "day": 9,
+                    "month": 11,
+                    "year": 2011
+                },
+                "source_type": "PubMed",
+                "source_url": "http://www.ncbi.nlm.nih.gov/pubmed/22072639",
+                "status": "fully curated"
+            },
+            "status": "submitted",
+            "type": "evidence",
+            "variant_id": 8,
+            "variant_origin": "Somatic Mutation"
+        },
+        {
+            "clinical_significance": "Sensitivity/Response",
+            "description": "The SH-SY5Y neuroblastoma cell line containing the F1174L ALK mutation was found to undergo cell death when treated with the ALK/IGF1R inhibitor AZD3463. These cells were more sensitive than other neuroblastoma cell lines containing wild-type ALK. Marked inhibition of soft agar colony formation of SH-SY5Y cells was also observed with drug treatment. AZD3463 inhibited Akt signaling in these cells within two hours of treatment, and activated apoptosis and autophagy pathways. Treatment of SH-SY5Y cells implanted into left kidneys of nude mice resulted in almost complete tumor regression.",
+            "disease": {
+                "display_name": "Neuroblastoma",
+                "doid": "769",
+                "id": 13,
+                "name": "Neuroblastoma",
+                "url": "http://www.disease-ontology.org/?id=DOID:769"
+            },
+            "drug_interaction_type": null,
+            "drugs": [
+                {
+                    "id": 319,
+                    "name": "AZD3463",
+                    "pubchem_id": null
+                }
+            ],
+            "evidence_direction": "Supports",
+            "evidence_level": "D",
+            "evidence_type": "Predictive",
+            "id": 1327,
+            "name": "EID1327",
+            "open_change_count": 0,
+            "phenotypes": [],
+            "rating": 3,
+            "source": {
+                "asco_abstract_id": null,
+                "citation": "Wang et al., 2016, Sci Rep",
+                "citation_id": "26786851",
+                "clinical_trials": [],
+                "full_journal_title": "Scientific reports",
+                "id": 917,
+                "is_review": false,
+                "journal": "Sci Rep",
+                "name": "Novel ALK inhibitor AZD3463 inhibits neuroblastoma growth by overcoming crizotinib resistance and inducing apoptosis.",
+                "open_access": true,
+                "pmc_id": "PMC4726162",
+                "publication_date": {
+                    "year": 2016
+                },
+                "source_type": "PubMed",
+                "source_url": "http://www.ncbi.nlm.nih.gov/pubmed/26786851",
+                "status": "fully curated"
+            },
+            "status": "accepted",
+            "type": "evidence",
+            "variant_id": 8,
+            "variant_origin": "Somatic Mutation"
+        },
+        {
+            "clinical_significance": "Sensitivity/Response",
+            "description": "Efficacy of the second generation ALK inhibitor PF-06463922 was tested on ALK mutation F1174L containing neuroblastoma-derived cells.  COG-N-453x and SH-SY5Y xenografts showed some inhibition when treated with crizotinib, but showed complete growth inhibition with PF-06463922 treatment.  This corresponded to 0% event free survival (EFS) in these mice by 6 weeks with crizotinib treatment, but 100% EFS with PF-06463922 treatment. Comparison of crizotinib and PF-06463922 growth inhibition in F1174L cells SH-SY5Y, NBSD 415-IMDM and KELLY showed increased sensitivity to PF-06463922, as compared to crizotinib. Inhibition effects were not seen on neuroblastoma cells with wild type ALK (NB-EBc1, SK-N-BE(2)C). Decreased phosphorylation on ALK tyrosine 1278 was seen with PF-06463922 over crizotinib at 10 and 100 nM concentrations in SH-SY5Y cells. PF-06463922 was well tolerated in the in-vivo models.",
+            "disease": {
+                "display_name": "Neuroblastoma",
+                "doid": "769",
+                "id": 13,
+                "name": "Neuroblastoma",
+                "url": "http://www.disease-ontology.org/?id=DOID:769"
+            },
+            "drug_interaction_type": null,
+            "drugs": [
+                {
+                    "id": 241,
+                    "name": "Lorlatinib",
+                    "pubchem_id": null
+                }
+            ],
+            "evidence_direction": "Supports",
+            "evidence_level": "D",
+            "evidence_type": "Predictive",
+            "id": 1329,
+            "name": "EID1329",
+            "open_change_count": 0,
+            "phenotypes": [],
+            "rating": 4,
+            "source": {
+                "asco_abstract_id": null,
+                "citation": "Infarinato et al., 2016, Cancer Discov",
+                "citation_id": "26554404",
+                "clinical_trials": [],
+                "full_journal_title": "Cancer discovery",
+                "id": 919,
+                "is_review": false,
+                "journal": "Cancer Discov",
+                "name": "The ALK/ROS1 Inhibitor PF-06463922 Overcomes Primary Resistance to Crizotinib in ALK-Driven Neuroblastoma.",
+                "open_access": true,
+                "pmc_id": "PMC4707106",
+                "publication_date": {
+                    "month": 1,
+                    "year": 2016
+                },
+                "source_type": "PubMed",
+                "source_url": "http://www.ncbi.nlm.nih.gov/pubmed/26554404",
+                "status": "fully curated"
+            },
+            "status": "accepted",
+            "type": "evidence",
+            "variant_id": 8,
+            "variant_origin": "Somatic Mutation"
+        },
+        {
+            "clinical_significance": "Sensitivity/Response",
+            "description": "SH-SY5Y and Kelly cells with mutant ALK (F1174L) and Ba/F3 cells overexpressing ALK harboring the F1174L mutation are sensitive to TAE684-mediated growth inhibition.",
+            "disease": {
+                "display_name": "Neuroblastoma",
+                "doid": "769",
+                "id": 13,
+                "name": "Neuroblastoma",
+                "url": "http://www.disease-ontology.org/?id=DOID:769"
+            },
+            "drug_interaction_type": null,
+            "drugs": [
+                {
+                    "id": 18,
+                    "name": "TAE684",
+                    "pubchem_id": null
+                }
+            ],
+            "evidence_direction": "Supports",
+            "evidence_level": "D",
+            "evidence_type": "Predictive",
+            "id": 142,
+            "name": "EID142",
+            "open_change_count": 0,
+            "phenotypes": [],
+            "rating": 4,
+            "source": {
+                "asco_abstract_id": null,
+                "citation": "George et al., 2008, Nature",
+                "citation_id": "18923525",
+                "clinical_trials": [],
+                "full_journal_title": "Nature",
+                "id": 79,
+                "is_review": false,
+                "journal": "Nature",
+                "name": "Activating mutations in ALK provide a therapeutic target in neuroblastoma.",
+                "open_access": true,
+                "pmc_id": "PMC2587486",
+                "publication_date": {
+                    "day": 16,
+                    "month": 10,
+                    "year": 2008
+                },
+                "source_type": "PubMed",
+                "source_url": "http://www.ncbi.nlm.nih.gov/pubmed/18923525",
+                "status": "fully curated"
+            },
+            "status": "accepted",
+            "type": "evidence",
+            "variant_id": 8,
+            "variant_origin": "Somatic Mutation"
+        },
+        {
+            "clinical_significance": "Resistance",
+            "description": "Ba/F3 cells expressing the EML4-ALK fusion containing an F1174L mutation were more resistant to crizotinib treatment than Ba/F3 cells expressing EML4-ALK without this mutation.",
+            "disease": {
+                "display_name": "Non-small Cell Lung Carcinoma",
+                "doid": "3908",
+                "id": 8,
+                "name": "Non-small Cell Lung Carcinoma",
+                "url": "http://www.disease-ontology.org/?id=DOID:3908"
+            },
+            "drug_interaction_type": null,
+            "drugs": [
+                {
+                    "id": 12,
+                    "name": "Crizotinib",
+                    "pubchem_id": null
+                }
+            ],
+            "evidence_direction": "Supports",
+            "evidence_level": "D",
+            "evidence_type": "Predictive",
+            "id": 33,
+            "name": "EID33",
+            "open_change_count": 0,
+            "phenotypes": [],
+            "rating": 3,
+            "source": {
+                "asco_abstract_id": null,
+                "citation": "Sasaki et al., 2010, Cancer Res.",
+                "citation_id": "21030459",
+                "clinical_trials": [],
+                "full_journal_title": "Cancer research",
+                "id": 73,
+                "is_review": false,
+                "journal": "Cancer Res.",
+                "name": "The neuroblastoma-associated F1174L ALK mutation causes resistance to an ALK kinase inhibitor in ALK-translocated cancers.",
+                "open_access": true,
+                "pmc_id": "PMC3045808",
+                "publication_date": {
+                    "day": 15,
+                    "month": 12,
+                    "year": 2010
+                },
+                "source_type": "PubMed",
+                "source_url": "http://www.ncbi.nlm.nih.gov/pubmed/21030459",
+                "status": "fully curated"
+            },
+            "status": "accepted",
+            "type": "evidence",
+            "variant_id": 8,
+            "variant_origin": "Somatic Mutation"
+        },
+        {
+            "clinical_significance": "Sensitivity/Response",
+            "description": "CH5424802 is effective in inhibiting the activity of the F1174L ALK mutant in a kinase activity assay and proliferation assay using neuroblastoma KELLY cells.",
+            "disease": {
+                "display_name": "Neuroblastoma",
+                "doid": "769",
+                "id": 13,
+                "name": "Neuroblastoma",
+                "url": "http://www.disease-ontology.org/?id=DOID:769"
+            },
+            "drug_interaction_type": null,
+            "drugs": [
+                {
+                    "id": 321,
+                    "name": "Alectinib (CH5424802)",
+                    "pubchem_id": null
+                }
+            ],
+            "evidence_direction": "Supports",
+            "evidence_level": "D",
+            "evidence_type": "Predictive",
+            "id": 37,
+            "name": "EID37",
+            "open_change_count": 0,
+            "phenotypes": [],
+            "rating": 3,
+            "source": {
+                "asco_abstract_id": null,
+                "citation": "Sakamoto et al., 2011, Cancer Cell",
+                "citation_id": "21575866",
+                "clinical_trials": [],
+                "full_journal_title": "Cancer cell",
+                "id": 77,
+                "is_review": false,
+                "journal": "Cancer Cell",
+                "name": "CH5424802, a selective ALK inhibitor capable of blocking the resistant gatekeeper mutant.",
+                "open_access": null,
+                "pmc_id": null,
+                "publication_date": {
+                    "day": 17,
+                    "month": 5,
+                    "year": 2011
+                },
+                "source_type": "PubMed",
+                "source_url": "http://www.ncbi.nlm.nih.gov/pubmed/21575866",
+                "status": "fully curated"
+            },
+            "status": "accepted",
+            "type": "evidence",
+            "variant_id": 8,
+            "variant_origin": "Somatic Mutation"
+        },
+        {
+            "clinical_significance": "Sensitivity/Response",
+            "description": "High levels of crizotinib can overcome drug resistance of Ba/F3 cells expressing the EML4-ALK fusion containing the F1174L mutation.",
+            "disease": {
+                "display_name": "Neuroblastoma",
+                "doid": "769",
+                "id": 13,
+                "name": "Neuroblastoma",
+                "url": "http://www.disease-ontology.org/?id=DOID:769"
+            },
+            "drug_interaction_type": null,
+            "drugs": [
+                {
+                    "id": 12,
+                    "name": "Crizotinib",
+                    "pubchem_id": null
+                }
+            ],
+            "evidence_direction": "Supports",
+            "evidence_level": "D",
+            "evidence_type": "Predictive",
+            "id": 38,
+            "name": "EID38",
+            "open_change_count": 0,
+            "phenotypes": [],
+            "rating": 3,
+            "source": {
+                "asco_abstract_id": null,
+                "citation": "Heuckmann et al., 2011, Clin. Cancer Res.",
+                "citation_id": "21948233",
+                "clinical_trials": [],
+                "full_journal_title": "Clinical cancer research : an official journal of the American Association for Cancer Research",
+                "id": 78,
+                "is_review": false,
+                "journal": "Clin. Cancer Res.",
+                "name": "ALK mutations conferring differential resistance to structurally diverse ALK inhibitors.",
+                "open_access": true,
+                "pmc_id": "PMC3382103",
+                "publication_date": {
+                    "day": 1,
+                    "month": 12,
+                    "year": 2011
+                },
+                "source_type": "PubMed",
+                "source_url": "http://www.ncbi.nlm.nih.gov/pubmed/21948233",
+                "status": "fully curated"
+            },
+            "status": "accepted",
+            "type": "evidence",
+            "variant_id": 8,
+            "variant_origin": "Somatic Mutation"
+        },
+        {
+            "clinical_significance": "Resistance",
+            "description": "Ba/F3 cells expressing the RANBP2-ALK fusion containing an F1174L mutation were more resistant to crizotinib treatment than Ba/F3 cells expressing RANBP2-ALK without this mutation.",
+            "disease": {
+                "display_name": "Inflammatory Myofibroblastic Tumor",
+                "doid": "0050905",
+                "id": 12,
+                "name": "Inflammatory Myofibroblastic Tumor",
+                "url": "http://www.disease-ontology.org/?id=DOID:0050905"
+            },
+            "drug_interaction_type": null,
+            "drugs": [
+                {
+                    "id": 12,
+                    "name": "Crizotinib",
+                    "pubchem_id": null
+                }
+            ],
+            "evidence_direction": "Supports",
+            "evidence_level": "D",
+            "evidence_type": "Predictive",
+            "id": 32,
+            "name": "EID32",
+            "open_change_count": 0,
+            "phenotypes": [],
+            "rating": 3,
+            "source": {
+                "asco_abstract_id": null,
+                "citation": "Sasaki et al., 2010, Cancer Res.",
+                "citation_id": "21030459",
+                "clinical_trials": [],
+                "full_journal_title": "Cancer research",
+                "id": 73,
+                "is_review": false,
+                "journal": "Cancer Res.",
+                "name": "The neuroblastoma-associated F1174L ALK mutation causes resistance to an ALK kinase inhibitor in ALK-translocated cancers.",
+                "open_access": true,
+                "pmc_id": "PMC3045808",
+                "publication_date": {
+                    "day": 15,
+                    "month": 12,
+                    "year": 2010
+                },
+                "source_type": "PubMed",
+                "source_url": "http://www.ncbi.nlm.nih.gov/pubmed/21030459",
+                "status": "fully curated"
+            },
+            "status": "accepted",
+            "type": "evidence",
+            "variant_id": 8,
+            "variant_origin": "Somatic Mutation"
+        }
+    ],
+    "gene_id": 1,
+    "hgvs_expressions": [
+        "NM_004304.4:c.3522C>A",
+        "NP_004295.2:p.Phe1174Leu",
+        "NC_000002.11:g.29443695G>T",
+        "ENST00000389048.3:c.3522C>A"
+    ],
+    "id": 8,
+    "lifecycle_actions": {
+        "last_commented_on": {
+            "timestamp": "2017-05-17T22:15:45.641Z",
+            "user": {
+                "accepted_license": null,
+                "affiliation": "",
+                "area_of_expertise": "Research Scientist",
+                "avatar_url": "https://secure.gravatar.com/avatar/17180f9afc9f7f04fff97197c1ee5cb6.png?d=identicon&r=pg&s=32",
+                "avatars": {
+                    "x128": "https://secure.gravatar.com/avatar/17180f9afc9f7f04fff97197c1ee5cb6.png?d=identicon&r=pg&s=128",
+                    "x14": "https://secure.gravatar.com/avatar/17180f9afc9f7f04fff97197c1ee5cb6.png?d=identicon&r=pg&s=14",
+                    "x32": "https://secure.gravatar.com/avatar/17180f9afc9f7f04fff97197c1ee5cb6.png?d=identicon&r=pg&s=32",
+                    "x64": "https://secure.gravatar.com/avatar/17180f9afc9f7f04fff97197c1ee5cb6.png?d=identicon&r=pg&s=64"
+                },
+                "bio": "Dr. Krysiak is an Instructor at the McDonnell Genome Institute at Washington University School of Medicine where she is involved in the comprehensive genomic analysis of cancer patient cohorts and \u201cn-of-1\u201d studies. She received her PhD in Molecular Genetics and Genomics at Washington University in St. Louis where she focused on the genetics of myelodysplastic syndrome through advanced flow cytometry techniques, primary cell culture and mouse models. She is a founding member of the CIViC team, helping to define the CIViC data model, and a leading content curator and feature development consultant.",
+                "created_at": "2015-02-26T04:14:20.953Z",
+                "display_name": "kkrysiak",
+                "facebook_profile": "",
+                "featured_expert": true,
+                "id": 6,
+                "last_seen_at": "2019-02-12T06:21:43.021Z",
+                "linkedin_profile": "kilannin-krysiak-69047819",
+                "name": "Kilannin Krysiak",
+                "orcid": "0000-0002-6299-9230",
+                "organization": {
+                    "description": "The McDonnell Genome Institute (MGI) is a world leader in the fast-paced, constantly changing field of genomics. A truly unique institution, we are pushing the limits of academic research by creating, testing, and implementing new approaches to the study of biology with the goal of understanding human health and disease, as well as evolution and the biology of other organisms.",
+                    "id": 1,
+                    "name": "The McDonnell Genome Institute",
+                    "profile_image": {
+                        "x128": "/system/organizations/profile_images/000/000/001/x128/MGI_STANDARD4_logo_brown-example_v1b.png?1494525976",
+                        "x14": "/system/organizations/profile_images/000/000/001/x14/MGI_STANDARD4_logo_brown-example_v1b.png?1494525976",
+                        "x256": "/system/organizations/profile_images/000/000/001/x256/MGI_STANDARD4_logo_brown-example_v1b.png?1494525976",
+                        "x32": "/system/organizations/profile_images/000/000/001/x32/MGI_STANDARD4_logo_brown-example_v1b.png?1494525976",
+                        "x64": "/system/organizations/profile_images/000/000/001/x64/MGI_STANDARD4_logo_brown-example_v1b.png?1494525976"
+                    },
+                    "url": "http://genome.wustl.edu/"
+                },
+                "role": "admin",
+                "signup_complete": null,
+                "twitter_handle": "",
+                "url": "",
+                "username": "kkrysiak"
+            }
+        },
+        "last_modified": {
+            "timestamp": "2017-05-15T14:16:27.408Z",
+            "user": {
+                "accepted_license": null,
+                "affiliation": "",
+                "area_of_expertise": "Research Scientist",
+                "avatar_url": "https://secure.gravatar.com/avatar/df7a6c4023eebf61d7bd8056368798c0.png?d=identicon&r=pg&s=32",
+                "avatars": {
+                    "x128": "https://secure.gravatar.com/avatar/df7a6c4023eebf61d7bd8056368798c0.png?d=identicon&r=pg&s=128",
+                    "x14": "https://secure.gravatar.com/avatar/df7a6c4023eebf61d7bd8056368798c0.png?d=identicon&r=pg&s=14",
+                    "x32": "https://secure.gravatar.com/avatar/df7a6c4023eebf61d7bd8056368798c0.png?d=identicon&r=pg&s=32",
+                    "x64": "https://secure.gravatar.com/avatar/df7a6c4023eebf61d7bd8056368798c0.png?d=identicon&r=pg&s=64"
+                },
+                "bio": "",
+                "created_at": "2015-10-05T13:05:07.668Z",
+                "display_name": "LynzeyK",
+                "facebook_profile": "",
+                "featured_expert": false,
+                "id": 83,
+                "last_seen_at": "2019-01-07T01:13:10.544Z",
+                "linkedin_profile": "https://www.linkedin.com/in/lynzey-kujan-135a03a3",
+                "name": "Lynzey Kujan",
+                "orcid": "orcid.org/0000-0001-9225-7361",
+                "organization": {
+                    "description": "The McDonnell Genome Institute (MGI) is a world leader in the fast-paced, constantly changing field of genomics. A truly unique institution, we are pushing the limits of academic research by creating, testing, and implementing new approaches to the study of biology with the goal of understanding human health and disease, as well as evolution and the biology of other organisms.",
+                    "id": 1,
+                    "name": "The McDonnell Genome Institute",
+                    "profile_image": {
+                        "x128": "/system/organizations/profile_images/000/000/001/x128/MGI_STANDARD4_logo_brown-example_v1b.png?1494525976",
+                        "x14": "/system/organizations/profile_images/000/000/001/x14/MGI_STANDARD4_logo_brown-example_v1b.png?1494525976",
+                        "x256": "/system/organizations/profile_images/000/000/001/x256/MGI_STANDARD4_logo_brown-example_v1b.png?1494525976",
+                        "x32": "/system/organizations/profile_images/000/000/001/x32/MGI_STANDARD4_logo_brown-example_v1b.png?1494525976",
+                        "x64": "/system/organizations/profile_images/000/000/001/x64/MGI_STANDARD4_logo_brown-example_v1b.png?1494525976"
+                    },
+                    "url": "http://genome.wustl.edu/"
+                },
+                "role": "curator",
+                "signup_complete": null,
+                "twitter_handle": "",
+                "url": "",
+                "username": "LynzeyK"
+            }
+        },
+        "last_reviewed": {
+            "timestamp": "2017-05-17T22:15:45.641Z",
+            "user": {
+                "accepted_license": null,
+                "affiliation": "",
+                "area_of_expertise": "Research Scientist",
+                "avatar_url": "https://secure.gravatar.com/avatar/17180f9afc9f7f04fff97197c1ee5cb6.png?d=identicon&r=pg&s=32",
+                "avatars": {
+                    "x128": "https://secure.gravatar.com/avatar/17180f9afc9f7f04fff97197c1ee5cb6.png?d=identicon&r=pg&s=128",
+                    "x14": "https://secure.gravatar.com/avatar/17180f9afc9f7f04fff97197c1ee5cb6.png?d=identicon&r=pg&s=14",
+                    "x32": "https://secure.gravatar.com/avatar/17180f9afc9f7f04fff97197c1ee5cb6.png?d=identicon&r=pg&s=32",
+                    "x64": "https://secure.gravatar.com/avatar/17180f9afc9f7f04fff97197c1ee5cb6.png?d=identicon&r=pg&s=64"
+                },
+                "bio": "Dr. Krysiak is an Instructor at the McDonnell Genome Institute at Washington University School of Medicine where she is involved in the comprehensive genomic analysis of cancer patient cohorts and \u201cn-of-1\u201d studies. She received her PhD in Molecular Genetics and Genomics at Washington University in St. Louis where she focused on the genetics of myelodysplastic syndrome through advanced flow cytometry techniques, primary cell culture and mouse models. She is a founding member of the CIViC team, helping to define the CIViC data model, and a leading content curator and feature development consultant.",
+                "created_at": "2015-02-26T04:14:20.953Z",
+                "display_name": "kkrysiak",
+                "facebook_profile": "",
+                "featured_expert": true,
+                "id": 6,
+                "last_seen_at": "2019-02-12T06:21:43.021Z",
+                "linkedin_profile": "kilannin-krysiak-69047819",
+                "name": "Kilannin Krysiak",
+                "orcid": "0000-0002-6299-9230",
+                "organization": {
+                    "description": "The McDonnell Genome Institute (MGI) is a world leader in the fast-paced, constantly changing field of genomics. A truly unique institution, we are pushing the limits of academic research by creating, testing, and implementing new approaches to the study of biology with the goal of understanding human health and disease, as well as evolution and the biology of other organisms.",
+                    "id": 1,
+                    "name": "The McDonnell Genome Institute",
+                    "profile_image": {
+                        "x128": "/system/organizations/profile_images/000/000/001/x128/MGI_STANDARD4_logo_brown-example_v1b.png?1494525976",
+                        "x14": "/system/organizations/profile_images/000/000/001/x14/MGI_STANDARD4_logo_brown-example_v1b.png?1494525976",
+                        "x256": "/system/organizations/profile_images/000/000/001/x256/MGI_STANDARD4_logo_brown-example_v1b.png?1494525976",
+                        "x32": "/system/organizations/profile_images/000/000/001/x32/MGI_STANDARD4_logo_brown-example_v1b.png?1494525976",
+                        "x64": "/system/organizations/profile_images/000/000/001/x64/MGI_STANDARD4_logo_brown-example_v1b.png?1494525976"
+                    },
+                    "url": "http://genome.wustl.edu/"
+                },
+                "role": "admin",
+                "signup_complete": null,
+                "twitter_handle": "",
+                "url": "",
+                "username": "kkrysiak"
+            }
+        }
+    },
+    "name": "F1174L",
+    "provisional_values": {},
+    "sources": [],
+    "type": "variant",
+    "variant_aliases": [
+        "PHE1174LEU",
+        "RS863225281"
+    ],
+    "variant_groups": [
+        {
+            "description": "The ALK oncogene has long been considered a driving factor in non-small cell lung cancer (NSCLC). The targeted tyrosine kinase inhibitor criztonib has shown to be effective in ALK-mutant NSCLC. However, in patients that have shown acquired resistance to crizotinib, missense mutations in the tyrosine kinase domain have shown to drive this resistance. ",
+            "id": 3,
+            "name": "Crizotinib Resistance",
+            "type": "variant_group",
+            "variants": [
+                {
+                    "civic_actionability_score": 19.0,
+                    "coordinates": {
+                        "chromosome": "2",
+                        "chromosome2": null,
+                        "ensembl_version": 75,
+                        "reference_bases": "C",
+                        "reference_build": "GRCh37",
+                        "representative_transcript": "ENST00000389048.3",
+                        "representative_transcript2": null,
+                        "start": 29445258,
+                        "start2": null,
+                        "stop": 29445258,
+                        "stop2": null,
+                        "variant_bases": "T"
+                    },
+                    "description": "In patients with non-small cell lung cancer exhibiting EML4-ALK fusion, C1156Y has been shown to confer resistance to crizotinib. Case reports indicate that secondary mutations can modulate drug sensitivity. EML4-ALK C1156Y/L1196M maintained crizotinib resistance while the lorlatinib resistant combination EML4-ALK C1156Y/L1198F re-sensitized the tumor to crizotinib treatment.",
+                    "entrez_id": 238,
+                    "entrez_name": "ALK",
+                    "gene_id": 1,
+                    "id": 6,
+                    "name": "EML4-ALK C1156Y",
+                    "type": "variant",
+                    "variant_types": [
+                        {
+                            "description": "A sequence variant, that changes one or more bases, resulting in a different amino acid sequence but where the length is preserved.",
+                            "display_name": "Missense Variant",
+                            "id": 47,
+                            "name": "missense_variant",
+                            "so_id": "SO:0001583",
+                            "url": "http://www.sequenceontology.org/browser/current_svn/term/SO:0001583"
+                        },
+                        {
+                            "description": "A feature fusion where the deletion brings together transcript regions.",
+                            "display_name": "Transcript Fusion",
+                            "id": 120,
+                            "name": "transcript_fusion",
+                            "so_id": "SO:0001886",
+                            "url": "http://www.sequenceontology.org/browser/current_svn/term/SO:0001886"
+                        }
+                    ]
+                },
+                {
+                    "civic_actionability_score": 31.0,
+                    "coordinates": {
+                        "chromosome": "2",
+                        "chromosome2": null,
+                        "ensembl_version": 75,
+                        "reference_bases": "G",
+                        "reference_build": "GRCh37",
+                        "representative_transcript": "ENST00000389048.3",
+                        "representative_transcript2": null,
+                        "start": 29443631,
+                        "start2": null,
+                        "stop": 29443631,
+                        "stop2": null,
+                        "variant_bases": "T"
+                    },
+                    "description": "In patients with non-small cell lung cancer exhibiting EML4-ALK fusion, L1196M has been shown to confer resistance to crizotinib. This was also true in a patient with both EML4-ALK C1156Y & L1196M.",
+                    "entrez_id": 238,
+                    "entrez_name": "ALK",
+                    "gene_id": 1,
+                    "id": 7,
+                    "name": "EML4-ALK L1196M",
+                    "type": "variant",
+                    "variant_types": [
+                        {
+                            "description": "A sequence variant, that changes one or more bases, resulting in a different amino acid sequence but where the length is preserved.",
+                            "display_name": "Missense Variant",
+                            "id": 47,
+                            "name": "missense_variant",
+                            "so_id": "SO:0001583",
+                            "url": "http://www.sequenceontology.org/browser/current_svn/term/SO:0001583"
+                        },
+                        {
+                            "description": "A feature fusion where the deletion brings together transcript regions.",
+                            "display_name": "Transcript Fusion",
+                            "id": 120,
+                            "name": "transcript_fusion",
+                            "so_id": "SO:0001886",
+                            "url": "http://www.sequenceontology.org/browser/current_svn/term/SO:0001886"
+                        }
+                    ]
+                },
+                {
+                    "civic_actionability_score": 33.5,
+                    "coordinates": {
+                        "chromosome": "2",
+                        "chromosome2": null,
+                        "ensembl_version": 75,
+                        "reference_bases": "G",
+                        "reference_build": "GRCh37",
+                        "representative_transcript": "ENST00000389048.3",
+                        "representative_transcript2": null,
+                        "start": 29443695,
+                        "start2": null,
+                        "stop": 29443695,
+                        "stop2": null,
+                        "variant_bases": "T"
+                    },
+                    "description": "ALK F1174L has been observed as recurrent in neuroblastoma, non-small cell lung cancer (NSCLC), and other cancer types. Neuroblastoma cells containing this mutation have shown resistance to low doses of criztonib. However, increased dosage can overcome this resistance in cell lines studies. TAE684 has also proven effective in both NSCLC and neuroblastoma F1174L containing cells.",
+                    "entrez_id": 238,
+                    "entrez_name": "ALK",
+                    "gene_id": 1,
+                    "id": 8,
+                    "name": "F1174L",
+                    "type": "variant",
+                    "variant_types": [
+                        {
+                            "description": "A sequence variant, that changes one or more bases, resulting in a different amino acid sequence but where the length is preserved.",
+                            "display_name": "Missense Variant",
+                            "id": 47,
+                            "name": "missense_variant",
+                            "so_id": "SO:0001583",
+                            "url": "http://www.sequenceontology.org/browser/current_svn/term/SO:0001583"
+                        }
+                    ]
+                },
+                {
+                    "civic_actionability_score": 6.0,
+                    "coordinates": {
+                        "chromosome": "2",
+                        "chromosome2": null,
+                        "ensembl_version": 75,
+                        "reference_bases": "G",
+                        "reference_build": "GRCh37",
+                        "representative_transcript": "ENST00000389048.3",
+                        "representative_transcript2": null,
+                        "start": 29443600,
+                        "start2": null,
+                        "stop": 29443600,
+                        "stop2": null,
+                        "variant_bases": "T"
+                    },
+                    "description": "",
+                    "entrez_id": 238,
+                    "entrez_name": "ALK",
+                    "gene_id": 1,
+                    "id": 172,
+                    "name": "EML4-ALK S1206Y",
+                    "type": "variant",
+                    "variant_types": [
+                        {
+                            "description": "A sequence variant, that changes one or more bases, resulting in a different amino acid sequence but where the length is preserved.",
+                            "display_name": "Missense Variant",
+                            "id": 47,
+                            "name": "missense_variant",
+                            "so_id": "SO:0001583",
+                            "url": "http://www.sequenceontology.org/browser/current_svn/term/SO:0001583"
+                        },
+                        {
+                            "description": "A feature fusion where the deletion brings together transcript regions.",
+                            "display_name": "Transcript Fusion",
+                            "id": 120,
+                            "name": "transcript_fusion",
+                            "so_id": "SO:0001886",
+                            "url": "http://www.sequenceontology.org/browser/current_svn/term/SO:0001886"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "variant_types": [
+        {
+            "description": "A sequence variant, that changes one or more bases, resulting in a different amino acid sequence but where the length is preserved.",
+            "display_name": "Missense Variant",
+            "id": 47,
+            "name": "missense_variant",
+            "so_id": "SO:0001583",
+            "url": "http://www.sequenceontology.org/browser/current_svn/term/SO:0001583"
+        }
+    ]
+}

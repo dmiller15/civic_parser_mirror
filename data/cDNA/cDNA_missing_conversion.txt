@@ -1,0 +1,249 @@
+civic_var_id	chr_start_stop_ref_alt	transcript	chr_start_stop_ref_alt_2	transcript_2	ensembl_version	ref_build	entrez_gene_name	civic_var_name	civic_var_types	civic_hgvs_exp	hgvs.g.parsed	hgvs.g.var_types	hgvs.c.parsed	hgvs.c.var_types	hgvs.c2g.parsed	hgvs.c2g.var_types	hgvs.p.parsed	hgvs.p.var_types	vname.hgvs.p	vname.hgvs.p.parsed	vname.hgvs.p.var_types	vname.other_var_types	parse_note
+
+133	7_55242415_55242513_None_None	ENST00000275493.2	7_None_None	None	75	GRCh37	EGFR	EXON 19 DELETION	inframe_deletion	['ENST00000275493.2:c.2185_2283del']			ENST00000275493.2:c.2185_2283del	del								undetermined_var_types	unable to convert c to g for variant ENST00000275493.2:c.2185_2283del;unable to parse civic variant name
+
+137	9_139390861_139390861_G_TGT	ENST00000277541.6	9_None_None	None	75	GRCh37	NOTCH1	V2444FS	frameshift_variant	['ENST00000277541.6:c.7330delinsACA']			ENST00000277541.6:c.7330delinsACA	delins					V2444fs	Val2444fsTer	frameshift		unable to convert c to g for variant ENST00000277541.6:c.7330delinsACA
+
+243	11_108196840_108196841_TC_None	ENST00000278616.4	11_None_None	None	75	GRCh37	ATM	V2288FS*1	frameshift_truncation	['ENST00000278616.4:c.6863_6864delTC']			ENST00000278616.4:c.6863_6864del	del					V2288fs*1	Val2288fsTer1	frameshift		unable to convert c to g for variant ENST00000278616.4:c.6863_6864del
+
+252	7_55214299_55214433_None_None	ENST00000275493.2	7_None_None	None	75	GRCh37	EGFR	EXON 4 DELETION	exon_loss_variant	['ENST00000275493.2:c.425_559del']			ENST00000275493.2:c.425_559del	del								undetermined_var_types	unable to convert c to g for variant ENST00000275493.2:c.425_559del;unable to parse civic variant name
+
+266	2_141665446_141777671_None_None	ENST00000389484.3	2_None_None	None	75	GRCh37	LRP1B	EXON 12–22 DELETION	exon_loss_variant	['ENST00000389484.3:c.1790_3520del']			ENST00000389484.3:c.1790_3520del	del								undetermined_var_types	unable to convert c to g for variant ENST00000389484.3:c.1790_3520del;unable to parse civic variant name
+
+522	7_140477838_140477855_AGGTGCTGTCACATTCAA_None	ENST00000288602.6	7_None_None	None	75	GRCh37	BRAF	DEL 485-490	inframe_deletion	['ENST00000288602.6:c.1453_1470del']			ENST00000288602.6:c.1453_1470del	del								undetermined_var_types	unable to convert c to g for variant ENST00000288602.6:c.1453_1470del;unable to parse civic variant name
+
+613	13_28592642_28592642_C_G/A	ENST00000241453.7	13_None_None	None	75	GRCh37	FLT3	D835H/Y	missense_variant	"['ENST00000241453.7:c.2503G>T', 'ENST00000241453.7:c.2503G>C', 'NP_004110.2:p.Asp835Tyr', 'NM_004119.2:c.2503G>T', 'NP_004110.2:p.Asp835His', 'NM_004119.2:c.2503G>C']"			ENST00000241453.7:c.2503G>T;ENST00000241453.7:c.2503G>C;NM_004119.2:c.2503G>T;NM_004119.2:c.2503G>C	sub;sub;sub;sub	NC_000013.10:g.28592642C>A;NC_000013.10:g.28592642C>G	sub;sub	NP_004110.2:p.Asp835Tyr;NP_004110.2:p.Asp835His	sub;sub					unable to convert c to g for variant ENST00000241453.7:c.2503G>T;unable to convert c to g for variant ENST00000241453.7:c.2503G>C;unable to parse civic variant name
+
+736	7_55249009_55249010__GCCAGCGTG	ENST00000275493.2	7_None_None	None	75	GRCh37	EGFR	V769_770insASV	direct_tandem_duplication	['NM_005228.4:c.2300_2308dupCCAGCGTGG']			NM_005228.4:c.2300_2308dup	dup								undetermined_var_types	unable to convert c to g for variant NM_005228.4:c.2300_2308dup;unable to parse civic variant name
+
+816	17_37880997_37880998_GG_CT	ENST00000269571.5	17_None_None	None	75	GRCh37	ERBB2	G776L	missense_variant	['ENST00000269571.5:c.2326_2327delinsCT']			ENST00000269571.5:c.2326_2327delinsCT	delins					G776L	Gly776Leu	point_mutation		unable to convert c to g for variant ENST00000269571.5:c.2326_2327delinsCT
+
+817	17_37881011_37881012_None_GGCTCCCCA	ENST00000269571.5	17_None_None	None	75	GRCh37	ERBB2	G778_P780DUP	inframe_insertion	['NM_004448.3:c.2332_2340dupGGCTCCCCA']			NM_004448.3:c.2332_2340dup	dup	NC_000017.10:g.37881003_37881011dup	dup			G778_P780dup	Gly778_Pro780dup	duplication		
+
+950	4_55593586_55593586_C_T	ENST00000288135.5	4_None_None	None	75	GRCh37	KIT	P551L	missense_variant	['ENST00000288135.5:c.1652C>T']			ENST00000288135.5:c.1652C>T	sub					P551L	Pro551Leu	point_mutation		unable to convert c to g for variant ENST00000288135.5:c.1652C>T
+
+951	4_55593588_55593605_ATGTATGAAGTACAGTGG_None	ENST00000288135.5	4_None_None	None	75	GRCh37	KIT	M552_W557DEL	inframe_deletion	['ENST00000288135.5:c.1654_1671delATGTATGAAGTACAGTGG']			ENST00000288135.5:c.1654_1671del	del					M552_W557del	Met552_Trp557del	small_deletion		unable to convert c to g for variant ENST00000288135.5:c.1654_1671del
+
+954	4_55593594_55593608_GAAGTACAGTGGAAG_None	ENST00000288135.5	4_None_None	None	75	GRCh37	KIT	DEL 554-558	inframe_deletion	['ENST00000288135.5:c.1660_1674delGAAGTACAGTGGAAG']			ENST00000288135.5:c.1660_1674del	del								undetermined_var_types	unable to convert c to g for variant ENST00000288135.5:c.1660_1674del;unable to parse civic variant name
+
+956	4_55593597_55593602_GTACAG_None	ENST00000288135.5	4_None_None	None	75	GRCh37	KIT	V555_Q556DEL	inframe_deletion	['ENST00000288135.5:c.1663_1668delGTACAG']			ENST00000288135.5:c.1663_1668del	del					V555_Q556del	Val555_Gln556del	small_deletion		unable to convert c to g for variant ENST00000288135.5:c.1663_1668del
+
+964	4_55593606_55593611_AAGGTT_None	ENST00000288135.5	4_None_None	None	75	GRCh37	KIT	K558_V559DEL		['ENST00000288135.5:c.1672_1677delAAGGTT']			ENST00000288135.5:c.1672_1677del	del					K558_V559del	Lys558_Val559del	small_deletion		unable to convert c to g for variant ENST00000288135.5:c.1672_1677del
+
+967	4_55593609_55593614_GTTGTT_None	ENST00000288135.5	4_None_None	None	75	GRCh37	KIT	V559_V560DEL		['ENST00000288135.5:c.1675_1680delGTTGTT']			ENST00000288135.5:c.1675_1680del	del					V559_V560del	Val559_Val560del	small_deletion		unable to convert c to g for variant ENST00000288135.5:c.1675_1680del
+
+977	4_55593669_55593671_GAT_None	ENST00000288135.5	4_None_None	None	75	GRCh37	KIT	D579DEL	inframe_deletion	['ENST00000288135.5:c.1735_1737delGAT']			ENST00000288135.5:c.1735_1737del	del					D579del	Asp579del	small_deletion		unable to convert c to g for variant ENST00000288135.5:c.1735_1737del
+
+1187	7_55259532_55259532_G_A	ENST00000275493.2	7_None_None	None	75	GRCh37	EGFR	A864T	missense_variant	['ENST00000275493.2:c.2590G>A']			ENST00000275493.2:c.2590G>A	sub					A864T	Ala864Thr	point_mutation		unable to convert c to g for variant ENST00000275493.2:c.2590G>A
+
+1308	17_37880259_37880259_T_C	ENST00000269571.5	17_None_None	None	75	GRCh37	ERBB2	L768S	missense_variant	['ENST00000269571.5:c.2303T>C']			ENST00000269571.5:c.2303T>C	sub					L768S	Leu768Ser	point_mutation		unable to convert c to g for variant ENST00000269571.5:c.2303T>C
+
+1312	17_37880213_37880213_A_G	ENST00000269571.5	17_None_None	None	75	GRCh37	ERBB2	K753E	missense_variant	['ENST00000269571.5:c.2257A>G']			ENST00000269571.5:c.2257A>G	sub					K753E	Lys753Glu	point_mutation		unable to convert c to g for variant ENST00000269571.5:c.2257A>G
+
+1474	7_55259517_55259517_G_A	ENST00000275493.2	7_None_None	None	75	GRCh37	EGFR	A859T	missense_variant	['ENST00000275493.2:c.2575G>A']			ENST00000275493.2:c.2575G>A	sub					A859T	Ala859Thr	point_mutation		unable to convert c to g for variant ENST00000275493.2:c.2575G>A
+
+1488	9_133750328_133750328_T_A	ENST00000318560.5	9_None_None	None	75	GRCh37	ABL1	BCR-ABL L387M	missense_variant	['ENST00000318560.5:c.1159T>A']			ENST00000318560.5:c.1159T>A	sub					L387M	Leu387Met	point_mutation		unable to convert c to g for variant ENST00000318560.5:c.1159T>A;fix civic var name for vname.hgvs.p
+
+1492	2_29443696_29443696_A_C	ENST00000	2_None_None	None	75	GRCh37	ALK	F1174C	missense_variant	['ENST00000389048.3:c.3521T>G']			ENST00000389048.3:c.3521T>G	sub					F1174C	Phe1174Cys	point_mutation		unable to convert c to g for variant ENST00000389048.3:c.3521T>G
+
+1494	9_133747522_133747522_A_G	ENST00000318560.5	9_None_None	None	75	GRCh37	ABL1	T277A	missense_variant	['ENST00000318560.5:c.829A>G']			ENST00000318560.5:c.829A>G	sub					T277A	Thr277Ala	point_mutation		unable to convert c to g for variant ENST00000318560.5:c.829A>G
+
+1495	9_133753844_133753844_C_G	ENST00000318560.5	9_None_None	None	75	GRCh37	ABL1	S438C	missense_variant	['ENST00000318560.5:c.1313C>G']			ENST00000318560.5:c.1313C>G	sub					S438C	Ser438Cys	point_mutation		unable to convert c to g for variant ENST00000318560.5:c.1313C>G
+
+1505	2_29443697_29443697_A_C	ENST00000389048.3	2_None_None	None	75	GRCh37	ALK	F1174V	missense_variant	['ENST00000389048.3:c.3520T>G']			ENST00000389048.3:c.3520T>G	sub					F1174V	Phe1174Val	point_mutation		unable to convert c to g for variant ENST00000389048.3:c.3520T>G
+
+1506	9_133747585_133747585_C_G	ENST00000318560.5	9_None_None	None	75	GRCh37	ABL1	L298V	missense_variant	['ENST00000318560.5:c.892C>G']			ENST00000318560.5:c.892C>G	sub					L298V	Leu298Val	point_mutation		unable to convert c to g for variant ENST00000318560.5:c.892C>G
+
+1508	9_133750259_133750259_C_A	ENST00000318560.5	9_None_None	None	75	GRCh37	ABL1	L364I	missense_variant	['ENST00000318560.5:c.1090C>A']			ENST00000318560.5:c.1090C>A	sub					L364I	Leu364Ile	point_mutation		unable to convert c to g for variant ENST00000318560.5:c.1090C>A
+
+1522	9_21974769_21974769_C_G	ENST00000498124.1	9_None_None	None	75	GRCh37	CDKN2A	A20P	missense_variant	['ENST00000498124.1:c.58G>C']			ENST00000498124.1:c.58G>C	sub					A20P	Ala20Pro	point_mutation		unable to convert c to g for variant ENST00000498124.1:c.58G>C
+
+1527	9_133747592_133747592_A_G	ENST00000318560.5	9_None_None	None	75	GRCh37	ABL1	Q300R	missense_variant	['ENST00000318560.5:c.899A>G']			ENST00000318560.5:c.899A>G	sub					Q300R	Gln300Arg	point_mutation		unable to convert c to g for variant ENST00000318560.5:c.899A>G
+
+1529	9_133748331_133748331_A_G	ENST00000318560.5	9_None_None	None	75	GRCh37	ABL1	BCR-ABL N331S	missense_variant	['ENST00000318560.5:c.992A>G']			ENST00000318560.5:c.992A>G	sub					N331S	Asn331Ser	point_mutation		unable to convert c to g for variant ENST00000318560.5:c.992A>G;fix civic var name for vname.hgvs.p
+
+1530	9_133750260_133750260_T_C	ENST00000318560.5	9_None_None	None	75	GRCh37	ABL1	BCR-ABL L364P	missense_variant	['ENST00000318560.5:c.1091T>C']			ENST00000318560.5:c.1091T>C	sub					L364P	Leu364Pro	point_mutation		unable to convert c to g for variant ENST00000318560.5:c.1091T>C;fix civic var name for vname.hgvs.p
+
+1533	9_133753826_133753826_T_C	ENST00000318560.5	9_None_None	None	75	GRCh37	ABL1	I432T	missense_variant	['ENST00000318560.5:c.1295T>C']			ENST00000318560.5:c.1295T>C	sub					I432T	Ile432Thr	point_mutation		unable to convert c to g for variant ENST00000318560.5:c.1295T>C
+
+1537	9_133755469_133755469_C_G	ENST00000318560.5	9_None_None	None	75	GRCh37	ABL1	BCR-ABL P480A	missense_variant	['ENST00000318560.5:c.1438C>G']			ENST00000318560.5:c.1438C>G	sub					P480A	Pro480Ala	point_mutation		unable to convert c to g for variant ENST00000318560.5:c.1438C>G;fix civic var name for vname.hgvs.p
+
+1540	4_55152023_55152023_C_A	ENST00000257290.5	4_None_None	None	75	GRCh37	PDGFRA	L579M	missense_variant	['ENST00000257290.5:c.2455C>A']			ENST00000257290.5:c.2455C>A	sub					L579M	Leu579Met	point_mutation		unable to convert c to g for variant ENST00000257290.5:c.2455C>A
+
+1552	22_22127162_22127162_C_T	ENST00000544786.1	22_None_None	None	75	GRCh37	MAPK1	E278E	synonymous_variant	['ENST00000544786.1:c.834G>A']			ENST00000544786.1:c.834G>A	sub					E278E	Glu278Glu	point_mutation		unable to convert c to g for variant ENST00000544786.1:c.834G>A
+
+1553	2_29443630_29443630_A_T	ENST00000389048.3	2_None_None	None	75	GRCh37	ALK	L1196Q	missense_variant	['ENST00000389048.3:c.3587T>A']			ENST00000389048.3:c.3587T>A	sub					L1196Q	Leu1196Gln	point_mutation		unable to convert c to g for variant ENST00000389048.3:c.3587T>A
+
+1554	2_29445270_29445270_A_G	ENST00000389048.3	2_None_None	None	75	GRCh37	ALK	L1152P	missense_variant	['ENST00000389048.3:c.3455T>C']			ENST00000389048.3:c.3455T>C	sub					L1152P	Leu1152Pro	point_mutation		unable to convert c to g for variant ENST00000389048.3:c.3455T>C
+
+1556	2_29443624_29443624_A_G	ENST00000389048.3	2_None_None	None	75	GRCh37	ALK	L1198P	missense_variant	['ENST00000389048.3:c.3593T>C']			ENST00000389048.3:c.3593T>C	sub					L1198P	Leu1198Pro	point_mutation		unable to convert c to g for variant ENST00000389048.3:c.3593T>C
+
+1574	7_55249092_55249092_G_A	ENST00000275493.2	7_None_None	None	75	GRCh37	EGFR	C797Y	missense_variant	['ENST00000275493.2:c.2390G>A']			ENST00000275493.2:c.2390G>A	sub					C797Y	Cys797Tyr	point_mutation		unable to convert c to g for variant ENST00000275493.2:c.2390G>A
+
+1595	9_133738202_133738202_A_T	ENST00000318560.5	9_None_None	None	75	GRCh37	ABL1	H201L	missense_variant	['ENST00000318560.5:c.602A>T']			ENST00000318560.5:c.602A>T	sub					H201L	His201Leu	point_mutation		unable to convert c to g for variant ENST00000318560.5:c.602A>T
+
+1597	9_133738309_133738309_A_G	ENST00000318560.5	9_None_None	None	75	GRCh37	ABL1	M237V	missense_variant	['ENST00000318560.5:c.709A>G']			ENST00000318560.5:c.709A>G	sub					M237V	Met237Val	point_mutation		unable to convert c to g for variant ENST00000318560.5:c.709A>G
+
+1598	9_133738325_133738325_T_C	ENST00000318560.5	9_None_None	None	75	GRCh37	ABL1	I242T	missense_variant	['ENST00000318560.5:c.725T>C']			ENST00000318560.5:c.725T>C	sub					I242T	Ile242Thr	point_mutation		unable to convert c to g for variant ENST00000318560.5:c.725T>C
+
+1600	9_133738355_133738355_A_G	ENST00000318560.5	9_None_None	None	75	GRCh37	ABL1	Q252R	missense_variant	['ENST00000318560.5:c.755A>G']			ENST00000318560.5:c.755A>G	sub					Q252R	Gln252Arg	point_mutation		unable to convert c to g for variant ENST00000318560.5:c.755A>G
+
+1602	9_133738417_133738417_T_A	ENST00000318560.5	9_None_None	None	75	GRCh37	ABL1	L273M	missense_variant	['ENST00000318560.5:c.817T>A']			ENST00000318560.5:c.817T>A	sub					L273M	Leu273Met	point_mutation		unable to convert c to g for variant ENST00000318560.5:c.817T>A
+
+1610	9_133750331_133750331_A_T	ENST00000318560.5	9_None_None	None	75	GRCh37	ABL1	M388L	missense_variant	['ENST00000318560.5:c.1162A>T']			ENST00000318560.5:c.1162A>T	sub					M388L	Met388Leu	point_mutation		unable to convert c to g for variant ENST00000318560.5:c.1162A>T
+
+1613	9_133750419_133750419_C_A	ENST00000318560.5	9_None_None	None	75	GRCh37	ABL1	S417Y	missense_variant	['ENST00000318560.5:c.1250C>A']			ENST00000318560.5:c.1250C>A	sub					S417Y	Ser417Tyr	point_mutation		unable to convert c to g for variant ENST00000318560.5:c.1250C>A
+
+1614	9_133750421_133750421_A_G	ENST00000318560.5	9_None_None	None	75	GRCh37	ABL1	I418V	missense_variant	['ENST00000318560.5:c.1252A>G']			ENST00000318560.5:c.1252A>G	sub					I418V	Ile418Val	point_mutation		unable to convert c to g for variant ENST00000318560.5:c.1252A>G
+
+1615	9_133750422_133750422_T_G	ENST00000	9_None_None	None	75	GRCh37	ABL1	I418S	missense_variant	['ENST00000318560.5:c.1253T>G']			ENST00000318560.5:c.1253T>G	sub					I418S	Ile418Ser	point_mutation		unable to convert c to g for variant ENST00000318560.5:c.1253T>G
+
+1616	9_133753853_133753853_C_T	ENST00000318560.5	9_None_None	None	75	GRCh37	ABL1	P441L	missense_variant	['ENST00000318560.5:c.1322C>T']			ENST00000318560.5:c.1322C>T	sub					P441L	Pro441Leu	point_mutation		unable to convert c to g for variant ENST00000318560.5:c.1322C>T
+
+1622	9_133753947_133753947_G_A	ENST00000318560.5	9_None_None	None	75	GRCh37	ABL1	M472I	missense_variant	['ENST00000318560.5:c.1416G>A']			ENST00000318560.5:c.1416G>A	sub					M472I	Met472Ile	point_mutation		unable to convert c to g for variant ENST00000318560.5:c.1416G>A
+
+1623	9_133755470_133755470_C_T	ENST00000318560.5	9_None_None	None	75	GRCh37	ABL1	P480L	missense_variant	['ENST00000318560.5:c.1439C>T']			ENST00000318560.5:c.1439C>T	sub					P480L	Pro480Leu	point_mutation		unable to convert c to g for variant ENST00000318560.5:c.1439C>T
+
+1624	9_133755913_133755913_G_A	ENST00000318560.5	9_None_None	None	75	GRCh37	ABL1	G514S	missense_variant	['ENST00000318560.5:c.1540G>A']			ENST00000318560.5:c.1540G>A	sub					G514S	Gly514Ser	point_mutation		unable to convert c to g for variant ENST00000318560.5:c.1540G>A
+
+1640	9_133748346_133748346_A_G	ENST00000318560.5	9_None_None	None	75	GRCh37	ABL1	N336S	missense_variant	['ENST00000318560.5:c.1007A>G']			ENST00000318560.5:c.1007A>G	sub					N336S	Asn336Ser	point_mutation		unable to convert c to g for variant ENST00000318560.5:c.1007A>G
+
+1656	9_133748333_133748333_C_T	ENST00000372348.2	9_None_None	None	75	GRCh37	ABL1	R351W	missense_variant	['ENST00000372348.2:c.1051C>T']			ENST00000372348.2:c.1051C>T	sub					R351W	Arg351Trp	point_mutation		unable to convert c to g for variant ENST00000372348.2:c.1051C>T
+
+1673	2_212251734_212251734_C_A	ENST00000342788.4	2_None_None	None	75	GRCh37	ERBB4	G1109C	missense_variant	['ENST00000342788.4:c.3325G>T']			ENST00000342788.4:c.3325G>T	sub					G1109C	Gly1109Cys	point_mutation		unable to convert c to g for variant ENST00000342788.4:c.3325G>T
+
+1769	3_10188261_10188261_T_A	ENST	3_None_None	None	75	GRCh37	VHL	L135* (c.404T>A)	stop_gained	['ENST00000256474.2:c.404T>A']			ENST00000256474.2:c.404T>A	sub					L135*	Leu135Ter	point_mutation		unable to convert c to g for variant ENST00000256474.2:c.404T>A
+
+1780	3_10191533_10191533_A_None	ENST00000256474.2	3_None_None	None	75	GRCh37	VHL	Y175fs (c.526delA)	frameshift_truncation	['ENST00000256474.2:c.526delA']			ENST00000256474.2:c.526del	del					Y175fs	Tyr175fsTer	frameshift		unable to convert c to g for variant ENST00000256474.2:c.526del
+
+1786	3_10183706_10183706_C_None	ENST00000256474.2	3_None_None	None	75	GRCh37	VHL	P59R (c.175delC)	missense_variant	['ENST00000256474.2:c.175delC']			ENST00000256474.2:c.175del	del					P59R	Pro59Arg	point_mutation		unable to convert c to g for variant ENST00000256474.2:c.175del
+
+1790	3_10183759_10183760_None_C	ENST00000256474.2	3_None_None	None	75	GRCh37	VHL	C77FS (c.228_229insC)	frameshift_variant	['ENST00000256474.2:c.228_229insC']			ENST00000256474.2:c.228_229insC	ins					C77fs	Cys77fsTer	frameshift		unable to convert c to g for variant ENST00000256474.2:c.228_229insC
+
+1792	3_10183771_10183771_T_G	ENST00000	3_None_None	None	75	GRCh37	VHL	S80R (c.240T>G)	missense_variant	['ENST00000256474.2:c.240T>G']			ENST00000256474.2:c.240T>G	sub					S80R	Ser80Arg	point_mutation		unable to convert c to g for variant ENST00000256474.2:c.240T>G
+
+1795	3_10183840_10183841_TG_None	ENST00000256474.2	3_None_None	None	75	GRCh37	VHL	P103FS (c.309_310delTG)	frameshift_variant	['ENST00000256474.2:c.309_310delTG']			ENST00000256474.2:c.309_310del	del					P103fs	Pro103fsTer	frameshift		unable to convert c to g for variant ENST00000256474.2:c.309_310del
+
+1800	3_10188247_10188248_TA_None	ENST00000256474.2	3_None_None	None	75	GRCh37	VHL	N131P (c.390_391delTA)	missense_variant	['ENST00000256474.2:c.390_391delTA']			ENST00000256474.2:c.390_391del	del					N131P	Asn131Pro	point_mutation		unable to convert c to g for variant ENST00000256474.2:c.390_391del
+
+1812	3_10183808_10183808_G_None	ENST00000256474.2	3_None_None	None	75	GRCh37	VHL	G93fs (c.278delG)	frameshift_variant	"['ENST00000256474.2:c.278delG', 'ENST00000256474.2:c.277delG']"			ENST00000256474.2:c.278del;ENST00000256474.2:c.277del	del;del					G93fs	Gly93fsTer	frameshift		unable to convert c to g for variant ENST00000256474.2:c.278del;unable to convert c to g for variant ENST00000256474.2:c.277del
+
+1816	3_10183745_10183745_T_None	ENST00000256474.2	3_None_None	None	75	GRCh37	VHL	S72P (c.214delT)	frameshift_truncation	['ENST00000256474.2:c.214delT']			ENST00000256474.2:c.214del	del					S72P	Ser72Pro	point_mutation		unable to convert c to g for variant ENST00000256474.2:c.214del
+
+1820	3_10188203_10188203_C_G	ENST0	3_None_None	None	75	GRCh37	VHL	L116V (c.346C>G)	missense_variant	['ENST00000256474.2:c.346C>G']			ENST00000256474.2:c.346C>G	sub					L116V	Leu116Val	point_mutation		unable to convert c to g for variant ENST00000256474.2:c.346C>G
+
+1823	3_10188278_10188278_A_None	ENST00000256474.2	3_None_None	None	75	GRCh37	VHL	N141FS (c.421delA)	minus_1_frameshift	['ENST00000256474.2:c.421delA']			ENST00000256474.2:c.421del	del					N141fs	Asn141fsTer	frameshift		unable to convert c to g for variant ENST00000256474.2:c.421del
+
+1861	3_10191570_10191570_T_A	ENST00000256474.2	3_None_None	None	75	GRCh37	VHL	L188Q (c.563T>A)	missense_variant	['ENST00000256474.2:c.563T>A']			ENST00000256474.2:c.563T>A	sub					L188Q	Leu188Gln	point_mutation		unable to convert c to g for variant ENST00000256474.2:c.563T>A
+
+1862	3_10191482_10191482_A_G	ENST00000256474.2	3_None_None	None	75	GRCh37	VHL	K159E (c.475A>G)	missense_variant	['ENST00000256474.2:c.475A>G']			ENST00000256474.2:c.475A>G	sub					K159E	Lys159Glu	point_mutation		unable to convert c to g for variant ENST00000256474.2:c.475A>G
+
+1895	7_55249118_55249118_A_G	ENST00000275493.2	7_None_None		75	GRCh37	EGFR	K806E	missense_variant	['ENST00000275493.2:c.2416A>G']			ENST00000275493.2:c.2416A>G	sub					K806E	Lys806Glu	point_mutation		unable to convert c to g for variant ENST00000275493.2:c.2416A>G
+
+1905	3_10188224_10188224_G_None	ENST00000256474.2	3_None_None	None	75	GRCh37	VHL	G123FS (c.367delG)	frameshift_truncation	['ENST00000256474.2:c.367delG']			ENST00000256474.2:c.367del	del					G123fs	Gly123fsTer	frameshift		unable to convert c to g for variant ENST00000256474.2:c.367del
+
+1908	3_10183795_10183795_G_A	ENST	3_None_None	None	75	GRCh37	VHL	W88* (c.264G>A)	stop_gained	['ENST00000256474.2:c.264G>A']			ENST00000256474.2:c.264G>A	sub					W88*	Trp88Ter	point_mutation		unable to convert c to g for variant ENST00000256474.2:c.264G>A
+
+1918	3_10188232_10188233_None_C	ENST00000256474.2	3_None_None	None	75	GRCh37	VHL	D126FS (c.375_376insC)	inframe_insertion	['ENST00000256474.2:c.375_376insC']			ENST00000256474.2:c.375_376insC	ins					D126fs	Asp126fsTer	frameshift		unable to convert c to g for variant ENST00000256474.2:c.375_376insC
+
+1922	3_10183857_10183857_T_None	ENST00000256474.2	3_None_None	None	75	GRCh37	VHL	I109FS (c.326delT)	frameshift_truncation	['ENST00000256474.2:c.326delT']			ENST00000256474.2:c.326del	del					I109fs	Ile109fsTer	frameshift		unable to convert c to g for variant ENST00000256474.2:c.326del
+
+1924	3_10191570_10191570_T_G	ENST00000256474.2	3_None_None	None	75	GRCh37	VHL	L188R (c.563T>G)	missense_variant	['ENST00000256474.2:c.563T>G']			ENST00000256474.2:c.563T>G	sub					L188R	Leu188Arg	point_mutation		unable to convert c to g for variant ENST00000256474.2:c.563T>G
+
+1943	3_10191499_10191499_G_C	ENST	3_None_None	None	75	GRCh37	VHL	Q164H (c.492G>C)	missense_variant	['ENST00000256474.2:c.492G>C']			ENST00000256474.2:c.492G>C	sub					Q164H	Gln164His	point_mutation		unable to convert c to g for variant ENST00000256474.2:c.492G>C
+
+1957	3_10188202_10188202_C_G	ENST00000256474.2	3_None_None	None	75	GRCh37	VHL	H115Q (c.345C>G)	missense_variant	['ENST00000256474.2:c.345C>G']			ENST00000256474.2:c.345C>G	sub					H115Q	His115Gln	point_mutation		unable to convert c to g for variant ENST00000256474.2:c.345C>G
+
+1964	3_10183710_10183710_G_None	ENST00000256474.2	3_None_None	None	75	GRCh37	VHL	R60FS (c.179delG)	frameshift_truncation	['ENST00000256474.2:c.179delG']			ENST00000256474.2:c.179del	del					R60fs	Arg60fsTer	frameshift		unable to convert c to g for variant ENST00000256474.2:c.179del
+
+1965	3_10183857_10183857_T_None	ENST00000256474.2	3_None_None	None	75	GRCh37	VHL	I109TfsX50 (c.326delT)	frameshift_variant	['ENST00000256474.2:c.326delT']			ENST00000256474.2:c.326del	del					I109Tfs*50	Ile109ThrfsTer50	frameshift		unable to convert c to g for variant ENST00000256474.2:c.326del
+
+1975	3_10191506_10191511_CGGAGC_T	ENST00000256474.2	3_None_None	None	75	GRCh37	VHL	R167fsX4 (c.499_504delinsT)	frameshift_variant	['ENST00000256474.2:c.499_504delinsT']			ENST00000256474.2:c.499_504delinsT	delins					R167fs*4	Arg167fsTer4	frameshift		unable to convert c to g for variant ENST00000256474.2:c.499_504delinsT
+
+1977	3_10191586_10191587_TG_None	ENST00000256474.2	3_None_None	None	75	GRCh37	VHL	V194fs (c.579_580delTG)	frameshift_variant	['ENST00000256474.2:c.579_580delTG']			ENST00000256474.2:c.579_580del	del					V194fs	Val194fsTer	frameshift		unable to convert c to g for variant ENST00000256474.2:c.579_580del
+
+1996	3_10188241_10188241_T_None	ENST00000256474.2	3_None_None	None	75	GRCh37	VHL	L129fs (c.384delT)	frameshift_variant	['ENST00000256474.2:c.384delT']			ENST00000256474.2:c.384del	del					L129fs	Leu129fsTer	frameshift		unable to convert c to g for variant ENST00000256474.2:c.384del
+
+1997	3_10191540_10191540_T_A	ENST000002564742	3_None_None	None	75	GRCh37	VHL	L178Q (c.533T>A)	missense_variant	['ENST000002564742:c.533T>A']			ENST000002564742:c.533T>A	sub					L178Q	Leu178Gln	point_mutation		unable to convert c to g for variant ENST000002564742:c.533T>A
+
+2000	3_10188201_10188201_A_G	ENST00000256474.2	3_None_None	None	75	GRCh37	VHL	H115R (c.344A>G)	missense_variant	['ENST00000256474.2:c.344A>G']			ENST00000256474.2:c.344A>G	sub					H115R	His115Arg	point_mutation		unable to convert c to g for variant ENST00000256474.2:c.344A>G
+
+2002	3_10183746_10183746_C_None	ENST00000256474.2	3_None_None	None	75	GRCh37	VHL	Q73fs (c.215delC)	frameshift_variant	['ENST00000256474.2:c.215delC']			ENST00000256474.2:c.215del	del					Q73fs	Gln73fsTer	frameshift		unable to convert c to g for variant ENST00000256474.2:c.215del
+
+2005	3_10191523_10191523_T_None	ENST00000256474.2	3_None_None	None	75	GRCh37	VHL	P172fs  (c.516delT)	frameshift_truncation	['ENST00000256474.2:c.516delT']			ENST00000256474.2:c.516del	del					P172fs	Pro172fsTer	frameshift		unable to convert c to g for variant ENST00000256474.2:c.516del
+
+2009	3_10183809_10183809_G_T	ENST00000256474.2	3_None_None	None	75	GRCh37	VHL	G93V (c.278G>T)	missense_variant	['ENST00000256474.2:c.278G>T']			ENST00000256474.2:c.278G>T	sub					G93V	Gly93Val	point_mutation		unable to convert c to g for variant ENST00000256474.2:c.278G>T
+
+2024	3_10191656_10191656_C_G	ENST00000256474.2	3_None_None	None	75	GRCh37	VHL	3'UTR alteration (c.639+10C>G)	3_prime_UTR_variant	['ENST00000256474.2:c.639+10C>G']			ENST00000256474.2:c.639+10C>G	sub								undetermined_var_types	unable to convert c to g for variant ENST00000256474.2:c.639+10C>G;unable to parse civic variant name
+
+2029	3_10188302_10188315_GCCAATATCACACT_None	ENST00000256474.2	3_None_None	None	75	GRCh37	VHL	N150fs (c.445_458del)	frameshift_variant	['ENST00000256474.2:c.445_458delGCCAATATCACACT']			ENST00000256474.2:c.445_458del	del					N150fs	Asn150fsTer	frameshift		unable to convert c to g for variant ENST00000256474.2:c.445_458del
+
+2030	3_10188310_10188310_C_G	ENST00000256474.2	3_None_None	None	75	GRCh37	VHL	I151M (c.453C>G)	missense_variant	['ENST00000256474.2:c.453C>G']			ENST00000256474.2:c.453C>G	sub					I151M	Ile151Met	point_mutation		unable to convert c to g for variant ENST00000256474.2:c.453C>G
+
+2032	3_10191485_10191486_GA_None	ENST00000256474.2	3_None_None	None	75	GRCh37	VHL	E160FS (c.478_479delGA)	frameshift_truncation	['ENST00000256474.2:c.478_479delGA']			ENST00000256474.2:c.478_479del	del					E160fs	Glu160fsTer	frameshift		unable to convert c to g for variant ENST00000256474.2:c.478_479del
+
+2033	3_10191495_10191495_T_A	ENST00000256474.2	3_None_None	None	75	GRCh37	VHL	L163H (c.488T>A)	missense_variant	['ENST00000256474.2:c.488T>A']			ENST00000256474.2:c.488T>A	sub					L163H	Leu163His	point_mutation		unable to convert c to g for variant ENST00000256474.2:c.488T>A
+
+2034	3_10188243_10188243_T_C	ENST00000256474.2	3_None_None	None	75	GRCh37	VHL	L129P (c.386T>C)	missense_variant	['ENST00000256474.2:c.386T>C']			ENST00000256474.2:c.386T>C	sub					L129P	Leu129Pro	point_mutation		unable to convert c to g for variant ENST00000256474.2:c.386T>C
+
+2035	3_10191490_10191490_A_None	ENST00000256474.2	3_None_None	None	75	GRCh37	VHL	C162FS (c.483delA)	frameshift_truncation	['ENST00000256474.2:c.483delA']			ENST00000256474.2:c.483del	del					C162fs	Cys162fsTer	frameshift		unable to convert c to g for variant ENST00000256474.2:c.483del
+
+2040	3_10191484_10191485_None_CA	ENST00000256474.2	3_None_None	None	75	GRCh37	VHL	K159fs (c.477_478insCA)	frameshift_variant	['ENST00000256474.2:c.477_478insCA']			ENST00000256474.2:c.477_478insCA	ins					K159fs	Lys159fsTer	frameshift		unable to convert c to g for variant ENST00000256474.2:c.477_478insCA
+
+2055	3_10188293_10188293_C_None	ENST00000256474.2	3_None_None	None	75	GRCh37	VHL	P146fs (c.436delC)	frameshift_truncation	['ENST00000256474.2:c.436delC']			ENST00000256474.2:c.436del	del					P146fs	Pro146fsTer	frameshift		unable to convert c to g for variant ENST00000256474.2:c.436del
+
+2057	3_10188201_10188201_A_None	ENST00000256474.2	3_None_None	None	75	GRCh37	VHL	H115FS (c.344delA)	frameshift_truncation	['ENST00000256474.2:c.344delA']			ENST00000256474.2:c.344del	del					H115fs	His115fsTer	frameshift		unable to convert c to g for variant ENST00000256474.2:c.344del
+
+2069	3_10183821_10183821_C_T	ENST00000256474.2	3_None_None	None	75	GRCh37	VHL	P97L (c.290C>T)	missense_variant	['ENST00000256474.2:c.290C>T']			ENST00000256474.2:c.290C>T	sub					P97L	Pro97Leu	point_mutation		unable to convert c to g for variant ENST00000256474.2:c.290C>T
+
+2070	3_10191558_10191558_T_A	ENST00000256474.2	3_None_None	None	75	GRCh37	VHL	L184H (c.551T>A)	missense_variant	['ENST00000256474.2:c.551T>A']			ENST00000256474.2:c.551T>A	sub					L184H	Leu184His	point_mutation		unable to convert c to g for variant ENST00000256474.2:c.551T>A
+
+2080	3_10191534_10191534_G_None	ENST00000256474.2	3_None_None	None	75	GRCh37	VHL	R176fs (c.527delG)	frameshift_truncation	['ENST00000256474.2:c.527delG']			ENST00000256474.2:c.527del	del					R176fs	Arg176fsTer	frameshift		unable to convert c to g for variant ENST00000256474.2:c.527del
+
+2088	3_10183755_10183757_TCT_None	ENST00000256474.2	3_None_None	None	75	GRCh37	VHL	F76del (c.224_226delTCT)	inframe_deletion	['ENST00000256474.2:c.224_226delTCT']			ENST00000256474.2:c.224_226del	del					F76del	Phe76del	small_deletion		unable to convert c to g for variant ENST00000256474.2:c.224_226del
+
+2098	3_10191482_10191482_A_None	ENST00000256474.2	3_None_None	None	75	GRCh37	VHL	K159fs (c.475delA)	frameshift_truncation	['ENST00000256474.2:c.475delA']			ENST00000256474.2:c.475del	del					K159fs	Lys159fsTer	frameshift		unable to convert c to g for variant ENST00000256474.2:c.475del
+
+2100	3_10191555_10191555_C_None	ENST00000256474.2	3_None_None	None	75	GRCh37	VHL	S183fs (c.548delC)	frameshift_truncation	['ENST00000256474.2:c.548delC']			ENST00000256474.2:c.548del	del					S183fs	Ser183fsTer	frameshift		unable to convert c to g for variant ENST00000256474.2:c.548del
+
+2112	3_10183763_10183763_A_G	ENST00000256474.2	3_None_None	None	75	GRCh37	VHL	N78D (c.232A>G)	missense_variant	['ENST00000256474.2:c.232A>G']			ENST00000256474.2:c.232A>G	sub					N78D	Asn78Asp	point_mutation		unable to convert c to g for variant ENST00000256474.2:c.232A>G
+
+2117	3_10183815_10183815_C_G	ENST00000256474.2	3_None_None	None	75	GRCh37	VHL	P95R (c.284C>G)	missense_variant	['ENST00000256474.2:c.284C>G']			ENST00000256474.2:c.284C>G	sub					P95R	Pro95Arg	point_mutation		unable to convert c to g for variant ENST00000256474.2:c.284C>G
+
+2118	3_10183839_10183839_C_T	ENST00000256474.2	3_None_None	None	75	GRCh37	VHL	P103L (c.308C>T)	missense_variant	['ENST00000256474.2:c.308C>T']			ENST00000256474.2:c.308C>T	sub					P103L	Pro103Leu	point_mutation		unable to convert c to g for variant ENST00000256474.2:c.308C>T
+
+2120	3_10188270_10188270_C_T	ENST00000256474.2	3_None_None	None	75	GRCh37	VHL	P138L (c.413C>T)	missense_variant	['ENST00000256474.2:c.413C>T']			ENST00000256474.2:c.413C>T	sub					P138L	Pro138Leu	point_mutation		unable to convert c to g for variant ENST00000256474.2:c.413C>T
+
+2126	3_10191599_10191600_CT_None	ENST00000256474.2	3_None_None	None	75	GRCh37	VHL	D198fs (c.592_593delCT)	frameshift_truncation	['ENST00000256474.2:c.592_593delCT']			ENST00000256474.2:c.592_593del	del					D198fs	Asp198fsTer	frameshift		unable to convert c to g for variant ENST00000256474.2:c.592_593del
+
+2127	3_10183810_10183810_C_None	ENST00000256474.2	3_None_None	None	75	GRCh37	VHL	G93FS (c.279delC)	frameshift_truncation	['ENST00000256474.2:c.279delC']			ENST00000256474.2:c.279del	del					G93fs	Gly93fsTer	frameshift		unable to convert c to g for variant ENST00000256474.2:c.279del
+
+2128	3_10183822_10183822_C_G	ENST00000256474.2	3_None_None	None	75	GRCh37	VHL	P97P (c.291C>G)	silent_mutation	['ENST00000256474.2:c.291C>G']			ENST00000256474.2:c.291C>G	sub					P97P	Pro97Pro	point_mutation		unable to convert c to g for variant ENST00000256474.2:c.291C>G
+
+2135	3_10188226_10188232_GACACAC_None	ENST00000256474.2	3_None_None	None	75	GRCh37	VHL	G123fs (c.369_375delGACACAC)	frameshift_variant	['ENST00000256474.2:c.369_375delGACACAC']			ENST00000256474.2:c.369_375del	del					G123fs	Gly123fsTer	frameshift		unable to convert c to g for variant ENST00000256474.2:c.369_375del
+
+2137	3_10191481_10191483_GAA_C	ENST00000256474.2	3_None_None	None	75	GRCh37	VHL	L158fs (c.474_476delGAAinsC)	frameshift_variant	['ENST00000256474.2:c.474_476delGAAinsC']			ENST00000256474.2:c.474_476delinsC	delins					L158fs	Leu158fsTer	frameshift		unable to convert c to g for variant ENST00000256474.2:c.474_476delinsC
+
+2138	3_10191532_10191532_C_None	ENST00000256474.2	3_None_None	None	75	GRCh37	VHL	Y175FS (c.525delC)	frameshift_truncation	['ENST00000256474.2:c.525delC']			ENST00000256474.2:c.525del	del					Y175fs	Tyr175fsTer	frameshift		unable to convert c to g for variant ENST00000256474.2:c.525del
+
+2139	3_10191569_10191569_C_None	ENST00000256474.2	3_None_None	None	75	GRCh37	VHL	L188fs (c.562delC)	frameshift_truncation	['ENST00000256474.2:c.562delC']			ENST00000256474.2:c.562del	del					L188fs	Leu188fsTer	frameshift		unable to convert c to g for variant ENST00000256474.2:c.562del
+
+2140	3_10191591_10191592_AG_None	ENST00000256474.2	3_None_None	None	75	GRCh37	VHL	Q195fs (c.584_585delAG)	frameshift_variant	['ENST00000256474.2:c.584_585delAG']			ENST00000256474.2:c.584_585del	del					Q195fs	Gln195fsTer	frameshift		unable to convert c to g for variant ENST00000256474.2:c.584_585del
+
+2141	3_10191596_10191596_G_None	ENST00000256474.2	3_None_None	None	75	GRCh37	VHL	D197FS (c.589delG)	frameshift_truncation	['ENST00000256474.2:c.589delG']			ENST00000256474.2:c.589del	del					D197fs	Asp197fsTer	frameshift		unable to convert c to g for variant ENST00000256474.2:c.589del
+
+2145	3_10183713_10183716_CCGT_None	ENST00000256474.2	3_None_None	None	75	GRCh37	VHL	P61FS (c.182_185delCCGT)	frameshift_variant	['ENST00000256474.2:c.182_185delCCGT']			ENST00000256474.2:c.182_185del	del					P61fs	Pro61fsTer	frameshift		unable to convert c to g for variant ENST00000256474.2:c.182_185del
+
+2155	3_10188289_10188290_None_A	ENST00000256474.2	3_None_None	None	75	GRCh37	VHL	R145fs (c.432_433insA)	frameshift_variant	['ENST00000256474.2:c.432_433insA']			ENST00000256474.2:c.432_433insA	ins					R145fs	Arg145fsTer	frameshift		unable to convert c to g for variant ENST00000256474.2:c.432_433insA
+
+2157	3_10188240_10188240_T_C	ENST00000256474.2	3_None_None	None	75	GRCh37	VHL	L128P (c.383T>C)	missense_variant	['ENST00000256474.2:c.383T>C']			ENST00000256474.2:c.383T>C	sub					L128P	Leu128Pro	point_mutation		unable to convert c to g for variant ENST00000256474.2:c.383T>C
+
+2177	3_10183693_10183693_G_C	ENST00000256474.2	3_None_None	None	75	GRCh37	VHL	M54I (c.162G>C)	missense_variant	['ENST00000256474.2:c.162G>C']			ENST00000256474.2:c.162G>C	sub					M54I	Met54Ile	point_mutation		unable to convert c to g for variant ENST00000256474.2:c.162G>C
+
+2224	7_140434507_140434507_G_T	ENST00000288602.6	7_None_None	None	75	GRCh37	BRAF	P731T	missense_variant	['ENST00000288602.6:c.2193G>T']			ENST00000288602.6:c.2193G>T	sub					P731T	Pro731Thr	point_mutation		unable to convert c to g for variant ENST00000288602.6:c.2193G>T
+
+2346	None_None_None_None_None	None	None_None_None	None	None	None	MLH1	Glu34Lys (c.100G>A)		['NM_000249.3:c.100G>A']			NM_000249.3:c.100G>A	sub	NC_000003.11:g.37035138G>A	sub			E34K	Glu34Lys	point_mutation		fix civic var name for vname.hgvs.p
+
+2370	9_133753906_133753906_G_A	ENST00000318560.5	9_None_None	None	75	GRCh37	ABL1	BCR-ABL E459K	missense_variant	['ENST00000318560.5:c.1375G>A']			ENST00000318560.5:c.1375G>A	sub					E459K	Glu459Lys	point_mutation		unable to convert c to g for variant ENST00000318560.5:c.1375G>A;fix civic var name for vname.hgvs.p
+
+2488	3_10191647_10191647_T_G	ENST00000256474.2	3_None_None	None	75	GRCh37	VHL	*214G (c.640T>G)	stop_lost	"['ENSP00000256474.2:p.Ter214Gly', 'NP_000542.1:p.Ter214Gly', 'NM_000551.3:c.640T>G', 'ENST00000256474.2:c.640T>G']"			NM_000551.3:c.640T>G;ENST00000256474.2:c.640T>G	sub;sub	NC_000003.11:g.10191647T>G	sub	ENSP00000256474.2:p.Ter214Gly;NP_000542.1:p.Ter214Gly	sub;sub	*214G	Ter214Gly	point_mutation		unable to convert c to g for variant ENST00000256474.2:c.640T>G
