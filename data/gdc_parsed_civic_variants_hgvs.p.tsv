@@ -1,0 +1,1338 @@
+civic_var_id	civic_gen_id	civic_hgvs_exp_hgvs.p	civic_hgvs_exp_hgvs.p_var_types	civic_var_name_hgvs.p	civic_var_name_hgvs.p_var_types
+2	4	NP_005148.2:p.Thr315Ile	sub	T315I	point_mutation
+3	4	NP_005148.2:p.Glu255Lys	sub	E255K	point_mutation
+4	2	NP_001014432.1:p.Glu17Lys	sub	E17K	point_mutation
+6	1	NP_004295.2:p.Cys1156Tyr	sub	C1156Y	point_mutation
+7	1	NP_004295.2:p.Leu1196Met	sub	L1196M	point_mutation
+8	1	NP_004295.2:p.Phe1174Leu	sub	F1174L	point_mutation
+9	1	NP_004295.2:p.Arg1275Gln	sub	R1275Q	point_mutation
+10	3	NP_001645.1:p.Ser214Cys	sub	S214C	point_mutation
+11	5	NP_004324.2:p.Val600Asp	sub	V600D	point_mutation
+12	5	NP_004324.2:p.Val600Glu	sub	V600E	point_mutation
+14	5			V600E	point_mutation
+33	19	NP_005219.2:p.Leu858Arg	sub	L858R	point_mutation
+34	19	NP_005219.2:p.Thr790Met	sub	T790M	point_mutation
+35	20	NP_001276866.1:p.Asp769His	sub	D769H	point_mutation
+36	20	NP_004439.2:p.Asp769Tyr	sub	D769Y	point_mutation
+37	20	NP_004439.2:p.Leu755_Thr759del	del		
+38	20	NP_004439.2:p.Gly309Ala	sub	G309A	point_mutation
+39	20	NP_004439.2:p.Leu755Ser	sub	L755S	point_mutation
+40	20	NP_004439.2:p.Leu755Trp	sub	L755W	point_mutation
+42	20	NP_004439.2:p.Arg678Gln	sub	R678Q	point_mutation
+43	20	NP_004439.2:p.Arg896Cys	sub	R896C	point_mutation
+44	20	NP_004439.2:p.Val777Leu	sub	V777L	point_mutation
+45	20	NP_004439.2:p.Val842Ile	sub	V842I	point_mutation
+46	21			L536Q	point_mutation
+47	21			D538G	point_mutation
+48	21			Y537C	point_mutation
+49	21			Y537N	point_mutation
+50	21			Y537S	point_mutation
+59	26	NP_005887.2:p.Arg132Cys	sub	R132C	point_mutation
+63	27	NP_002159.2:p.Arg172Lys	sub	R172K	point_mutation
+64	28	NP_004963.1:p.Val617Phe	sub	V617F	point_mutation
+65	29	NP_000213.1:p.Asp816Val	sub	D816V	point_mutation
+72	29	NP_000213.1:p.Leu576Pro	sub	L576P	point_mutation
+73	29	NP_000213.1:p.Val654Ala	sub	V654A	point_mutation
+78	30	NP_004976.2:p.Gly12Cys	sub	G12C	point_mutation
+79	30	NP_004976.2:p.Gly12Asp	sub	G12D	point_mutation
+81	30	NP_004976.2:p.Gly13Asp	sub	G13D	point_mutation
+82	31	NP_002746.1:p.Pro124Ser	sub	P124S	point_mutation
+83	31	NP_002746.1:p.Gln56Pro	sub	Q56P	point_mutation
+87	35	NP_002511.1:p.Trp288CysfsTer	fs	W288fs	frameshift
+93	36	NP_002515.1:p.Gly13Asp	sub	G13D	point_mutation
+95	36	NP_002515.1:p.Gln61Leu	sub	Q61L	point_mutation
+96	36	NP_002515.1:p.Gln61Arg	sub	Q61R	point_mutation
+98	38	NP_006197.1:p.Asp842Ile	sub	D842I	point_mutation
+99	38	NP_006197.1:p.Asp842Val	sub	D842V	point_mutation
+100	38	NP_006197.1:p.Asp842Tyr	sub	D842Y	point_mutation
+101	38			I843del	small_deletion
+103	37	NP_006209.2:p.Glu542Lys	sub	E542K	point_mutation
+104	37	NP_006209.2:p.Glu545Lys	sub	E545K	point_mutation
+107	37	NP_006209.2:p.His1047Arg	sub	H1047R	point_mutation
+110	41	NP_000305.3:p.Arg233Ter	sub	R233*	point_mutation
+112	42	NP_065681.1:p.Cys634Trp	sub	C634W	point_mutation
+113	42	NP_065681.1:p.Met918Thr	sub	M918T	point_mutation
+114	44	NP_036565.2:p.Lys666Asn	sub	K666N	point_mutation
+116	45	NP_000537.3:p.Arg175His	sub	R175H	point_mutation
+117	45	NP_000537.3:p.Arg248Gln	sub	R248Q	point_mutation
+118	45	NP_000537.3:p.Arg248Trp	sub	R248W	point_mutation
+121	45	NP_000537.3:p.Arg273Cys	sub	R273C	point_mutation
+122	45	NP_000537.3:p.Arg273His	sub	R273H	point_mutation
+134	19	NP_005219.2:p.Gly719Ser	sub	G719S	point_mutation
+135	50	NP_060087.3:p.Asp1642His	sub	D1642H	point_mutation
+136	50	NP_060087.3:p.Arg2327Trp	sub	R2327W	point_mutation
+137	50			V2444fs	frameshift
+138	50			S2275fs	frameshift
+139	51	NP_006173.2:p.Leu63Val	sub	L63V	point_mutation
+140	51			L239R	point_mutation
+141	51			G253C	point_mutation
+142	51	NP_006173.2:p.Gly505Ser	sub	G505S	point_mutation
+143	51			I638F	point_mutation
+144	51			G774V	point_mutation
+145	51			S768R	point_mutation
+148	30	NP_004976.2:p.Gly12Ala	sub	G12A	point_mutation
+168	65	NP_000052.1:p.Cys481Ser	sub	C481S	point_mutation
+169	2	NP_001014432.1:p.Gln79Lys	sub	Q79K	point_mutation
+171	1	NP_004295.2:p.Gly1202Arg	sub	G1202R	point_mutation
+172	1	NP_004295.2:p.Ser1206Tyr	sub	S1206Y	point_mutation
+173	1			T1151insT	insertion
+175	67	NP_000035.2:p.Phe877Leu	sub	F877L	point_mutation
+196	23			Y375C	point_mutation
+198	72			C134W	point_mutation
+201	29	NP_000213.1:p.Met541Leu	sub	M541L	point_mutation
+202	29			V560del	small_deletion
+207	50			P2514fs	frameshift
+238	9189			R367Q	point_mutation
+239	9189	NP_036361.1:p.Lys359Gln	sub	K359Q	point_mutation
+240	9189	NP_036361.1:p.Asp407Ala	sub	D407A	point_mutation
+241	4	NP_005148.2:p.Phe317Leu	sub	F317L	point_mutation
+243	69			V2288fs*1	frameshift
+244	69	NP_000042.3:p.Asn2875His	sub	N2875H	point_mutation
+245	3870			Y177fs	frameshift
+247	38	NP_006197.1:p.Val561Ala	sub	V561A	point_mutation
+248	79			C228T	point_mutation
+249	6144			R194W	point_mutation
+258	3672	NP_005948.3:p.Ala222Val	sub	A222V	point_mutation
+259	2473	NP_000843.1:p.Ile105Val	sub	I105V	point_mutation
+260	7451			Q141K	point_mutation
+261	6144	NP_006288.2:p.Gln399Arg	sub	Q399R	point_mutation
+262	4244	NP_000918.2:p.Ser893Thr	sub	S893T	point_mutation
+263	4244	NP_000918.2:p.Ile1145=	identity	I1145I	point_mutation
+264	1736			K751Q	point_mutation
+271	524			I774fs	frameshift
+274	2747	NP_005334.1:p.Gly13Asp	sub	G13D	point_mutation
+279	3870			K159fs*16	frameshift
+283	2073	NP_004949.1:p.His1968Tyr	sub	H1968Y	point_mutation
+284	2073	NP_004949.1:p.Pro2213Ser	sub	P2213S	point_mutation
+288	5	NP_004324.2:p.Leu597Arg	sub	L597R	point_mutation
+294	37	NP_006209.2:p.Pro471Leu	sub	P471L	point_mutation
+299	5365	NP_005622.1:p.Asp473His	sub	D473H	point_mutation
+307	1	NP_004295.2:p.Leu1152Arg	sub	L1152R	point_mutation
+308	1	NP_004295.2:p.Gly1269Ala	sub	G1269A	point_mutation
+317	19	NP_005219.2:p.Gly724Ser	sub	G724S	point_mutation
+320	4532	NP_002736.3:p.Glu322Lys	sub	E322K	point_mutation
+322	30	NP_004976.2:p.Ala146Val	sub	A146V	point_mutation
+351	10024	NP_056374.2:p.Gly870Ser	sub	G870S	point_mutation
+367	4753			P29S	point_mutation
+402	1463	NP_000894.1:p.Pro187Ser	sub	P187S	point_mutation
+414	20			Y772_A775dup	duplication
+415	19	NP_005219.2:p.Cys797Ser	sub	C797S	point_mutation
+420	26	NP_005887.2:p.Arg132His	sub	R132H	point_mutation
+424	3742			L265P	point_mutation
+425	30	NP_004976.2:p.Gly12Val	sub	G12V	point_mutation
+427	36	NP_002515.1:p.Gln61Lys	sub	Q61K	point_mutation
+443	19			G465R	point_mutation
+453	19	NP_005219.2:p.Ser492Arg	sub	S492R	point_mutation
+454	19	NP_001333827.1:p.Arg451Cys	sub	R451C	point_mutation
+455	19			K467T	point_mutation
+456	1842	NP_001129691.1:p.His167Arg	sub	H167R	point_mutation
+457	1844			F212V	point_mutation
+458	1843	NP_003992.3:p.Ile232Thr	sub	I232T	point_mutation
+460	19	NP_005219.2:p.Pro753Ser	sub	P753S	point_mutation
+462	39			A216V	point_mutation
+463	39			L218P	point_mutation
+465	4941			G2032R	point_mutation
+467	3153	NP_002244.1:p.Ala1065Thr	sub	A1065T	point_mutation
+468	3153			D717V	point_mutation
+469	47	NP_000539.2:p.Gln1178Ter	sub	Q1178*	point_mutation
+470	2073			F2108L	point_mutation
+471	4765			R186*	point_mutation
+477	6	NP_009225.1:p.Pro968LeufsTer	fs	P968fs	frameshift
+479	30	NP_004976.2:p.Gln22Ter	sub	Q22*	point_mutation
+480	18			P904L	point_mutation
+482	29	NP_000213.1:p.Leu862=	identity		
+496	20			L866M	point_mutation
+502	3153	NP_002244.1:p.Arg961Trp	sub	R961W	point_mutation
+504	45	NP_000537.3:p.Pro47Ser	sub	P47S	point_mutation
+508	4371	NP_000526.2:p.Lys706SerfsTer	fs	K706fs*19	frameshift
+515	1885	NP_075598.2:p.Asn546Lys	sub	N546K	point_mutation
+516	4941			L2026M	point_mutation
+517	4941			L2155S	point_mutation
+518	4941			G2101A	point_mutation
+528	1			V1180L	point_mutation
+530	30	NP_004976.2:p.Gly12Arg	sub	G12R	point_mutation
+531	45	NP_000537.3:p.Pro72Arg	sub	P72R	point_mutation
+540	24	NP_004110.2:p.Thr227Met	sub	T227M	point_mutation
+541	15013			L531fs*30	frameshift
+542	2073	NP_004949.1:p.Ser2215Tyr	sub	S2215Y	point_mutation
+543	2073	NP_004949.1:p.Cys1483Tyr	sub	C1483Y	point_mutation
+544	2073	NP_004949.1:p.Glu1799Lys	sub	E1799K	point_mutation
+545	22	NP_075259.4:p.Asn550Lys	sub	N550K	point_mutation
+548	9722	NP_055145.3:p.Arg251Pro	sub		
+549	1	NP_004295.2:p.Phe1245Cys	sub	F1245C	point_mutation
+551	1	NP_004295.2:p.Phe1245Cys	sub	F1245C	point_mutation
+552	1	NP_004295.2:p.Gly1269Ala	sub	G1269A	point_mutation
+556	13	NP_000066.1:p.Arg24Cys	sub	R24C	point_mutation
+562	19	NP_005219.2:p.Ser768Ile	sub	S768I	point_mutation
+563	5	NP_004324.2:p.Val600Lys	sub	V600K	point_mutation
+565	44	NP_036565.2:p.Lys700Glu	sub	K700E	point_mutation
+566	4546			E116K	point_mutation
+577	38	NP_006197.1:p.Thr674Ile	sub	T674I	point_mutation
+579	5	NP_004324.2:p.Asp594Ala	sub	D594A	point_mutation
+580	5	NP_004324.2:p.Asp594Val	sub	D594V	point_mutation
+581	5			K483M	point_mutation
+582	5	NP_004324.2:p.Leu597Ser	sub	L597S	point_mutation
+583	5	NP_004324.2:p.Leu597Gln	sub	L597Q	point_mutation
+584	5	NP_004324.2:p.Lys601Glu	sub	K601E	point_mutation
+585	5	NP_004324.2:p.Leu597Val	sub	L597V	point_mutation
+588	1	NP_004295.2:p.Ile1171Asn	sub	I1171N	point_mutation
+589	1			I1171S	point_mutation
+604	2317	NP_002063.2:p.Gln209Pro	sub	Q209P	point_mutation
+605	41			V317fs	frameshift
+609	2073			M2327I	point_mutation
+610	2073			A2034V	point_mutation
+611	5	NP_004324.2:p.Asp594Gly	sub	D594G	point_mutation
+612	24	NP_004110.2:p.Asp835His	sub	D835H	point_mutation
+614	3090			Q503*	point_mutation
+616	537			S14fs	frameshift
+627	31	NP_002746.1:p.Cys121Ser	sub	C121S	point_mutation
+628	23			S249C	point_mutation
+631	58	NP_000542.1:p.Arg200Trp	sub	R200W	point_mutation
+634	5534	NP_000446.1:p.Asp194Glu	sub	D194E	point_mutation
+636	41	NP_000305.3:p.Arg130Ter	sub	R130*	point_mutation
+638	4795			M695fs*26	frameshift
+649	52	NP_001120972.1:p.Asp1246Asn	sub	D1228N	point_mutation
+650	761	NP_001219.2:p.Asp302His	sub	D302H	point_mutation
+655	31			Q56_V60del	small_deletion
+658	5	NP_004324.2:p.Leu505His	sub	L505H	point_mutation
+661	7	NP_000050.2:p.Asp3095Glu	sub	D3095E	point_mutation
+691	12271			E384*	point_mutation
+692	21			S463P	point_mutation
+694	5	NP_004324.2:p.Gly596Cys	sub	G596C	point_mutation
+701	1733			V104M	point_mutation
+702	1733			R103G	point_mutation
+703	1733			G284R	point_mutation
+712	19	NP_005219.2:p.Asp761Tyr	sub	D761Y	point_mutation
+714	46	NP_000359.1:p.Arg1062Trp	sub	R1062W	point_mutation
+723	19			K757R	point_mutation
+724	19			E746G	point_mutation
+725	3532	NP_000240.1:p.Glu13ArgfsTer	fs	E13fs*3	frameshift
+727	3628	NP_000242.1:p.Arg383Ter	sub	R383*	point_mutation
+728	3532			V534R	point_mutation
+730	3532			G606fs*2	frameshift
+733	3532	NP_000240.1:p.Lys618del	del	K618del	small_deletion
+734	3532			P138T	point_mutation
+735	3532	NP_000240.1:p.Arg687GlyfsTer	fs	R687fs	frameshift
+738	1526	NP_000101.2:p.Ile560Ser	sub		
+741	3532	NP_000240.1:p.Arg100Ter	sub	R100*	point_mutation
+743	3532	NP_000240.1:p.Thr117Met	sub	T117M	point_mutation
+744	3532			Q426fs	frameshift
+745	3532			V49A	point_mutation
+746	3532			D667fs	frameshift
+747	3532			M1L	point_mutation
+748	3532			*757L	point_mutation
+749	3532			R265G	point_mutation
+750	3532			V213fs	frameshift
+751	3532	NP_000240.1:p.Asn551Thr	sub	N551T	point_mutation
+752	3532	NP_000240.1:p.Ala424Thr	sub	A424T	point_mutation
+753	3532	NP_000240.1:p.Gln149Ter	sub	Q149*	point_mutation
+754	3532	NP_000240.1:p.Arg226Ter	sub	R226*	point_mutation
+755	2478			I972F	point_mutation
+756	3532			P536fs	frameshift
+757	3532	NP_000240.1:p.Gly67Arg	sub	G67R	point_mutation
+758	3532			I68S	point_mutation
+759	3532	NP_000240.1:p.Gly65Asp	sub	G65D	point_mutation
+760	3532	NP_000240.1:p.Ala681Val	sub	A681V	point_mutation
+761	2478			P138T	point_mutation
+762	3628			V273fs	frameshift
+763	3628			E28fs	frameshift
+764	58	NP_000542.1:p.Glu55fsTer	fs	E55fs	frameshift
+765	2478			I891fs	frameshift
+766	58	NP_000542.1:p.Glu55ArgfsTer11	fs	E55Rfs*11	frameshift
+767	2478	NP_000170.1:p.Arg1242His	sub	R1242H	point_mutation
+768	4371	NP_000526.2:p.Arg315Ter	sub	R315*	point_mutation
+769	3532			M490T	point_mutation
+770	3628			K172*	point_mutation
+771	58	NP_000542.1:p.Ala56GlyfsTer74	fs	A56fs	frameshift
+772	8351	NP_006352.2:p.Gly84Glu	sub	G84E	point_mutation
+773	3628			E483G	point_mutation
+775	2478	NP_000170.1:p.Val352Ile	sub	V352I	point_mutation
+776	2478	NP_000170.1:p.Arg1242Cys	sub	R1242C	point_mutation
+778	8450			N130D	point_mutation
+781	1733			V855A	point_mutation
+785	8950	NP_009125.1:p.Thr367MetfsTer	fs		
+787	8950	NP_009125.1:p.Ile157Thr	sub	I157T	point_mutation
+792	4692	NP_002830.1:p.Val253Ile	sub	V253I	point_mutation
+793	58	NP_000542.1:p.Ala56GlyfsTer74	fs	A56fs	frameshift
+794	58	NP_000542.1:p.Glu55=	identity	E55E	point_mutation
+798	52			D1228V	point_mutation
+802	43	NP_001001890.1:p.Lys83Glu	sub	K83E	point_mutation
+803	43	NP_001001890.1:p.Tyr260Ter	sub	Y260*	point_mutation
+804	43			R135fsX177	frameshift
+805	3985			G623R	point_mutation
+806	43			D198Y	point_mutation
+807	43	NP_001745.2:p.Ala134Pro	sub	A107P	point_mutation
+810	43	NP_001745.2:p.Thr148HisfsTer	fs	T148HfsX9	frameshift
+811	1769	NP_001978.1:p.Arg399Cys	sub	R399C	point_mutation
+812	1769	NP_001978.1:p.Arg369Gln	sub	R369Q	point_mutation
+813	1769			P214L	point_mutation
+814	11932			R164W	point_mutation
+816	20			G776L	point_mutation
+817	20			G778_P780dup	duplication
+818	20			M774delinsWLV	delins
+820	58	NP_000542.1:p.Ala149Ser	sub	A149S	point_mutation
+822	3090			S703I	point_mutation
+824	31			K57T	point_mutation
+825	3			S490T	point_mutation
+826	2319	NP_000507.1:p.Arg201Cys	sub	R201C	point_mutation
+829	58	NP_000542.1:p.Met54IlefsTer76	fs	M54Ifs	frameshift
+837	5365	NP_005622.1:p.Trp535Leu	sub	W535L	point_mutation
+838	41	NP_000305.3:p.Arg173Cys	sub	R173C	point_mutation
+840	5	NP_004324.2:p.Gly469Arg	sub	G469R	point_mutation
+841	5	NP_004324.2:p.Gly469Val	sub	G469V	point_mutation
+846	58			M1fs	frameshift
+847	58	NP_000542.1:p.Met1?	sub	M1?	point_mutation
+848	58	NP_000542.1:p.Met1?	sub	M1?	point_mutation
+849	58			N7D	point_mutation
+850	58	NP_000542.1:p.Pro25Leu	sub	P25L	point_mutation
+851	58	NP_000542.1:p.Pro59AlafsTer73	fs	P59fs	frameshift
+852	58	NP_000542.1:p.Tyr98HisfsTer27	fs	Y98fs	frameshift
+854	2747	NP_005334.1:p.Gln61Leu	sub	Q61L	point_mutation
+861	19			T725M	point_mutation
+862	38	NP_006197.1:p.Pro577Ser	sub	P577S	point_mutation
+863	38	NP_006197.1:p.Arg841Lys	sub	R841K	point_mutation
+864	38	NP_006197.1:p.His845Tyr	sub	H845Y	point_mutation
+865	38	NP_006197.1:p.Gly853Asp	sub	G853D	point_mutation
+870	65			T316A	point_mutation
+871	20			T862A	point_mutation
+872	20			V773A	point_mutation
+873	20	NP_004439.2:p.Asn857Ser	sub	N857S	point_mutation
+874	20			H878Y	point_mutation
+877	2319			T393C	point_mutation
+878	36	NP_002515.1:p.Gly12Asp	sub	G12D	point_mutation
+879	45			G245S	point_mutation
+880	26	NP_001269315.1:p.Arg132Leu	sub	R132L	point_mutation
+881	37	NP_006209.2:p.Glu545Gln	sub	E545Q	point_mutation
+882	37	NP_006209.2:p.Glu545Ala	sub	E545A	point_mutation
+883	37	NP_006209.2:p.Glu545Gly	sub	E545G	point_mutation
+884	37	NP_006209.2:p.Glu545Val	sub	E545V	point_mutation
+885	37	NP_006209.2:p.Gln546Lys	sub	Q546K	point_mutation
+886	37	NP_006209.2:p.Gln546Glu	sub	Q546E	point_mutation
+890	19			L747_S752del	small_deletion
+892	4	NP_005148.2:p.Phe359Val	sub	F359V	point_mutation
+893	36	NP_002515.1:p.Gln61His	sub	Q61H	point_mutation
+895	36	NP_002515.1:p.Gly13Cys	sub	G13C	point_mutation
+896	36	NP_002515.1:p.Gly13Arg	sub	G13R	point_mutation
+897	36	NP_002515.1:p.Gly12Cys	sub	G12C	point_mutation
+898	36	NP_002515.1:p.Gly12Ser	sub	G12S	point_mutation
+901	69			T2666A	point_mutation
+902	69	NP_000042.3:p.Leu2890Val	sub	L2890V	point_mutation
+903	69			R3008C	point_mutation
+904	69			R3008H	point_mutation
+905	30	NP_004976.2:p.Ala146Pro	sub	A146P	point_mutation
+906	30	NP_004976.2:p.Ala146Thr	sub	A146T	point_mutation
+907	30	NP_004976.2:p.Gln61His	sub	Q61H	point_mutation
+908	30	NP_004976.2:p.Gln61Leu	sub	Q61L	point_mutation
+909	30	NP_004976.2:p.Gln61Arg	sub	Q61R	point_mutation
+910	30	NP_004976.2:p.Gln61Lys	sub	Q61K	point_mutation
+911	30	NP_004976.2:p.Gly13Cys	sub	G13C	point_mutation
+913	30	NP_004976.2:p.Gly12Ser	sub	G12S	point_mutation
+918	45	NP_000537.3:p.Arg273Leu	sub	R273L	point_mutation
+922	45	NP_000537.3:p.Tyr220Cys	sub	Y220C	point_mutation
+927	26	NP_001269315.1:p.Arg132Gly	sub	R132G	point_mutation
+928	26	NP_001269315.1:p.Arg132Ser	sub	R132S	point_mutation
+930	37	NP_006209.2:p.Asn345Lys	sub	N345K	point_mutation
+931	37	NP_006209.2:p.Cys420Arg	sub	C420R	point_mutation
+933	37	NP_006209.2:p.Glu542Gln	sub	E542Q	point_mutation
+934	37	NP_006209.2:p.Glu545Asp	sub	E545D	point_mutation
+935	37	NP_006209.2:p.Tyr1021Cys	sub	Y1021C	point_mutation
+937	37	NP_006209.2:p.Met1043Ile	sub	M1043I	point_mutation
+938	37	NP_006209.2:p.His1047Tyr	sub	H1047Y	point_mutation
+939	37	NP_006209.2:p.Gly1049Ser	sub	G1049S	point_mutation
+940	37	NP_006209.2:p.Gly1049Arg	sub	G1049R	point_mutation
+941	38	NP_006197.1:p.Val561Asp	sub	V561D	point_mutation
+946	29			Y503_F504insAY	insertion
+948	29			K550_W557del	small_deletion
+949	29	NP_000213.1:p.Lys550_Lys558del	del	K550_K558del	small_deletion
+950	29			P551L	point_mutation
+951	29			M552_W557del	small_deletion
+952	29			Y553D	point_mutation
+953	29			Y553_K558del	small_deletion
+955	29			E554D	point_mutation
+956	29			V555_Q556del	small_deletion
+958	29	NP_000213.1:p.Trp557Arg	sub	W557R	point_mutation
+959	29	NP_000213.1:p.Trp557Gly	sub	W557G	point_mutation
+960	29			W557T	point_mutation
+962	29			W557_E561del	small_deletion
+963	29	NP_000213.1:p.Lys558Gln	sub	K558Q	point_mutation
+964	29			K558_V559del	small_deletion
+965	29			K558R	point_mutation
+966	29	NP_000213.1:p.Val559del	del	V559del	small_deletion
+967	29			V559_V560del	small_deletion
+968	29	NP_000213.1:p.Val559Asp	sub	V559D	point_mutation
+969	29	NP_000213.1:p.Val559Ala	sub	V559A	point_mutation
+970	29	NP_000213.1:p.Val559Gly	sub	V559G	point_mutation
+971	29	NP_000213.1:p.Val560Asp	sub	V560D	point_mutation
+972	29	NP_000213.1:p.Val560Gly	sub	V560G	point_mutation
+974	29			T574A	point_mutation
+975	29			Q575L	point_mutation
+976	29			P577L	point_mutation
+977	29			D579del	small_deletion
+978	29	NP_000213.1:p.Lys642Glu	sub	K642E	point_mutation
+979	29			T661I	point_mutation
+980	29	NP_000213.1:p.Ser692Leu	sub	S692L	point_mutation
+981	29			Q694K	point_mutation
+983	29	NP_000213.1:p.Asp816His	sub	D816H	point_mutation
+984	29			D816Y	point_mutation
+986	29	NP_000213.1:p.Asp820Tyr	sub	D820Y	point_mutation
+989	29	NP_000213.1:p.Tyr823Asp	sub	Y823D	point_mutation
+990	29			A829P	point_mutation
+991	5			V600R	point_mutation
+992	5	NP_004324.2:p.Gly469Ala	sub	G469A	point_mutation
+993	5			G469E	point_mutation
+994	19			R108K	point_mutation
+995	19			T263P	point_mutation
+996	19	NP_005219.2:p.Ala289Val	sub	A289V	point_mutation
+999	19	NP_005219.2:p.Gly719Ala	sub	G719A	point_mutation
+1001	19			V742A	point_mutation
+1004	19			E746_T751delinsA	delins
+1005	19			E746V	point_mutation
+1012	19			L747_P753delinsS	delins
+1013	19			D761N	point_mutation
+1016	19			G810S	point_mutation
+1017	19			R831H	point_mutation
+1018	19			L838V	point_mutation
+1020	19			L861Q	point_mutation
+1021	4	NP_005148.2:p.Met244Val	sub	M244V	point_mutation
+1022	4	NP_005148.2:p.Leu248Val	sub	L248V	point_mutation
+1023	4	NP_005148.2:p.Gly250Glu	sub	G250E	point_mutation
+1024	4	NP_005148.2:p.Gln252His	sub	Q252H	point_mutation
+1025	4	NP_005148.2:p.Tyr253His	sub	Y253H	point_mutation
+1026	4	NP_005148.2:p.Tyr253Phe	sub	Y253F	point_mutation
+1027	4	NP_005148.2:p.Asp276Gly	sub	D276G	point_mutation
+1029	4	NP_005148.2:p.Met351Thr	sub	M351T	point_mutation
+1030	4	NP_005148.2:p.His396Arg	sub	H396R	point_mutation
+1031	50			L1600P	point_mutation
+1032	50			L1574P	point_mutation
+1033	50			R1598P	point_mutation
+1034	50			L1678P	point_mutation
+1045	45			D281G	point_mutation
+1049	45			P278S	point_mutation
+1066	45			M237I	point_mutation
+1068	45	NP_000537.3:p.Tyr234Cys	sub	Y234C	point_mutation
+1092	45	NP_000537.3:p.Val157Phe	sub	V157F	point_mutation
+1103	30	NP_004976.2:p.Gln61Pro	sub	Q61P	point_mutation
+1104	30	NP_004976.2:p.Gln61Glu	sub	Q61E	point_mutation
+1105	30			Q61fs	frameshift
+1106	5	NP_004324.2:p.Gly464Val	sub	G464V	point_mutation
+1107	5	NP_004324.2:p.Asp594Asn	sub	D594N	point_mutation
+1108	45	NP_000537.3:p.Arg282Leu	sub	R282L	point_mutation
+1109	45	NP_000537.3:p.Arg213Pro	sub	R213P	point_mutation
+1120	30	NP_004976.2:p.Lys117Asn	sub	K117N	point_mutation
+1121	5	NP_004324.2:p.Phe595Leu	sub	F595L	point_mutation
+1127	50			F1592S	point_mutation
+1140	50			L1600Q	point_mutation
+1142	50			L1585R	point_mutation
+1143	50			V1577A	point_mutation
+1144	50			V1577E	point_mutation
+1145	50			L1574Q	point_mutation
+1151	37	NP_006209.2:p.His1047Leu	sub	H1047L	point_mutation
+1152	4	NP_005148.2:p.Phe486Ser	sub	F486S	point_mutation
+1153	69			P292R	point_mutation
+1154	69			M1fs	frameshift
+1155	69	NP_000042.3:p.Lys293Ter	sub	K293*	point_mutation
+1156	69			R2459C	point_mutation
+1157	69			Q984E	point_mutation
+1158	69			F1025L	point_mutation
+1159	69			Q1084*	point_mutation
+1160	69			D1930V	point_mutation
+1161	69			R2034P	point_mutation
+1162	69			E2187*	point_mutation
+1163	69			L2427P	point_mutation
+1164	69	NP_000042.3:p.Phe2732Val	sub	F2732V	point_mutation
+1165	69			R777fs	frameshift
+1166	69	NP_000042.3:p.Lys468GlufsTer	fs	K468fs	frameshift
+1167	69			V1268fs	frameshift
+1168	69	NP_000042.3:p.Asp1682His	sub	D1682H	point_mutation
+1169	69			A2062V	point_mutation
+1170	69			R1575H	point_mutation
+1171	69	NP_000042.3:p.Ala2274Thr	sub	A2274T	point_mutation
+1172	69	NP_000042.3:p.Cys2488Tyr	sub	C2488Y	point_mutation
+1173	4	NP_005148.2:p.Glu255Val	sub	E255V	point_mutation
+1174	50	NP_060087.3:p.Phe1592Cys	sub	F1592C	point_mutation
+1175	36			G12V	point_mutation
+1178	37	NP_006209.2:p.Arg93Trp	sub	R93W	point_mutation
+1181	19			R776C	point_mutation
+1182	19			S784F	point_mutation
+1183	4	NP_005148.2:p.Glu292Val	sub	E292V	point_mutation
+1184	4	NP_005148.2:p.Phe359Cys	sub	F359C	point_mutation
+1186	5			N581S	point_mutation
+1187	19			A864T	point_mutation
+1188	19			N826S	point_mutation
+1196	5	NP_004324.2:p.Gly466Ala	sub	G466A	point_mutation
+1206	29			S501_A502insAY	insertion
+1214	19	NP_005219.2:p.Glu746_Thr751delinsValAla	delins	E746_T751delinsVA	delins
+1227	7936	NP_001193658.1:p.Glu17Lys	sub	E17K	point_mutation
+1230	4	NP_005148.2:p.Leu384Met	sub	L384M	point_mutation
+1231	4	NP_005148.2:p.Val299Leu	sub	V299L	point_mutation
+1232	4	NP_005148.2:p.Leu387Phe	sub	L387F	point_mutation
+1233	4	NP_005148.2:p.Gly398Arg	sub	G398R	point_mutation
+1234	37	NP_006209.2:p.Lys111Asn	sub	K111N	point_mutation
+1235	37	NP_006209.2:p.Ile391Met	sub	I391M	point_mutation
+1236	6	NP_009225.1:p.Met1Val	sub	M1V	point_mutation
+1237	6	NP_009225.1:p.Met1Ile	sub	M1I	point_mutation
+1238	6	NP_009225.1:p.Cys61Gly	sub	C61G	point_mutation
+1239	6	NP_009225.1:p.Cys64Tyr	sub	C64Y	point_mutation
+1240	6	NP_009225.1:p.Arg71Gly	sub	R71G	point_mutation
+1241	6	NP_009225.1:p.Arg71Lys	sub	R71K	point_mutation
+1242	6	NP_009225.1:p.Arg1495Met	sub	R1495M	point_mutation
+1243	6	NP_009225.1:p.Glu1559Lys	sub	E1559K	point_mutation
+1244	6	NP_009225.1:p.Asp1692Asn	sub	D1692N	point_mutation
+1245	6	NP_009225.1:p.Arg1443Ter	sub	R1443*	point_mutation
+1246	6	NP_009225.1:p.Gln1467Ter	sub	Q1467*	point_mutation
+1247	7	NP_000050.2:p.Met1Arg	sub	M1R	point_mutation
+1248	7	NP_000050.2:p.Met1Ile	sub	M1I	point_mutation
+1249	7	NP_000050.2:p.Val159Met	sub	V159M	point_mutation
+1250	7			V211L	point_mutation
+1251	7			V211I	point_mutation
+1252	7	NP_000050.2:p.Arg2336Pro	sub	R2336P	point_mutation
+1253	7	NP_000050.2:p.Arg2336His	sub	R2336H	point_mutation
+1254	45			V143A	point_mutation
+1260	42	NP_065681.1:p.Cys609Tyr	sub	C609Y	point_mutation
+1263	29	NP_000213.1:p.Asn822Lys	sub	N822K	point_mutation
+1264	29	NP_000213.1:p.Cys809Gly	sub	C809G	point_mutation
+1265	29	NP_000213.1:p.Asp820Ala	sub	D820A	point_mutation
+1266	29	NP_000213.1:p.Asp820Gly	sub	D820G	point_mutation
+1267	29	NP_000213.1:p.Thr670Ile	sub	T670I	point_mutation
+1270	31	NP_002746.1:p.Phe53Leu	sub	F53L	point_mutation
+1271	4941	NP_002935.2:p.Gly2032Arg	sub	G2032R	point_mutation
+1272	31	NP_002746.1:p.Lys57Asn	sub	K57N	point_mutation
+1275	1			L1198F	point_mutation
+1285	1290	NP_001895.1:p.Thr41Ala	sub	T41A	point_mutation
+1286	1290	NP_001895.1:p.Ser45Phe	sub	S45F	point_mutation
+1287	1290	NP_001895.1:p.Ser45Pro	sub	S45P	point_mutation
+1288	3091	NP_000206.2:p.Met511Ile	sub	M511I	point_mutation
+1289	3091	NP_000206.2:p.Val722Ile	sub	V722I	point_mutation
+1290	3091	NP_000206.2:p.Ser61Cys	sub	S61C	point_mutation
+1291	3090			P429S	point_mutation
+1292	3090			W690*	point_mutation
+1294	58	NP_000542.1:p.Trp8Ter	sub	W8*	point_mutation
+1295	1	NP_004295.2:p.Phe1245Val	sub	F1245V	point_mutation
+1302	24	NP_004110.2:p.Asp835Val	sub	D835V	point_mutation
+1304	20	NP_004439.2:p.Leu755Pro	sub	L755P	point_mutation
+1305	20			T798M	point_mutation
+1308	20			L768S	point_mutation
+1309	20			L638S	point_mutation
+1311	20			V773L	point_mutation
+1312	20			K753E	point_mutation
+1313	20			L753E	point_mutation
+1314	20			K755S	point_mutation
+1317	36			G13V	point_mutation
+1319	2319			R201H	point_mutation
+1387	2747			G12D	point_mutation
+1390	19			E884K	point_mutation
+1391	2747			Q61R	point_mutation
+1392	2747			Q61K	point_mutation
+1393	2747			G13R	point_mutation
+1394	2747			G12V	point_mutation
+1395	30	NP_004976.2:p.Gly13Arg	sub	G13R	point_mutation
+1396	30	NP_004976.2:p.Gly13Ser	sub	G13S	point_mutation
+1397	24			D835E	point_mutation
+1398	4542			F57C	point_mutation
+1400	23			K650E	point_mutation
+1402	29			D816G	point_mutation
+1413	19			E709Q	point_mutation
+1420	19			G719D	point_mutation
+1443	19			S768N	point_mutation
+1445	19			D770_N771insSVD	insertion
+1446	19			H773_V774insH	insertion
+1457	19			L838P	point_mutation
+1463	19			T847I	point_mutation
+1465	19			P848L	point_mutation
+1466	19			V851I	point_mutation
+1467	19			T854A	point_mutation
+1474	19			A859T	point_mutation
+1477	19			L861R	point_mutation
+1482	19			E868G	point_mutation
+1487	4	NP_005148.2:p.Glu355Gly	sub	E355G	point_mutation
+1488	4			L387M	point_mutation
+1489	2747			G13V	point_mutation
+1491	30	NP_004976.2:p.Ala59Thr	sub	A59T	point_mutation
+1492	1			F1174C	point_mutation
+1493	1	NP_004295.2:p.Thr1151Met	sub	T1151M	point_mutation
+1494	4			T277A	point_mutation
+1495	4			S438C	point_mutation
+1496	4	NP_005148.2:p.Glu450Gly	sub	E450G	point_mutation
+1498	29			W557_V559insC	insertion
+1499	37	NP_006209.2:p.Ser158Leu	sub	S158L	point_mutation
+1500	37	NP_006209.2:p.Glu81Lys	sub	E81K	point_mutation
+1503	12903	NP_361014.1:p.Arg505Cys	sub	R505C	point_mutation
+1504	12903			R505H	point_mutation
+1505	1			F1174V	point_mutation
+1506	4			L298V	point_mutation
+1507	4	NP_005148.2:p.Phe311Ile	sub	F311I	point_mutation
+1508	4			L364I	point_mutation
+1509	4	NP_005148.2:p.Glu453Gln	sub	E453Q	point_mutation
+1510	6559			Q456*	point_mutation
+1511	19			S768_D770dup	duplication
+1513	19			H773_V774insNPH	insertion
+1514	19			D770_N771insGL	insertion
+1515	19			A763_Y764insFQEA	insertion
+1517	30	NP_004976.2:p.Gly13Val	sub	G13V	point_mutation
+1520	2073			Q2223K	point_mutation
+1521	14	NP_000068.1:p.Trp110Ter	sub	W110*	point_mutation
+1522	14			A20P	point_mutation
+1523	4	NP_005148.2:p.Phe359Ile	sub	F359I	point_mutation
+1524	4	NP_005148.2:p.Met343Thr	sub	M343T	point_mutation
+1525	4	NP_005148.2:p.Phe317Val	sub	F317V	point_mutation
+1526	4	NP_005148.2:p.Glu279Lys	sub	E279K	point_mutation
+1527	4			Q300R	point_mutation
+1528	4	NP_005148.2:p.Phe311Leu	sub	F311L	point_mutation
+1529	4			N331S	point_mutation
+1530	4			L364P	point_mutation
+1531	4	NP_005148.2:p.His396Pro	sub	H396P	point_mutation
+1532	4	NP_005148.2:p.Asp421Gly	sub	D421G	point_mutation
+1533	4			I432T	point_mutation
+1534	4	NP_005148.2:p.Glu450Val	sub	E450V	point_mutation
+1535	4	NP_005148.2:p.Glu453Lys	sub	E453K	point_mutation
+1536	4	NP_005148.2:p.Glu453Ala	sub	E453A	point_mutation
+1537	4			P480A	point_mutation
+1538	4	NP_005148.2:p.Phe486Tyr	sub	F486Y	point_mutation
+1540	38			L579M	point_mutation
+1541	29			Q556_I571del	small_deletion
+1543	29			V555_I571del	small_deletion
+1547	29			D579_H580insIDPTQLPYD	insertion
+1548	29			Y570_L576del	small_deletion
+1550	29			V560_L576del	small_deletion
+1551	29			V569_L576del	small_deletion
+1552	4532			E278E	point_mutation
+1553	1			L1196Q	point_mutation
+1554	1			L1152P	point_mutation
+1555	6			W1815*	point_mutation
+1556	1			L1198P	point_mutation
+1558	29			A502_Y503insAY	insertion
+1559	29			D816E	point_mutation
+1560	5365			D473G	point_mutation
+1561	5365			D473Y	point_mutation
+1562	5365			S278I	point_mutation
+1563	5365			W281C	point_mutation
+1564	5365			Q477E	point_mutation
+1566	19			D770_N771insGT	insertion
+1567	19			V774_C775insHV	insertion
+1569	19			D770_N771insNPG	insertion
+1570	5365	NP_005622.1:p.Leu412Phe	sub	L412F	point_mutation
+1571	19			W731L	point_mutation
+1572	19			E734Q	point_mutation
+1573	19			T785A	point_mutation
+1574	19			C797Y	point_mutation
+1575	19			Y801H	point_mutation
+1576	5365			V321M	point_mutation
+1578	19			V769A	point_mutation
+1580	19			L747_S752insQ	insertion
+1582	19			P546S	point_mutation
+1583	5365			W281L	point_mutation
+1584	5365			G497W	point_mutation
+1585	5365			I408V	point_mutation
+1586	5365			C469Y	point_mutation
+1587	5365			T241M	point_mutation
+1588	5365			A459V	point_mutation
+1589	5365			S533N	point_mutation
+1590	4645			W170*	point_mutation
+1591	4645			W712*	point_mutation
+1592	4645			Q787*	point_mutation
+1593	4645			Q17*	point_mutation
+1595	4			H201L	point_mutation
+1596	4	NP_005148.2:p.Tyr232Ser	sub	Y232S	point_mutation
+1597	4			M237V	point_mutation
+1598	4			I242T	point_mutation
+1599	4	NP_005148.2:p.Gly250Val	sub	G250V	point_mutation
+1600	4			Q252R	point_mutation
+1601	4	NP_005148.2:p.Glu258Asp	sub	E258D	point_mutation
+1602	4			L273M	point_mutation
+1603	4	NP_005148.2:p.Glu281Lys	sub	E281K	point_mutation
+1604	4	NP_005148.2:p.Val289Ile	sub	V289I	point_mutation
+1605	4	NP_005148.2:p.Tyr342His	sub	Y342H	point_mutation
+1606	4	NP_005148.2:p.Asp363Tyr	sub	D363Y	point_mutation
+1607	4	NP_005148.2:p.Ala365Val	sub	A365V	point_mutation
+1608	4	NP_005148.2:p.Ala366Gly	sub	A366G	point_mutation
+1609	4	NP_005148.2:p.Val379Ile	sub	V379I	point_mutation
+1610	4			M388L	point_mutation
+1611	4	NP_005148.2:p.Tyr393Cys	sub	Y393C	point_mutation
+1612	4	NP_005148.2:p.Ala397Pro	sub	A397P	point_mutation
+1613	4			S417Y	point_mutation
+1614	4			I418V	point_mutation
+1615	4			I418S	point_mutation
+1616	4			P441L	point_mutation
+1617	4	NP_005148.2:p.Glu450Lys	sub	E450K	point_mutation
+1618	4	NP_005148.2:p.Glu450Gln	sub	E450Q	point_mutation
+1619	4	NP_005148.2:p.Glu450Ala	sub	E450A	point_mutation
+1620	4	NP_005148.2:p.Glu453Val	sub	E453V	point_mutation
+1621	4	NP_005148.2:p.Glu459Gly	sub	E459G	point_mutation
+1622	4			M472I	point_mutation
+1623	4			P480L	point_mutation
+1624	4			G514S	point_mutation
+1625	4	NP_005148.2:p.Phe317Ile	sub	F317I	point_mutation
+1626	31	NP_002746.1:p.Glu203Lys	sub	E203K	point_mutation
+1627	5	NP_004324.2:p.Gly596Arg	sub	G596R	point_mutation
+1628	3867			R163*	point_mutation
+1630	24			Y591_V592insVDFREYE	insertion
+1631	24			E588_Y589insKYFYVDFRE	insertion
+1632	24			V592_D593insDFREY	insertion
+1639	4			C475V	point_mutation
+1640	4			N336S	point_mutation
+1641	4941			D2033N	point_mutation
+1642	4384			Y956N	point_mutation
+1643	5128			Q225*	point_mutation
+1644	18364			P1460T	point_mutation
+1645	14195			Y1520*	point_mutation
+1646	13465			A59E	point_mutation
+1647	4384			C284Y	point_mutation
+1648	4384			E374K	point_mutation
+1649	52			D1010Y	point_mutation
+1650	5			G596V	point_mutation
+1651	52			D1010N	point_mutation
+1652	4290			N561D	point_mutation
+1653	37	NP_006209.2:p.Asp350Gly	sub	D350G	point_mutation
+1654	36			Q179*	point_mutation
+1656	4			R351W	point_mutation
+1657	4			G340L	point_mutation
+1658	5			V600_K601delinsD	delins
+1659	29			S628N	point_mutation
+1660	52			D1010H	point_mutation
+1661	1	NP_004295.2:p.Arg1192Pro	sub	R1192P	point_mutation
+1662	19			N771delinsVH	delins
+1664	19			M766_A767insAI	insertion
+1665	19			Y764_V765insHH	insertion
+1666	19			D770_N771insGY	insertion
+1667	19			P772_H773insYNP	insertion
+1668	19			P772_V774insPHV	insertion
+1669	3359			Y508F	point_mutation
+1670	4941			S1986Y	point_mutation
+1671	4941			S1986F	point_mutation
+1672	19			Y69fs*11	frameshift
+1673	1734			G1109C	point_mutation
+1674	21			E380Q	point_mutation
+1675	21			L536R	point_mutation
+1676	12903			S668fs*39	frameshift
+1677	12903			L403fs*34	frameshift
+1678	12903			G579W	point_mutation
+1679	12903			R658Q	point_mutation
+1680	4767			R391W	point_mutation
+1682	6559			P1175fs*5	frameshift
+1683	1			R214H	point_mutation
+1686	154	NP_001096.1:p.Gly328Val	sub	G328V	point_mutation
+1688	42			V804L	point_mutation
+1689	42			G810A	point_mutation
+1692	23			G691R	point_mutation
+1694	58	NP_000542.1:p.Glu12Asp	sub	E12D	point_mutation
+1695	45			R158H	point_mutation
+1696	45			R249S	point_mutation
+1697	45			R280K	point_mutation
+1698	45			R280T	point_mutation
+1699	45			R158L	point_mutation
+1700	42			C634R	point_mutation
+1733	58	NP_000542.1:p.Glu46Ter	sub	E46*	point_mutation
+1734	58	NP_000542.1:p.Glu52Lys	sub	E52K	point_mutation
+1735	58			E52fs*	frameshift
+1736	58			E55*	point_mutation
+1737	58			G39Afs*26	frameshift
+1738	58	NP_000542.1:p.Leu158Pro	sub	L158P	point_mutation
+1739	58	NP_000542.1:p.Arg167Gln	sub	R167Q	point_mutation
+1741	58	NP_000542.1:p.Tyr98His	sub	Y98H	point_mutation
+1742	58	NP_000542.1:p.His115Gln	sub	H115Q	point_mutation
+1743	58	NP_000542.1:p.Phe119Leu	sub	F119L	point_mutation
+1744	58	NP_000542.1:p.Ala149Thr	sub	A149T	point_mutation
+1745	58	NP_000542.1:p.Thr157Ile	sub	T157I	point_mutation
+1746	58	NP_000542.1:p.Arg161Gln	sub	R161Q	point_mutation
+1747	58	NP_000542.1:p.Arg167Trp	sub	R167W	point_mutation
+1748	58	NP_000542.1:p.Leu178Pro	sub	L178P	point_mutation
+1749	58	NP_000542.1:p.Phe76Ile	sub	F76I	point_mutation
+1750	58	NP_000542.1:p.Val62CysfsTer	fs	V62C	point_mutation
+1752	58	NP_000542.1:p.Gln73Ter	sub	Q73*	point_mutation
+1754	58	NP_000542.1:p.Asn78His	sub	N78H	point_mutation
+1755	58	NP_000542.1:p.Asn78Ser	sub	N78S	point_mutation
+1756	58	NP_000542.1:p.Asn78Thr	sub	N78T	point_mutation
+1757	58	NP_000542.1:p.Ser80Ile	sub	S80I	point_mutation
+1758	58			N131*	point_mutation
+1759	58	NP_000542.1:p.Pro86Ala	sub	P86A	point_mutation
+1760	58	NP_000542.1:p.Pro86Leu	sub	P86L	point_mutation
+1761	58	NP_000542.1:p.Trp88Arg	sub	W88R	point_mutation
+1762	58			S111fs	frameshift
+1763	58	NP_000542.1:p.Ser111Asn	sub	S111N	point_mutation
+1764	58	NP_000542.1:p.Ser111Arg	sub	S111R	point_mutation
+1766	58	NP_000542.1:p.Tyr112Ter	sub	Y112*	point_mutation
+1767	58	NP_000542.1:p.Trp117Cys	sub	W117C	point_mutation
+1768	58			L129Q	point_mutation
+1769	58			L135*	point_mutation
+1770	58			N150I	point_mutation
+1771	58	NP_000542.1:p.Val155CysfsTer4	fs	P154fs	frameshift
+1772	58	NP_000542.1:p.Cys162Arg	sub	C162R	point_mutation
+1773	58	NP_000542.1:p.Cys162Phe	sub	C162F	point_mutation
+1774	58	NP_000542.1:p.Cys162Trp	sub	C162W	point_mutation
+1775	58	NP_000542.1:p.Val166Asp	sub	V166D	point_mutation
+1776	58	NP_000542.1:p.Leu184Pro	sub	L184P	point_mutation
+1777	58	NP_000542.1:p.Glu186Ter	sub	E186*	point_mutation
+1778	58	NP_000542.1:p.Glu186Lys	sub	E186K	point_mutation
+1779	58			R167fs	frameshift
+1780	58			Y175fs	frameshift
+1781	58	NP_000542.1:p.Gln145HisfsTer	fs	Q145H	point_mutation
+1782	58	NP_000542.1:p.Pro154Leu	sub	P154L	point_mutation
+1783	58			T157fs	frameshift
+1784	58	NP_000542.1:p.Ser183Ter	sub	S183*	point_mutation
+1785	58			A56fs	frameshift
+1786	58			P59R	point_mutation
+1787	58	NP_000542.1:p.Ser65Trp	sub	S65W	point_mutation
+1788	58	NP_000542.1:p.Ser65Leu	sub	S65L	point_mutation
+1789	58	NP_000542.1:p.Val66Ter	sub	V66*	point_mutation
+1790	58			C77fs	frameshift
+1791	58	NP_000542.1:p.Arg79Pro	sub	R79P	point_mutation
+1792	58			S80R	point_mutation
+1793	58	NP_000542.1:p.Leu89Pro	sub	L89P	point_mutation
+1794	58	NP_000542.1:p.Glu94Ter	sub	E94*	point_mutation
+1795	58			P103fs	frameshift
+1796	58	NP_000542.1:p.Arg113Ter	sub	R113*	point_mutation
+1797	58	NP_000542.1:p.Gly114Cys	sub	G114C	point_mutation
+1798	58	NP_000542.1:p.Leu118Pro	sub	L118P	point_mutation
+1800	58			N131P	point_mutation
+1801	58	NP_000542.1:p.Phe136Ser	sub	F136S	point_mutation
+1802	58			L153C	point_mutation
+1803	58	NP_000542.1:p.Leu158Val	sub	L158V	point_mutation
+1804	58	NP_000542.1:p.Arg161Ter	sub	R161*	point_mutation
+1805	58	NP_000542.1:p.Arg167Gly	sub	R167G	point_mutation
+1806	58	NP_000542.1:p.Val170Phe	sub	V170F	point_mutation
+1807	58	NP_000542.1:p.Ile180Val	sub	I180V	point_mutation
+1808	58	NP_000542.1:p.Leu184Arg	sub	L184R	point_mutation
+1809	58	NP_000542.1:p.Tyr185Ter	sub	Y185*	point_mutation
+1810	58	NP_000542.1:p.Gln195Ter	sub	Q195*	point_mutation
+1811	58	NP_000542.1:p.Ser65Ter	sub	S65*	point_mutation
+1812	58			G93fs	frameshift
+1813	58	NP_000542.1:p.Asp121Gly	sub	D121G	point_mutation
+1814	58	NP_000542.1:p.Phe136Cys	sub	F136C	point_mutation
+1815	58	NP_000542.1:p.Val84Leu	sub	V84L	point_mutation
+1816	58			S72P	point_mutation
+1818	58	NP_000542.1:p.Gln96Pro	sub	Q96P	point_mutation
+1819	58			G185S	point_mutation
+1820	58			L116V	point_mutation
+1821	58	NP_000542.1:p.Trp117Ter	sub	W117*	point_mutation
+1822	58	NP_000542.1:p.Leu118Arg	sub	L118R	point_mutation
+1823	58			N141fs	frameshift
+1824	58	NP_000542.1:p.Cys162Tyr	sub	C162Y	point_mutation
+1825	58	NP_000542.1:p.Val166Phe	sub	V166F	point_mutation
+1826	58	NP_000542.1:p.Val170Asp	sub	V170D	point_mutation
+1827	58	NP_000542.1:p.Arg177Ter	sub	R177*	point_mutation
+1828	58	NP_000542.1:p.Leu188ArgfsTer14	fs	L188R	point_mutation
+1829	58	NP_000542.1:p.Glu186del	del	E186del	small_deletion
+1830	4386			P286R	point_mutation
+1831	4386			V411L	point_mutation
+1832	4386			S459F	point_mutation
+1833	58			V166F	point_mutation
+1834	58	NP_000542.1:p.Glu70Ter	sub	E70*	point_mutation
+1835	58	NP_000542.1:p.Phe76Ser	sub	F76S	point_mutation
+1836	58	NP_000542.1:p.Leu188Val	sub	L188V	point_mutation
+1837	58	NP_000542.1:p.Pro81Ser	sub	P81S	point_mutation
+1838	58			L101G	point_mutation
+1839	58	NP_000542.1:p.Thr105Pro	sub	T105P	point_mutation
+1840	58	NP_000542.1:p.Arg107Pro	sub	R107P	point_mutation
+1841	58			L118T	point_mutation
+1843	58			L132fs	frameshift
+1844	58			D143fs	frameshift
+1845	58	NP_000542.1:p.Gln164Ter	sub	Q164*	point_mutation
+1846	58	NP_000542.1:p.Tyr175Asp	sub	Y175D	point_mutation
+1847	58			V181G	point_mutation
+1848	58	NP_000542.1:p.Gln96Ter	sub	Q96*	point_mutation
+1849	58	NP_000542.1:p.Pro86Arg	sub	P86R	point_mutation
+1850	58	NP_000542.1:p.Gly144Ter	sub	G144*	point_mutation
+1851	58			L128F	point_mutation
+1852	58	NP_000542.1:p.Leu188Pro	sub	L188P	point_mutation
+1853	58			S111C	point_mutation
+1854	19			L858R	point_mutation
+1855	58	NP_000542.1:p.Arg161Pro	sub	R161P	point_mutation
+1856	58	NP_000542.1:p.Gln164Arg	sub	Q164R	point_mutation
+1857	58	NP_000542.1:p.Gly114Arg	sub	G114R	point_mutation
+1858	58	NP_000542.1:p.Gly93Asp	sub	G93D	point_mutation
+1859	58	NP_000542.1:p.Gly93Ser	sub	G93S	point_mutation
+1860	58	NP_000542.1:p.Leu101Arg	sub	L101R	point_mutation
+1861	58			L188Q	point_mutation
+1862	58			K159E	point_mutation
+1864	58	NP_000542.1:p.Pro192GlnfsTer10	fs	P192fs	frameshift
+1865	58	NP_000542.1:p.Tyr112His	sub	Y112H	point_mutation
+1867	58	NP_000542.1:p.Arg64Pro	sub	R64P	point_mutation
+1868	58			N131fs	frameshift
+1869	58			E189L	point_mutation
+1871	58	NP_000542.1:p.Ile151Thr	sub	I151T	point_mutation
+1872	58			L158fs	frameshift
+1873	58	NP_000542.1:p.Ser68Pro	sub	S68P	point_mutation
+1874	58	NP_000542.1:p.Ser80Asn	sub	S80N	point_mutation
+1875	58	NP_000542.1:p.Val130Phe	sub	V130F	point_mutation
+1881	69			F858L	point_mutation
+1883	58	NP_000542.1:p.Gln145Ter	sub	Q145*	point_mutation
+1884	58	NP_000542.1:p.Glu134Ter	sub	E134*	point_mutation
+1885	58	NP_000542.1:p.His115Pro	sub	H115P	point_mutation
+1886	58	NP_000542.1:p.Leu128Arg	sub	L128R	point_mutation
+1887	58	NP_000542.1:p.Leu169Pro	sub	L169P	point_mutation
+1888	58	NP_000542.1:p.Leu178Arg	sub	L178R	point_mutation
+1889	58			M54*	point_mutation
+1891	19			L747P	point_mutation
+1892	19			V774A	point_mutation
+1893	58			F91*	point_mutation
+1894	19			V774M	point_mutation
+1895	19			K806E	point_mutation
+1896	19			N826Y	point_mutation
+1897	19			V834I	point_mutation
+1899	19			N842S	point_mutation
+1902	58	NP_000542.1:p.Pro86Ser	sub	P86S	point_mutation
+1903	58	NP_000542.1:p.Ser65Pro	sub	S65P	point_mutation
+1904	58	NP_000542.1:p.Ser72Pro	sub	S72P	point_mutation
+1905	58			G123fs	frameshift
+1906	58	NP_000542.1:p.Leu135TyrfsTer24	fs	L135fs	frameshift
+1907	58	NP_000542.1:p.Arg177AspfsTer25	fs	R176fs	frameshift
+1908	58			W88*	point_mutation
+1909	58	NP_000542.1:p.Val155Glu	sub	V155E	point_mutation
+1910	58	NP_000542.1:p.Val170Ala	sub	V170A	point_mutation
+1911	58	NP_000542.1:p.Pro59AlafsTer?	fs	R58fs	frameshift
+1912	58	NP_000542.1:p.Phe76LeufsTer56	fs	F76fs	frameshift
+1913	58	NP_000542.1:p.Lys196Ter	sub	K196*	point_mutation
+1914	58	NP_000542.1:p.Arg120Gly	sub	R120G	point_mutation
+1915	58	NP_000542.1:p.Arg161Gly	sub	R161G	point_mutation
+1916	58	NP_000542.1:p.Arg167Leu	sub	R167L	point_mutation
+1917	58	NP_000542.1:p.Asn141IlefsTer12	fs	N141fs	frameshift
+1918	58			D126fs	frameshift
+1919	58	NP_000542.1:p.Glu160AlafsTer13	fs	E160fs	frameshift
+1920	58	NP_000542.1:p.Gly93Arg	sub	G93R	point_mutation
+1921	58	NP_000542.1:p.His115Tyr	sub	H115Y	point_mutation
+1922	58			I109fs	frameshift
+1923	58	NP_000542.1:p.Leu153Pro	sub	L153P	point_mutation
+1924	58			L188R	point_mutation
+1925	58			L85fs	frameshift
+1926	58	NP_000542.1:p.Phe76del	del	F76del	small_deletion
+1927	58	NP_000542.1:p.Pro103Ala	sub	P103A	point_mutation
+1928	58	NP_000542.1:p.Pro138Thr	sub	P138T	point_mutation
+1929	58	NP_000542.1:p.Pro59ArgfsTer8	fs	P59fs	frameshift
+1930	58	NP_000542.1:p.Pro59Ser	sub	P59S	point_mutation
+1931	58	NP_000542.1:p.Pro61=	identity	P61P	point_mutation
+1932	58	NP_000542.1:p.Tyr175Ter	sub	Y175*	point_mutation
+1933	58	NP_000542.1:p.Tyr98Cys	sub	Y98C	point_mutation
+1934	58	NP_000542.1:p.Val155Gly	sub	V155G	point_mutation
+1935	58	NP_000542.1:p.Val170Gly	sub	V170G	point_mutation
+1936	58	NP_000542.1:p.Val66Gly	sub	V66G	point_mutation
+1937	58	NP_000542.1:p.Val84Leu	sub	V84L	point_mutation
+1941	58	NP_000542.1:p.Ser168Thr	sub	S168T	point_mutation
+1942	58			P86S	point_mutation
+1943	58			Q164H	point_mutation
+1944	58	NP_000542.1:p.Leu63Pro	sub	L63P	point_mutation
+1945	58			Phe119Glnfs*12	frameshift
+1946	58	NP_000542.1:p.Tyr156Cys	sub	Y156C	point_mutation
+1948	58			R69fs	frameshift
+1949	58			G144fs	frameshift
+1953	58	NP_000542.1:p.Asn131Lys	sub	N131K	point_mutation
+1954	58			T105fs	frameshift
+1955	58			P71fs	frameshift
+1956	58	NP_000542.1:p.Glu70Lys	sub	E70K	point_mutation
+1957	58			H115Q	point_mutation
+1958	58	NP_000542.1:p.His191ThrfsTer11	fs	H191fs	frameshift
+1960	58			L140fs	frameshift
+1961	58			M54fs	frameshift
+1962	58	NP_000542.1:p.Pro154=	identity	P154P	point_mutation
+1963	58	NP_000542.1:p.Ser80Arg	sub	S80R	point_mutation
+1964	58			R60fs	frameshift
+1965	58			I109TfsX50	frameshift
+1966	58	NP_000542.1:p.Trp88Ser	sub	W88S	point_mutation
+1967	58	NP_000542.1:p.Tyr156Asp	sub	Y156D	point_mutation
+1968	58	NP_000542.1:p.Tyr156Ter	sub	Y156*	point_mutation
+1969	58	NP_000542.1:p.Tyr175Ter	sub	Y175*	point_mutation
+1970	58	NP_000542.1:p.Val130Leu	sub	V130L	point_mutation
+1975	58			R167fsX4	frameshift
+1976	58	NP_000542.1:p.Glu173Ter	sub	E173*	point_mutation
+1977	58			V194fs	frameshift
+1980	58	NP_000542.1:p.Arg82Pro	sub	R82P	point_mutation
+1981	58			N100fsX131	frameshift
+1986	58	NP_000542.1:p.Ter214Leu	sub	*214L	point_mutation
+1987	58	NP_000542.1:p.Ter214Trp	sub	*214W	point_mutation
+1988	58	NP_000542.1:p.Ter214Cys	sub	*214C	point_mutation
+1989	58	NP_000542.1:p.Gly144AspfsTer	fs	G144fs	frameshift
+1994	58	NP_000542.1:p.Gln132Ter	sub	Q132*	point_mutation
+1996	58			L129fs	frameshift
+1997	58			L178Q	point_mutation
+1999	58	NP_000542.1:p.Val74Gly	sub	V74G	point_mutation
+2000	58			H115R	point_mutation
+2001	58			R131S	point_mutation
+2002	58			Q73fs	frameshift
+2003	58	NP_000542.1:p.Ser111Arg	sub	S111R	point_mutation
+2004	58	NP_000542.1:p.Ser168ThrfsTer2	fs	S168fs	frameshift
+2005	58			P172fs	frameshift
+2006	58	NP_000542.1:p.Tyr112Asn	sub	Y112N	point_mutation
+2007	58	NP_000542.1:p.Arg107Gly	sub	R107G	point_mutation
+2008	58	NP_000542.1:p.Gly93Cys	sub	G93C	point_mutation
+2009	58			G93V	point_mutation
+2010	58	NP_000542.1:p.Leu198Gln	sub	L198Q	point_mutation
+2011	58	NP_000542.1:p.Ser65Ala	sub	S65A	point_mutation
+2012	58			S68W	point_mutation
+2013	58	NP_000542.1:p.Tyr156Asn	sub	Y156N	point_mutation
+2014	58			P61fs	frameshift
+2015	58			F76del	small_deletion
+2020	58	NP_000542.1:p.Leu85Pro	sub	L85P	point_mutation
+2022	58	NP_000542.1:p.Val194AlafsTer?	fs	V194fs	frameshift
+2023	58			A149fs	frameshift
+2026	58	NP_000542.1:p.Gly114Ser	sub	G114S	point_mutation
+2027	58			W117fs	frameshift
+2028	58			A122I	point_mutation
+2029	58			N150fs	frameshift
+2030	58			I151M	point_mutation
+2032	58			E160fs	frameshift
+2033	58			L163H	point_mutation
+2034	58			L129P	point_mutation
+2035	58			C162fs	frameshift
+2037	58	NP_000542.1:p.Asn78Ile	sub	N78I	point_mutation
+2038	58	NP_000542.1:p.Ile147Val	sub	I147V	point_mutation
+2039	58	NP_000542.1:p.Trp88PhefsTer?	fs	W88fs	frameshift
+2040	58			K159fs	frameshift
+2041	58	NP_000542.1:p.Gln73ArgfsTer?	fs	Q73fs	frameshift
+2042	58	NP_000542.1:p.Ala149ProfsTer10	fs	A149fs	frameshift
+2043	58	NP_000542.1:p.Gly104Ala	sub	G104A	point_mutation
+2044	58	NP_000542.1:p.Arg107His	sub	R107H	point_mutation
+2045	58			S111C	point_mutation
+2046	58			V155L	point_mutation
+2050	9533			E1705K	point_mutation
+2051	9533			D1709N	point_mutation
+2052	9533			E1813Q	point_mutation
+2053	58	NP_000542.1:p.Asp126Tyr	sub	D126Y	point_mutation
+2054	58	NP_000542.1:p.Thr124Ile	sub	T124I	point_mutation
+2055	58			P146fs	frameshift
+2056	58	NP_000542.1:p.Trp88Arg	sub	W88R	point_mutation
+2057	58			H115fs	frameshift
+2058	58	NP_000542.1:p.Pro102ArgfsTer?	fs	P102fs	frameshift
+2059	58	NP_000542.1:p.Gly144Arg	sub	G144R	point_mutation
+2060	58	NP_000542.1:p.His125Pro	sub	H125P	point_mutation
+2063	5534			F354L	point_mutation
+2064	58	NP_000542.1:p.Pro192Ser	sub	P192S	point_mutation
+2066	58	NP_000542.1:p.Tyr175Asn	sub	Y175N	point_mutation
+2067	58	NP_000542.1:p.Tyr175Cys	sub	Y175C	point_mutation
+2068	58	NP_000542.1:p.Val87Ala	sub	V87A	point_mutation
+2069	58			P97L	point_mutation
+2070	58			L184H	point_mutation
+2073	58			G106fs	frameshift
+2076	58	NP_000542.1:p.Val155Met	sub	V155M	point_mutation
+2079	58	NP_000542.1:p.Gln164Leu	sub	Q164L	point_mutation
+2080	58			R176fs	frameshift
+2081	58			V194fs	frameshift
+2084	58	NP_000542.1:p.Pro81Leu	sub	P81L	point_mutation
+2085	58	NP_000542.1:p.Thr152Ile	sub	T152I	point_mutation
+2087	58			L63fs	frameshift
+2088	58			F76del	small_deletion
+2090	58			P40fs	frameshift
+2091	58			T152fs	frameshift
+2092	58			T157fs	frameshift
+2094	58			T157fs	frameshift
+2095	58			I151fs	frameshift
+2097	58			D92fs	frameshift
+2098	58			K159fs	frameshift
+2099	58			V66del	small_deletion
+2100	58			S183fs	frameshift
+2101	58	NP_000542.1:p.Val84Met	sub	V84M	point_mutation
+2105	58	NP_000542.1:p.Asp197Asn	sub	D197N	point_mutation
+2106	58	NP_000542.1:p.Ser80Gly	sub	S80G	point_mutation
+2107	58	NP_000542.1:p.Phe76Leu	sub	F76L	point_mutation
+2110	58	NP_000542.1:p.Arg82Leu	sub	R82L	point_mutation
+2112	58			N78D	point_mutation
+2113	58	NP_000542.1:p.Asn78Tyr	sub	N78Y	point_mutation
+2115	58	NP_000542.1:p.Tyr185Ter	sub	Y185*	point_mutation
+2116	58			R167Q	point_mutation
+2117	58			P95R	point_mutation
+2118	58			P103L	point_mutation
+2119	58	NP_000542.1:p.Phe119Ser	sub	F119S	point_mutation
+2120	58			P138L	point_mutation
+2121	58			P61fs	frameshift
+2122	58	NP_000542.1:p.Ser68Ter	sub	S65*	point_mutation
+2123	58	NP_000542.1:p.Cys77del	del	C77del	small_deletion
+2124	58	NP_000542.1:p.Trp88Cys	sub	W88C	point_mutation
+2125	58	NP_000542.1:p.Gln132Pro	sub	Q132P	point_mutation
+2126	58			D198fs	frameshift
+2127	58			G93fs	frameshift
+2128	58			P97P	point_mutation
+2129	58			G114dup	duplication
+2130	58	NP_000542.1:p.Ser65TrpfsTer2	fs	S65fs	frameshift
+2131	58			Q73fs	frameshift
+2132	58			F76fs	frameshift
+2134	58			G114fs	frameshift
+2135	58			G123fs	frameshift
+2136	58			H125fs	frameshift
+2137	58			L158fs	frameshift
+2138	58			Y175fs	frameshift
+2139	58			L188fs	frameshift
+2140	58			Q195fs	frameshift
+2141	58			D197fs	frameshift
+2142	58			T202fs	frameshift
+2143	58	NP_000542.1:p.Arg113GlufsTer?	fs	R113fs	frameshift
+2144	58			E55fs	frameshift
+2145	58			P61fs	frameshift
+2147	58	NP_000542.1:p.Lys196Glu	sub	K196E	point_mutation
+2148	58			R161R	point_mutation
+2149	58	NP_000542.1:p.Asn90Ile	sub	N90I	point_mutation
+2150	58			I151F	point_mutation
+2151	58	NP_000542.1:p.Trp88Ter	sub	W88*	point_mutation
+2153	58			G114fs	frameshift
+2154	58	NP_000542.1:p.Asp121His	sub	D121H	point_mutation
+2155	58			R145fs	frameshift
+2156	58	NP_000542.1:p.Ser111Arg	sub	S111R	point_mutation
+2157	58			L128P	point_mutation
+2158	58			F76fs	frameshift
+2160	58	NP_000542.1:p.Tyr98ThrfsTer	fs	Y98fs	frameshift
+2161	58	NP_000542.1:p.Ser183Leu	sub	S183L	point_mutation
+2162	58	NP_000542.1:p.Asn150Ser	sub	N150S	point_mutation
+2165	1810	NP_000126.2:p.Ser1088Phe	sub	S1088F	point_mutation
+2168	8032			L1237F	point_mutation
+2173	58	NP_000542.1:p.Glu94Lys	sub	E94K	point_mutation
+2175	58			R79C	point_mutation
+2176	58			Y175C	point_mutation
+2177	58			M54I	point_mutation
+2195	9533			D1709G	point_mutation
+2196	9533			D1709E	point_mutation
+2197	9533			D1810H	point_mutation
+2198	9533			D1810Y	point_mutation
+2199	9533			D1810N	point_mutation
+2200	9533			E1813G	point_mutation
+2201	9533			E1813K	point_mutation
+2213	19			M766_A767insASV	insertion
+2217	19			P772_H773insH	insertion
+2221	5			G496A	point_mutation
+2222	5	NP_004324.2:p.Gly466Val	sub	G466V	point_mutation
+2223	5			G606E	point_mutation
+2224	5			P731T	point_mutation
+2241	58	NP_000542.1:p.Arg82Cys	sub	R82C	point_mutation
+2242	58	NP_000542.1:p.Trp88Leu	sub	W88L	point_mutation
+2243	58	NP_000542.1:p.Ser111Gly	sub	S111G	point_mutation
+2244	58	NP_000542.1:p.Ile151Met	sub	I151M	point_mutation
+2245	58	NP_000542.1:p.Glu160Ter	sub	E160*	point_mutation
+2246	58	NP_000542.1:p.Ile180Asn	sub	I180N	point_mutation
+2247	58	NP_000542.1:p.Leu198Arg	sub	L198R	point_mutation
+2248	58			T100A	point_mutation
+2249	58			W117*	point_mutation
+2250	58			I151S	point_mutation
+2251	58			Q96fs	frameshift
+2252	58			G104fs	frameshift
+2253	58			N174fs	frameshift
+2255	19			A702S	point_mutation
+2258	19			G719C	point_mutation
+2259	19			I744_K745insKIPVAI	insertion
+2260	52			D1028N	point_mutation
+2261	58			Q132fs	frameshift
+2262	58			L63fs	frameshift
+2263	58			P61fs	frameshift
+2264	58			R82_V84del	small_deletion
+2265	58			A56_P59del	small_deletion
+2266	58			G104fs	frameshift
+2267	58			Q132fs	frameshift
+2268	58			V194fs	frameshift
+2269	58			M54_A56del	small_deletion
+2271	58			F76_N78del	small_deletion
+2272	58			N141fs	frameshift
+2273	58			R161fs	frameshift
+2274	58			P172fs	frameshift
+2275	154			R258G	point_mutation
+2276	18420			R358*	point_mutation
+2277	14303			V2del	small_deletion
+2279	14303			G24R	point_mutation
+2280	154			G328W	point_mutation
+2281	1290			S37C	point_mutation
+2282	11314			E518K	point_mutation
+2283	154			G328E	point_mutation
+2285	14303			F232C	point_mutation
+2290	58			G144Q	point_mutation
+2291	58			I147T	point_mutation
+2293	58			G104G	point_mutation
+2294	58			F91L	point_mutation
+2298	58			L128fs	frameshift
+2299	58			W88fs	frameshift
+2300	58	NP_000542.1:p.Leu63Pro	sub	L63P	point_mutation
+2301	58			E55fs	frameshift
+2302	58			R60fs	frameshift
+2303	58			P61_S65del	small_deletion
+2304	58			E70fs	frameshift
+2305	58			L85fs	frameshift
+2306	58			P86fs	frameshift
+2307	58	NP_000542.1:p.Pro86His	sub	P86H	point_mutation
+2308	58	NP_000542.1:p.Leu89His	sub	L89H	point_mutation
+2309	58			N90fs	frameshift
+2310	58			E94_P97del	small_deletion
+2311	58			K114fs	frameshift
+2312	58			L116fs	frameshift
+2313	58			L118fs	frameshift
+2314	58			T124fs	frameshift
+2315	58			N131fs	frameshift
+2316	58			S139fs	frameshift
+2317	58			L140fs	frameshift
+2318	58			N141_D142del	small_deletion
+2319	58			G144fs	frameshift
+2320	58			G144fs	frameshift
+2321	58			Q145H	point_mutation
+2322	58			I147fs	frameshift
+2323	58			T157fs	frameshift
+2324	58			L158_K159del	small_deletion
+2325	58			V166fs	frameshift
+2326	58			S168_L169del	small_deletion
+2327	58			K171fs	frameshift
+2328	58			H191fs	frameshift
+2329	58			R205fs	frameshift
+2330	20	NP_004439.2:p.Leu869Arg	sub	L869R	point_mutation
+2331	20			T798I	point_mutation
+2332	19			A750T	point_mutation
+2333	19			R705K	point_mutation
+2335	4			T315A	point_mutation
+2340	4			L248R	point_mutation
+2343	4			F317S	point_mutation
+2346	3532			E34K	point_mutation
+2347	2975			S185C	point_mutation
+2348	2975			V253G	point_mutation
+2358	4			F311V	point_mutation
+2359	4			F317C	point_mutation
+2364	15344			R172I	point_mutation
+2370	4			E459K	point_mutation
+2372	52			T790M	point_mutation
+2377	4868			Y35N	point_mutation
+2380	58			V130I	point_mutation
+2383	58			Q203TfsX53	frameshift
+2387	1239			T618I	point_mutation
+2398	5			D594K	point_mutation
+2399	23			V443L	point_mutation
+2400	23			V443M	point_mutation
+2401	23			V496V	point_mutation
+2402	23			V555M	point_mutation
+2403	23			R248C	point_mutation
+2404	23			Y373C	point_mutation
+2405	23			G380R	point_mutation
+2406	23			G370C	point_mutation
+2407	23			F386L	point_mutation
+2416	2537			K27M	point_mutation
+2420	2538			K36M	point_mutation
+2421	2537			G34W	point_mutation
+2423	58			F136fs	frameshift
+2425	58			H191D	point_mutation
+2427	58			P54S	point_mutation
+2428	58			G104V	point_mutation
+2430	58			P40R	point_mutation
+2432	58			V87fs	frameshift
+2437	58			V166A	point_mutation
+2440	58			P138R	point_mutation
+2442	58			A50A	point_mutation
+2443	58			Q132Hfs*45	frameshift
+2444	58			Q73Pfs*59	frameshift
+2445	58			V74Sfs*53	frameshift
+2446	58			D121Mfs*38	frameshift
+2447	58			V66Gfs*89	frameshift
+2448	58			R79_S80del	small_deletion
+2449	58			D92G	point_mutation
+2451	58			V141fs	frameshift
+2453	58			Y156_T157del	small_deletion
+2455	58			G114Vfs*45	frameshift
+2456	58			T133Lfs*26	frameshift
+2458	58			R167P	point_mutation
+2459	58			L178P	point_mutation
+2460	58			N131K	point_mutation
+2462	58			S72fs	frameshift
+2463	58			H110P	point_mutation
+2466	58			E52*	point_mutation
+2467	58			L158E	point_mutation
+2468	4517			D427N	point_mutation
+2469	58			R176fs	frameshift
+2470	58			W117C	point_mutation
+2471	58			T104fs	frameshift
+2473	58			M54fs	frameshift
+2474	58			P59fs	frameshift
+2475	58			F119L	point_mutation
+2476	58			I151N	point_mutation
+2477	58			V155fs	frameshift
+2478	58			L163P	point_mutation
+2479	58			D197Rfs*	frameshift
+2480	58			Y98S	point_mutation
+2481	58			I151T	point_mutation
+2482	58			A149fs	frameshift
+2484	58			Y98N	point_mutation
+2486	58			R167fs	frameshift
+2487	58			I75del	small_deletion
+2488	58	NP_000542.1:p.Ter214Gly	sub	*214G	point_mutation
+2489	58			*214C	point_mutation
+2490	58			N131S	point_mutation
+2491	58			G114V	point_mutation
+2493	58			V194G	point_mutation
+2494	58			R120T	point_mutation
+2495	58			H208fs	frameshift
+2496	58			P86S	point_mutation
+2497	58			M54Gfs*77	frameshift
+2498	58			L198Wfs*4	frameshift
+2499	58			K196fs	frameshift
+2500	58			Y98S	point_mutation
+2501	58			L198P	point_mutation
+2502	58	NP_000542.1:p.Glu160Val	sub	E160V	point_mutation
+2503	58			S183W	point_mutation
+2505	58			L163F	point_mutation
+2506	58			L85_E94del	small_deletion
+2508	58			L129P	point_mutation
+2509	58			V62Efs*71	frameshift
+2510	58			R69Afs*63	frameshift
+2511	58			S80Ifs*79	frameshift
+2512	58			S80fs	frameshift
+2513	58			V87E	point_mutation
+2514	58			D92fs	frameshift
+2515	58			P97Afs*35	frameshift
+2516	58			H110Pfs*49	frameshift
+2517	58			S111Tfs*48	frameshift
+2520	58			H115fs	frameshift
+2521	58			W117G	point_mutation
+2522	58			W117R	point_mutation
+2523	58			W117S	point_mutation
+2524	58			E134Dfs*72	frameshift
+2525	58			Q145fs	frameshift
+2526	58			P146Gfs*14	frameshift
+2527	58			E160fs	frameshift
+2528	58			C162*	point_mutation
+2529	58			E189_D190del	small_deletion
+2532	58			R82G	point_mutation
+2533	58			D126N	point_mutation
+2537	58			R108fs	frameshift
+2538	58			E70K	point_mutation
+2539	58			V114R	point_mutation
+2540	58			H115Q	point_mutation
+2541	58			S139F	point_mutation
+2542	58			F190L	point_mutation
+2543	58			L198fs	frameshift
+2545	58			M54fs	frameshift
+2546	58			P61fs	frameshift
+2547	58			N67fs	frameshift
+2548	58			V84fs	frameshift
+2549	58			L89R	point_mutation
+2551	58			G104fs*158	frameshift
+2552	58			R120fs*158	frameshift
+2553	58			D121_A122del	small_deletion
+2554	58			D126G	point_mutation
+2555	58			G127fs	frameshift
+2556	58			T133fs*157	frameshift
+2557	58			L135fs	frameshift
+2558	58			F137fs	frameshift
+2559	58			L140fs*158	frameshift
+2560	58			G144fs*158	frameshift
+2561	58			A149fs*158	frameshift
+2562	58			T157fs*158	frameshift
+2563	58			L163fs*169	frameshift
+2568	42			V804M	point_mutation
+2569	63			Y641F	point_mutation
+2573	4685			D61Y	point_mutation
+2574	10024			D868N	point_mutation
+2576	1290			G34V	point_mutation
+2577	4176			C843G	point_mutation
+2580	58			N131T	point_mutation
+2587	28			F694L	point_mutation
+2592	29			K642R	point_mutation
+2599	19			I462K	point_mutation
+2600	19			I462R	point_mutation
+2601	19			S464L	point_mutation
+2602	19			S464T	point_mutation
+2603	19			G465E	point_mutation
+2604	19			G465V	point_mutation
+2605	19			K467N	point_mutation
+2606	19			K489Q	point_mutation
+2607	19			K489E	point_mutation
+2608	19			I491K	point_mutation
+2609	19			I491R	point_mutation
+2610	19			S492C	point_mutation
+2611	19			V441G	point_mutation
+2612	19			V441D	point_mutation
+2613	19			V441F	point_mutation
+2614	19			S442R	point_mutation
+2615	19			S442I	point_mutation
+2616	19			F404I	point_mutation
+2617	19			F404V	point_mutation
+2618	19			T415M	point_mutation
+2620	29			T417_D419delinsY	delins
+2621	29			F506_F508dup	duplication
+2622	29			K484_G487del	small_deletion
+2624	45			V135A	point_mutation
