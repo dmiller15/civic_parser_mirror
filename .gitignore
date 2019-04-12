@@ -1,0 +1,4 @@
+# ignore excel files and backup/log files
+*.xlxs
+*.bak
+*.log
