@@ -22,9 +22,9 @@ for line in f:
     tmp = line.strip().split("\t")
     civic_var[tmp[0]] = tmp[1]
 
-#To get parsed gDNA to eliminate them from hgvs.p results
+#To get parsed hgvs.g to eliminate them from hgvs.p results
 gDNA_var = {}
-f = open("data/results/civic_gdcmaf_mapping_gDNA.tsv")
+f = open("data/results/civic_gdcmaf_mapping_dna.tsv")
 f.readline()
 for line in f:
     tmp = line.strip().split("\t")

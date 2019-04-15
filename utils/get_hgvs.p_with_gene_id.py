@@ -3,15 +3,13 @@ import sys
 import hgvs.parser
 
 civic_var = {}
-#f1 = open(sys.argv[1])
-f1 = open("data/civic_variants_extraction.tsv")
+f1 = open("../data/civic_variants_extraction.tsv")
 f1.readline()
 for line in f1:
 	tmp = line.strip().split("\t")
 	civic_var[tmp[0]] = tmp[1:]
 
-#f2 = open(sys.argv[2])
-f2 = open("data/gdc_parsed_civic_variants_all.tsv")
+f2 = open("../data/gdc_parsed_civic_variants_all.tsv")
 header = f2.readline().split("\t")
 new_header = header[0:1] + ["gen_id"] + header[7:10] + header[17:20] + header[21:22]
 

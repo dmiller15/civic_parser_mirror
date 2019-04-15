@@ -2,7 +2,7 @@ import os
 import sys
 
 civic_var = {}
-f1 = open(sys.argv[1])
+f1 = open("../data/civic_variants_extraction.tsv")
 f1.readline()
 for line in f1:
 	tmp = line.strip().split("\t")
