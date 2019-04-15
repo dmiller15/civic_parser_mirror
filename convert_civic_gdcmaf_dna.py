@@ -42,8 +42,6 @@ def vcf2maf_loc_allele(position, ref_allele, var_allele):
     }
     return maf_var
 
-gDNA_varid = {}
-
 fout = open(sys.argv[1], "w")
 fout.write("civic_var_id\tcivic_gene_id\tsource\tchromosome\tstart_position\treference_allele\talternative_allele\n")
 
@@ -56,7 +54,6 @@ for line in fin:
     civic_var_id, civic_gene_id = tmp[3], tmp[4]
     maf_var = vcf2maf_loc_allele(pos, ref, alt)
     fout.write("\t".join([civic_var_id, civic_gene_id, "gDNA", chrom, str(maf_var["start"]), maf_var["ref_allele"], maf_var["var_allele"]]) + "\n")
-    gDNA_varid[civic_var_id] = True
 fin.close()
 
 fin = open("data/results/cmp_civic_transvar_gdcmaf_TCGA_cDNA_full_info_update_geneid_added.tsv")
@@ -70,7 +67,7 @@ fin.close()
 for k, v in sorted(cDNA_var.iteritems(), key=lambda x: int(x[1][0])):
     var = k.split(":")
     chrom, pos, ref, alt = var[0], int(var[1]), var[2], var[3]
-    civic_var_id, civic_gene_id = cDNA_var[k][0], cDNA_var[k][1]
+    civic_var_id, civic_gene_id = v[0], v[1]
     maf_var = vcf2maf_loc_allele(pos, ref, alt)
     fout.write("\t".join([civic_var_id, civic_gene_id, "cDNA", chrom, str(maf_var["start"]), maf_var["ref_allele"], maf_var["var_allele"]]) + "\n")
 
