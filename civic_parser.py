@@ -62,7 +62,7 @@ all_var = civic.get_variants_by_ids(all_ids)
 
 f = open(sys.argv[1], "w")
 f.write("\t".join(["civic_var_id", "chr_start_stop_ref_alt", "transcript", "chr_start_stop_ref_alt_2", "transcript_2", \
-		"ensembl_version", "ref_build", "entrez_gene_name", "civic_var_name", "civic_var_types", "civic_hgvs_exp", \
+		"ensembl_version", "ref_build", "gene_id", "entrez_id", "entrez_name", "civic_var_name", "civic_var_types", "civic_hgvs_exp", \
 		"hgvs.g.parsed", "hgvs.g.var_types", "hgvs.c.parsed", "hgvs.c.var_types", "hgvs.c2g.parsed", "hgvs.c2g.var_types", \
 		"hgvs.p.parsed", "hgvs.p.var_types", "vname.hgvs.p", "vname.hgvs.p.parsed", "vname.hgvs.p.var_types", \
 		"vname.hgvs.c", "vname.hgvs.c.parsed", "vname.hgvs.c.var_types", "vname.other_var_types", "parse_note"]))
@@ -75,8 +75,8 @@ for v in sorted(all_var, key=lambda x: x.id):
 	c = v.coordinates
 	f.write("\t".join([str(v.id), str(c.chromosome) + "_" + str(c.start) + "_" + str(c.stop) + "_" + str(c.reference_bases) \
 			+ "_" + str(c.variant_bases), str(c.representative_transcript), str(c.chromosome) + "_" + str(c.start2) + "_" + str(c.stop2), \
-			str(c.representative_transcript2), str(c.ensembl_version), str(c.reference_build), str(v.entrez_name), str(v.name), \
-			";".join(str(t.name) for t in v.variant_types), str(v.hgvs_expressions)]) + "\t")
+			str(c.representative_transcript2), str(c.ensembl_version), str(c.reference_build), str(v.gene_id), str(v.entrez_id), \
+			str(v.entrez_name), str(v.name), ";".join(str(t.name) for t in v.variant_types), str(v.hgvs_expressions)]) + "\t")
 
 	variant = {}
 
