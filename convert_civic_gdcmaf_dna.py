@@ -1,6 +1,8 @@
 import os
 import sys
 
+gdc_variant_types_short = ["sub", "dup", "del", "ins", "delins", "fs"]
+gdc_variant_types_long = ["point_mutation", "duplication", "small_deletion", "insertion", "delins", "frameshift"]
 
 """
 Convert variants in VCF format to GDCMAF format.

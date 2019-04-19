@@ -2,14 +2,14 @@ import os
 import sys
 
 genid_chr = {}
-f = open(sys.argv[1])
+f = open("data/geneid_conversion.tsv")
 f.readline()
 for line in f:
 	tmp = line.strip().split("\t")
 	genid_chr[tmp[2]] = tmp[3]
 
 civic_var = {}
-f = open(sys.argv[2])
+f = open("data/gDNA/gDNA_parsed_civic_variants.tsv")
 f.readline()
 for line in f:
 	tmp = line.strip().split("\t")
@@ -20,12 +20,12 @@ for line in f:
 	except:
 		print tmp2, sys.exc_info()[0]
 
-fout = open(sys.argv[4], "w")
+fout = open(sys.argv[1], "w")
 fout.write("##fileformat=VCFv4.1\n")
 fout.write("##fileDate=20190803\n")
 fout.write("#CHROM\tPOS\tID\tREF\tALT\tQUAL\tFILTER\tINFO\n")
 
-f = open(sys.argv[3])
+f = open("data/gDNA/gDNA_gseq_parsed_civic_variants.tsv")
 f.readline()
 for line in f:
 	tmp = line.strip().split("\t")
