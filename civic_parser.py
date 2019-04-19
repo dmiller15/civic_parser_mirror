@@ -112,6 +112,7 @@ for v in sorted(all_var, key=lambda x: x.id):
 				variant["hgvs.c"].append(parsed_var)
 				variant["hgvs.c.var_types"].append(t)
 				parsed_var_c2g = None
+				'''
 				try:
 					hdp = hgvs.dataproviders.uta.connect()
 					am = hgvs.assemblymapper.AssemblyMapper(hdp, assembly_name='GRCh37', alt_aln_method='splign', replace_reference=True)
@@ -121,7 +122,6 @@ for v in sorted(all_var, key=lambda x: x.id):
 				except:
 					variant["parse_note"].append("unable to convert c to g for variant " + str(parsed_var))
 					print("error", sys.exc_info()[0])
-				'''
 				try:
 					print("using TransVar", str(parsed_var))
 					a = subprocess.run(["docker", "run", "-v", "/Users/namsyvo/Dropbox/Workspace/gdc/civic_parser/p3/lib/python2.7/site-packages/transvar/transvar.download/:/data", "-ti", \
