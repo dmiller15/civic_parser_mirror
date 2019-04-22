@@ -1,0 +1,51 @@
+943	None_None_None_None_None	None	None_None_None	None	None	GRCh37	38	5156	PDGFRA	D842_H845DELDIMH		[]																unable to parse civic variant name
+987	4_55599338_55599338_A_C	None	4_None_None	None	None	GRCh37	29	3815	KIT	N822H	missense_variant	[]									N822H	Asn822His	point_mutation			point_mutation		
+1124	None_None_None_None_None	None	None_None_None	None	None	GRCh37	18	1788	DNMT3A	R882P		[]									R882P	Arg882Pro	point_mutation			point_mutation		
+1125	None_None_None_None_None	None	None_None_None	None	None	GRCh37	18	1788	DNMT3A	R882H		[]									R882H	Arg882His	point_mutation			point_mutation		
+1403	4_55599340_55599340_T_G	ENST00000288135.5	4_None_None	None	75	GRCh37	29	3815	KIT	N822K	missense_variant	['NC_000004.11:g.55599340T>G', 'NM_000222.2:c.2466T>G', 'ENST00000288135.5:c.2466T>G', 'NP_000213.1:p.Asn822Lys']	NC_000004.11:g.55599340T>G	sub	NM_000222.2:c.2466T>G;ENST00000288135.5:c.2466T>G	sub;sub			NP_000213.1:p.Asn822Lys	sub	N822K	Asn822Lys	point_mutation			point_mutation		
+2638	None_None_None_None_None	None	None_None_None	None	None	None	778	867	CBL	Y371H		[]									Y371H	Tyr371His	point_mutation			point_mutation		
+2639	None_None_None_None_None	None	None_None_None	None	None	None	5	673	BRAF	BRAF fusions and mutations		[]																unable to parse civic variant name
+2640	None_None_None_None_None	None	None_None_None	None	None	None	3984	4915	NTRK2	NTRK2 Fusions		[]																unable to parse civic variant name
+2641	None_None_None_None_None	None	None_None_None	None	None	None	1885	2260	FGFR1	MUTATION		[]																unable to parse civic variant name
+2642	None_None_None_None_None	None	None_None_None	None	None	None	4685	5781	PTPN11	MUTATION		[]																unable to parse civic variant name
+2643	_None_None__		_None_None		None	None	29	3815	KIT	EXON 13 MUTATION		[]																unable to parse civic variant name
+2644	None_None_None_None_None	None	None_None_None	None	None	None	78	6597	SMARCA4	LOSS		[]																unable to parse civic variant name
+2645	None_None_None_None_None	None	None_None_None	None	None	None	6054	7403	KDM6A	R1213*		[]									R1213*	Arg1213Ter	point_mutation			point_mutation		
+2646	None_None_None_None_None	None	None_None_None	None	None	None	6	672	BRCA1	R71M		[]									R71M	Arg71Met	point_mutation			point_mutation		
+2647	None_None_None_None_None	None	None_None_None	None	None	None	12903	55294	FBXW7	R465H		[]									R465H	Arg465His	point_mutation			point_mutation		
+2648	None_None_None_None_None	None	None_None_None	None	None	None	45	7157	TP53	C238Y		[]									C238Y	Cys238Tyr	point_mutation			point_mutation		
+2649	None_None_None_None_None	None	None_None_None	None	None	None	30	3845	KRAS	ACTIVATING MUTATION		[]																unable to parse civic variant name
+2650	_None_None__		_None_None		None	None	5	673	BRAF	EXON 15 MUTATION		[]																unable to parse civic variant name
+2651	_None_None__		_None_None		None	None	29	3815	KIT	WILDTYPE		[]																unable to parse civic variant name
+2652	None_None_None_None_None	None	None_None_None	None	None	None	2537	3020	H3F3A	MUTATION		[]																unable to parse civic variant name
+2653	None_None_None_None_None	None	None_None_None	None	None	None	525	546	ATRX	DELETION		[]																unable to parse civic variant name
+2654	None_None_None_None_None	None	None_None_None	None	None	None	14	1029	CDKN2A	DELETION		[]																unable to parse civic variant name
+2655	None_None_None_None_None	None	None_None_None	None	None	None	3730	4602	MYB	AMPLIFICATION		[]																unable to parse civic variant name
+2656	None_None_None_None_None	None	None_None_None	None	None	None	5	673	BRAF	FAM131B-BRAF		[]																unable to parse civic variant name
+2657	None_None_None_None_None	None	None_None_None	None	None	None	20	2064	ERBB2	ACTIVATING MUTATION	gain_of_function_variant;gene_variant	[]																unable to parse civic variant name
+2658	None_None_None_None_None	None	None_None_None	None	None	None	20	2064	ERBB2	A775_G776insYVMA		[]									A775_G776insYVMA	Ala775_Gly776insTyrValMetAla	insertion			insertion		
+2659	None_None_None_None_None	None	None_None_None	None	None	None	1885	2260	FGFR1	INTERNAL DUPLICATION		[]																unable to parse civic variant name
+2660	None_None_None_None_None	None	None_None_None	None	None	None	4	25	ABL1	NUP214-ABL1		[]																unable to parse civic variant name
+2661	None_None_None_None_None	None	None_None_None	None	None	None	28	3717	JAK2	SSBP2-JAK2		[]																unable to parse civic variant name
+2662	None_None_None_None_None	None	None_None_None	None	None	None	14303	64109	CRLF2	Phe232Cys		[]									Phe232Cys	Phe232Cys	point_mutation			point_mutation		
+2663	None_None_None_None_None	None	None_None_None	None	None	None	14303	64109	CRLF2	CRLF2-IGH fusion		[]																unable to parse civic variant name
+2665	None_None_None_None_None	None	None_None_None	None	None	None	3730	4602	MYB	MYB-GATA1		[]																unable to parse civic variant name
+2666	None_None_None_None_None	None	None_None_None	None	None	None	63	2146	EZH2	Y641S		[]									Y641S	Tyr641Ser	point_mutation			point_mutation		
+2667	None_None_None_None_None	None	None_None_None	None	None	None	3577	4352	MPL	W515L		[]									W515L	Trp515Leu	point_mutation			point_mutation		
+2668	None_None_None_None_None	None	None_None_None	None	None	None	1926	2309	FOXO3	single nucleotide variant		[]																unable to parse civic variant name
+2669	None_None_None_None_None	None	None_None_None	None	None	None	5752	7049	TGFBR3	TGFBR3		[]																unable to parse civic variant name
+2670	None_None_None_None_None	None	None_None_None	None	None	None	1719	2048	EPHB2	EPHB2		[]																unable to parse civic variant name
+2671	None_None_None_None_None	None	None_None_None	None	None	None	913	1026	CDKN1A	rs1801270		[]																unable to parse civic variant name
+2672	None_None_None_None_None	None	None_None_None	None	None	None	11314	29102	DROSHA	563053		[]																unable to parse civic variant name
+2673	None_None_None_None_None	None	None_None_None	None	None	None	1719	2048	EPHB2	Single nucleotide variant NM_004442.7(EPHB2):c.2035G>A (p.Asp679Asn)		[]									Asp679Asn	Asp679Asn	point_mutation			point_mutation		
+2674	None_None_None_None_None	None	None_None_None	None	None	None	4795	5925	RB1	IVS20, A-G, -2		[]																unable to parse civic variant name
+2675	None_None_None_None_None	None	None_None_None	None	None	None	3628	4436	MSH2	L173P		[]									L173P	Leu173Pro	point_mutation			point_mutation		
+2676	None_None_None_None_None	None	None_None_None	None	None	None	1704	2033	EP300	G1506V		[]									G1506V	Gly1506Val	point_mutation			point_mutation		
+2677	None_None_None_None_None	None	None_None_None	None	None	None	20	2064	ERBB2	I654V		[]									I654V	Ile654Val	point_mutation			point_mutation		
+2678	None_None_None_None_None	None	None_None_None	None	None	None	4	25	ABL1	SNX2-ABL1 Fusion		[]																unable to parse civic variant name
+2679	None_None_None_None_None	None	None_None_None	None	None	None	6104	7465	WEE1	OVEREXPRESSION		[]																unable to parse civic variant name
+2680	None_None_None_None_None	None	None_None_None	None	None	None	4	25	ABL1	ABL1-RCSD		[]																unable to parse civic variant name
+2681	None_None_None_None_None	None	None_None_None	None	None	None	4	25	ABL1	ABL1-RCSD1		[]																unable to parse civic variant name
+2682	None_None_None_None_None	None	None_None_None	None	None	None	4	25	ABL1	FOXP1-ABL1 Fusion		[]																unable to parse civic variant name
+2683	None_None_None_None_None	None	None_None_None	None	None	None	1818	2185	PTK2B	PTK2B-KDM6A		[]																unable to parse civic variant name
+2684	None_None_None_None_None	None	None_None_None	None	None	None	1818	2185	PTK2B	PTK2B-STAG2		[]																unable to parse civic variant name
