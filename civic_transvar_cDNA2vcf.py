@@ -99,7 +99,8 @@ for line in f:
 		info_arr.append("vname.hgvs.p.parsed=" + cvar[20])
 	else:
 		info_arr.append("vname.hgvs.p.parsed=None")
-
-	fout.write("\t".join(cDNA_var[7:9] + ["."] + cDNA_var[9:11] + [".", "."] + [";".join(info_arr)]) + "\n")
+	
+	if cvar[6] == "GRCh37" and "chr" in cDNA_var[7]:
+		fout.write("\t".join(cDNA_var[7:9] + ["."] + cDNA_var[9:11] + [".", "."] + [";".join(info_arr)]) + "\n")
 
 fout.close()
