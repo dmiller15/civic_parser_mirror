@@ -56,10 +56,10 @@ results_dir = sys.argv[1]
 if not os.path.exists(os.path.join(results_dir, "mapping")):
     os.makedirs(os.path.join(results_dir, "mapping"))
 
-fout = open(os.path.join(results_dir, "mapping", "civic_gdcmaf_mapping_dna.tsv", "w"))
+fout = open(os.path.join(results_dir, "mapping", "civic_gdcmaf_mapping_dna.tsv"), "w")
 fout.write("civic_var_id\tcivic_gene_id\tsource\tchromosome\tstart_position\treference_allele\talternative_allele\n")
 
-fin = open(os.path.join(results_dir, "gDNA", "gDNA_transvar_parsed_civic_variants_combined_lifted_over.vcf"))
+fin = open(os.path.join(results_dir, "gDNA", "gDNA_parsed_civic_variants_combined_lifted_over.vcf"))
 for line in fin:
     if line[0] == "#":
         continue
