@@ -56,47 +56,47 @@ for line in f:
 		info_arr.append("gene_id=None")
 
 	if cvar[8] != "":
-		info_arr.append("entrez_id=" + cvar[7])
+		info_arr.append("entrez_id=" + cvar[8])
 	else:
 		info_arr.append("entrez_id=None")
 
 	if cvar[9] != "":
-		info_arr.append("entrez_name=" + cvar[7])
+		info_arr.append("entrez_name=" + cvar[9])
 	else:
 		info_arr.append("entrez_name=None")
 
 	if cvar[10] != "":
-		info_arr.append("civic_var_name=" + cvar[8].replace(' ', '_'))
+		info_arr.append("civic_var_name=" + cvar[10].replace(' ', '_'))
 	else:
 		info_arr.append("civic_var_name=None")
 
 	if cvar[13] != "":
-		info_arr.append("hgvs.g.parsed=" + cvar[11])
+		info_arr.append("hgvs.g.parsed=" + cvar[13])
 	else:
 		info_arr.append("hgvs.g.parsed=None")
 
 	if cvar[15] != "":
-		info_arr.append("hgvs.c.parsed=" + cvar[13])
+		info_arr.append("hgvs.c.parsed=" + cvar[15])
 	else:
 		info_arr.append("hgvs.c.parsed=None")
 
 	if cvar[17] != "":
-		info_arr.append("hgvs.c2g.parsed=" + cvar[15])
+		info_arr.append("hgvs.c2g.parsed=" + cvar[17])
 	else:
 		info_arr.append("hgvs.c2g.parsed=None")
 
 	if cvar[19] != "":
-		info_arr.append("hgvs.p.parsed=" + cvar[17])
+		info_arr.append("hgvs.p.parsed=" + cvar[19])
 	else:
 		info_arr.append("hgvs.p.parsed=None")
 
 	if cvar[21] != "":
-		info_arr.append("vname.hgvs.p=" + cvar[19])
+		info_arr.append("vname.hgvs.p=" + cvar[21])
 	else:
 		info_arr.append("vname.hgvs.p=None")
 
 	if cvar[22] != "":
-		info_arr.append("vname.hgvs.p.parsed=" + cvar[20])
+		info_arr.append("vname.hgvs.p.parsed=" + cvar[22])
 	else:
 		info_arr.append("vname.hgvs.p.parsed=None")
 	
