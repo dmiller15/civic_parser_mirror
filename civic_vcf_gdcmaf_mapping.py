@@ -53,13 +53,11 @@ def get_info(val):
     return info
 
 results_dir = sys.argv[1]
-if not os.path.exists(os.path.join(results_dir, "mapping")):
-    os.makedirs(os.path.join(results_dir, "mapping"))
 
-fout = open(os.path.join(results_dir, "mapping", "civic_gdcmaf_mapping_dna.tsv"), "w")
+fout = open(os.path.join(results_dir, "civic_gdcmaf_mapping_dna.tsv"), "w")
 fout.write("civic_var_id\tcivic_gene_id\tsource\tchromosome\tstart_position\treference_allele\talternative_allele\n")
 
-fin = open(os.path.join(results_dir, "gDNA", "gDNA_parsed_civic_variants_combined_lifted_over.vcf"))
+fin = open(os.path.join(results_dir, "gDNA_transvar_parsed_civic_variants_combined_lifted_over.vcf"))
 for line in fin:
     if line[0] == "#":
         continue
@@ -71,7 +69,7 @@ for line in fin:
     fout.write("\t".join([civic_var_id, civic_gene_id, "gDNA", chrom, str(maf_var["start"]), maf_var["ref_allele"], maf_var["var_allele"]]) + "\n")
 fin.close()
 
-fin = open(os.path.join(results_dir, "cDNA", "cDNA_transvar_parsed_civic_variants_combined_lifted_over.vcf"))
+fin = open(os.path.join(results_dir, "cDNA_transvar_parsed_civic_variants_combined_lifted_over.vcf"))
 for line in fin:
     if line[0] == "#":
         continue

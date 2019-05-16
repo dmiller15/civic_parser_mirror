@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import os
 import sys
 import re
@@ -34,23 +36,14 @@ all_ids = civic.get_all_variant_ids()
 #all_ids = range(1, 50)
 all_var = civic.get_variants_by_ids(all_ids)
 
-if not os.path.exists(os.path.join(results_dir, "gDNA")):
-	os.makedirs(os.path.join(results_dir, "gDNA"))
-if not os.path.exists(os.path.join(results_dir, "cDNA")):
-	os.makedirs(os.path.join(results_dir, "cDNA"))
-if not os.path.exists(os.path.join(results_dir, "prot")):
-	os.makedirs(os.path.join(results_dir, "prot"))
-if not os.path.exists(os.path.join(results_dir, "unparsed")):
-	os.makedirs(os.path.join(results_dir, "unparsed"))
-
 f_a = open(os.path.join(results_dir, "all_parsed_civic_variants.tsv"), "w")
-f_g = open(os.path.join(results_dir, "gDNA", "gDNA_parsed_civic_variants.tsv"), "w")
-f_c = open(os.path.join(results_dir, "cDNA", "cDNA_parsed_civic_variants.tsv"), "w")
-f_p = open(os.path.join(results_dir, "prot", "prot_parsed_civic_variants.tsv"), "w")
-f_u = open(os.path.join(results_dir, "unparsed", "unparsed_civic_variants.tsv"), "w")
+f_g = open(os.path.join(results_dir, "gDNA_parsed_civic_variants.tsv"), "w")
+f_c = open(os.path.join(results_dir, "cDNA_parsed_civic_variants.tsv"), "w")
+f_p = open(os.path.join(results_dir, "prot_parsed_civic_variants.tsv"), "w")
+f_u = open(os.path.join(results_dir, "unparsed_civic_variants.tsv"), "w")
 
-f_ct = open(os.path.join(results_dir, "cDNA", "cDNA_parsed_civic_variants_clist.tsv"), "w")
-f_gt = open(os.path.join(results_dir, "gDNA", "gDNA_parsed_civic_variants_glist.tsv"), "w")
+f_ct = open(os.path.join(results_dir, "cDNA_parsed_civic_variants_clist.tsv"), "w")
+f_gt = open(os.path.join(results_dir, "gDNA_parsed_civic_variants_glist.tsv"), "w")
 
 header = "\t".join(["civic_var_id", "chr_start_stop_ref_alt", "transcript", "chr_start_stop_ref_alt_2", "transcript_2", \
 		"ensembl_version", "ref_build", "gene_id", "entrez_id", "entrez_name", "civic_var_name", "civic_var_types", "civic_hgvs_exp", \
