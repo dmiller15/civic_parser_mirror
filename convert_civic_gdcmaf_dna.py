@@ -44,6 +44,7 @@ def vcf2maf_loc_allele(position, ref_allele, var_allele):
     }
     return maf_var
 
+#data/results/mapping/civic_gdcmaf_mapping_dna_20190419.tsv
 fout = open(sys.argv[1], "w")
 fout.write("civic_var_id\tcivic_gene_id\tsource\tchromosome\tstart_position\treference_allele\talternative_allele\n")
 

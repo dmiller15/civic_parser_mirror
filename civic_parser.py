@@ -1,6 +1,7 @@
 import os
 import sys
 import re
+import json
 import subprocess
 
 from civicpy import civic
@@ -8,75 +9,63 @@ import hgvs.parser
 import hgvs.dataproviders.uta
 import hgvs.assemblymapper
 
-fix_names = {
-	"Asn67fs"   : "N67fs",
-	"Glu34Lys"  : "E34K",
-	"EZH2 Y641F": "Y641F",
-	"MLL-MLLT3" : "KMT2A-MLLT3",
-	"BCR-ABL"   : "BCR-ABL1",
-}
+ref_dir = sys.argv[1]
+results_dir = sys.argv[2]
+if not os.path.exists(results_dir):
+	os.makedirs(results_dir)
 
-gdc_variant_types = {
-	"sub"   : "point_mutation",
-	"dup"   : "duplication",
-	"del"   : "small_deletion",
-	"ins"   : "insertion",
-	"delins": "delins",
-	"fs"    : "frameshift"
-	#"splicing": "splicing"	
-}
+with open(os.path.join(ref_dir, "fix_names.json")) as f:
+	fix_names = json.load(f)
+with open(os.path.join(ref_dir, "gdc_variant_types.json")) as f:
+	gdc_variant_types = json.load(f)
+with open(os.path.join(ref_dir, "fusion_variant_types.json")) as f:
+	fusion_variant_types = json.load(f)
+with open(os.path.join(ref_dir, "other_variant_types.json")) as f:
+	other_variant_types = json.load(f)
 
-fusion_variant_types = {
-      "FUSIONS" :"fusion_ns",
-      "Fusions" :"fusion_ns",
-      "fusions" : "fusion_ns",
-      "FUSION"  : "fusion",
-      "Fusion"  : "fusion",
-      "fusion"  : "fusion"
-}
-
-other_variant_types = {
-	"OVEREXPRESSION"         : "overexpression",
-	"UNDEREXPRESSION"        : "underexpression",
-	"DELETION"               : "large_deletion",
-	"EXPRESSION"             : "expression",
-	"AMPLIFICATION"          : "amplification",
-	"MUTATION"               : "mutation_ns",
-	"LOSS-OF-FUNCTION"       : "loss-of-function",
-	"TRUNCATING MUTATION"    : "truncation",
-	"FRAMESHIFT TRUNCATION"  : "frameshift_truncation",
-	"PHOSPHORYLATION"        : "phosphorylation",
-	"LOSS"                   : "loss",
-	"METHYLATION"            : "methylation",
-	"NUCLEAR EXPRESSION"     : "nuclear-expresssion",
-	"CYTOPLASMIC EXPRESSION" : "cytoplasmic-expression",
-	"FRAMESHIFT MUTATION"    : "frameshift_ns",
-	"REARRANGEMENT"			 : "rearrangement",
-	"COPY NUMBER VARIATION"  : "copy_number_change",
-	"Splicing alteration"    : "splicing_ns"
-}
+genid_chr = {}
+f = open(os.path.join(ref_dir, "geneid_conversion.tsv"))
+f.readline()
+for line in f:
+	tmp = line.strip().split("\t")
+	genid_chr[tmp[2]] = tmp[3]
 
 all_ids = civic.get_all_variant_ids()
-#all_ids = range(950, 951)
+#all_ids = range(1, 50)
 all_var = civic.get_variants_by_ids(all_ids)
 
-f = open(sys.argv[1], "w")
-f.write("\t".join(["civic_var_id", "chr_start_stop_ref_alt", "transcript", "chr_start_stop_ref_alt_2", "transcript_2", \
+if not os.path.exists(os.path.join(results_dir, "gDNA")):
+	os.makedirs(os.path.join(results_dir, "gDNA"))
+if not os.path.exists(os.path.join(results_dir, "cDNA")):
+	os.makedirs(os.path.join(results_dir, "cDNA"))
+if not os.path.exists(os.path.join(results_dir, "prot")):
+	os.makedirs(os.path.join(results_dir, "prot"))
+if not os.path.exists(os.path.join(results_dir, "unparsed")):
+	os.makedirs(os.path.join(results_dir, "unparsed"))
+
+f_a = open(os.path.join(results_dir, "all_parsed_civic_variants.tsv"), "w")
+f_g = open(os.path.join(results_dir, "gDNA", "gDNA_parsed_civic_variants.tsv"), "w")
+f_c = open(os.path.join(results_dir, "cDNA", "cDNA_parsed_civic_variants.tsv"), "w")
+f_p = open(os.path.join(results_dir, "prot", "prot_parsed_civic_variants.tsv"), "w")
+f_u = open(os.path.join(results_dir, "unparsed", "unparsed_civic_variants.tsv"), "w")
+
+f_ct = open(os.path.join(results_dir, "cDNA", "cDNA_parsed_civic_variants_clist.tsv"), "w")
+f_gt = open(os.path.join(results_dir, "gDNA", "gDNA_parsed_civic_variants_glist.tsv"), "w")
+
+header = "\t".join(["civic_var_id", "chr_start_stop_ref_alt", "transcript", "chr_start_stop_ref_alt_2", "transcript_2", \
 		"ensembl_version", "ref_build", "gene_id", "entrez_id", "entrez_name", "civic_var_name", "civic_var_types", "civic_hgvs_exp", \
 		"hgvs.g.parsed", "hgvs.g.var_types", "hgvs.c.parsed", "hgvs.c.var_types", "hgvs.c2g.parsed", "hgvs.c2g.var_types", \
 		"hgvs.p.parsed", "hgvs.p.var_types", "vname.hgvs.p", "vname.hgvs.p.parsed", "vname.hgvs.p.var_types", \
-		"vname.hgvs.c", "vname.hgvs.c.parsed", "vname.hgvs.c.var_types", "vname.other_var_types", "parse_note"]))
-f.write("\n")
+		"vname.hgvs.c", "vname.hgvs.c.parsed", "vname.hgvs.c.var_types", "vname.other_var_types", "parse_note"])
+f_a.write(header + "\n")
+f_g.write(header + "\n")
+f_c.write(header + "\n")
+f_p.write(header + "\n")
+f_u.write(header + "\n")
 
 hp = hgvs.parser.Parser()
 for v in sorted(all_var, key=lambda x: x.id):
 	print("processing variant", str(v.id))
-
-	c = v.coordinates
-	f.write("\t".join([str(v.id), str(c.chromosome) + "_" + str(c.start) + "_" + str(c.stop) + "_" + str(c.reference_bases) \
-			+ "_" + str(c.variant_bases), str(c.representative_transcript), str(c.chromosome) + "_" + str(c.start2) + "_" + str(c.stop2), \
-			str(c.representative_transcript2), str(c.ensembl_version), str(c.reference_build), str(v.gene_id), str(v.entrez_id), \
-			str(v.entrez_name), str(v.name), ";".join(str(t.name) for t in v.variant_types), str(v.hgvs_expressions)]) + "\t")
 
 	variant = {}
 
@@ -111,8 +100,8 @@ for v in sorted(all_var, key=lambda x: x.id):
 			elif parsed_var.type == "c":
 				variant["hgvs.c"].append(parsed_var)
 				variant["hgvs.c.var_types"].append(t)
-				parsed_var_c2g = None
 				'''
+				parsed_var_c2g = None
 				try:
 					hdp = hgvs.dataproviders.uta.connect()
 					am = hgvs.assemblymapper.AssemblyMapper(hdp, assembly_name='GRCh37', alt_aln_method='splign', replace_reference=True)
@@ -121,23 +110,7 @@ for v in sorted(all_var, key=lambda x: x.id):
 					variant["hgvs.c2g.var_types"].append(parsed_var_c2g.posedit.edit.type)
 				except:
 					variant["parse_note"].append("unable to convert c to g for variant " + str(parsed_var))
-					print("error", sys.exc_info()[0])
-				try:
-					print("using TransVar", str(parsed_var))
-					a = subprocess.run(["docker", "run", "-v", "/Users/namsyvo/Dropbox/Workspace/gdc/civic_parser/p3/lib/python2.7/site-packages/transvar/transvar.download/:/data", "-ti", \
-						"zhouwanding/transvar:2.4.6", "transvar", "canno", "--ensembl", "--reference", "/data/hg19.fa", \
-						"-i", str(parsed_var)], capture_output=True)
-					r = str(a.stdout).split("\\n")[1].strip()
-					t1 = r.split("\\t")[4]
-					variant["hgvs.c2g"].append(t1.split("/")[0])
-					t2 = r.split("\\t")[6]
-					for t3 in t2.split(";"):
-						t4 = t3.split("=")
-						if t4[0] == "left_align_gDNA":
-							variant["hgvs.c2g"].append(t4[1])
-				except:
-					variant["parse_note"].append("unable to convert c to g with EST for variant " + str(parsed_var))
-					print("error", sys.exc_info()[0])
+					print("c2g conversion error", sys.exc_info()[0])
 				'''
 			elif parsed_var.type == "p":
 				variant["hgvs.p"].append(parsed_var)
@@ -146,7 +119,7 @@ for v in sorted(all_var, key=lambda x: x.id):
 				print("Unprocessed parsed_var.type: ", parsed_var.type)
 		except:
 			variant["parse_note"].append("unable to parse hgvs variant" + str(hgvs_var))
-			print("error", sys.exc_info()[0])
+			print("hgvs parsing error", sys.exc_info()[0])
 
 	var_name = str(v.name)
 	vname_arr = re.split('\s|\(|\)|\+', var_name.strip())
@@ -166,7 +139,6 @@ for v in sorted(all_var, key=lambda x: x.id):
 			if str(v.entrez_name) == "JAK2" and parsed_vname == "F694L":
 				parsed_vname = "F694L"
 				variant["parse_note"].append("fix civic var name for vname.hgvs.p")
-
 			try:
 				pv = hp.parse_p_posedit(parsed_vname)
 				variant["vname.hgvs.p"].append(str(parsed_vname))
@@ -177,7 +149,7 @@ for v in sorted(all_var, key=lambda x: x.id):
 				else:
 					variant["vname.hgvs.p.var_types"].append(t)
 			except:
-				print("error", sys.exc_info()[0])
+				print("parse_p_posedit error", parsed_vname, sys.exc_info()[0])
 			try:
 				cv = hp.parse_c_posedit(parsed_vname)
 				variant["vname.hgvs.c"].append(str(parsed_vname))
@@ -188,7 +160,7 @@ for v in sorted(all_var, key=lambda x: x.id):
 				else:
 					variant["vname.hgvs.c.var_types"].append(t)
 			except:
-				print("error", sys.exc_info()[0])
+				print("parse_c_posedit error", parsed_vname, sys.exc_info()[0])
 
 	if len(variant["vname.hgvs.p"]) == 0 and len(variant["vname.hgvs.c"]) == 0:
 		variant["parse_note"].append("unable to parse civic variant name")
@@ -201,14 +173,42 @@ for v in sorted(all_var, key=lambda x: x.id):
 		else:
 			variant["vname.other_var_types"] = "undetermined_var_types"
 
-	f.write("\t".join([";".join(str(tmp) for tmp in variant["hgvs.g"]), ";".join(str(tmp) for tmp in variant["hgvs.g.var_types"]), \
+	c = v.coordinates
+	datum1 = "\t".join([str(v.id), str(c.chromosome) + "_" + str(c.start) + "_" + str(c.stop) + "_" + str(c.reference_bases) \
+			+ "_" + str(c.variant_bases), str(c.representative_transcript), str(c.chromosome) + "_" + str(c.start2) + "_" + str(c.stop2), \
+			str(c.representative_transcript2), str(c.ensembl_version), str(c.reference_build), str(v.gene_id), str(v.entrez_id), \
+			str(v.entrez_name), str(v.name), ";".join(str(t.name) for t in v.variant_types), str(v.hgvs_expressions)]) + "\t"
+
+	datum2 = "\t".join([";".join(str(tmp) for tmp in variant["hgvs.g"]), ";".join(str(tmp) for tmp in variant["hgvs.g.var_types"]), \
 			";".join(str(tmp) for tmp in variant["hgvs.c"]), ";".join(str(tmp) for tmp in variant["hgvs.c.var_types"]), \
 			";".join(str(tmp) for tmp in variant["hgvs.c2g"]), ";".join(str(tmp) for tmp in variant["hgvs.c2g.var_types"]), \
 			";".join(str(tmp) for tmp in variant["hgvs.p"]), ";".join(str(tmp) for tmp in variant["hgvs.p.var_types"]), \
 			";".join(str(tmp) for tmp in variant["vname.hgvs.p"]), ";".join(str(tmp) for tmp in variant["vname.hgvs.p.parsed"]), \
 			";".join(str(tmp) for tmp in variant["vname.hgvs.p.var_types"]), ";".join(str(tmp) for tmp in variant["vname.hgvs.c"]), \
 			";".join(str(tmp) for tmp in variant["vname.hgvs.c.parsed"]), ";".join(str(tmp) for tmp in variant["vname.hgvs.p.var_types"]), \
-			str(variant["vname.other_var_types"]), ";".join(str(tmp) for tmp in variant["parse_note"])]))
-	f.write("\n")
+			str(variant["vname.other_var_types"]), ";".join(str(tmp) for tmp in variant["parse_note"])])
+	f_a.write(datum1 + datum2 + "\n")
+	if len(variant["hgvs.g"]) > 0:
+		f_g.write(datum1 + datum2 + "\n")
+		for g in variant["hgvs.g"]:
+			tmp = str(g).split(":")
+			if tmp[0] in genid_chr:
+				g_chr = genid_chr[tmp[0]] + ":" + tmp[1]
+				f_gt.write(g_chr + "\n")
+	elif len(variant["hgvs.c"]) > 0:
+		f_c.write(datum1 + datum2 + "\n")
+		for c in variant["hgvs.c"]:
+			f_ct.write(str(c) + "\n")
+	elif len(variant["hgvs.p"]) > 0 or len(variant["vname.hgvs.p"]) > 0:    
+		f_p.write(datum1 + datum2 + "\n")
+	else:
+		f_u.write(datum1 + datum2 + "\n")
 
-f.close()
+
+f_a.close()
+f_g.close()
+f_c.close()
+f_p.close()
+f_u.close()
+f_ct.close()
+f_gt.close()

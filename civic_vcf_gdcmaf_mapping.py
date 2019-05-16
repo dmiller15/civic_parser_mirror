@@ -52,44 +52,33 @@ def get_info(val):
             info[tmp1[0]] = tmp1[1]
     return info
 
+results_dir = sys.argv[1]
+if not os.path.exists(os.path.join(results_dir, "mapping")):
+    os.makedirs(os.path.join(results_dir, "mapping"))
 
-civic_var = {}
-f1 = open("data/civic_variants_extraction_20190418.tsv")
-f1.readline()
-for line in f1:
-    tmp = line.strip().split("\t")
-    civic_var[tmp[0]] = tmp[1:]
-
-
-fout = open(sys.argv[1], "w")
+fout = open(os.path.join(results_dir, "mapping", "civic_gdcmaf_mapping_dna.tsv", "w"))
 fout.write("civic_var_id\tcivic_gene_id\tsource\tchromosome\tstart_position\treference_allele\talternative_allele\n")
 
-fin = open("data/gDNA/gDNA_parsed_civic_variants_combined_fix_lifted_over.vcf")
+fin = open(os.path.join(results_dir, "gDNA", "gDNA_transvar_parsed_civic_variants_combined_lifted_over.vcf"))
 for line in fin:
     if line[0] == "#":
         continue
     tmp = line.strip().split("\t")
     info = get_info(tmp[7])
     chrom, pos, ref, alt = tmp[0], int(tmp[1]), tmp[3], tmp[4]
-    civic_var_id = info["civic_var_id"]
-    civic_gene_id = civic_var[civic_var_id][1]
+    civic_var_id, civic_gene_id = info["civic_var_id"], info["gene_id"]
     maf_var = vcf2maf_loc_allele(pos, ref, alt)
     fout.write("\t".join([civic_var_id, civic_gene_id, "gDNA", chrom, str(maf_var["start"]), maf_var["ref_allele"], maf_var["var_allele"]]) + "\n")
 fin.close()
 
-fin = open("data/results/cmp_civic_transvar_gdcmaf_TCGA_cDNA_full_info_update_geneid_added.tsv")
-fin.readline()
-cDNA_var = {}
+fin = open(os.path.join(results_dir, "cDNA", "cDNA_transvar_parsed_civic_variants_combined_lifted_over.vcf"))
 for line in fin:
+    if line[0] == "#":
+        continue
     tmp = line.strip().split("\t")
-    cDNA_var[tmp[0]] = tmp[3], tmp[4]
-fin.close()
-
-for k, v in sorted(cDNA_var.iteritems(), key=lambda x: int(x[1][0])):
-    var = k.split(":")
-    chrom, pos, ref, alt = var[0], int(var[1]), var[2], var[3]
-    civic_var_id, civic_gene_id = v[0], v[1]
+    info = get_info(tmp[7])
+    chrom, pos, ref, alt = tmp[0], int(tmp[1]), tmp[3], tmp[4]
+    civic_var_id, civic_gene_id = info["civic_var_id"], info["gene_id"]
     maf_var = vcf2maf_loc_allele(pos, ref, alt)
     fout.write("\t".join([civic_var_id, civic_gene_id, "cDNA", chrom, str(maf_var["start"]), maf_var["ref_allele"], maf_var["var_allele"]]) + "\n")
-
-fout.close()
+fin.close()

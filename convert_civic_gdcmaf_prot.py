@@ -5,9 +5,12 @@ import hgvs.parser
 gdc_variant_types_short = ["sub", "dup", "del", "ins", "delins", "fs"]
 gdc_variant_types_long = ["point_mutation", "duplication", "small_deletion", "insertion", "delins", "frameshift"]
 
+ref_dir = sys.argv[1]
+results_dir = sys.argv[2]
+
 #To get genecode gene_name and gene_id
 genecode = {}
-f = open("data/gencode.gene.info.v22.tsv")
+f = open(os.path.join(ref_dir, "gencode.gene.info.v22.tsv"))
 f.readline()
 for line in f:
     tmp = line.split("\t")
@@ -16,21 +19,23 @@ print len(genecode)
 
 #To get parsed hgvs.g to eliminate them from hgvs.p results
 gDNA_var = {}
-#f = open("data/results/civic_gdcmaf_mapping_dna.tsv")
-f = open("data/results/mapping/civic_gdcmaf_mapping_dna_20190419.tsv")
+f = open(os.path.join(results_dir, "mapping", "civic_gdcmaf_mapping_dna.tsv"))
 f.readline()
 for line in f:
     tmp = line.strip().split("\t")
     gDNA_var[tmp[0]] = True
 
 #Write result to file
-fout = open(sys.argv[1], "w")
+if not os.path.exists(os.path.join(results_dir, "mapping")):
+    os.makedirs(os.path.join(results_dir, "mapping"))
+
+fout = open(os.path.join(results_dir, "mapping", "civic_gdcmaf_mapping_prot.tsv", "w"))
 fout.write("civic_var_id\tcivic_gene_id\thugo_symbol\tgene\thgvs.p\tsource\n")
 
 hp = hgvs.parser.Parser()
 #To extract and process hgvs.p from all civic variants
 #fin = open("data/gdc_parsed_civic_variants_all.tsv")
-fin = open("data/gdc_parsed_civic_variants_all_20190419.tsv")
+fin = open(os.path.join(results_dir, "all_parsed_civic_variants.tsv"))
 fin.readline()
 for line in fin:
     tmp = line.split("\t")

@@ -1,0 +1,20 @@
+{
+	"LOSS": "loss",
+	"AMPLIFICATION": "amplification",
+	"COPY NUMBER VARIATION": "copy_number_change",
+	"LOSS-OF-FUNCTION": "loss-of-function",
+	"OVEREXPRESSION": "overexpression",
+	"FRAMESHIFT TRUNCATION": "frameshift_truncation",
+	"CYTOPLASMIC EXPRESSION": "cytoplasmic-expression",
+	"METHYLATION": "methylation",
+	"FRAMESHIFT MUTATION": "frameshift_ns",
+	"PHOSPHORYLATION": "phosphorylation",
+	"REARRANGEMENT": "rearrangement",
+	"UNDEREXPRESSION": "underexpression",
+	"MUTATION": "mutation_ns",
+	"DELETION": "large_deletion",
+	"Splicing alteration": "splicing_ns",
+	"NUCLEAR EXPRESSION": "nuclear-expresssion",
+	"EXPRESSION": "expression",
+	"TRUNCATING MUTATION": "truncation"
+}

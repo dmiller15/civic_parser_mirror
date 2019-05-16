@@ -1,0 +1,8 @@
+{
+	"fs": "frameshift",
+	"sub": "point_mutation",
+	"delins": "delins",
+	"ins": "insertion",
+	"del": "small_deletion",
+	"dup": "duplication"
+}
