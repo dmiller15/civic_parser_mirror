@@ -1,42 +1,47 @@
 import os
 import sys
+import argparse
 
-ref_dir = sys.argv[1]
-results_dir = sys.argv[2]
+parser = argparse.ArgumentParser(description='Generate civic variants in vcf format.')
+parser.add_argument('-c', '--contig_map', type=str, required=True, help='contig name mapping file')
+parser.add_argument('-i', '--civic_var', type=str, required=True, help='input variants with gDNA info')
+parser.add_argument('-t', '--transvar_var', type=str, required=True, help='transvar conversion with vcf info (use --gseq)')
+parser.add_argument('-o', '--out_vcf', type=str, required=True, help='output variants in vcf format')
+args = vars(parser.parse_args())
+contig_map_fn = args['contig_map']
+civic_fn = args['civic_var']
+transvar_fn = args['transvar_var']
+output_fn = args['out_vcf']
 
 genid_chr = {}
-f = open(os.path.join(ref_dir, "geneid_conversion.tsv"))
+f = open(contig_map_fn)
 f.readline()
 for line in f:
 	tmp = line.strip().split("\t")
 	genid_chr[tmp[2]] = tmp[3]
+f.close()
 
-civic_var = {}
-f = open(os.path.join(results_dir, "gDNA", "gDNA_parsed_civic_variants.tsv"))
+gseq = {}
+f = open(transvar_fn)
 f.readline()
 for line in f:
 	tmp = line.strip().split("\t")
+        gseq[tmp[0]] = tmp[7:11]
+f.close()
 
-	for tmp1 in tmp[13].split(";"):
-		tmp2 = tmp1.split(":")
-		try:
-			gDNA = genid_chr[tmp2[0]] + ":" + tmp2[1]
-			civic_var[gDNA] = tmp
-		except:
-			print "1", tmp2, sys.exc_info()[0]
-
-fout = open(sys.argv[3], "w")
+fout = open(output_fn, "w")
 fout.write("##fileformat=VCFv4.1\n")
 fout.write("##fileDate=20190803\n")
 fout.write("#CHROM\tPOS\tID\tREF\tALT\tQUAL\tFILTER\tINFO\n")
 
-f = open(os.path.join(results_dir, "gDNA", "gDNA_parsed_civic_variants_gseq.tsv"))
-f.readline()
-for line in f:
-	tmp = line.strip().split("\t")
-	try:
+fin = open(civic_fn)
+fin.readline()
+for line in fin:
+	cvar = line.strip().split("\t")
+	if cvar[6] != "GRCh37":
+                print("Not GRCh37 build", line)
+        else:
 		info_arr = []
-		cvar = civic_var[tmp[0]]
 		info_arr.append("civic_var_id=" + cvar[0])
 		info_arr.append("chr_start_stop_ref_alt=" + cvar[1])
 		info_arr.append("transcript=" + cvar[2])
@@ -54,13 +59,14 @@ for line in f:
 		info_arr.append("hgvs.p.parsed=" + cvar[19])
 		info_arr.append("vname.hgvs.p=" + cvar[21])
 		info_arr.append("vname.hgvs.p.parsed=" + cvar[22])
-
-		info_arr.append(tmp[6])
-		info_arr.append("region=" + tmp[5])
-
-		if cvar[6] == "GRCh37":
-			fout.write("\t".join(tmp[7:9] + ["."] + tmp[9:11] + [".", "."]) + "\t" + ";".join(info_arr) + "\n")
-	except:
-		print tmp[0], sys.exc_info()[0]
-
+                
+	        for tmp in cvar[13].split(";"):
+	                try:
+		                tmp1 = tmp.split(":")
+		                gDNA = genid_chr[tmp1[0]] + ":" + tmp1[1]
+                                gvar = gseq[gDNA]
+			        fout.write("\t".join(gvar[0:2] + ["."] + gvar[2:4] + [".", "."]) + "\t" + ";".join(info_arr) + "\n")
+	                except:
+		                print(tmp, sys.exc_info()[0])
+fin.close()
 fout.close()
