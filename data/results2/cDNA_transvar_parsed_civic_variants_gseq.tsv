@@ -1,3 +1,4 @@
+
 input	transcript	gene	strand	coordinates(gDNA/cDNA/protein)	region	info	CHROM	POS	REF	ALT
 ENST00000275493.2:c.2185_2283del	ENST00000275493 (protein_coding)	EGFR	+	chr7:g.55242416_55242514del99/c.2186_2283+1del99/.	inside_[cds_in_exon_19]	CSQN=Unclassified;left_align_gDNA=g.55242415_55242513del99;unaligned_gDNA=g.55242415_55242513del99;left_align_cDNA=c.2185_2283del99;unalign_cDNA=c.2185_2283del99;whole_exon_[19]_lost;aliases=ENSP00000275493;source=Ensembl	chr7	55242414	GGGACTCTGGATCCCAGAAGGTGAGAAAGTTAAAATTCCCGTCGCTATCAAGGAATTAAGAGAAGCAACATCTCCGAAAGCCAACAAGGAAATCCTCGAT	G
 ENST00000277541.6:c.7330delinsACA	ENST00000277541 (protein_coding)	NOTCH1	-	chr9:g.139390861delinsTGT/c.7330delinsACA/p.Q2444Tfs*34	inside_[cds_in_exon_34]	CSQN=Frameshift;aliases=ENSP00000277541;source=Ensembl	chr9	139390860	TG	TTGT
