@@ -79,13 +79,9 @@ for line in f:
     tmp = line.split("\t")
     genecode[tmp[1]] = tmp[0]
 
-if not os.path.exists(out_dir):
-	os.makedirs(out_dir)
-
-#Mapping file for gDNA/cDNA civic info
-fout = open(os.path.join(out_dir, "civic_gdcmaf_mapping_dna.tsv"), "w")
-fout.write("civic_var_id\tcivic_gene_id\tsource\tchromosome\tstart_position\treference_allele\talternative_allele\n")
-
+#Extract gDNA from liftovered variants
+long_var_id = []
+gdna_vcf = {}
 fin = open(gdna_vcf_fn) #gDNA_transvar_parsed_civic_variants_combined_lifted_over.vcf
 for line in fin:
     if line[0] == "#":
@@ -95,9 +91,14 @@ for line in fin:
     chrom, pos, ref, alt = tmp[0], int(tmp[1]), tmp[3], tmp[4]
     civic_var_id, civic_gene_id = info["civic_var_id"], info["gene_id"]
     maf_var = vcf2maf_loc_allele(pos, ref, alt)
-    fout.write("\t".join([civic_var_id, civic_gene_id, "gDNA", chrom, str(maf_var["start"]), maf_var["ref_allele"], maf_var["var_allele"]]) + "\n")
+    if len(maf_var["ref_allele"]) > 50 or len(maf_var["var_allele"]) > 50:
+        long_var_id.append(civic_var_id)
+    else:
+        gdna_vcf[civic_var_id] = [civic_var_id, civic_gene_id, "gDNA", chrom, str(maf_var["start"]), maf_var["ref_allele"], maf_var["var_allele"]]
 fin.close()
 
+#Extract cDNA from liftovered variants
+cdna_vcf = {}
 fin = open(cdna_vcf_fn) #cDNA_transvar_parsed_civic_variants_combined_lifted_over.vcf
 for line in fin:
     if line[0] == "#":
@@ -107,41 +108,97 @@ for line in fin:
     chrom, pos, ref, alt = tmp[0], int(tmp[1]), tmp[3], tmp[4]
     civic_var_id, civic_gene_id = info["civic_var_id"], info["gene_id"]
     maf_var = vcf2maf_loc_allele(pos, ref, alt)
-    fout.write("\t".join([civic_var_id, civic_gene_id, "cDNA", chrom, str(maf_var["start"]), maf_var["ref_allele"], maf_var["var_allele"]]) + "\n")
+    if len(maf_var["ref_allele"]) > 50 or len(maf_var["var_allele"]) > 50:
+        long_var_id.append(civic_var_id)
+    else:
+        cdna_vcf[civic_var_id] = [civic_var_id, civic_gene_id, "cDNA", chrom, str(maf_var["start"]), maf_var["ref_allele"], maf_var["var_allele"]]
 fin.close()
 
+#Extract hgvs.p from parsed civic variants
+f_umap_long_var = open(os.path.join(out_dir, "parsed_civic_variants.unmapped_long_var"), "w")
+
+hgvsp = {}
+fin = open(gdna_var_fn)
+header = fin.readline()
+fout = open(gdna_var_fn + ".unliftovered", "w")
+fout.write(header)
+f_umap_long_var.write(header)
+for line in fin:
+    cvar = line.split("\t")
+    cvar_id = cvar[0]
+    if cvar_id not in gdna_vcf:
+        hgvsp[cvar_id] = cvar
+        fout.write(line)
+    if cvar_id in long_var_id:
+        f_umap_long_var.write(line)
+fin.close()
 fout.close()
 
-#Mapping file for prot civic info
-fout = open(os.path.join(out_dir, "civic_gdcmaf_mapping_prot.tsv"), "w")
-fout.write("civic_var_id\tcivic_gene_id\thugo_symbol\tgene\thgvs.p\tsource\n")
+fin = open(cdna_var_fn)
+fout = open(cdna_var_fn + ".unliftovered", "w")
+fout.write(fin.readline())
+for line in fin:
+    cvar = line.split("\t")
+    cvar_id = cvar[0]
+    if cvar_id not in cdna_vcf:
+        hgvsp[cvar_id] = cvar
+        fout.write(line)
+    if cvar_id in long_var_id:
+        f_umap_long_var.write(line)
+fin.close()
+fout.close()
 
-#To extract and process hgvs.p from all civic variants
-hp = hgvs.parser.Parser()
 fin = open(prot_var_fn)
 fin.readline()
 for line in fin:
-    tmp = line.split("\t")
-    civic_var_id = tmp[0]
-    #if civic_var_id in gDNA_var:
-    #    continue
-    civic_gene_id = tmp[7]
-    civic_entrez_name = tmp[9]
-    aa1_p = ""
-    if tmp[19] != "": #get hgvs p
-        var_p = hp.parse_hgvs_variant(tmp[19])
-        var_p_aa1 = str(var_p.format(conf={"p_3_letter": False}))
-        aa1_p = var_p_aa1.split(":")[1]
-    elif tmp[21] != "": #get vname p
-        aa1_p = "p." + tmp[21]
-    else:
-        print("No p info:", tmp[19:24])
-        continue
+    cvar = line.split("\t")
+    cvar_id = cvar[0]
+    hgvsp[cvar_id] = cvar
+fin.close()
+
+f_umap_long_var.close()
+
+#Create mapping file for gDNA/cDNA civic info
+if not os.path.exists(out_dir):
+	os.makedirs(out_dir)
+fout_dna = open(os.path.join(out_dir, "civic_gdcmaf_mapping_dna.tsv"), "w")
+fout_dna.write("civic_var_id\tcivic_gene_id\tsource\tchromosome\tstart_position\treference_allele\talternative_allele\n")
+for _, cvar in sorted(gdna_vcf.items(), key = lambda x:int(x[0])):
+    fout_dna.write("\t".join(cvar) + "\n")
+
+for _, cvar in sorted(cdna_vcf.items(), key = lambda x:int(x[0])):
+    fout_dna.write("\t".join(cvar) + "\n")
+fout_dna.close()
+
+
+#Create mapping file for prot civic info
+fout_prot = open(os.path.join(out_dir, "civic_gdcmaf_mapping_prot.tsv"), "w")
+fout_prot.write("civic_var_id\tcivic_gene_id\thugo_symbol\tgene\thgvs.p\tsource\n")
+
+f_umap_p = open(os.path.join(out_dir, os.path.basename(prot_var_fn) + ".unmapped_no_p"), "w")
+f_umap_g = open(os.path.join(out_dir, os.path.basename(prot_var_fn) + ".unmapped_no_genecode"), "w")
+hp = hgvs.parser.Parser()
+for civic_var_id, civic_var in sorted(hgvsp.items(), key = lambda x:int(x[0])):
+    civic_gene_id = civic_var[7]
+    civic_entrez_name = civic_var[9]
     gene = ""
     if civic_entrez_name in genecode:
         gene = genecode[civic_entrez_name]
     else:
-        print("No geneconde mapping info:", civic_entrez_name)
-    fout.write("\t".join([civic_var_id, civic_gene_id, civic_entrez_name, gene, aa1_p, "Protein"]) + "\n")
+        f_umap_g.write("\t".join(civic_var))
+        continue
+    aa1_p = []
+    if civic_var[19] != "": #get hgvs p
+        for p in civic_var[19].split(";"):
+            var_p = hp.parse_hgvs_variant(p)
+            var_p_aa1 = str(var_p.format(conf={"p_3_letter": False}))
+            aa1_p.append(var_p_aa1.split(":")[1])
+    elif civic_var[21] != "": #get vname p
+        aa1_p.append("p." + civic_var[21])
+    else:
+        f_umap_p.write("\t".join(civic_var))
+        continue
+    for prot in aa1_p:
+        fout_prot.write("\t".join([civic_var_id, civic_gene_id, civic_entrez_name, gene, prot, "Protein"]) + "\n")
 
-fout.close()
+fout_prot.close()

@@ -197,7 +197,6 @@ for v in sorted(all_var, key=lambda x: x.id):
 	else:
 		f_u.write(datum1 + datum2 + "\n")
 
-
 f_a.close()
 f_g.close()
 f_c.close()
