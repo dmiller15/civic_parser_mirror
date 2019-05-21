@@ -1,9 +1,7 @@
 civic_var_id	chr_start_stop_ref_alt	transcript	chr_start_stop_ref_alt_2	transcript_2	ensembl_version	ref_build	gene_id	entrez_id	entrez_name	civic_var_name	civic_var_types	civic_hgvs_exp	hgvs.g.parsed	hgvs.g.var_types	hgvs.c.parsed	hgvs.c.var_types	hgvs.c2g.parsed	hgvs.c2g.var_types	hgvs.p.parsed	hgvs.p.var_types	vname.hgvs.p	vname.hgvs.p.parsed	vname.hgvs.p.var_types	vname.hgvs.c	vname.hgvs.c.parsed	vname.hgvs.c.var_types	vname.other_var_types	parse_note
-13	7_140453135_140453137_None_None	ENST00000288602.6	7_None_None	None	75	GRCh37	5	673	BRAF	V600E+V600M	missense_variant	[]									V600E;V600M	Val600Glu;Val600Met	point_mutation;point_mutation			point_mutation;point_mutation		
 14	7_140434279_140624564_None_None	ENST00000288602.6	7_None_None	None	75	GRCh37	5	673	BRAF	V600E AMPLIFICATION	missense_variant;transcript_amplification	[]									V600E	Val600Glu	point_mutation			point_mutation		
 279	22_30050673_30050675_None_None	ENST00000338641.4	22_None_None	None	75	GRCh37	3870	4771	NF2	K159FS*16	frameshift_truncation	[]									K159fs*16	Lys159fsTer16	frameshift			frameshift		
 541	16_23646276_23646276_None_	ENST00000261584.4	16_None_None	None	75	GRCh37	15013	79728	PALB2	L531FS*30	SNP;minus_1_frameshift_variant	[]									L531fs*30	Leu531fsTer30	frameshift			frameshift		
-572	1_11174420_11187857_None_None	ENST00000361445.4	1_None_None	None	75	GRCh37	2073	2475	MTOR	E2014K + E2419K	missense_variant	[]									E2014K;E2419K	Glu2014Lys;Glu2419Lys	point_mutation;point_mutation			point_mutation;point_mutation		
 734	None_None_None_None_None	None	None_None_None	None	None	None	3532	4292	MLH1	P138T		[]									P138T	Pro138Thr	point_mutation			point_mutation		
 804	None_None_None_None_None	None	None_None_None	None	None	None	43	861	RUNX1	R135FSX177		[]									R135fsX177	Arg135fsTer177	frameshift			frameshift		
 813	12_12022535_12022535_C_T	ENST00000396373.4	12_None_None	None	75	GRCh37	1769	2120	ETV6	P214L	missense_variant	[]									P214L	Pro214Leu	point_mutation			point_mutation		
@@ -44,7 +42,6 @@ civic_var_id	chr_start_stop_ref_alt	transcript	chr_start_stop_ref_alt_2	transcri
 1182	None_None_None_None_None	None	None_None_None	None	None	GRCh37	19	1956	EGFR	S784F		[]									S784F	Ser784Phe	point_mutation			point_mutation		
 1186	7_140453193_140453193_T_C	None	7_None_None	None	None	GRCh37	5	673	BRAF	N581S	missense_variant	[]									N581S	Asn581Ser	point_mutation			point_mutation		
 1188	None_None_None_None_None	None	None_None_None	None	None	GRCh37	19	1956	EGFR	N826S	missense_variant	[]									N826S	Asn826Ser	point_mutation			point_mutation		
-1282	1_156846342_156849107_None_None	ENST00000524377.1	1_None_None	None	75	GRCh37	3983	4914	NTRK1	LMNA-NTRK1 G595R AND G667C	missense_variant	[]									G595R;G667C	Gly595Arg;Gly667Cys	point_mutation;point_mutation			point_mutation;point_mutation		
 1292	1_65311241_65311242_None_None	ENST00000342505.4	1_None_None	None	75	GRCh37	3090	3716	JAK1	W690*	stop_gained	[]									W690*	Trp690Ter	point_mutation			point_mutation		
 1309	None_None_None_None_None	None	None_None_None	None	None	None	20	2064	ERBB2	L638S		[]									L638S	Leu638Ser	point_mutation			point_mutation		
 1311	None_None_None_None_None	None	None_None_None	None	None	None	20	2064	ERBB2	V773L		[]									V773L	Val773Leu	point_mutation			point_mutation		
@@ -215,7 +212,6 @@ civic_var_id	chr_start_stop_ref_alt	transcript	chr_start_stop_ref_alt_2	transcri
 2063	None_None_None_None_None	None	None_None_None	None	None	None	5534	6794	STK11	F354L		[]									F354L	Phe354Leu	point_mutation			point_mutation		
 2073	None_None_None_None_None	None	None_None_None	None	None	None	58	7428	VHL	G106fs (c.316insA)		[]									G106fs	Gly106fsTer	frameshift			frameshift		
 2081	None_None_None_None_None	None	None_None_None	None	None	None	58	7428	VHL	V194fs (c.581_582delGT)		[]									V194fs	Val194fsTer	frameshift			frameshift		
-2086	3_10188245_10191605_None_None	ENST00000256474.2	3_None_None	None	75	GRCh37	58	7428	VHL	V130I (c.388G>A)/ R200W (c.598C>T)	missense_variant	[]									V130I;R200W	Val130Ile;Arg200Trp	point_mutation;point_mutation			point_mutation;point_mutation		
 2087	None_None_None_None_None	None	None_None_None	None	None	None	58	7428	VHL	L63fs (c.189_192delGCGC)		[]									L63fs	Leu63fsTer	frameshift			frameshift		
 2090	None_None_None_None_None	None	None_None_None	None	None	None	58	7428	VHL	P40fs (c.118ins)		[]									P40fs	Pro40fsTer	frameshift			frameshift		
 2091	None_None_None_None_None	None	None_None_None	None	None	None	58	7428	VHL	T152fs (c.455insA)		[]									T152fs	Thr152fsTer	frameshift			frameshift		
@@ -250,7 +246,6 @@ civic_var_id	chr_start_stop_ref_alt	transcript	chr_start_stop_ref_alt_2	transcri
 2252	None_None_None_None_None	None	None_None_None	None	None	None	58	7428	VHL	G104fs (c.309delT)		[]									G104fs	Gly104fsTer	frameshift			frameshift		
 2253	None_None_None_None_None	None	None_None_None	None	None	None	58	7428	VHL	N174fs (c.520delA)		[]									N174fs	Asn174fsTer	frameshift			frameshift		
 2255	None_None_None_None_None	None	None_None_None	None	None	None	19	1956	EGFR	A702S		[]									A702S	Ala702Ser	point_mutation			point_mutation		
-2256	None_None_None_None_None	None	None_None_None	None	None	None	19	1956	EGFR	E709K and G719A		[]									E709K;G719A	Glu709Lys;Gly719Ala	point_mutation;point_mutation			point_mutation;point_mutation		
 2258	None_None_None_None_None	None	None_None_None	None	None	None	19	1956	EGFR	E 709A and G719C		[]									G719C	Gly719Cys	point_mutation			point_mutation		
 2259	None_None_None_None_None	None	None_None_None	None	None	None	19	1956	EGFR	I744_K745insKIPVAI		[]									I744_K745insKIPVAI	Ile744_Lys745insLysIleProValAlaIle	insertion			insertion		
 2260	None_None_None_None_None	None	None_None_None	None	None	None	52	4233	MET	D1028N		[]									D1028N	Asp1028Asn	point_mutation			point_mutation		
@@ -313,10 +308,8 @@ civic_var_id	chr_start_stop_ref_alt	transcript	chr_start_stop_ref_alt_2	transcri
 2374	None_None_None_None_None	None	None_None_None	None	None	None	58	7428	VHL	c.251−?_429 +?		[]									?	None						
 2377	None_None_None_None_None	None	None_None_None	None	None	None	4868	6009	RHEB	Y35N		[]									Y35N	Tyr35Asn	point_mutation			point_mutation		
 2380	None_None_None_None_None	None	None_None_None	None	None	None	58	7428	VHL	V130I (c.388G>A)		[]									V130I	Val130Ile	point_mutation			point_mutation		
-2381	None_None_None_None_None	None	None_None_None	None	None	None	58	7428	VHL	L118P (c.353T>C) / R107G  (c.319C>G)		[]									L118P;R107G	Leu118Pro;Arg107Gly	point_mutation;point_mutation			point_mutation;point_mutation		
 2383	None_None_None_None_None	None	None_None_None	None	None	None	58	7428	VHL	Q203TfsX53 (c.606dupA)		[]									Q203TfsX53	Gln203ThrfsTer53	frameshift			frameshift		
 2387	None_None_None_None_None	None	None_None_None	None	None	None	1239	1441	CSF3R	T618I		[]									T618I	Thr618Ile	point_mutation			point_mutation		
-2391	None_None_None_None_None	None	None_None_None	None	None	None	31	5604	MAP2K1	C121S + G128D		[]									C121S;G128D	Cys121Ser;Gly128Asp	point_mutation;point_mutation			point_mutation;point_mutation		
 2398	None_None_None_None_None	None	None_None_None	None	None	None	5	673	BRAF	D594K		[]									D594K	Asp594Lys	point_mutation			point_mutation		
 2399	None_None_None_None_None	None	None_None_None	None	None	None	23	2261	FGFR3	V443L		[]									V443L	Val443Leu	point_mutation			point_mutation		
 2400	None_None_None_None_None	None	None_None_None	None	None	None	23	2261	FGFR3	V443M		[]									V443M	Val443Met	point_mutation			point_mutation		
@@ -404,7 +397,6 @@ civic_var_id	chr_start_stop_ref_alt	transcript	chr_start_stop_ref_alt_2	transcri
 2580	None_None_None_None_None	None	None_None_None	None	None	None	58	7428	VHL	N131T (c.392A>C)		[]									N131T	Asn131Thr	point_mutation			point_mutation		
 2587	None_None_None_None_None	None	None_None_None	None	None	None	28	3717	JAK2	JAK2 F694L		[]									F694L	Phe694Leu	point_mutation			point_mutation		fix civic var name for vname.hgvs.p
 2592	None_None_None_None_None	None	None_None_None	None	None	None	29	3815	KIT	K642R		[]									K642R	Lys642Arg	point_mutation			point_mutation		
-2597	None_None_None_None_None	None	None_None_None	None	None	None	9533	23405	DICER1	p.Gln301Ter and p.Glu1813Gly		[]									Gln301*;Glu1813Gly	Gln301Ter;Glu1813Gly	point_mutation;point_mutation			point_mutation;point_mutation		
 2599	None_None_None_None_None	None	None_None_None	None	None	None	19	1956	EGFR	I462K		[]									I462K	Ile462Lys	point_mutation			point_mutation		
 2600	None_None_None_None_None	None	None_None_None	None	None	None	19	1956	EGFR	I462R		[]									I462R	Ile462Arg	point_mutation			point_mutation		
 2601	None_None_None_None_None	None	None_None_None	None	None	None	19	1956	EGFR	S464L		[]									S464L	Ser464Leu	point_mutation			point_mutation		
