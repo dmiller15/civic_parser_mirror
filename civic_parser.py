@@ -53,11 +53,12 @@ f_u = open(os.path.join(results_dir, "unparsed_civic_variants.tsv"), "w")
 f_ct = open(os.path.join(results_dir, "cDNA_parsed_civic_variants_clist.tsv"), "w")
 f_gt = open(os.path.join(results_dir, "gDNA_parsed_civic_variants_glist.tsv"), "w")
 
-header = "\t".join(["civic_var_id", "chr_start_stop_ref_alt", "transcript", "chr_start_stop_ref_alt_2", "transcript_2", \
-		"ensembl_version", "ref_build", "gene_id", "entrez_id", "entrez_name", "civic_var_name", "civic_var_types", "civic_hgvs_exp", \
-		"hgvs.g.parsed", "hgvs.g.var_types", "hgvs.c.parsed", "hgvs.c.var_types", "hgvs.c2g.parsed", "hgvs.c2g.var_types", \
-		"hgvs.p.parsed", "hgvs.p.var_types", "vname.hgvs.p", "vname.hgvs.p.parsed", "vname.hgvs.p.var_types", \
-		"vname.hgvs.c", "vname.hgvs.c.parsed", "vname.hgvs.c.var_types", "vname.other_var_types", "parse_note"])
+header = "\t".join(["civic_var_id", "chr_start_stop_ref_alt", "transcript", "chr_start_stop_ref_alt_2", \
+                "transcript_2", "ensembl_version", "ref_build", "gene_id", "entrez_id", "entrez_name", \
+                "civic_var_name", "civic_var_types", "civic_hgvs_exp", "hgvs.g.parsed", "hgvs.g.var_types", \
+                "hgvs.c.parsed", "hgvs.c.var_types", "hgvs.c2g.parsed", "hgvs.c2g.var_types", "hgvs.p.parsed", \
+                "hgvs.p.var_types", "vname.hgvs.p", "vname.hgvs.p.parsed", "vname.hgvs.p.var_types", "vname.hgvs.c", \
+                "vname.hgvs.c.parsed", "vname.hgvs.c.var_types", "vname.other_var_types", "parse_note"])
 f_a.write(header + "\n")
 f_g.write(header + "\n")
 f_c.write(header + "\n")
@@ -106,7 +107,8 @@ for v in sorted(all_var, key=lambda x: x.id):
 				parsed_var_c2g = None
 				try:
 					hdp = hgvs.dataproviders.uta.connect()
-					am = hgvs.assemblymapper.AssemblyMapper(hdp, assembly_name='GRCh37', alt_aln_method='splign', replace_reference=True)
+					am = hgvs.assemblymapper.AssemblyMapper(hdp, assembly_name='GRCh37', \
+                                                               alt_aln_method='splign', replace_reference=True)
 					parsed_var_c2g = am.c_to_g(parsed_var)
 					variant["hgvs.c2g"].append(parsed_var_c2g)
 					variant["hgvs.c2g.var_types"].append(parsed_var_c2g.posedit.edit.type)

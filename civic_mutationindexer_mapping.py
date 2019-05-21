@@ -97,7 +97,8 @@ for line in fin:
     if len(maf_var["ref_allele"]) > 50 or len(maf_var["var_allele"]) > 50:
         long_var_id.append(civic_var_id)
     else:
-        gdna_vcf[civic_var_id] = [civic_var_id, civic_gene_id, "gDNA", chrom, str(maf_var["start"]), maf_var["ref_allele"], maf_var["var_allele"]]
+        gdna_vcf[civic_var_id] = [civic_var_id, civic_gene_id, "gDNA", chrom, \
+                str(maf_var["start"]), maf_var["ref_allele"], maf_var["var_allele"]]
 fin.close()
 
 #Extract cDNA from liftovered variants
@@ -114,7 +115,8 @@ for line in fin:
     if len(maf_var["ref_allele"]) > 50 or len(maf_var["var_allele"]) > 50:
         long_var_id.append(civic_var_id)
     else:
-        cdna_vcf[civic_var_id] = [civic_var_id, civic_gene_id, "cDNA", chrom, str(maf_var["start"]), maf_var["ref_allele"], maf_var["var_allele"]]
+        cdna_vcf[civic_var_id] = [civic_var_id, civic_gene_id, "cDNA", chrom, str(maf_var["start"]), \
+                                  maf_var["ref_allele"], maf_var["var_allele"]]
 fin.close()
 
 #Extract hgvs.p from parsed civic variants
@@ -171,9 +173,13 @@ fin.close()
 if not os.path.exists(out_dir):
 	os.makedirs(out_dir)
 fout_dna = open(os.path.join(out_dir, "civic_gdcmaf_mapping_dna.tsv"), "w")
-fout_dna.write("civic_var_id\tcivic_gene_id\tsource\tchromosome\tstart_position\treference_allele\talternative_allele\n")
+fout_dna.write("civic_var_id\tcivic_gene_id\tsource\tchromosome\tstart_position" +
+               "\treference_allele\talternative_allele\n")
 fout_dna_full = open(os.path.join(out_dir, "civic_gdcmaf_mapping_dna_full_info.tsv"), "w")
-fout_dna_full.write("civic_var_id\tcivic_gene_id\tsource\tchromosome\tstart_position\treference_allele\talternative_allele\ttranscript\ttranscript_2\tensembl_version\tref_build\tentrez_id\tentrez_name\tcivic_var_name\tcivic_var_types\tcivic_hgvs_exp\n")
+fout_dna_full.write("civic_var_id\tcivic_gene_id\tsource\tchromosome\tstart_position" +
+                    "\treference_allele\talternative_allele\ttranscript\ttranscript_2" +
+                    "\tensembl_version\tref_build\tentrez_id\tentrez_name\tcivic_var_name" +
+                    "\tcivic_var_types\tcivic_hgvs_exp\n")
 for cvar_id, cvar in sorted(gdna_vcf.items(), key = lambda x:int(x[0])):
     fout_dna.write("\t".join(cvar) + "\n")
     v = gdna_var[cvar_id]
@@ -192,8 +198,9 @@ fout_prot = open(os.path.join(out_dir, "civic_gdcmaf_mapping_prot.tsv"), "w")
 fout_prot.write("civic_var_id\tcivic_gene_id\thugo_symbol\tgene\thgvs.p\tsource\n")
 
 fout_prot_full = open(os.path.join(out_dir, "civic_gdcmaf_mapping_prot_full_info.tsv"), "w")
-fout_prot_full.write("civic_var_id\tcivic_gene_id\thugo_symbol\tgene\thgvs.p\tsource\ttranscript\ttranscript_2\tensembl_version\tref_build\tentrez_id\tentrez_name\tcivic_var_name\tcivic_var_types\tcivic_hgvs_exp\n")
-
+fout_prot_full.write("civic_var_id\tcivic_gene_id\thugo_symbol\tgene\thgvs.p\tsource" +
+                     "\ttranscript\ttranscript_2\tensembl_version\tref_build\tentrez_id" +
+                     "\tentrez_name\tcivic_var_name\tcivic_var_types\tcivic_hgvs_exp\n")
 f_umap_g = open(os.path.join(out_dir, "parsed_civic_variants.unmapped_no_genecode.tsv"), "w")
 f_umap_p = open(os.path.join(out_dir, "parsed_civic_variants.unmapped_no_p.tsv"), "w")
 hp = hgvs.parser.Parser()
@@ -219,7 +226,8 @@ for civic_var_id, civic_var in sorted(hgvsp.items(), key = lambda x:int(x[0])):
         continue
     for prot in aa1_p:
         fout_prot.write("\t".join([civic_var_id, civic_gene_id, civic_entrez_name, gene, prot, "Protein"]) + "\n")
-        fout_prot_full.write("\t".join([civic_var_id, civic_gene_id, civic_entrez_name, gene, prot, "Protein"] + civic_var[2:3] + civic_var[4:7] + civic_var[8:13]) + "\n")
+        fout_prot_full.write("\t".join([civic_var_id, civic_gene_id, civic_entrez_name, gene, prot, "Protein"] \
+                                       + civic_var[2:3] + civic_var[4:7] + civic_var[8:13]) + "\n")
 
 fout_prot.close()
 fout_prot_full.close()
