@@ -1,7 +1,5 @@
 prev_civic_var_id	prev_civic_gene_id	prev_hugo_symbol	prev_gene	prev_hgvs.p	prev_source	curr_civic_var_id	curr_civic_gene_id	curr_source	curr_chromosome	curr_start_position	curr_reference_allele	curr_alternative_allele
-308	1	ALK	ENSG00000171094.14	p.G1269A	Protein	308	1	gDNA	chr2	29209816	C	G
 414	20	ERBB2	ENSG00000141736.12	p.Y772_A775dup	Protein	414	20	gDNA	chr17	39724731	-	TACGTGATGGCT
-465	4941	ROS1	ENSG00000047936.9	p.G2032R	Protein	465	4941	gDNA	chr6	117317184	C	T
 549	1	ALK	ENSG00000171094.14	p.F1245C	Protein	549	1	gDNA	chr2	29213993	A	C
 771	58	VHL	ENSG00000134086.7	p.A56fs	Protein	771	58	gDNA	chr3	10142011	-	G
 785	8950	CHEK2	ENSG00000183765.19	p.T367Mfs*	Protein	785	8950	gDNA	chr22	28695869	G	-

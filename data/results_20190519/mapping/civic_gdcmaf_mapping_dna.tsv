@@ -1,9 +1,5 @@
 civic_var_id	civic_gene_id	source	chromosome	start_position	reference_allele	alternative_allele
-2	4	gDNA	chr9	130872896	C	T
-3	4	gDNA	chr9	130862976	G	A
 4	2	gDNA	chr14	104780214	C	T
-6	1	gDNA	chr2	29222392	C	T
-7	1	gDNA	chr2	29220765	G	T
 8	1	gDNA	chr2	29220829	G	T
 9	1	gDNA	chr2	29209798	C	T
 10	3	gDNA	chrX	47566722	C	G
@@ -76,9 +72,6 @@ civic_var_id	civic_gene_id	source	chromosome	start_position	reference_allele	alt
 148	30	gDNA	chr12	25245350	C	G
 168	65	gDNA	chrX	101356177	A	T
 169	2	gDNA	chr14	104776711	G	T
-171	1	gDNA	chr2	29220747	C	T
-172	1	gDNA	chr2	29220734	G	T
-173	1	gDNA	chr2	29222405	-	CGT
 175	67	gDNA	chrX	67723707	T	C
 196	23	gDNA	chr4	1804372	A	G
 198	72	gDNA	chr3	138946321	G	C
@@ -88,7 +81,6 @@ civic_var_id	civic_gene_id	source	chromosome	start_position	reference_allele	alt
 238	9189	gDNA	chr10	103093198	C	T
 239	9189	gDNA	chr10	103093223	T	G
 240	9189	gDNA	chr10	103090988	T	G
-241	4	gDNA	chr9	130872901	T	C
 244	69	gDNA	chr11	108347317	A	C
 245	3870	gDNA	chr22	29655603	-	T
 247	38	gDNA	chr4	54274869	T	C
@@ -110,8 +102,6 @@ civic_var_id	civic_gene_id	source	chromosome	start_position	reference_allele	alt
 288	5	gDNA	chr7	140753345	A	C
 294	37	gDNA	chr3	179210438	C	T
 299	5365	gDNA	chr7	129209348	G	C
-307	1	gDNA	chr2	29222404	A	C
-308	1	gDNA	chr2	29209816	C	G
 317	19	gDNA	chr7	55174029	G	A
 320	4532	gDNA	chr2	21904292	C	T
 322	30	gDNA	chr12	25225627	G	A
@@ -142,7 +132,6 @@ civic_var_id	civic_gene_id	source	chromosome	start_position	reference_allele	alt
 460	19	gDNA	chr7	55174794	C	T
 462	39	gDNA	chr15	74022872	C	T
 463	39	gDNA	chr15	74022878	T	C
-465	4941	gDNA	chr6	117317184	C	T
 467	3153	gDNA	chr4	55089802	C	T
 468	3153	gDNA	chr4	55102013	T	A
 469	47	gDNA	chr16	2080299	C	T
@@ -159,11 +148,6 @@ civic_var_id	civic_gene_id	source	chromosome	start_position	reference_allele	alt
 504	45	gDNA	chr17	7676230	G	A
 508	4371	gDNA	chr7	5982881	T	-
 515	1885	gDNA	chr8	38417331	G	T
-516	4941	gDNA	chr6	117317202	G	T
-517	4941	gDNA	chr6	117308899	A	G
-518	4941	gDNA	chr6	117310213	C	G
-527	1	gDNA	chr2	29222347	A	G
-528	1	gDNA	chr2	29220813	C	G
 530	30	gDNA	chr12	25245351	C	G
 531	45	gDNA	chr17	7676154	G	C
 540	24	gDNA	chr13	28050157	G	A
@@ -173,14 +157,11 @@ civic_var_id	civic_gene_id	source	chromosome	start_position	reference_allele	alt
 545	22	gDNA	chr10	121498520	A	T
 548	9722	gDNA	chr19	48873985	G	C
 549	1	gDNA	chr2	29213993	A	C
-551	1	gDNA	chr2	29213993	A	C
-552	1	gDNA	chr2	29209816	C	G
 556	13	gDNA	chr12	57751648	G	A
 562	19	gDNA	chr7	55181312	G	T
 563	5	gDNA	chr7	140753336	AC	TT
 565	44	gDNA	chr2	197402110	T	C
 566	4546	gDNA	chr19	7910272	G	A
-577	38	gDNA	chr4	54278380	C	T
 579	5	gDNA	chr7	140753354	T	G
 580	5	gDNA	chr7	140753354	T	A
 581	5	gDNA	chr7	140778059	TT	CA
@@ -188,8 +169,6 @@ civic_var_id	civic_gene_id	source	chromosome	start_position	reference_allele	alt
 583	5	gDNA	chr7	140753345	A	T
 584	5	gDNA	chr7	140753334	T	C
 585	5	gDNA	chr7	140753346	G	C
-588	1	gDNA	chr2	29222347	A	T
-589	1	gDNA	chr2	29222347	A	C
 604	2317	gDNA	chr9	77794572	T	G
 605	41	gDNA	chr10	87961042	TACT	-
 609	2073	gDNA	chr1	11117039	C	A
@@ -277,7 +256,6 @@ civic_var_id	civic_gene_id	source	chromosome	start_position	reference_allele	alt
 798	52	gDNA	chr7	116783354	A	T
 802	43	gDNA	chr21	34886866	T	C
 803	43	gDNA	chr21	34799407	G	T
-805	3985	gDNA	chr15	87933034	C	T
 806	43	gDNA	chr21	34859495	C	A
 807	43	gDNA	chr21	34880665	C	G
 810	43	gDNA	chr21	34880616	GCTGCGGT	-
@@ -414,7 +392,6 @@ civic_var_id	civic_gene_id	source	chromosome	start_position	reference_allele	alt
 1144	50	gDNA	chr9	136504961	A	T
 1145	50	gDNA	chr9	136504970	A	T
 1151	37	gDNA	chr3	179234297	A	T
-1152	4	gDNA	chr9	130880101	T	C
 1153	69	gDNA	chr11	108245000	C	G
 1155	69	gDNA	chr11	108245002	A	T
 1156	69	gDNA	chr11	108330281	C	T
@@ -445,7 +422,6 @@ civic_var_id	civic_gene_id	source	chromosome	start_position	reference_allele	alt
 1230	4	gDNA	chr9	130874932	C	A
 1231	4	gDNA	chr9	130872201	G	C
 1232	4	gDNA	chr9	130874943	G	C
-1233	4	gDNA	chr9	130874974	G	C
 1234	37	gDNA	chr3	179199158	G	C
 1235	37	gDNA	chr3	179209622	A	G
 1236	6	gDNA	chr17	43124096	T	C

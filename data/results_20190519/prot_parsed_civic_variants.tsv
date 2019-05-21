@@ -1,6 +1,6 @@
 civic_var_id	chr_start_stop_ref_alt	transcript	chr_start_stop_ref_alt_2	transcript_2	ensembl_version	ref_build	gene_id	entrez_id	entrez_name	civic_var_name	civic_var_types	civic_hgvs_exp	hgvs.g.parsed	hgvs.g.var_types	hgvs.c.parsed	hgvs.c.var_types	hgvs.c2g.parsed	hgvs.c2g.var_types	hgvs.p.parsed	hgvs.p.var_types	vname.hgvs.p	vname.hgvs.p.parsed	vname.hgvs.p.var_types	vname.hgvs.c	vname.hgvs.c.parsed	vname.hgvs.c.var_types	vname.other_var_types	parse_note
 13	7_140453135_140453137_None_None	ENST00000288602.6	7_None_None	None	75	GRCh37	5	673	BRAF	V600E+V600M	missense_variant	[]									V600E;V600M	Val600Glu;Val600Met	point_mutation;point_mutation			point_mutation;point_mutation		
-14	7_140434279_140624564_None_None	ENST00000288602.6	7_None_None	None	75	GRCh37	5	673	BRAF	V600E AMPLIFICATION	transcript_amplification;missense_variant	[]									V600E	Val600Glu	point_mutation			point_mutation		
+14	7_140434279_140624564_None_None	ENST00000288602.6	7_None_None	None	75	GRCh37	5	673	BRAF	V600E AMPLIFICATION	missense_variant;transcript_amplification	[]									V600E	Val600Glu	point_mutation			point_mutation		
 279	22_30050673_30050675_None_None	ENST00000338641.4	22_None_None	None	75	GRCh37	3870	4771	NF2	K159FS*16	frameshift_truncation	[]									K159fs*16	Lys159fsTer16	frameshift			frameshift		
 541	16_23646276_23646276_None_	ENST00000261584.4	16_None_None	None	75	GRCh37	15013	79728	PALB2	L531FS*30	SNP;minus_1_frameshift_variant	[]									L531fs*30	Leu531fsTer30	frameshift			frameshift		
 572	1_11174420_11187857_None_None	ENST00000361445.4	1_None_None	None	75	GRCh37	2073	2475	MTOR	E2014K + E2419K	missense_variant	[]									E2014K;E2419K	Glu2014Lys;Glu2419Lys	point_mutation;point_mutation			point_mutation;point_mutation		
@@ -182,7 +182,7 @@ civic_var_id	chr_start_stop_ref_alt	transcript	chr_start_stop_ref_alt_2	transcri
 1847	None_None_None_None_None	None	None_None_None	None	None	None	58	7428	VHL	V181G (c.540_543delCGTC)		[]									V181G	Val181Gly	point_mutation			point_mutation		
 1851	None_None_None_None_None	None	None_None_None	None	None	None	58	7428	VHL	L128F (c.381_382GC>TT)		[]									L128F	Leu128Phe	point_mutation			point_mutation		
 1853	None_None_None_None_None	None	None_None_None	None	None	None	58	7428	VHL	S111C (c.330CA>TT)		[]									S111C	Ser111Cys	point_mutation			point_mutation		
-1854	_None_None__		_None_None		None	None	19	1956	EGFR	Ex19 del L858R	inframe_deletion;missense_variant	[]									L858R	Leu858Arg	point_mutation			point_mutation		
+1854	_None_None__		_None_None		None	None	19	1956	EGFR	Ex19 del L858R	missense_variant;inframe_deletion	[]									L858R	Leu858Arg	point_mutation			point_mutation		
 1868	None_None_None_None_None	None	None_None_None	None	None	None	58	7428	VHL	N131fs (c.393CC>A)		[]									N131fs	Asn131fsTer	frameshift			frameshift		
 1869	None_None_None_None_None	None	None_None_None	None	None	None	58	7428	VHL	E189L (c.565delG)		[]									E189L	Glu189Leu	point_mutation			point_mutation		
 1872	None_None_None_None_None	None	None_None_None	None	None	None	58	7428	VHL	L158fs (c.473insT)		[]									L158fs	Leu158fsTer	frameshift			frameshift		
@@ -272,7 +272,7 @@ civic_var_id	chr_start_stop_ref_alt	transcript	chr_start_stop_ref_alt_2	transcri
 2279	None_None_None_None_None	None	None_None_None	None	None	None	14303	64109	CRLF2	G24R		[]									G24R	Gly24Arg	point_mutation			point_mutation		
 2281	None_None_None_None_None	None	None_None_None	None	None	None	1290	1499	CTNNB1	p.S37C		[]									S37C	Ser37Cys	point_mutation			point_mutation		
 2282	None_None_None_None_None	None	None_None_None	None	None	None	11314	29102	DROSHA	E518K		[]									E518K	Glu518Lys	point_mutation			point_mutation		
-2283	None_None_None_None_None	None	None_None_None	None	None	None	154	90	ACVR1	G328E	gain_of_function_variant;missense_variant	[]									G328E	Gly328Glu	point_mutation			point_mutation		
+2283	None_None_None_None_None	None	None_None_None	None	None	None	154	90	ACVR1	G328E	missense_variant;gain_of_function_variant	[]									G328E	Gly328Glu	point_mutation			point_mutation		
 2285	None_None_None_None_None	None	None_None_None	None	None	None	14303	64109	CRLF2	F232C		[]									F232C	Phe232Cys	point_mutation			point_mutation		
 2290	None_None_None_None_None	None	None_None_None	None	None	None	58	7428	VHL	G144Q (c.431G>A)		[]									G144Q	Gly144Gln	point_mutation			point_mutation		
 2293	None_None_None_None_None	None	None_None_None	None	None	None	58	7428	VHL	G104G (c.312C>G)		[]									G104G	Gly104Gly	point_mutation			point_mutation		
@@ -450,3 +450,5 @@ civic_var_id	chr_start_stop_ref_alt	transcript	chr_start_stop_ref_alt_2	transcri
 2700	None_None_None_None_None	None	None_None_None	None	None	None	778	867	CBL	Q294E		[]									Q294E	Gln294Glu	point_mutation			point_mutation		
 2702	None_None_None_None_None	None	None_None_None	None	None	None	778	867	CBL	V391I		[]									V391I	Val391Ile	point_mutation			point_mutation		
 2703	None_None_None_None_None	None	None_None_None	None	None	None	778	867	CBL	W802*		[]									W802*	Trp802Ter	point_mutation			point_mutation		
+2709	None_None_None_None_None	None	None_None_None	None	None	None	37	5290	PIK3CA	E545X		[]									E545*	Glu545Ter	point_mutation			point_mutation		
+2710	None_None_None_None_None	None	None_None_None	None	None	None	37	5290	PIK3CA	H1047X		[]									H1047*	His1047Ter	point_mutation			point_mutation		
