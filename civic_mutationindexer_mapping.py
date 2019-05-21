@@ -123,7 +123,7 @@ f_umap_long_var = open(os.path.join(out_dir, "parsed_civic_variants.unmapped_lon
 hgvsp = {}
 fin = open(gdna_var_fn)
 header = fin.readline()
-fout = open(gdna_var_fn + ".unliftovered.tsv", "w")
+fout = open(gdna_var_fn + ".unliftovered", "w")
 fout.write(header)
 f_umap_long_var.write(header)
 for line in fin:
@@ -138,7 +138,7 @@ fin.close()
 fout.close()
 
 fin = open(cdna_var_fn)
-fout = open(cdna_var_fn + ".unliftovered.tsv", "w")
+fout = open(cdna_var_fn + ".unliftovered", "w")
 fout.write(fin.readline())
 for line in fin:
     cvar = line.split("\t")
@@ -177,8 +177,8 @@ fout_dna.close()
 fout_prot = open(os.path.join(out_dir, "civic_gdcmaf_mapping_prot.tsv"), "w")
 fout_prot.write("civic_var_id\tcivic_gene_id\thugo_symbol\tgene\thgvs.p\tsource\n")
 
-f_umap_p = open(os.path.join(out_dir, os.path.basename(prot_var_fn) + ".unmapped_no_p.tsv"), "w")
-f_umap_g = open(os.path.join(out_dir, os.path.basename(prot_var_fn) + ".unmapped_no_genecode.tsv"), "w")
+f_umap_g = open(os.path.join(out_dir, "prot_parsed_civic_variants.unmapped_no_genecode.tsv"), "w")
+f_umap_p = open(os.path.join(out_dir, "parsed_civic_variants.unmapped_no_p.tsv"), "w")
 hp = hgvs.parser.Parser()
 for civic_var_id, civic_var in sorted(hgvsp.items(), key = lambda x:int(x[0])):
     civic_gene_id = civic_var[7]
