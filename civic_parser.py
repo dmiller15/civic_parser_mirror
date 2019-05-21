@@ -4,15 +4,24 @@ import os
 import sys
 import re
 import json
-import subprocess
+import argparse
 
 from civicpy import civic
 import hgvs.parser
 import hgvs.dataproviders.uta
 import hgvs.assemblymapper
 
-ref_dir = sys.argv[1]
-results_dir = sys.argv[2]
+parser = argparse.ArgumentParser(description='Retrieve civic variant info from CIViC database')
+parser.add_argument('-r', '--ref_dir', type=str, required=True, help='directory for reference files')
+parser.add_argument('-o', '--out_dir', type=str, required=True, help='output directory for parsed files')
+
+args = vars(parser.parse_args())
+ref_dir = args['ref_dir']
+results_dir = args['out_dir']
+
+if not os.path.exists(ref_dir):
+        print("Please indicate the reference directory")
+        sys.exit(1)
 if not os.path.exists(results_dir):
 	os.makedirs(results_dir)
 
@@ -33,15 +42,14 @@ for line in f:
 	genid_chr[tmp[2]] = tmp[3]
 
 all_ids = civic.get_all_variant_ids()
-#all_ids = range(1, 50)
 all_var = civic.get_variants_by_ids(all_ids)
 
 f_a = open(os.path.join(results_dir, "all_parsed_civic_variants.tsv"), "w")
 f_g = open(os.path.join(results_dir, "gDNA_parsed_civic_variants.tsv"), "w")
 f_c = open(os.path.join(results_dir, "cDNA_parsed_civic_variants.tsv"), "w")
 f_p = open(os.path.join(results_dir, "prot_parsed_civic_variants.tsv"), "w")
+f_o = open(os.path.join(results_dir, "gdc_unsupported_civic_variants.tsv"), "w")
 f_u = open(os.path.join(results_dir, "unparsed_civic_variants.tsv"), "w")
-
 f_ct = open(os.path.join(results_dir, "cDNA_parsed_civic_variants_clist.tsv"), "w")
 f_gt = open(os.path.join(results_dir, "gDNA_parsed_civic_variants_glist.tsv"), "w")
 
@@ -54,6 +62,7 @@ f_a.write(header + "\n")
 f_g.write(header + "\n")
 f_c.write(header + "\n")
 f_p.write(header + "\n")
+f_o.write(header + "\n")
 f_u.write(header + "\n")
 
 hp = hgvs.parser.Parser()
@@ -181,19 +190,29 @@ for v in sorted(all_var, key=lambda x: x.id):
 			";".join(str(tmp) for tmp in variant["vname.hgvs.c.parsed"]), ";".join(str(tmp) for tmp in variant["vname.hgvs.p.var_types"]), \
 			str(variant["vname.other_var_types"]), ";".join(str(tmp) for tmp in variant["parse_note"])])
 	f_a.write(datum1 + datum2 + "\n")
+	vtypes = [str(t.name) for t in v.variant_types]
 	if len(variant["hgvs.g"]) > 0:
-		f_g.write(datum1 + datum2 + "\n")
-		for g in variant["hgvs.g"]:
-			tmp = str(g).split(":")
-			if tmp[0] in genid_chr:
-				g_chr = genid_chr[tmp[0]] + ":" + tmp[1]
-				f_gt.write(g_chr + "\n")
+		if "transcript_fusion" in vtypes:
+			f_o.write(datum1 + datum2 + "\n")
+		else:
+			f_g.write(datum1 + datum2 + "\n")
+			for g in variant["hgvs.g"]:
+				tmp = str(g).split(":")
+				if tmp[0] in genid_chr:
+					g_chr = genid_chr[tmp[0]] + ":" + tmp[1]
+					f_gt.write(g_chr + "\n")
 	elif len(variant["hgvs.c"]) > 0:
-		f_c.write(datum1 + datum2 + "\n")
-		for c in variant["hgvs.c"]:
-			f_ct.write(str(c) + "\n")
+		if "transcript_fusion" in vtypes:
+			f_o.write(datum1 + datum2 + "\n")
+		else:
+			f_c.write(datum1 + datum2 + "\n")
+			for c in variant["hgvs.c"]:
+				f_ct.write(str(c) + "\n")
 	elif len(variant["hgvs.p"]) > 0 or len(variant["vname.hgvs.p"]) > 0:    
-		f_p.write(datum1 + datum2 + "\n")
+		if "transcript_fusion" in vtypes:
+			f_o.write(datum1 + datum2 + "\n")
+		else:
+			f_p.write(datum1 + datum2 + "\n")
 	else:
 		f_u.write(datum1 + datum2 + "\n")
 
@@ -201,6 +220,7 @@ f_a.close()
 f_g.close()
 f_c.close()
 f_p.close()
+f_o.close()
 f_u.close()
 f_ct.close()
 f_gt.close()
