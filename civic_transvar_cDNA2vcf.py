@@ -32,7 +32,7 @@ fin = open(civic_fn)
 fin.readline()
 for line in fin:
         cvar = line.strip().split("\t")
-        if cvar[6] != "GRCh37":
+        if cvar[6] != "None" and cvar[6] != "GRCh37":
                 print("Not GRCh37 build or not proper contig name:", line)
                 continue
         info_arr = []

@@ -5,7 +5,7 @@ import sys
 import argparse
 import hgvs.parser
 
-parser = argparse.ArgumentParser(description='Generate civic variants in vcf format.')
+parser = argparse.ArgumentParser(description='Generate civic variant info to be used with GDC mutation indexing')
 parser.add_argument('-i', '--gene_code', type=str, required=True, help='gene info from GDC-used gene model')
 parser.add_argument('-g', '--gdna_var', type=str, required=True, help='input civic variants for gDNA')
 parser.add_argument('-gv', '--gdna_vcf', type=str, required=True, help='input gDNA in VCF format after Liftover')
@@ -169,7 +169,6 @@ for _, cvar in sorted(gdna_vcf.items(), key = lambda x:int(x[0])):
 for _, cvar in sorted(cdna_vcf.items(), key = lambda x:int(x[0])):
     fout_dna.write("\t".join(cvar) + "\n")
 fout_dna.close()
-
 
 #Create mapping file for prot civic info
 fout_prot = open(os.path.join(out_dir, "civic_gdcmaf_mapping_prot.tsv"), "w")
