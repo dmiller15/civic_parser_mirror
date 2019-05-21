@@ -1,3 +1,4 @@
+
 input	transcript	gene	strand	coordinates(gDNA/cDNA/protein)	region	info	CHROM	POS	REF	ALT
 chr14:g.105246551C>T	ENST00000554581 (protein_coding)	AKT1	-	chr14:g.105246551C>T/c.49G>A/p.E17K	inside_[cds_in_exon_2]	CSQN=Missense;codon_pos=105246549-105246550-105246551;ref_codon_seq=GAG;aliases=ENSP00000451828;source=Ensembl	chr14	105246551	C	T
 chr14:g.105246551C>T	ENST00000407796 (protein_coding)	AKT1	-	chr14:g.105246551C>T/c.49G>A/p.E17K	inside_[cds_in_exon_3]	CSQN=Missense;codon_pos=105246549-105246550-105246551;ref_codon_seq=GAG;aliases=ENSP00000384293;source=Ensembl	chr14	105246551	C	T
