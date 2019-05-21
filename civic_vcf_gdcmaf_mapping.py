@@ -5,24 +5,6 @@ import sys
 import argparse
 import hgvs.parser
 
-parser = argparse.ArgumentParser(description='Generate civic variant info to be used with GDC mutation indexing')
-parser.add_argument('-i', '--gene_code', type=str, required=True, help='gene info from GDC-used gene model')
-parser.add_argument('-g', '--gdna_var', type=str, required=True, help='input civic variants for gDNA')
-parser.add_argument('-gv', '--gdna_vcf', type=str, required=True, help='input gDNA in VCF format after Liftover')
-parser.add_argument('-c', '--cdna_var', type=str, required=True, help='input civic variants for cDNA')
-parser.add_argument('-cv', '--cdna_vcf', type=str, required=True, help='input cDNA-predicted gDNA in VCF format after Liftover')
-parser.add_argument('-p', '--prot_var', type=str, required=True, help='input civic variants for prot')
-parser.add_argument('-o', '--out_dir', type=str, required=True, help='output directory for mapping/unmapping files')
-
-args = vars(parser.parse_args())
-gene_code_fn = args['gene_code']
-gdna_var_fn = args['gdna_var']
-gdna_vcf_fn = args['gdna_vcf']
-cdna_var_fn = args['cdna_var']
-cdna_vcf_fn = args['cdna_vcf']
-prot_var_fn = args['prot_var']
-out_dir = args['out_dir']
-
 """
 Convert variants in VCF format to GDCMAF format.
 Modify from @Kyle Hernandez's code in https://github.com/NCI-GDC/aliquot-maf-tools
@@ -71,6 +53,27 @@ def get_info(val):
             info[tmp1[0]] = tmp1[1]
     return info
 
+parser = argparse.ArgumentParser(description='Generate civic variant info to be used with GDC mutation indexing')
+parser.add_argument('-i', '--gene_code', type=str, required=True, help='gene info from GDC-used gene model')
+parser.add_argument('-g', '--gdna_var', type=str, required=True, help='input civic variants for gDNA')
+parser.add_argument('-gv', '--gdna_vcf', type=str, required=True, help='input gDNA in VCF format after Liftover')
+parser.add_argument('-c', '--cdna_var', type=str, required=True, help='input civic variants for cDNA')
+parser.add_argument('-cv', '--cdna_vcf', type=str, required=True, help='input cDNA-predicted gDNA in VCF format after Liftover')
+parser.add_argument('-p', '--prot_var', type=str, required=True, help='input civic variants for prot')
+parser.add_argument('-o', '--out_dir', type=str, required=True, help='output directory for mapping/unmapping files')
+
+args = vars(parser.parse_args())
+gene_code_fn = args['gene_code']
+gdna_var_fn = args['gdna_var']
+gdna_vcf_fn = args['gdna_vcf']
+cdna_var_fn = args['cdna_var']
+cdna_vcf_fn = args['cdna_vcf']
+prot_var_fn = args['prot_var']
+out_dir = args['out_dir']
+
+if not os.path.exists(out_dir):
+    os.makedirs(out_dir)
+
 #Get gene_name and gene_id from genecode info
 genecode = {}
 f = open(gene_code_fn) #gencode.gene.info.v22.tsv
@@ -115,12 +118,12 @@ for line in fin:
 fin.close()
 
 #Extract hgvs.p from parsed civic variants
-f_umap_long_var = open(os.path.join(out_dir, "parsed_civic_variants.unmapped_long_var"), "w")
+f_umap_long_var = open(os.path.join(out_dir, "parsed_civic_variants.unmapped_long_var.tsv"), "w")
 
 hgvsp = {}
 fin = open(gdna_var_fn)
 header = fin.readline()
-fout = open(gdna_var_fn + ".unliftovered", "w")
+fout = open(gdna_var_fn + ".unliftovered.tsv", "w")
 fout.write(header)
 f_umap_long_var.write(header)
 for line in fin:
@@ -135,7 +138,7 @@ fin.close()
 fout.close()
 
 fin = open(cdna_var_fn)
-fout = open(cdna_var_fn + ".unliftovered", "w")
+fout = open(cdna_var_fn + ".unliftovered.tsv", "w")
 fout.write(fin.readline())
 for line in fin:
     cvar = line.split("\t")
@@ -174,8 +177,8 @@ fout_dna.close()
 fout_prot = open(os.path.join(out_dir, "civic_gdcmaf_mapping_prot.tsv"), "w")
 fout_prot.write("civic_var_id\tcivic_gene_id\thugo_symbol\tgene\thgvs.p\tsource\n")
 
-f_umap_p = open(os.path.join(out_dir, os.path.basename(prot_var_fn) + ".unmapped_no_p"), "w")
-f_umap_g = open(os.path.join(out_dir, os.path.basename(prot_var_fn) + ".unmapped_no_genecode"), "w")
+f_umap_p = open(os.path.join(out_dir, os.path.basename(prot_var_fn) + ".unmapped_no_p.tsv"), "w")
+f_umap_g = open(os.path.join(out_dir, os.path.basename(prot_var_fn) + ".unmapped_no_genecode.tsv"), "w")
 hp = hgvs.parser.Parser()
 for civic_var_id, civic_var in sorted(hgvsp.items(), key = lambda x:int(x[0])):
     civic_gene_id = civic_var[7]

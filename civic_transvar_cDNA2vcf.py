@@ -17,6 +17,9 @@ f = open(transvar_fn)
 f.readline()
 for line in f:
         tmp = line.strip().split("\t")
+        if len(tmp) < 11:
+                print("Not a proper result line", line)
+                continue
         if tmp[1] == ".":
                 print("Not a proper variant:", line)
                 continue
