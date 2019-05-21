@@ -1,0 +1,3 @@
+133	7_55242415_55242513_None_None	ENST00000275493.2	7_None_None	None	75	GRCh37	19	1956	EGFR	EXON 19 DELETION	inframe_deletion	['ENST00000275493.2:c.2185_2283del']			ENST00000275493.2:c.2185_2283del	del												unable to parse civic variant name
+252	7_55214299_55214433_None_None	ENST00000275493.2	7_None_None	None	75	GRCh37	19	1956	EGFR	EXON 4 DELETION	exon_loss_variant	['ENST00000275493.2:c.425_559del']			ENST00000275493.2:c.425_559del	del												unable to parse civic variant name
+266	2_141665446_141777671_None_None	ENST00000389484.3	2_None_None	None	75	GRCh37	12146	53353	LRP1B	EXON 12–22 DELETION	exon_loss_variant	['ENST00000389484.3:c.1790_3520del']			ENST00000389484.3:c.1790_3520del	del												unable to parse civic variant name

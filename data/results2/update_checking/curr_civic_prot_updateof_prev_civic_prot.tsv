@@ -1,0 +1,3 @@
+curr_civic_var_id	curr_civic_gene_id	curr_hugo_symbol	curr_gene	curr_hgvs.p	curr_source	prev_civic_var_id	prev_civic_gene_id	prev_hugo_symbol	prev_gene	prev_hgvs.p	prev_source
+87	35	NPM1	ENSG00000181163.12	p.W288Cfs*	Protein	87	35	NPM1	ENSG00000181163.12	p.W288fs	Protein
+1912	58	VHL	ENSG00000134086.7	p.F76Lfs*56	Protein	1912	58	VHL	ENSG00000134086.7	p.F76fs	Protein
