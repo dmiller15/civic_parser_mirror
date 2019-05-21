@@ -118,9 +118,11 @@ for line in fin:
 fin.close()
 
 #Extract hgvs.p from parsed civic variants
+hgvsp = {}
+
 f_umap_long_var = open(os.path.join(out_dir, "parsed_civic_variants.unmapped_long_var.tsv"), "w")
 
-hgvsp = {}
+gdna_var = {}
 fin = open(gdna_var_fn)
 header = fin.readline()
 fout = open(gdna_var_fn + ".unliftovered", "w")
@@ -129,6 +131,7 @@ f_umap_long_var.write(header)
 for line in fin:
     cvar = line.split("\t")
     cvar_id = cvar[0]
+    gdna_var[cvar_id] = cvar
     if cvar_id not in gdna_vcf:
         hgvsp[cvar_id] = cvar
         fout.write(line)
@@ -137,12 +140,14 @@ for line in fin:
 fin.close()
 fout.close()
 
+cdna_var = {}
 fin = open(cdna_var_fn)
 fout = open(cdna_var_fn + ".unliftovered", "w")
 fout.write(fin.readline())
 for line in fin:
     cvar = line.split("\t")
     cvar_id = cvar[0]
+    cdna_var[cvar_id] = cvar
     if cvar_id not in cdna_vcf:
         hgvsp[cvar_id] = cvar
         fout.write(line)
@@ -150,6 +155,8 @@ for line in fin:
         f_umap_long_var.write(line)
 fin.close()
 fout.close()
+
+f_umap_long_var.close()
 
 fin = open(prot_var_fn)
 fin.readline()
@@ -159,23 +166,33 @@ for line in fin:
     hgvsp[cvar_id] = cvar
 fin.close()
 
-f_umap_long_var.close()
 
 #Create mapping file for gDNA/cDNA civic info
 if not os.path.exists(out_dir):
 	os.makedirs(out_dir)
 fout_dna = open(os.path.join(out_dir, "civic_gdcmaf_mapping_dna.tsv"), "w")
 fout_dna.write("civic_var_id\tcivic_gene_id\tsource\tchromosome\tstart_position\treference_allele\talternative_allele\n")
-for _, cvar in sorted(gdna_vcf.items(), key = lambda x:int(x[0])):
+fout_dna_full = open(os.path.join(out_dir, "civic_gdcmaf_mapping_dna_full_info.tsv"), "w")
+fout_dna_full.write("civic_var_id\tcivic_gene_id\tsource\tchromosome\tstart_position\treference_allele\talternative_allele\ttranscript\ttranscript_2\tensembl_version\tref_build\tentrez_id\tentrez_name\tcivic_var_name\tcivic_var_types\tcivic_hgvs_exp\n")
+for cvar_id, cvar in sorted(gdna_vcf.items(), key = lambda x:int(x[0])):
     fout_dna.write("\t".join(cvar) + "\n")
+    v = gdna_var[cvar_id]
+    fout_dna_full.write("\t".join(cvar + v[2:3] + v[4:7] + v[8:13]) + "\n")
 
-for _, cvar in sorted(cdna_vcf.items(), key = lambda x:int(x[0])):
+for cvar_id, cvar in sorted(cdna_vcf.items(), key = lambda x:int(x[0])):
     fout_dna.write("\t".join(cvar) + "\n")
+    v = cdna_var[cvar_id]
+    fout_dna_full.write("\t".join(cvar + v[2:3] + v[4:7] + v[8:13]) + "\n")
+
 fout_dna.close()
+fout_dna_full.close()
 
 #Create mapping file for prot civic info
 fout_prot = open(os.path.join(out_dir, "civic_gdcmaf_mapping_prot.tsv"), "w")
 fout_prot.write("civic_var_id\tcivic_gene_id\thugo_symbol\tgene\thgvs.p\tsource\n")
+
+fout_prot_full = open(os.path.join(out_dir, "civic_gdcmaf_mapping_prot_full_info.tsv"), "w")
+fout_prot_full.write("civic_var_id\tcivic_gene_id\thugo_symbol\tgene\thgvs.p\tsource\ttranscript\ttranscript_2\tensembl_version\tref_build\tentrez_id\tentrez_name\tcivic_var_name\tcivic_var_types\tcivic_hgvs_exp\n")
 
 f_umap_g = open(os.path.join(out_dir, "parsed_civic_variants.unmapped_no_genecode.tsv"), "w")
 f_umap_p = open(os.path.join(out_dir, "parsed_civic_variants.unmapped_no_p.tsv"), "w")
@@ -202,5 +219,7 @@ for civic_var_id, civic_var in sorted(hgvsp.items(), key = lambda x:int(x[0])):
         continue
     for prot in aa1_p:
         fout_prot.write("\t".join([civic_var_id, civic_gene_id, civic_entrez_name, gene, prot, "Protein"]) + "\n")
+        fout_prot_full.write("\t".join([civic_var_id, civic_gene_id, civic_entrez_name, gene, prot, "Protein"] + civic_var[2:3] + civic_var[4:7] + civic_var[8:13]) + "\n")
 
 fout_prot.close()
+fout_prot_full.close()

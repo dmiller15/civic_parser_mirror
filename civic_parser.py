@@ -209,7 +209,7 @@ for v in sorted(all_var, key=lambda x: x.id):
 			for c in variant["hgvs.c"]:
 				f_ct.write(str(c) + "\n")
 	elif len(variant["hgvs.p"]) > 0 or len(variant["vname.hgvs.p"]) > 0:
-		if "transcript_fusion" in vtypes:
+		if "transcript_fusion" in vtypes or len(variant["hgvs.p"]) > 1 or len(variant["vname.hgvs.p"]) > 1:
 			f_o.write(datum1 + datum2 + "\n")
 		else:
 			f_p.write(datum1 + datum2 + "\n")
